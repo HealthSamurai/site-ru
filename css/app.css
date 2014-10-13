@@ -141,6 +141,9 @@ body {
 .slide #products .subslide .left h1 a {
   color: #333;
 }
+.slide #products .subslide .left h1 a .fa {
+  font-size: 0.7em;
+}
 .slide #products .subslide .left h3 {
   font-size: 3em;
   text-align: left;
