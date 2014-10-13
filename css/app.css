@@ -96,6 +96,7 @@ body {
 }
 .slide h3.hd {
   text-align: left;
+  padding-left: 1em;
   font-size: 2.7em;
 }
 .slide h3.hd .icon {
@@ -109,7 +110,7 @@ body {
 }
 .slide #products {
   position: absolute;
-  top: 20%;
+  top: 10%;
   bottom: 20%;
   width: 100%;
   height: 60%;
@@ -152,14 +153,15 @@ body {
 .slide #products .subslide img {
   position: absolute;
   top: 10%;
-  left: 0;
+  left: 10%;
   right: 3%;
-  width: 50%;
+  height: 93%;
 }
 .slide .bottom {
   z-index: 1001;
   position: absolute;
   bottom: 0;
+  width: 100%;
   left: 0;
   right: 0;
   padding: 0.1em;
@@ -199,6 +201,7 @@ body {
   z-index: 1000;
   display: block;
   border: 1px solid #ddd;
+  border-radius: 20%;
 }
 .navigation .item:hover {
   border: 1px solid #bbb;
@@ -311,7 +314,7 @@ body {
   color: red;
 }
 .person {
-  background-size: content;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -322,16 +325,16 @@ body {
   background-image: url('../imgs/serzh.jpg');
 }
 .mike {
-  background-image: url('../imgs/mike.jpg');
+  background-image: url('../imgs/mike.png');
 }
 .micke {
-  background-image: url('../imgs/micke.jpg');
+  background-image: url('../imgs/micke.png');
 }
 .max {
   background-image: url('../imgs/max.jpg');
 }
 .sasha {
-  background-image: url('..../imgs/sasha.jpg');
+  background-image: url('../imgs/sasha.jpg');
 }
 .pavlik {
   background-image: url('../imgs/pavlik.jpg');
