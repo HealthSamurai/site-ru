@@ -28,6 +28,12 @@ html, body {
   position: absolute;
   width: 200%;
   height: 200%;
+  transition: opacity,zoom 1s cubic-bezier(.8,-0.01,.25,.39);
+  &.animated {
+    opacity: 0.6;
+    zoom:0.99;
+    background: #f9f9f9;
+  }
 }
 .slide {
   display: block;
@@ -37,16 +43,81 @@ html, body {
   border: 1px solid #ddd;
   h1 {
     text-align: center;
-    font-size: 7em;
+    font-size: 6em;
+  }
+  h1.logo {
+    margin-top: 0.5em;
+    font-size: 15em;
   }
   h2 {
     text-align: center;
     font-size: 4em;
     color: #999;
   }
+  h3 {
+    text-align: left;
+    font-size: 2em;
+  }
   p {
     text-align: center;
     font-size: 2em;
+  }
+  #products {
+    position: absolute;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+
+    .subslide {
+      z-index: 100;
+      padding-top: 1em;
+      position: absolute;
+      top:0;
+      left: 0;
+      width:100%;
+      height:100%;
+
+      &.hidden {
+        display: none;
+      }
+      h1 {
+        font-size: 4em;
+        text-align: left;
+      }
+      h3 {
+        font-size: 3em;
+        text-align: left;
+      }
+      p {
+        font-size: 2em;
+        text-align: left;
+      }
+    }
+  }
+  .bottom {
+    z-index: 1001;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0.1em;
+    text-align: center;
+    .product {
+      transition: all 0.15s ease-in;
+      display: inline-block;
+      padding: 0.1em;
+      border: 1px solid transparent;
+      cursor: pointer;
+      border-radius: 0.01em;
+      margin-right: 0.3em;
+      &:hover {
+        border: 1px solid #ddd;
+      }
+      &.active {
+        background: #eee;
+        border: 1px solid #ddd;
+      }
+    }
   }
 }
 .navigation {
@@ -57,12 +128,9 @@ html, body {
   width: 10vmin;
   height: 10vmin;
   z-index: 100;
-  a.item {
-    border-radius: 0.5vmin;
-    display: inline-block;
-    width: 4vmin;
-    height: 4vmin;
-    margin: 0.1vmin;
+  .item {
+    z-index: 1000;
+    display: block;
     border: 1px solid #ddd;
     &:hover {
       border: 1px solid #bbb;
@@ -73,127 +141,3 @@ html, body {
     }
   }
 }
-// @wrap: #f1f1f1;
-// .activated-sq {
-//   background: #eee;
-//   border: 1px solid #bbb;
-// }
-
-// #wrap {
-//   position: absolute;
-//   top:5px;
-//   left:5px;
-//   right:5px;
-//   bottom:5px;
-//   overflow: hidden;
-//   transition: 1s cubic-bezier(0.190, 1.000, 0.220, 1.000) all;
-//   &.animate {
-//     opacity: 0.7;
-//   }
-//   &.slide-0 {
-//     .nsq .first { .activated-sq; }
-//     #slides { transform: translate(0vw,0vh); }
-//   }
-//   &.slide-1 {
-//     .nsq .second { .activated-sq; }
-//     #slides { transform: translate(-110vw,0vh); }
-//   }
-//   &.slide-2 {
-//     .nsq .third { .activated-sq }
-//     #slides { transform: translate(-110vw,-110vh); }
-//   }
-//   &.slide-3 {
-//     .nsq .forth { .activated-sq }
-//     #slides { transform: translate(0vw,-110vh); }
-//   }
-// }
-// #first {
-//   left: 0;
-//   top: 0;
-// }
-// #second {
-//   left: 110vw;
-//   top: 0;
-// }
-// #third {
-//   left: 110vw;
-//   top: 110vh;
-// }
-// #forth {
-//   left: 0vw;
-//   top: 110vh;
-// }
-// #slides {
-//   height: 10000vh;
-//   width: 10000vh;
-//   transition: transform 1s ease-in-out;
-//   position: relative;
-//   .slide {
-//     width: 100vw;
-//     height: 100vh;
-//     position: absolute;
-//     padding-top: 10vmin;
-//     .icon {
-//       margin: 0 auto;
-//       width: auto;
-//       display: block;
-//       text-align: center;
-//       font-size: 20vmin;
-//     }
-//     h1 {
-//       text-align: center;
-//       font-size: 10vmin;
-//     }
-//     h2 {
-//       text-align: center;
-//       font-size: 5vmin;
-//       color: #999;
-//     }
-//     p {
-//       text-align: center;
-//       font-size: 3vmin;
-//     }
-//   }
-//   .btm {
-//     position: absolute;
-//     left:0;
-//     right:0;
-//     bottom: 0;
-//     padding: 10px;
-//     text-align: center;
-//     .icon {
-//       cursor: pointer;
-//       border-radius: 1vmin;
-//       display: inline-block;
-//       font-size: 15vmin;
-//       padding: 2vmin;
-//       border: 1px solid transparent;
-//       &:hover, &.active {
-//         background: #eee;
-//         text-shadow: 2px 2px 2px white;
-//         border: 1px solid #ddd;
-//         color: green;
-//       }
-//     }
-//   }
-// }
-// .nsq {
-//   right: 1vmin;
-//   top: 1vmin;
-//   position: absolute;
-//   display: block;
-//   width: 10vmin;
-//   height: 10vmin;
-//   z-index: 100;
-//   a {
-//     border-radius: 0.5vmin;
-//     display: inline-block;
-//     width: 4vmin;
-//     height: 4vmin;
-//     margin: 0.1vmin;
-//     border: 1px solid #ddd;
-//     &:hover {
-//       border: 1px solid #bbb;
-//     }
-//   }
-// }
