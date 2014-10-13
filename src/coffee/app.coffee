@@ -12,52 +12,43 @@ $ ()->
     index:    {coord: [0,0]}
     projects: {coord: [1,0]}
     process:  {coord: [1,1]}
-    contact:  {coord: [0,1]}
+    team:  {coord: [0,1]}
   }
 
   bind(slides.index, slides.projects)
   bind(slides.projects, slides.process)
-  bind(slides.process, slides.contact)
-  bind(slides.contact, slides.index)
+  bind(slides.process, slides.team)
+  bind(slides.team, slides.index)
 
 
   fontSize = ()->
     vmin = Math.floor(Math.min($(window).height(), $(window).width()/1.8)/100)*2
     $('body').css(fontSize: "#{vmin}px")
 
-  $( window ).bind 'resize', fontSize
+  $(window).bind 'resize', fontSize
 
   fontSize()
 
   navigationNode = $("#nav")
 
   iterateMap slides, ([k,s])->
+    s.id = k
     [x,y] = s.coord
     position = { top: "#{y*50}%", left: "#{x*50}%", position: 'absolute'}
     s.node = $("##{k}").css(position)
     s.navNode = $('<a>', class: "item", href: "#/#{k}")
-      .css($.extend({width: "50%", height: "50%", }, position))
-      .click( -> moveTo(s))
+      .css($.extend({width: "45%", height: "45%", }, position))
       .appendTo(navigationNode)
 
   current = slides.index
 
 
-  moveTo = (slide)->
-    return if slide == current
-    [x,y] = slide.coord
-    viewport = $('#slides')
-    viewport.addClass('animated')
-    setTimeout (-> viewport.removeClass('animated')), 1000
-    viewport.css
-      transition: 'transform 1s ease-in-out'
-      transform: "translate(-#{x*50}%,-#{y*50}%"
-    current.navNode.removeClass('active')
-    current = slide
-    current.navNode.addClass('active')
 
-  next  = ()-> moveTo(current.next)
-  prev  = ()-> moveTo(current.prev)
+  navigateTo = (slide)->
+    window.location.hash = "#/#{slide.id}"
+
+  next  = ()-> navigateTo(current.next)
+  prev  = ()-> navigateTo(current.prev)
 
   $(document).bind 'keydown', (e)->
     if e.keyCode == 40 or e.keyCode == 37
@@ -79,6 +70,19 @@ $ ()->
     else
       prev()
 
+  moveTo = (slide)->
+    return if slide == current
+    [x,y] = slide.coord
+    viewport = $('#slides')
+    viewport.addClass('animated')
+    setTimeout (-> viewport.removeClass('animated')), 1000
+    viewport.css
+      transition: 'transform 1s ease-in-out'
+      transform: "translate(-#{x*50}%,-#{y*50}%"
+    current.navNode.removeClass('active')
+    current = slide
+    current.navNode.addClass('active')
+
   watchHash = ()->
     s = slides[location.hash.slice(1).split('/')[1] || 'index']
     moveTo(s)
@@ -97,14 +101,15 @@ $ ()->
   bind(products.formstamp, products.foodtaster)
   bind(products.foodtaster, products.medclient)
 
+  prodTm = null
   setProduct = (p)->
     currentProd.node.addClass('hidden')
     currentProd.navNode.removeClass('active')
     p.node.removeClass('hidden')
     p.navNode.addClass('active')
+    clearTimeout(prodTm) if prodTm
+    prodTm = setTimeout (-> setProduct(p.next)), 10000
     currentProd = p
-
-  setInterval (-> setProduct(currentProd.next)), 5000
 
   prodNav = $('#prod-nav')
   iterateMap products, ([k,s])->
