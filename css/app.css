@@ -46,7 +46,7 @@ body {
   background: #f9f9f9;
 }
 #process {
-  background-image: url('/imgs/proc.png');
+  background-image: url('../imgs/proc.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -316,35 +316,35 @@ body {
   background-position: center center;
 }
 .nicola {
-  background-image: url('/imgs/nicola.jpg');
+  background-image: url('../imgs/nicola.jpg');
 }
 .serzh {
-  background-image: url('/imgs/serzh.jpg');
+  background-image: url('../imgs/serzh.jpg');
 }
 .mike {
-  background-image: url('/imgs/mike.jpg');
+  background-image: url('../imgs/mike.jpg');
 }
 .micke {
-  background-image: url('/imgs/micke.jpg');
+  background-image: url('../imgs/micke.jpg');
 }
 .max {
-  background-image: url('/imgs/max.jpg');
+  background-image: url('../imgs/max.jpg');
 }
 .sasha {
-  background-image: url('/imgs/sasha.jpg');
+  background-image: url('..../imgs/sasha.jpg');
 }
 .pavlik {
-  background-image: url('/imgs/pavlik.jpg');
+  background-image: url('../imgs/pavlik.jpg');
 }
 .danil {
-  background-image: url('/imgs/danil.jpg');
+  background-image: url('../imgs/danil.jpg');
 }
 .oleg {
-  background-image: url('/imgs/oleg.jpg');
+  background-image: url('../imgs/oleg.jpg');
 }
 .danil {
-  background-image: url('/imgs/alexandr.jpg');
+  background-image: url('../imgs/alexandr.jpg');
 }
 .danil {
-  background-image: url('/imgs/dima.jpg');
+  background-image: url('../imgs/dima.jpg');
 }
