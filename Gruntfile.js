@@ -113,6 +113,12 @@ module.exports = function (grunt) {
        expand: true,
        src: '*.html',
        dest: buildDir
+     },
+     cname: {
+       cwd: 'src/',
+       expand: true,
+       src: 'CNAME',
+       dest: buildDir
      }
     },
     watch: {
