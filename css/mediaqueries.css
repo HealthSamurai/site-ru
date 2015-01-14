@@ -1,0 +1,23 @@
+/* IE10+ VIEWPORT FIX */
+
+@-ms-viewport { width: device-width; }
+@viewport { width: device-width; }
+
+/* PHONE - 1024px */
+@media screen and (max-width:1024px) {
+	body {
+		background-color: red;
+	}
+}
+/* PHONE - 767px */
+@media screen and (max-width:767px) {
+	body {
+		background-color: yellow;
+	}
+}
+/* PHONE - 400px */
+@media screen and (max-width:400px) {
+	body {
+		background-color: green;
+	}
+}
