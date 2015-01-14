@@ -1,0 +1,273 @@
+/* ====================================
+====== TYPOGRAPHY =====================
+==================================== */
+
+/*text-transform: uppercase;*/
+
+
+/* Main font */
+
+/*------------------- Fullscreen ----------------*/
+
+html {
+	height: 100%;
+	/*overflow: hidden;*/
+}
+
+body {
+	width: 200%;
+	height: 100%;
+}
+
+.content {
+	width: 200%;
+	height: 100%;
+}
+
+.about,
+.projects,
+.process,
+.team {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.about {
+	left: 0; top: 20%;
+}
+
+.projects {
+	left: 100%; top: 0;
+}
+
+.process {
+	left: 100%; top: 100%;
+	background-image: url('../imgs/proc.png');
+}
+.team {
+	left: 25%; top: 100%;
+	margin: 0 auto;
+	display: table;
+	width: 50%;
+}
+
+h1 {
+	margin: 0;
+}
+
+
+/*------------------------ Typography ----------------------*/
+
+/* Headings */
+
+body, p, td {
+	font: 18px/26px 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+a {
+	color:#2980B9;
+}
+
+h1 {
+	font: 100px/80px 'Open Sans';
+	font-weight: 300;
+	margin-bottom: 15px;
+	}
+h2 {
+	font: 48px/12px 'Open Sans';
+	font-weight: 300;
+	margin-bottom: 30px;
+	}
+h3 {
+	font: 36px/46px 'Open Sans';
+	font-weight: 300;
+	margin-bottom: 15px;
+	}
+h4 {
+	font: 30px/40px 'Open Sans';
+	font-weight: 300;
+	margin-bottom: 10px;
+	}
+h5 {
+	font: 24px/34px 'Open Sans';
+	font-weight: 300;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	}
+h6 {
+	font: 20px/28px 'Open Sans';
+	font-weight: 300;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	}
+
+/* Includes */
+
+@font-face {
+    font-family:'logoFont';
+    src: url('../fonts/logoFont.ttf');
+}
+
+.logoFont {
+	font-family: logoFont;
+	/*-webkit-font-smoothing: antialiased;*/
+  	/*-moz-osx-font-smoothing: grayscale;*/
+}
+
+.bigSize {
+	font-size: 15em;
+
+	display: block;
+	padding-bottom:80px;
+}
+
+.about span {
+	color: #bdc3c7;
+}
+
+.contacts {
+	padding-top: 20px; 
+}
+
+/* Colored */
+
+.highlight {
+	color: #7F8C8D;
+}
+.text-right {
+	text-align: right;
+}
+.text-left {
+	text-align: left;
+}
+.text-center {
+	text-align: center;
+}
+
+/*------------------------- Fullscreen ---------------------*/
+
+/*fullscreen*/
+/*html {
+ height: 100%;
+}
+body {
+ height: 100%;
+}
+.wnd {
+ height: 100%;
+} 
+.container {
+ height: 100%;
+}
+.prototype {
+ height: 100%;
+}*/
+
+/*------------------------- Positioning ---------------------*/
+
+/*.about,
+.process,
+.team,
+.projects,
+.prototype {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+}*/
+
+/*------------------------- Navigation ---------------------*/
+
+.mainnav ul {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 130px;
+}
+
+.mainnav ul li {
+	list-style-type: none;
+	float: left;
+}
+
+.mainnav ul li a {
+	color:#bdc3c7;
+	text-align: center;
+}
+
+
+.grow { transition: all .2s ease-in; }
+.grow:hover { transform: scale(1.12); }
+
+
+/*------------------------- Flip ---------------------*/
+.flip {
+	/*position: absolute;*/
+	float:left;
+	width:250px;
+	height:250px;
+	margin:10px;
+}
+
+/* All who include .front*/
+.flip > .front {
+	position: absolute;
+	transform: perspective(600px) rotateY(0deg);
+	background: #ecf0f1;
+	/*background: url(../imgs/oleg.jpg) no-repeat;*/
+	width:250px;
+	height:250px;
+	border-radius: 150px;
+	backface-visibility: hidden;
+	transition: transform .4s linear 0s;
+
+}
+
+.flip > .back {
+	position: absolute;
+	transform: perspective(600px) rotateY(180deg);
+	background: #ecf0f1;
+	width:250px;
+	height:250px;
+	border-radius: 150px;
+	backface-visibility: hidden;
+	transition: transform .4s linear 0s;
+}
+
+.flip:hover > .front {
+	transform: perspective(600px) rotateY(-180deg);
+}
+
+.flip:hover > .back {
+	transform: perspective(600px) rotateY(0deg);
+}
+
+.links {
+	margin-top: 100px;
+}
+
+.links a {
+	color: #7f8c8d;
+	font-size: 2.5em;
+	width: 100px;
+	margin: 10px;
+}
+
+.front h4 {
+	width: 150px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.front p {
+	width: 150px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+/*--------------------- Projects ------------------*/
+
+
