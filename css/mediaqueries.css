@@ -1,12 +1,17 @@
 /* IE10+ VIEWPORT FIX */
 
-@-ms-viewport { width: device-width; }
-@viewport { width: device-width; }
+/*@-ms-viewport { width: device-width; }
+@viewport { width: device-width; }*/
 
 /* PHONE - 1024px */
 @media screen and (max-width:1024px) {
 	body {
 		background-color: red;
+	}
+	.persons {
+		position: relative;
+		margin: 0 auto;
+		width: 750px;
 	}
 }
 /* PHONE - 767px */
@@ -14,12 +19,24 @@
 	body {
 		background-color: yellow;
 	}
+
+	.persons {
+		position: relative;
+		margin: 0 auto;
+		width: 500px;
+	}
 }
 /* PHONE - 400px */
 @media screen and (max-width:400px) {
 	body {
 		background-color: green;
 		height: 95%;
+	}
+
+	.persons {
+		position: relative;
+		margin: 0 auto;
+		width: 250px;
 	}
 	
 /*	h2 {
@@ -36,4 +53,15 @@
 		font-family:'Open Sans';
 		font-weight: 300;
 	}*/
+}
+
+@media screen and (max-width:300px) {
+	body {
+		background-color: white;
+		height: 95%;
+	}
+
+	h1 {
+		font: 10px/20px;
+	}
 }

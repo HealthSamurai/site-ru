@@ -1,55 +1,144 @@
+/* ----------------------------------
+				FULLSCREEN
+ ----------------------------------- */
 
-
-/*------------------- Fullscreen ----------------*/
-
-html {
-	height: 100%;
-	/*overflow: hidden;*/
-}
-
-body {
-	width: 100%;
-	height: 100%;
-}
-
-.content {
-	width: 100%;
-	height: 100%;
-}
-
-.about,
-.projects,
-.process,
-.team {
-	position: absolute;
-	width: 100%;
+.about {
 	height: 100%;
 	text-align: center;
 }
 
-.about {
-	left: 0; top: 20%;
-}
+/*{
+	max-width: 1200px;
+	margin: 0 auto;
+	height: 100%;
+}*/
 
 .projects {
-	left: 100%; top: 0%;
+	top: 100%;
 }
 
 .process {
-	left: 100%; top: 100%;
-	margin: 0 auto;
-}
-.team {
-	position: relative;
-	left: 0; top: 100%;
-	margin: 0 auto;
-	width: 50%;
-	padding-bottom:5px; 
+	height: 100%;
 }
 
-h1 {
-	margin: 0;
+.team {
+	position: absolute;
+	text-align: center;
+	top:101%
 }
+.persons {
+	position: relative;
+	margin: 0 auto;
+	width: 750px;
+}
+/* ----------------------------------
+				ABOUT
+ ----------------------------------- */
+
+.about {
+	padding-top: 50px;
+}
+.contacts {
+	margin-top: 50px; 
+}
+
+/* ----------------------------------
+			NAVIGATION
+ ----------------------------------- */
+
+.mainnav {
+	width: 100%;
+}
+
+.mainnav ul {
+	position: fixed;
+	width: 100%;
+	background-color: rgba(2,2,2,0.7);
+	/*box-shadow: 0 0 15px rgba(0,0,0,0.5);*/
+	z-index: 1000;
+}
+
+.mainnav li {
+	list-style-type: none;
+	float: right;
+	margin: 20px 0;
+}
+
+.mainnav a:hover {
+	color: red;
+}
+
+.mainnav i {
+	margin-right: 10px;
+	color: #FFF;
+}
+
+.mainnav a {
+	font-size: 20px;
+	color:#bdc3c7;
+	text-decoration: none;
+	vertical-align: middle;
+	margin-right: 40px;
+}
+
+
+/* UP_button */
+
+.up_btn {
+	position: relative;
+	text-align: center;
+	vertical-align:middle;
+	width: 50px;
+	height: 60px;
+	background-color: rgba(2,2,2,0.3);
+	border-radius: 8px;
+	/*z-index: 100000;*/
+}
+
+.wrap {
+	position: fixed;
+	right: 3%;
+	bottom: 3%;
+}
+
+/*.nav-hold {
+	overflow: hidden;
+}
+.nav-logo {
+	float: left;
+	display: block;
+	padding: 20px 10px;
+	color: #F9F9F9;
+	font-weight: 600px;
+}
+.nav-list li a {
+	display: block;
+	padding: 20px 10px;
+	color: #F9F9F9;
+}*/
+
+
+/*
+<nav class="nav-bar">
+	<div class="nav-hold">
+		<a class="nav-logo" href="#">My Awesome Logo</a>
+		<a id="nav-menu" class="nav-menu">
+			&#9776;
+		</a>
+		<ul class="nav-list" id="nav">
+			<li><a href="#about-me">About Me</a></li>
+			<li><a href="#cat-pictures">Cat Pictures</a></li>
+			<li><a href="#contact">Contacts</a></li>
+			<li><a href="#lorem-ipsum">Lorem Ipsum</a></li>
+		</ul>
+	</div>
+</nav>*/
+
+
+/*.grow { transition: all .2s ease-in; }
+.grow:hover { transform: scale(1.12); }*/
+
+
 
 /* ----------------------------------
  			TYPOGRAPHY 
@@ -117,17 +206,11 @@ h6 {
 
 .bigSize {
 	font-size: 15em;
-
-	display: block;
-	padding-bottom:80px;
+	padding-bottom:40px;
 }
 
 .about span {
 	color: #bdc3c7;
-}
-
-.contacts {
-	padding-top: 20px; 
 }
 
 /* Colored */
@@ -187,38 +270,14 @@ body {
 	text-align: center;
 }*/
 
-/*------------------------- Navigation ---------------------*/
-
-.mainnav ul {
-	position: fixed;
-	top: 0;
-	right: 0;
-	width: 130px;
-	z-index: 1000;
-}
-
-.mainnav ul li {
-	list-style-type: none;
-	float: left;
-}
-
-.mainnav ul li a {
-	color:#bdc3c7;
-	text-align: center;
-}
-
-
-.grow { transition: all .2s ease-in; }
-.grow:hover { transform: scale(1.12); }
-
 
 /*------------------------- Flip ---------------------*/
 .flip {
-	/*position: absolute;*/
+	/*position: relative;*/
 	float:left;
-	width:230px;
-	height:230px;
-	margin:10px;
+	width:200px;
+	height:200px;
+	margin:20px;
 }
 
 /* All who include .front*/
@@ -226,21 +285,20 @@ body {
 	position: absolute;
 	transform: perspective(600px) rotateY(0deg);
 	background: #ecf0f1;
-	/*background: url(../imgs/oleg.jpg) no-repeat;*/
-	width:220px;
-	height:220px;
+	background: url(../imgs/team/oleg.jpg) no-repeat;
+	width:200px;
+	height:200px;
 	border-radius: 150px;
 	backface-visibility: hidden;
 	transition: transform .4s linear 0s;
-
 }
 
 .flip > .back {
 	position: absolute;
 	transform: perspective(600px) rotateY(180deg);
 	background: #ecf0f1;
-	width:220px;
-	height:220px;
+	width:200px;
+	height:200px;
 	border-radius: 150px;
 	backface-visibility: hidden;
 	transition: transform .4s linear 0s;
@@ -390,13 +448,13 @@ src="imgs/process/gift-04.png*/
 /* Bad and ugly reset */
 * { margin: 0; padding: 0; border: 0; }
 
-.box {
+/*.box {
 	width: 100%;
 	height: 100%;
-}
+*/}
 
 .box img {
-	width: 50%;
+	width: 100%;
 	left: 0;
 	top: 0;
 	float: left;
