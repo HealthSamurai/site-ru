@@ -1,11 +1,4 @@
-/* ====================================
-====== TYPOGRAPHY =====================
-==================================== */
 
-/*text-transform: uppercase;*/
-
-
-/* Main font */
 
 /*------------------- Fullscreen ----------------*/
 
@@ -15,12 +8,12 @@ html {
 }
 
 body {
-	width: 200%;
+	width: 100%;
 	height: 100%;
 }
 
 .content {
-	width: 200%;
+	width: 100%;
 	height: 100%;
 }
 
@@ -39,29 +32,33 @@ body {
 }
 
 .projects {
-	left: 100%; top: 0;
+	left: 100%; top: 0%;
 }
 
 .process {
 	left: 100%; top: 100%;
-	background-image: url('../imgs/proc.png');
+	margin: 0 auto;
 }
 .team {
-	left: 25%; top: 100%;
+	position: relative;
+	left: 0; top: 100%;
 	margin: 0 auto;
-	display: table;
 	width: 50%;
+	padding-bottom:5px; 
 }
 
 h1 {
 	margin: 0;
 }
 
+/* ----------------------------------
+ 			TYPOGRAPHY 
+----------------------------------- */
 
-/*------------------------ Typography ----------------------*/
 
-/* Headings */
+/*text-transform: uppercase;*/
 
+/* Main font */
 body, p, td {
 	font: 18px/26px 'Open Sans', sans-serif;
 	font-weight: 300;
@@ -71,13 +68,14 @@ a {
 	color:#2980B9;
 }
 
+/* Headings */
 h1 {
 	font: 100px/80px 'Open Sans';
 	font-weight: 300;
 	margin-bottom: 15px;
 	}
 h2 {
-	font: 48px/12px 'Open Sans';
+	font: 48px/40px 'Open Sans';
 	font-weight: 300;
 	margin-bottom: 30px;
 	}
@@ -136,6 +134,11 @@ h6 {
 
 .highlight {
 	color: #7F8C8D;
+	font-size: 48px;
+	line-height: 46px;
+	font-family:'Open Sans';
+	font-weight: 300;
+	margin: 28px 0 0 0;
 }
 .text-right {
 	text-align: right;
@@ -145,6 +148,11 @@ h6 {
 }
 .text-center {
 	text-align: center;
+}
+
+.title {
+	margin: 0 auto;
+	margin: 80px 0;
 }
 
 /*------------------------- Fullscreen ---------------------*/
@@ -186,6 +194,7 @@ body {
 	top: 0;
 	right: 0;
 	width: 130px;
+	z-index: 1000;
 }
 
 .mainnav ul li {
@@ -207,8 +216,8 @@ body {
 .flip {
 	/*position: absolute;*/
 	float:left;
-	width:250px;
-	height:250px;
+	width:230px;
+	height:230px;
 	margin:10px;
 }
 
@@ -218,8 +227,8 @@ body {
 	transform: perspective(600px) rotateY(0deg);
 	background: #ecf0f1;
 	/*background: url(../imgs/oleg.jpg) no-repeat;*/
-	width:250px;
-	height:250px;
+	width:220px;
+	height:220px;
 	border-radius: 150px;
 	backface-visibility: hidden;
 	transition: transform .4s linear 0s;
@@ -230,8 +239,8 @@ body {
 	position: absolute;
 	transform: perspective(600px) rotateY(180deg);
 	background: #ecf0f1;
-	width:250px;
-	height:250px;
+	width:220px;
+	height:220px;
 	border-radius: 150px;
 	backface-visibility: hidden;
 	transition: transform .4s linear 0s;
@@ -246,7 +255,7 @@ body {
 }
 
 .links {
-	margin-top: 100px;
+	margin-top: 80px;
 }
 
 .links a {
@@ -268,6 +277,130 @@ body {
 	margin-top: 15px;
 }
 
+/*--------------------- Process ------------------*/
+
+.gift-01 {
+	width: 115px;
+	height: 128px;
+	position: absolute;
+	top: 23%;
+	left: 43%;
+}
+
+.gift-02,
+.gift-03,
+.gift-04 {
+	width: 115px;
+	height: 128px;
+	position: relative;
+	top: 15%;
+	left: 59%;
+	float: left;
+	margin:0 25px;
+}
+
+.bulp,
+.arrow-01,
+.arrow-02,
+.cycle {
+	position: absolute;
+}
+
+.bulp {
+	top: 45%;
+	left: 10%;
+}
+
+.arrow-01 {
+	top: 50%;
+	left: 20%;
+}
+
+.arrow-02 {
+	top: 50%;
+	left: 36%;
+}
+
+.cycle {
+	top: 41%;
+	left: 50%;
+}
+
+.gift-01 {
+	background: url('../imgs/process/gift-01.png') no-repeat;
+	/*top:20px;*/
+}
+
+.gift-02 {
+	background: url('../imgs/process/gift-02.png') no-repeat;
+}
+
+.gift-03 {
+	background: url('../imgs/process/gift-03.png') no-repeat;
+}
+
+.gift-04 {
+	background: url('../imgs/process/gift-04.png') no-repeat;
+}
+
+
+.bulp {
+	background: url('../imgs/process/bulp.png') no-repeat;
+	width: 131px;
+	height: 174px;
+}
+
+.arrow-01 {
+	background: url('../imgs/process/arrow-01.png') no-repeat;
+	width: 259px;
+	height: 79px;
+}
+
+.arrow-02 {
+	background: url('../imgs/process/arrow-02.png') no-repeat;
+	width: 251px;
+	height: 79px;
+}
+
+.cycle {
+	background: url('../imgs/process/cycle.png') no-repeat;
+	width: 783px;
+	height: 257px;
+}
+
+/*src="imgs/process/arrow-01.png
+src="imgs/process/arrow-02.png
+src="imgs/process/cycle.png
+src="imgs/process/gift-02.png
+src="imgs/process/gift-03.png
+src="imgs/process/gift-04.png*/
+
+
+
+
+
 /*--------------------- Projects ------------------*/
+
+/**
+* Demo styles
+* Only for example purposes
+* Remove in production
+*/
+
+/* Bad and ugly reset */
+* { margin: 0; padding: 0; border: 0; }
+
+.box {
+	width: 100%;
+	height: 100%;
+}
+
+.box img {
+	width: 50%;
+	left: 0;
+	top: 0;
+	float: left;
+}
+
 
 
