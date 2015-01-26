@@ -4,126 +4,176 @@
   <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1.0">
   <title>index</title>
-  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,400,300,600" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/standardize.css">
   <link rel="stylesheet" href="css/index-grid.css">
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="css/flip3D.css"/>
 </head>
 <body class="body page-index clearfix">
-  <img class="image image-1" src="images/logo.png">
-  <div class="mainnav-bar clearfix">
-    <div class="logo clearfix">
+  <div class="navbar clearfix">
+    <a class="text text-1" href="#">Health Samurai</a>
+    <div onClick="window.location='#logo';" class="container _container clearfix">
       <img class="small-logo" src="images/mini_logo_gray.png">
-      <a class="text" href="#">Health Samurai</a>
+      <p class="text _text">Health Samurai</p>
     </div>
+    <span class="toggle-menu"></span>
     <nav class="mainnav clearfix">
-      <ul class="_container _container-1 clearfix">
-        <li class="_container _container-2 clearfix">
-          <a class="projects" href="#">Projects</a>
-        </li>
+      <ul class="_container _container-2 clearfix">
         <li class="_container _container-3 clearfix">
+          <a href="#projects" class="projects">Projects</a>
+        </li>
+        <li onClick="window.location='#offer';" class="_container _container-4 clearfix">
           <a class="offer" href="#">Offer</a>
         </li>
-        <li class="_container _container-4 clearfix">
+        <li onClick="window.location='#process';" class="_container _container-5 clearfix">
           <a class="process" href="#">Process</a>
         </li>
-        <li class="_container _container-5 clearfix">
+        <li onClick="window.location='#team';" class="_container _container-6 clearfix">
           <a class="team" href="#">Team</a>
         </li>
-        <li class="_container _container-6 clearfix">
-          <a class="form" href="#">Form</a>
+        <li onClick="window.location='#prototype';" class="_container _container-7 clearfix">
+          <a class="prototype" href="#">Prototype<br></a>
         </li>
-        <li class="_container _container-7 clearfix">
+        <li onClick="window.location='#blog';" class="_container _container-8 clearfix">
           <a class="blog" href="#">Blog</a>
         </li>
       </ul>
     </nav>
-    <span class="toggle-menu"></span>
   </div>
-  <div class="about-section clearfix">
+  <section class="about clearfix">
     <img class="image" src="images/logo.png">
-    <p class="text text-2">Health Samurai</p>
-    <p class="text text-3">Looking for simplicity in a complex domain</p>
+    <p class="text _text text-3">Health Samurai</p>
+    <p class="text _text text-4">Looking for simplicity in a complex domain</p>
     <div class="contacts clearfix">
-      <div class="container _container container-1 clearfix">
-        <p class="text text-4"></p>
-        <p class="text text-5"><span class="rt-element" style="font-style: normal; font-family: inherit; font-weight: 300; text-decoration: inherit; text-transform: inherit; color: inherit; background-image: none; background-color: transparent; box-shadow: none; text-shadow: inherit; opacity: 1; border: none; word-wrap: normal; white-space: normal; word-break: normal;">WaveAccess USA 2015 E. Windmill Ln. Las Vegas NV 89123 USA</span></p>
-      </div>
       <div class="container _container container-2 clearfix">
-        <p class="text text-6"></p>
-        <p class="phone"><span class="rt-element" style="font-style: normal; font-family: inherit; font-weight: 300; text-decoration: inherit; text-transform: inherit; color: inherit; background-image: none; background-color: transparent; box-shadow: none; text-shadow: inherit; opacity: 1; border: none; word-wrap: normal; white-space: normal; word-break: normal;"> +1-818-731-1279</span></p>
+        <p class="text _text text-5"></p>
+        <p class="text _text text-6"><span class="rt-element" style="font-style: normal; font-family: inherit; font-weight: 300; text-decoration: inherit; text-transform: inherit; color: inherit; background-image: none; background-color: transparent; box-shadow: none; text-shadow: inherit; opacity: 1; border: none; word-wrap: normal; white-space: normal; word-break: normal;">WaveAccess USA 2015 E. Windmill Ln. Las Vegas NV 89123 USA</span></p>
       </div>
       <div class="container _container container-3 clearfix">
-        <p class="text text-7"></p>
+        <p class="text _text text-7"></p>
+        <p class="phone"><span class="rt-element" style="font-style: normal; font-family: inherit; font-weight: 300; text-decoration: inherit; text-transform: inherit; color: inherit; background-image: none; background-color: transparent; box-shadow: none; text-shadow: inherit; opacity: 1; border: none; word-wrap: normal; white-space: normal; word-break: normal;"> +1-818-731-1279</span></p>
+      </div>
+      <div class="container _container container-4 clearfix">
+        <p class="text _text text-8"></p>
         <a class="email" href="#"><span class="rt-element" style="font-style: normal; font-family: inherit; font-weight: 300; text-decoration: inherit; text-transform: inherit; color: inherit; background-image: none; background-color: transparent; box-shadow: none; text-shadow: inherit; opacity: 1; border: none; word-wrap: normal; white-space: normal; word-break: normal;"> hello@health-samurai.io</span></a>
       </div>
     </div>
-  </div>
+  </section>
   <a id="up-btn" class="up-btn js-up-btn" href="#"></a>
-  <p class="text text-8">What we've done</p>
-  <div class="element element-1"></div>
-  <div onClick="window.location='http://choice-hs.com/index.html';" class="container _container container-4 clearfix">
-    <img class="image image-3" src="images/medclient_logo.svg">
-    <p class="text text-9">MedClient
+  <section onClick="window.location='http://choice-hs.com/index.html';" id="projects" class="projects projects-2 clearfix">
+    <p class="text _text text-9">What we've done</p>
+    <div class="element"></div>
+    <img class="image image-2" src="images/medclient_logo.svg">
+    <p class="text _text text-10">MedClient
 </p>
-  </div>
-  <p class="text text-10">ONC certified cloud Electronic Health Record System. 
+    <p class="text _text text-11">ONC certified cloud Electronic Health Record System. 
 Physician &amp; Nursing Documentation, Inpatient, Emergency, Telemedicine
 </p>
-  <img class="image image-4" src="images/choice.png">
-  <p class="text text-11">Health Samurai Offer</p>
-  <div class="container _container container-5 clearfix">
+    <img class="image image-3" src="images/choice.png">
+  </section>
+  <section id="work" class="process process-2 clearfix">
+    <p class="text _text">How we work ?</p>
+    <div class="element element-2"></div>
+    <div class="element element-3"></div>
+  </section>
+  <section id="offer" class="offer offer-2 clearfix">
+    <p class="text _text text-13">Health Samurai Offer</p>
+    <div class="container _container container-5 clearfix">
+      <p class="text _text text-14"></p>
+      <p class="text _text text-15">Create modern web and mobile apps supplementing EHRs</p>
+    </div>
     <div class="container _container container-6 clearfix">
-      <p class="text text-12"></p>
-      <p class="text text-13">Create modern web and mobile apps supplementing EHRs</p>
+      <p class="text _text text-16"></p>
+      <p class="text _text text-17">Solve interoperability problems with FHIR</p>
     </div>
     <div class="container _container container-7 clearfix">
-      <p class="text text-14"></p>
-      <p class="text text-15">Solve interoperability problems with FHIR</p>
+      <p class="text _text text-18"></p>
+      <p class="text _text text-19">Substitute a poor module within your EHR system with a modern app you will love </p>
     </div>
+  </section>
+  <section id="team" class="team team-2 clearfix">
+    <p class="text _text text-20">Who we are ?</p>
     <div class="container _container container-8 clearfix">
-      <p class="text text-16"></p>
-      <p class="text text-17">Substitute a poor module within your EHR system with a modern app you will love </p>
+      <img class="image" src="images/face.png">
+      <p class="text _text text-21">George Cloney&nbsp;</p>
+      <p class="text _text text-22">manager&nbsp;</p>
     </div>
-  </div>
-  <p class="text text-18">How we work ?</p>
-  <div class="element element-2"></div>
-  <img class="image image-5" src="images/Process.png">
-  <p class="text text-19">Who we are ?</p>
-  <div class="container _container container-9 clearfix">
+    <div class="container _container container-9 clearfix">
+      <img class="image" src="images/face.png">
+      <p class="text _text text-23">George Cloney&nbsp;</p>
+      <p class="text _text text-24">manager&nbsp;</p>
+    </div>
     <div class="container _container container-10 clearfix">
-      <img class="image image-6" src="images/face.png">
-      <p class="text text-20">George Cloney&nbsp;</p>
-      <p class="text text-21">manager&nbsp;</p>
+      <img class="image" src="images/face.png">
+      <p class="text _text text-25">George Cloney&nbsp;</p>
+      <p class="text _text text-26">manager&nbsp;</p>
     </div>
     <div class="container _container container-11 clearfix">
-      <img class="image image-7" src="images/face.png">
-      <p class="text text-22">George Cloney&nbsp;</p>
-      <p class="text text-23">manager&nbsp;</p>
+      <img class="image" src="images/face.png">
+      <p class="text _text text-27">George Cloney&nbsp;</p>
+      <p class="text _text text-28">manager&nbsp;</p>
     </div>
     <div class="container _container container-12 clearfix">
-      <img class="image image-8" src="images/face.png">
-      <p class="text text-24">George Cloney&nbsp;</p>
-      <p class="text text-25">manager&nbsp;</p>
+      <img class="image" src="images/face.png">
+      <p class="text _text text-29">George Cloney&nbsp;</p>
+      <p class="text _text text-30">manager&nbsp;</p>
     </div>
-  </div>
-  <p class="text text-26">Health Samurai Blog</p>
-  <div class="element element-3"></div>
-  <div class="container _container container-13 clearfix">
-    <p class="text text-27">Header &nbsp;Blog 1</p>
-    <p class="text text-28">Eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim. Quinta decima eodem modo typi qui nunc nobis.&nbsp;Eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim. Quinta decima eodem modo typi qui nunc nobis.</p>
-    <a class="email email-2" href="#">More</a>
-  </div>
-  <div class="container _container container-14 clearfix">
-    <p class="text text-29">Header &nbsp;Blog 2</p>
-    <p class="text text-30">Eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim. Quinta decima eodem modo typi qui nunc nobis.&nbsp;Eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim. Quinta decima eodem modo typi qui nunc nobis.&nbsp;Eleifend option congue.&nbsp;</p>
-    <a class="email email-3" href="#">More</a>
-  </div>
-  <div class="container _container container-15 clearfix">
-    <p class="text text-31">Header &nbsp;Blog 3</p>
-    <p class="text text-32">Eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim. Quinta decima eodem modo typi qui nunc nobis.&nbsp;Eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim. Quinta decima eodem modo typi qui nunc nobis.</p>
-    <a class="email email-4" href="#">More</a>
-  </div>
-  <div class="element element-4"></div>
+    <div class="container _container container-13 clearfix">
+      <img class="image" src="images/face.png">
+      <p class="text _text text-31">George Cloney&nbsp;</p>
+      <p class="text _text text-32">manager&nbsp;</p>
+    </div>
+    <div class="container _container container-14 clearfix">
+      <img class="image" src="images/face.png">
+      <p class="text _text text-33">George Cloney&nbsp;</p>
+      <p class="text _text text-34">manager&nbsp;</p>
+    </div>
+    <div class="container _container container-15 clearfix">
+      <img class="image" src="images/face.png">
+      <p class="text _text text-35">George Cloney&nbsp;</p>
+      <p class="text _text text-36">manager&nbsp;</p>
+    </div>
+    <div class="container _container container-16 clearfix">
+      <img class="image" src="images/face.png">
+      <p class="text _text text-37">George Cloney&nbsp;</p>
+      <p class="text _text text-38">manager&nbsp;</p>
+    </div>
+  </section>
+  <section id="prototype" class="prototype prototype-2 clearfix">
+    <p class="text _text text-39">Order prototype</p>
+    <div class="element"></div>
+    <textarea class="_textarea"></textarea>
+    <p class="text _text text-40"></p>
+    <p class="text _text text-41">Add Files</p>
+    <button class="_button">Send</button>
+  </section>
+  <section id="blog" class="blog blog-2 clearfix">
+    <p class="text _text text-42">Health Samurai Blog</p>
+    <article onClick="window.location='http://healthsamurai.tumblr.com/post/80559773696/formstamp-angularjs-widgets-library';" class="_container _container-24 clearfix">
+      <p class="text _text text-43">FormStamp − AngularJS widgets library</p>
+      <div class="text _text text-44">
+        <p>AngularJS is an enjoying rapid popularity growth JS framework that simplifies complex web applications development. Having used AngularJS in several projects with a need for sophisticated user interfaces, we felt a lack of a good library of uniform widgets, such as datetime picker, multiple select, combo box, etc. We knew about Angular-UI project, but it didn’t satisfy our needs.&nbsp;</p>
+        <p>&nbsp;We also wanted to have a front-end form builder, analogous to simple_form from Ruby on Rails ecosystem. Form builders allow to describe a form in a declarative way, freeing the programmer from tedious markup and errors display.</p>
+</div>
+    </article>
+    <article onClick="window.location='http://healthsamurai.tumblr.com/post/96086837846/fhir';" class="_container _container-25 clearfix">
+      <p class="text _text text-45">Открытый проект по переводу стандарта FHIR!</p>
+      <div class="text _text text-46">
+        <p>Группа разработчиков HealthSamurai в составе международной компании WaveAccess и российская компания CофТраст приступили к переводу нового стандарта от организации HL7 International - FHIR.&nbsp;</p>
+        <p>Проект по переводу спецификации FHIR открыт для всех желающих! Если Вы понимаете целевое назначение стандартов от HL7 International, работаете в сфере здравоохранения или медицинских информационных технологий, а также владеете английским языком на достаточном уровне, присоединяйтесь к нашей команде переводчиков!</p>
+        <p>Перевод спецификации доступен по адресу: fhir-ru.github.io</p>
+</div>
+    </article>
+  </section>
+  <footer class="_container _container-26 clearfix">
+    <div class="text text-47">
+      <p>Health Samurai 2015<br></p>
+      <p>© All Rights Reserved&nbsp;</p>
+</div>
+  </footer>
+
+  <script src="js/jquery-min.js"></script>
+  <script src="js/index.js"></script>
 </body>
 </html>
