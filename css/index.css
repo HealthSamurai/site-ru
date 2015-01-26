@@ -4,15 +4,15 @@ body {
   color: rgb(0, 0, 0);
 }
 
-.text-44 p,
-.text-46 p,
+.text-53 p,
+.text-55 p,
 footer p {
   margin-bottom: 1em;
 }
 
 .about {
   position: relative;
-  z-index: 90;
+  z-index: 117;
   width: 100%;
   height: 463px;
   margin: 187px auto 0;
@@ -21,6 +21,34 @@ footer p {
 .about .image {
   width: 178px;
   margin: 0 auto;
+}
+
+.alexandra {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 51;
+  width: 52.4017467248%;
+  height: 278px;
+  margin: -278px 0 0 37.40675%;
+}
+
+.back {
+  float: left;
+  width: 50%;
+  height: 174px;
+  border-radius: 85px;
+  background-color: #f2f2f2;
+}
+
+.back .text {
+  display: block;
+  float: left;
+  width: 21.8390804597%;
+  min-height: 51px;
+  margin-top: 60px;
+  font: normal 2.5em/1.38 FontAwesome;
+  color: rgb(110, 110, 110);
 }
 
 .blog .text {
@@ -38,14 +66,15 @@ footer p {
   float: left;
 }
 
-.container .image {
-  float: left;
-  width: 174px;
-  margin-left: 0.55043%;
-}
-
 .container .text {
   float: left;
+}
+
+.danil {
+  position: relative;
+  float: left;
+  width: 52.4017467248%;
+  height: 278px;
 }
 
 .element {
@@ -66,6 +95,22 @@ footer p {
   color: rgb(52, 151, 211);
 }
 
+.flip3d {
+  float: left;
+  width: 100%;
+  height: 174px;
+}
+
+.front {
+  float: left;
+  width: 50%;
+  height: 174px;
+  background: url('../images/face.png') rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: 175px 175px;
+  background-position: center center;
+}
+
 .image {
   display: block;
   height: auto;
@@ -76,7 +121,7 @@ footer p {
   position: relative;
   float: right;
   clear: both;
-  z-index: 104;
+  z-index: 131;
   width: 80%;
   height: 29px;
   margin-top: -32px;
@@ -147,11 +192,39 @@ footer p {
   color: rgb(167, 163, 163);
 }
 
+.maxim {
+  position: relative;
+  float: left;
+  z-index: 44;
+  width: 52.4017467248%;
+  height: 278px;
+}
+
+.mikhail {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 37;
+  width: 51.2372634643%;
+  height: 278px;
+  margin: -278px 0 0 73.36245%;
+}
+
+.mikhaill {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 58;
+  width: 52.4017467248%;
+  height: 278px;
+  margin: -278px 0 0 73.36245%;
+}
+
 .navbar {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 110;
+  z-index: 137;
   width: 100%;
   height: 74px;
   background-color: rgb(255, 255, 255);
@@ -162,7 +235,7 @@ footer p {
   position: absolute;
   top: 23px;
   left: 2.5807291666%;
-  z-index: 109;
+  z-index: 136;
   width: 209px;
   height: 32px;
 }
@@ -172,15 +245,43 @@ footer p {
   line-height: 1.38;
 }
 
+.nikolay {
+  position: relative;
+  float: left;
+  z-index: 23;
+  width: 52.4017467248%;
+  height: 278px;
+}
+
 .offer .container {
   float: left;
+}
+
+.pasha {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 72;
+  width: 52.4017467248%;
+  height: 278px;
+  margin: -278px 0 0 37.40675%;
+}
+
+.pavel {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 30;
+  width: 51.2372634643%;
+  height: 278px;
+  margin: -278px 0 0 37.40675%;
 }
 
 .phone {
   position: relative;
   float: left;
   clear: both;
-  z-index: 80;
+  z-index: 107;
   width: 80.8139534883%;
   min-height: 24px;
   margin: -26px 0 0 11.96008%;
@@ -205,7 +306,7 @@ footer p {
 }
 
 .projects .element {
-  z-index: 70;
+  z-index: 97;
   width: 456.2737642585%;
   height: 634px;
   margin: -25px 0 0 -178.32106%;
@@ -223,7 +324,7 @@ footer p {
 }
 
 .prototype .element {
-  z-index: 13;
+  z-index: 10;
   width: 100%;
   height: 465px;
   margin-top: 16px;
@@ -244,22 +345,12 @@ footer p {
   overflow: hidden;
 }
 
-.team .container {
-  position: relative;
-  float: left;
-  width: 25.6186317321%;
-}
-
-.team .text {
-  color: rgb(0, 0, 0);
-}
-
 .toggle-menu {
   display: block;
   visibility: hidden;
   position: relative;
   float: left;
-  z-index: 106;
+  z-index: 133;
   width: 2.25%;
   min-height: 40px;
   margin: 14px 0 0 94.73828%;
@@ -272,7 +363,7 @@ footer p {
   position: fixed;
   top: 400px;
   left: 92.2486979166%;
-  z-index: 111;
+  z-index: 138;
   width: 3.9166666666%;
   min-height: 39px;
   font: normal 3.313em/1.38 FontAwesome;
@@ -287,7 +378,7 @@ footer p {
   display: block;
   position: relative;
   float: left;
-  z-index: 16;
+  z-index: 13;
   width: 16.75%;
   height: 54px;
   margin: -155px 0 0 70.08203%;
@@ -305,7 +396,7 @@ footer p {
   position: relative;
   float: left;
   clear: both;
-  z-index: 15;
+  z-index: 12;
   width: 72.0833333333%;
   height: 223px;
   margin: -397px 0 0 14.75%;
@@ -325,8 +416,29 @@ footer p {
   margin-top: 35px;
 }
 
+.alexandra ._text,
+.danil ._text,
+.maxim ._text,
+.mikhaill ._text,
+.nikolay ._text,
+.pasha ._text {
+  float: left;
+  clear: both;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
 .mainnav ._container {
   float: left;
+}
+
+.mikhail ._text,
+.pavel ._text {
+  float: left;
+  clear: both;
+  min-height: 42px;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
 }
 
 .navbar ._text {
@@ -348,49 +460,6 @@ footer p {
   margin-top: 62px;
 }
 
-.container-10 {
-  clear: both;
-  z-index: 33;
-  height: 278px;
-}
-
-.container-11 {
-  z-index: 37;
-  height: 278px;
-  margin-left: 11.78812%;
-}
-
-.container-12 {
-  z-index: 28;
-  height: 285px;
-  margin: -278px 0 0 11.35599%;
-}
-
-.container-13 {
-  clear: both;
-  z-index: 41;
-  height: 285px;
-  margin: -278px 0 0 74.38137%;
-}
-
-.container-14 {
-  clear: both;
-  z-index: 45;
-  height: 278px;
-}
-
-.container-15 {
-  z-index: 49;
-  height: 278px;
-  margin-left: 11.78812%;
-}
-
-.container-16 {
-  z-index: 53;
-  height: 285px;
-  margin-left: 11.35599%;
-}
-
 .container-2 {
   width: 100%;
   height: 34px;
@@ -400,7 +469,7 @@ footer p {
 .container-3 {
   position: relative;
   clear: both;
-  z-index: 82;
+  z-index: 109;
   width: 191px;
   height: 29px;
   margin-left: 11.83402%;
@@ -408,7 +477,7 @@ footer p {
 
 .container-4 {
   position: relative;
-  z-index: 79;
+  z-index: 106;
   width: 43.897996357%;
   height: 29px;
 }
@@ -420,7 +489,7 @@ footer p {
 
 .container-6 {
   position: relative;
-  z-index: 61;
+  z-index: 88;
   width: 24.4573082489%;
   height: 286px;
   margin-left: 14.17168%;
@@ -432,26 +501,26 @@ footer p {
   margin-left: 14.17168%;
 }
 
-.container-8 {
-  z-index: 20;
-  height: 278px;
+.danil-1 {
+  z-index: 65;
+  margin-top: 7px;
 }
 
-.container-9 {
-  z-index: 24;
-  height: 278px;
-  margin-left: 11.78812%;
+.danil-2 {
+  clear: both;
+  z-index: 79;
+  margin: -278px 0 0 73.36245%;
 }
 
 .element-2 {
-  z-index: 55;
+  z-index: 82;
   width: 100%;
   height: 495px;
   margin-top: 16px;
 }
 
 .element-3 {
-  z-index: 57;
+  z-index: 84;
   width: 73.9166666666%;
   height: 366px;
   margin: -450px 0 0 13.75%;
@@ -462,13 +531,13 @@ footer p {
 }
 
 .image-2 {
-  z-index: 74;
+  z-index: 101;
   width: 83px;
   margin-top: -609px;
 }
 
 .image-3 {
-  z-index: 71;
+  z-index: 98;
   width: 977px;
   margin: -343px 0 0 -357px;
 }
@@ -477,7 +546,7 @@ footer p {
   position: relative;
   float: left;
   clear: both;
-  z-index: 69;
+  z-index: 96;
   width: 57.5807291666%;
   height: 310px;
   margin: -876px 0 0 21.25%;
@@ -487,7 +556,7 @@ footer p {
   position: relative;
   float: left;
   clear: both;
-  z-index: 58;
+  z-index: 85;
   width: 100%;
   height: 567px;
   margin-top: 1003px;
@@ -497,28 +566,28 @@ footer p {
   position: relative;
   float: left;
   clear: both;
-  z-index: 76;
+  z-index: 103;
   width: 21.9166666666%;
   height: 62px;
-  margin: 345px 0 0 39.08203%;
+  margin: 370px 0 0 39.08203%;
 }
 
 .prototype-2 {
   position: relative;
   float: left;
   clear: both;
-  z-index: 19;
+  z-index: 16;
   width: 100%;
   height: 518px;
-  margin-top: 45px;
+  margin-top: 89px;
 }
 
 .team-2 {
   position: relative;
-  z-index: 54;
+  z-index: 81;
   width: 687px;
   height: 826px;
-  margin: 2087px auto 0;
+  margin: 2112px auto 0;
 }
 
 .text-1 {
@@ -531,7 +600,7 @@ footer p {
 
 .text-10 {
   position: relative;
-  z-index: 73;
+  z-index: 100;
   width: 66.1596958174%;
   min-height: 50px;
   margin: -603px 0 0 31.55894%;
@@ -548,7 +617,7 @@ footer p {
 .text-11 {
   position: relative;
   clear: both;
-  z-index: 72;
+  z-index: 99;
   width: 331.5589353612%;
   min-height: 50px;
   margin: -519px 0 0 -115.96364%;
@@ -629,6 +698,50 @@ footer p {
   font-size: 2em;
   line-height: 1.18;
   text-transform: uppercase;
+  color: rgb(0, 0, 0);
+}
+
+.text-22 {
+  width: 54.5454545454%;
+  min-height: 42px;
+  margin: 20px 0 0 -1.84462%;
+  font-size: 1.563em;
+}
+
+.text-23 {
+  width: 22.159090909%;
+  min-height: 28px;
+  margin-left: 14.62674%;
+  font-size: 1.063em;
+}
+
+.text-25 {
+  width: 50%;
+  margin-top: 20px;
+  font-size: 1.563em;
+}
+
+.text-26 {
+  width: 21.0227272727%;
+  margin-left: 14.47976%;
+  font-size: 1.063em;
+}
+
+.text-24,
+.text-27 {
+  margin-left: 41.65769%;
+}
+
+.text-28 {
+  width: 53.409090909%;
+  margin: 20px 0 0 0.14205%;
+  font-size: 1.563em;
+}
+
+.text-29 {
+  width: 24.1477272727%;
+  margin-left: 14.61737%;
+  font-size: 1.063em;
 }
 
 .text-3 {
@@ -639,61 +752,46 @@ footer p {
   color: rgb(0, 0, 0);
 }
 
-.text-23,
-.text-27,
+.text-31 {
+  width: 61.9444444444%;
+  min-height: 42px;
+  margin: 20px 0 0 -6.52778%;
+  font-size: 1.563em;
+}
+
+.text-32 {
+  width: 53.6111111111%;
+  min-height: 28px;
+  margin-left: -3.17274%;
+  font-size: 1.063em;
+}
+
+.text-34 {
+  width: 68.3333333333%;
+  min-height: 42px;
+  margin: 20px 0 0 -6.38889%;
+  font-size: 1.563em;
+}
+
 .text-35 {
-  clear: both;
-  width: 100%;
-  min-height: 42px;
-  margin: 20px 0 0 -0.00888%;
-  font-size: 1.563em;
-  line-height: 1.38;
-}
-
-.text-22,
-.text-24,
-.text-26,
-.text-28,
-.text-34,
-.text-36 {
-  clear: both;
-  width: 42.0454545454%;
-  min-height: 42px;
-  margin-left: 28.95952%;
+  width: 42.2222222222%;
+  min-height: 28px;
+  margin-left: 6.66667%;
   font-size: 1.063em;
-  line-height: 1.38;
 }
 
-.text-21,
-.text-25,
-.text-29,
-.text-31,
-.text-33,
 .text-37 {
-  clear: both;
-  width: 100%;
+  width: 50.2777777777%;
   min-height: 42px;
-  margin-top: 20px;
+  margin: 20px 0 0 1.38455%;
   font-size: 1.563em;
-  line-height: 1.38;
 }
 
-.text-30,
-.text-32,
 .text-38 {
-  clear: both;
-  width: 42.0454545454%;
-  min-height: 42px;
-  margin-left: 30.64631%;
+  width: 33.8888888888%;
+  min-height: 28px;
+  margin-left: 9.7005199999%;
   font-size: 1.063em;
-  line-height: 1.38;
-}
-
-.text-39 {
-  margin-left: 40.25%;
-  font-size: 2em;
-  line-height: 1.18;
-  text-transform: uppercase;
 }
 
 .text-4 {
@@ -707,17 +805,85 @@ footer p {
 }
 
 .text-40 {
+  width: 49.1666666666%;
+  min-height: 42px;
+  margin-top: 20px;
+  font-size: 1.563em;
+}
+
+.text-41 {
+  width: 28.3333333333%;
+  min-height: 28px;
+  margin-left: 10.68576%;
+  font-size: 1.063em;
+}
+
+.text-43 {
+  width: 43.6111111111%;
+  min-height: 42px;
+  margin: 21px 0 0 3.01649%;
+  font-size: 1.563em;
+}
+
+.text-44 {
+  width: 53.6111111111%;
+  min-height: 28px;
+  font-size: 1.063em;
+}
+
+.text-21,
+.text-30,
+.text-33,
+.text-36,
+.text-39,
+.text-42,
+.text-45 {
+  margin-left: 41.65204%;
+}
+
+.text-46 {
+  width: 45.8333333333%;
+  min-height: 42px;
+  margin: 20px 0 0 1.80556%;
+  font-size: 1.563em;
+}
+
+.text-47 {
+  width: 20.5555555555%;
+  min-height: 28px;
+  margin-left: 17.07031%;
+  font-size: 1.063em;
+}
+
+.text-48 {
+  margin-left: 40.25%;
+  font-size: 2em;
+  line-height: 1.18;
+  text-transform: uppercase;
+}
+
+.text-49 {
   position: relative;
-  z-index: 17;
+  z-index: 14;
   width: 2.75%;
   min-height: 42px;
   margin: -165px 0 0 15.91667%;
   font: normal 1.875em/1.38 FontAwesome;
 }
 
-.text-41 {
+.text-5 {
   position: relative;
-  z-index: 18;
+  z-index: 111;
+  width: 5.6464695335%;
+  min-height: 32px;
+  margin: -3px 0 0 0.3643%;
+  font: normal 1.563em/1.38 FontAwesome;
+  color: rgb(0, 0, 0);
+}
+
+.text-50 {
+  position: relative;
+  z-index: 15;
   width: 6.5833333333%;
   min-height: 21px;
   margin: -155px 0 0 19.33073%;
@@ -725,21 +891,21 @@ footer p {
   line-height: 1.38;
 }
 
-.text-42 {
+.text-51 {
   margin-left: 39.16146%;
   font-size: 2em;
   line-height: 1.18;
   text-transform: uppercase;
 }
 
-.text-43 {
+.text-52 {
   width: 100%;
   min-height: 40px;
   font-size: 1.5em;
   line-height: 1.38;
 }
 
-.text-44 {
+.text-53 {
   clear: both;
   width: 99.7679814385%;
   min-height: 160px;
@@ -748,24 +914,24 @@ footer p {
   line-height: 1.38;
 }
 
-.text-45 {
+.text-54 {
   width: 96.8921389396%;
   min-height: 40px;
-  margin-left: 5.84723%;
+  margin-left: 5.8449099999%;
   font-size: 1.5em;
   line-height: 1.38;
 }
 
-.text-46 {
+.text-55 {
   clear: both;
   width: 89.7623400365%;
   min-height: 174px;
-  margin: 9px 0 0 5.84723%;
+  margin: 9px 0 0 5.8449099999%;
   font-size: 1em;
   line-height: 1.38;
 }
 
-.text-47 {
+.text-56 {
   float: left;
   width: 53.5%;
   min-height: 35px;
@@ -776,20 +942,10 @@ footer p {
   color: rgb(0, 0, 0);
 }
 
-.text-5 {
-  position: relative;
-  z-index: 84;
-  width: 5.6464695335%;
-  min-height: 32px;
-  margin: -3px 0 0 0.3643%;
-  font: normal 1.563em/1.38 FontAwesome;
-  color: rgb(0, 0, 0);
-}
-
 .text-6 {
   position: relative;
   clear: both;
-  z-index: 83;
+  z-index: 110;
   width: 93.8181818181%;
   min-height: 34px;
   margin: -30px 0 0 5.99101%;
@@ -802,7 +958,7 @@ footer p {
 
 .text-7 {
   position: relative;
-  z-index: 81;
+  z-index: 108;
   width: 12.2093023255%;
   min-height: 22px;
   margin-top: 1px;
@@ -826,7 +982,7 @@ footer p {
   color: rgb(0, 0, 0);
 }
 
-._container-26 {
+._container-17 {
   position: relative;
   float: left;
   clear: both;
@@ -837,7 +993,7 @@ footer p {
   background-color: rgb(255, 255, 255);
 }
 
-.blog ._container-24 {
+.blog ._container-15 {
   clear: both;
   z-index: 8;
   width: 26.8333333333%;
@@ -845,7 +1001,7 @@ footer p {
   margin-left: 22.91667%;
 }
 
-.blog ._container-25 {
+.blog ._container-16 {
   z-index: 5;
   width: 29.25%;
   height: 512px;
@@ -896,18 +1052,17 @@ footer p {
 @media(max-width: 850px) {
   .about {
     position: relative;
-    z-index: 90;
+    z-index: 117;
   }
 
   .about .image,
-  .container .image,
   .container .small-logo {
     height: auto;
   }
 
   .container .phone {
     position: relative;
-    z-index: 80;
+    z-index: 107;
   }
 
   .mainnav .blog {
@@ -927,19 +1082,19 @@ footer p {
   }
 
   .mainnav .team {
-    margin-right: 0.2914%;
+    margin-right: 0.24284%;
   }
 
   .navbar .mainnav {
     visibility: hidden;
     position: relative;
-    z-index: 104;
+    z-index: 131;
   }
 
   .navbar .toggle-menu {
     visibility: visible;
     position: relative;
-    z-index: 106;
+    z-index: 133;
     width: 4%;
     margin-left: 93.05882%;
   }
@@ -948,10 +1103,14 @@ footer p {
     width: 91.7647058823%;
   }
 
+  .process .element {
+    position: relative;
+  }
+
   .process .text {
     position: relative;
     float: left;
-    z-index: 56;
+    z-index: 83;
     width: 31.4117647058%;
     margin-top: 29px;
     margin-right: 0;
@@ -964,7 +1123,7 @@ footer p {
 
   .projects .element {
     position: relative;
-    z-index: 70;
+    z-index: 97;
     margin-left: -178.3134400001%;
   }
 
@@ -975,7 +1134,7 @@ footer p {
 
   .prototype .element {
     position: relative;
-    z-index: 13;
+    z-index: 10;
     margin-top: -81px;
   }
 
@@ -988,44 +1147,84 @@ footer p {
     margin-right: 0;
   }
 
-  .process .element,
-  .team .container {
+  .team .alexandra {
     position: relative;
+    z-index: 51;
+    margin-top: -283px;
+  }
+
+  .team .danil {
+    position: relative;
+  }
+
+  .team .maxim {
+    position: relative;
+    z-index: 44;
+    margin-top: -5px;
+  }
+
+  .team .mikhail {
+    position: relative;
+    z-index: 37;
+    margin-top: -288px;
+    margin-left: 74.38137%;
+  }
+
+  .team .mikhaill {
+    position: relative;
+    z-index: 58;
+  }
+
+  .team .nikolay {
+    position: relative;
+    z-index: 23;
+    margin-top: 5px;
+  }
+
+  .team .pasha {
+    position: relative;
+    z-index: 72;
+  }
+
+  .team .pavel {
+    position: relative;
+    z-index: 30;
+    margin-top: -283px;
   }
 
   .blog ._container {
     position: relative;
     width: 66.5882352941%;
-    margin-left: 18.23529%;
+    margin-left: 18.23346%;
   }
 
   .prototype ._button {
     position: relative;
-    z-index: 16;
+    z-index: 13;
     margin-top: -107px;
     margin-left: 70.0772099999%;
   }
 
   .prototype ._textarea {
     position: relative;
-    z-index: 15;
+    z-index: 12;
     margin-top: -349px;
   }
 
-  .blog .text-42 {
-    margin-left: 31.05882%;
+  .blog .text-51 {
+    margin-left: 31.05699%;
   }
 
-  .blog .text-43,
-  .blog .text-44 {
+  .blog .text-52,
+  .blog .text-53 {
     width: 93.7993185078%;
-    margin-left: -0.08078%;
+    margin-left: -0.0800600001%;
   }
 
-  .blog .text-45,
-  .blog .text-46 {
+  .blog .text-54,
+  .blog .text-55 {
     width: 99.9278846153%;
-    margin-left: -0.00241%;
+    margin-left: 0;
   }
 
   .blog-2 {
@@ -1037,139 +1236,161 @@ footer p {
 
   .contacts .container-3 {
     position: relative;
-    z-index: 82;
+    z-index: 109;
   }
 
   .contacts .container-4 {
     position: relative;
-    z-index: 79;
+    z-index: 106;
   }
 
   .container .text-14 {
     margin-left: 27.56688%;
   }
 
-  .container .text-15 {
-    margin-left: 0;
-  }
-
   .container .text-16 {
-    margin-left: 37.23238%;
-  }
-
-  .container .text-17 {
-    margin-left: -0.02611%;
+    margin-left: 37.22664%;
   }
 
   .container .text-18 {
-    margin-left: 25.12182%;
+    margin-left: 25.12102%;
   }
 
   .container .text-19 {
-    margin-left: -0.04061%;
+    margin-left: -0.02548%;
   }
 
   .container .text-5 {
     position: relative;
-    z-index: 84;
+    z-index: 111;
   }
 
   .container .text-6 {
     position: relative;
-    z-index: 83;
+    z-index: 110;
   }
 
   .container .text-7 {
     position: relative;
-    z-index: 81;
+    z-index: 108;
+  }
+
+  .alexandra .text-34,
+  .container .text-15,
+  .container .text-17,
+  .danil .text-46,
+  .maxim .text-31,
+  .mikhail .text-28,
+  .mikhaill .text-37,
+  .nikolay .text-22 {
+    margin-left: 0;
+  }
+
+  .alexandra .text-35,
+  .danil .text-41,
+  .danil .text-47,
+  .maxim .text-32,
+  .mikhaill .text-38,
+  .nikolay .text-23,
+  .pasha .text-44 {
+    margin-left: 14.47917%;
+  }
+
+  .mikhail .text-29 {
+    margin-left: 14.47976%;
   }
 
   .offer .container-6 {
     position: relative;
-    z-index: 61;
-    margin-left: 14.16466%;
+    z-index: 88;
+    margin-left: 14.16266%;
   }
 
   .offer .container-7 {
-    margin-left: 14.16466%;
+    margin-left: 14.16266%;
   }
 
   .offer .text-13 {
-    margin-left: 26.7447899999%;
+    margin-left: 26.74279%;
   }
 
   .offer-2 {
     position: relative;
-    z-index: 69;
+    z-index: 96;
     margin-top: -762px;
     margin-left: 4.47059%;
   }
 
+  .pasha .text-43 {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
   .process .element-2 {
-    z-index: 55;
+    z-index: 82;
     margin-top: -80px;
   }
 
   .process .element-3 {
-    z-index: 57;
+    z-index: 84;
     margin-top: -366px;
   }
 
   .process-2 {
     position: relative;
-    z-index: 58;
+    z-index: 85;
     height: 495px;
     margin-top: 960px;
   }
 
   .projects .image-2 {
-    z-index: 74;
+    z-index: 101;
   }
 
   .projects .image-3 {
-    z-index: 71;
+    z-index: 98;
   }
 
   .projects .text-10 {
     position: relative;
     clear: both;
-    z-index: 73;
+    z-index: 100;
     width: 99.3121959402%;
     margin-left: 44.5351799999%;
   }
 
   .projects .text-11 {
     position: relative;
-    z-index: 72;
+    z-index: 99;
     margin-left: -115.95477%;
   }
 
   .projects .text-9 {
     width: 160.5099815467%;
-    margin-left: -16.66143%;
+    margin-left: -16.64573%;
   }
 
   .projects-2 {
     position: relative;
-    z-index: 76;
-    margin-top: 259px;
+    z-index: 103;
+    margin-top: 1686px;
     margin-left: 39.05699%;
   }
 
-  .prototype .text-39 {
-    z-index: 14;
+  .prototype .text-48 {
+    z-index: 11;
     margin-top: 97px;
     margin-left: 35.89706%;
   }
 
-  .prototype .text-40 {
-    z-index: 17;
+  .prototype .text-49 {
+    z-index: 14;
     margin-top: -117px;
     margin-left: 15.90993%;
   }
 
-  .prototype .text-41 {
-    z-index: 18;
+  .prototype .text-50 {
+    z-index: 15;
     width: 12.5882352941%;
     margin-top: -107px;
     margin-left: 19.29412%;
@@ -1177,46 +1398,16 @@ footer p {
 
   .prototype-2 {
     position: relative;
-    z-index: 19;
+    z-index: 16;
     margin-top: 43px;
   }
 
-  .team .container-10 {
-    z-index: 33;
+  .team .danil-1 {
+    z-index: 65;
   }
 
-  .team .container-11 {
-    z-index: 37;
-  }
-
-  .team .container-12 {
-    z-index: 28;
-  }
-
-  .team .container-13 {
-    z-index: 41;
-  }
-
-  .team .container-14 {
-    z-index: 45;
-  }
-
-  .team .container-15 {
-    z-index: 49;
-  }
-
-  .team .container-16 {
-    z-index: 53;
-  }
-
-  .team .container-8 {
-    z-index: 20;
-    margin-top: 5px;
-  }
-
-  .team .container-9 {
-    z-index: 24;
-    margin-top: 5px;
+  .team .danil-2 {
+    z-index: 79;
   }
 
   .team .text-20 {
@@ -1225,26 +1416,26 @@ footer p {
 
   .team-2 {
     position: relative;
-    z-index: 54;
+    z-index: 81;
     margin-top: 150px;
     margin-left: 78px;
   }
 
-  ._container .text-47 {
+  ._container .text-56 {
     margin-left: 7.0625%;
   }
 
-  ._container-26 {
+  ._container-17 {
     position: relative;
     z-index: 1;
   }
 
-  .blog ._container-24 {
+  .blog ._container-15 {
     z-index: 8;
     height: 291px;
   }
 
-  .blog ._container-25 {
+  .blog ._container-16 {
     clear: both;
     z-index: 5;
     height: 279px;
@@ -1260,11 +1451,11 @@ footer p {
   }
 
   .mainnav ._container-5 {
-    margin-left: 3.61213%;
+    margin-left: 3.60754%;
   }
 
   .mainnav ._container-6 {
-    margin-left: 4.45542%;
+    margin-left: 4.45313%;
   }
 
   .mainnav ._container-7 {

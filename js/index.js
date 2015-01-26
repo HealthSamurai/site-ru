@@ -33,7 +33,7 @@
   });
 
   $('.blog').click(function(){
-      $("html, body").animate({ scrollTop: 4500 }, 600);
+      $("html, body").animate({ scrollTop: 4110 }, 600);
       return false;
   });
 })();
