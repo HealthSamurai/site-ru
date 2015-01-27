@@ -11,35 +11,31 @@
   <link rel="stylesheet" type="text/css" href="css/flip3d.css"/>
 </head>
 <body class="body page-index clearfix">
-  <div class="navbar clearfix">
-    <a class="text text-1" href="#">Health Samurai</a>
-    <div onClick="window.location='#logo';" class="container _container clearfix">
-      <img class="small-logo" src="images/mini_logo_gray.png">
-      <p class="text _text">Health Samurai</p>
+  <div class="projects clearfix">
+    <div class="element element-1"></div>
+    <div class="slidernav clearfix">
+      <img class="image image-1 js-choice-btn" src="images/choice.svg">
+      <img class="image image-2 js-fhirbase" src="images/fhirebase.svg">
+      <img class="image image-3 js-fotmstamp" src="images/stamp.svg">
+      <img class="image image-4 js-foodtaster" src="images/foodtaster.svg">
     </div>
-    <span class="toggle-menu"></span>
-    <nav class="mainnav clearfix">
-      <ul class="_container _container-2 clearfix">
-        <li class="_container _container-3 clearfix">
-          <a href="#projects" class="projects">Projects</a>
-        </li>
-        <li onClick="window.location='#offer';" class="_container _container-4 clearfix">
-          <a class="offer" href="#">Offer</a>
-        </li>
-        <li onClick="window.location='#process';" class="_container _container-5 clearfix">
-          <a class="process" href="#">Process</a>
-        </li>
-        <li onClick="window.location='#team';" class="_container _container-6 clearfix">
-          <a class="team" href="#">Team</a>
-        </li>
-        <li onClick="window.location='#prototype';" class="_container _container-7 clearfix">
-          <a class="prototype" href="#">Prototype<br></a>
-        </li>
-        <li onClick="window.location='#blog';" class="_container _container-8 clearfix">
-          <a class="blog" href="#">Blog</a>
-        </li>
-      </ul>
-    </nav>
+    <div class="element element-2"></div>
+    <div class="viewport">
+      <div class="screens clearfix js-screens">
+        <div class="medclient clearfix">
+          <div class="container _container clearfix">
+            <img class="image" src="images/medclient_logo.svg">
+            <p class="text _text text-1">MedClient
+</p>
+          </div>
+          <p class="text _text text-2">ONC certified cloud Electronic Health Record System. 
+Physician &amp; Nursing Documentation, Inpatient, Emergency, Telemedicine
+</p>
+          <img class="image image-6" src="images/choice.png">
+        </div>
+        <img class="image image-7" src="images/choice.png">
+      </div>
+    </div>
   </div>
   <section class="about clearfix">
     <img class="image" src="images/logo.png">
@@ -61,158 +57,205 @@
     </div>
   </section>
   <a id="up-btn" class="up-btn js-up-btn" href="#"></a>
-  <section onClick="window.location='http://choice-hs.com/index.html';" id="projects" class="projects projects-2 clearfix">
-    <p class="text _text text-9">What we've done</p>
-    <div class="element"></div>
-    <img class="image image-2" src="images/medclient_logo.svg">
-    <p class="text _text text-10">MedClient
-</p>
-    <p class="text _text text-11">ONC certified cloud Electronic Health Record System. 
-Physician &amp; Nursing Documentation, Inpatient, Emergency, Telemedicine
-</p>
-    <img class="image image-3" src="images/choice.png">
-  </section>
-  <section id="work" class="process process-2 clearfix">
-    <p class="text _text">How we work ?</p>
-    <div class="element element-2"></div>
-    <div class="element element-3"></div>
-  </section>
-  <section id="offer" class="offer offer-2 clearfix">
-    <p class="text _text text-13">Health Samurai Offer</p>
-    <div class="container _container container-5 clearfix">
-      <p class="text _text text-14"></p>
-      <p class="text _text text-15">Create modern web and mobile apps supplementing EHRs</p>
+  <div class="navbar clearfix">
+    <a class="text text-9" href="#">Health Samurai</a>
+    <div onClick="window.location='#logo';" class="container _container clearfix js-about">
+      <img class="small-logo" src="images/mini_logo_gray.png">
+      <a class="text text-10" href="#">Health Samurai</a>
     </div>
-    <div class="container _container container-6 clearfix">
-      <p class="text _text text-16"></p>
-      <p class="text _text text-17">Solve interoperability problems with FHIR</p>
-    </div>
+    <a id="nav-menu" class="toggle-menu" href="#"></a>
+    <nav class="mainnav clearfix">
+      <ul id="navopen" class="_container _container-6 clearfix">
+        <li class="_container _container-7 clearfix">
+          <a href="#projects" class="_text _text-9 js-projects">Projects</a>
+        </li>
+        <li onClick="window.location='#offer';" class="_container _container-8 clearfix">
+          <a class="_text _text-10 js-offer" href="#">Offer</a>
+        </li>
+        <li onClick="window.location='#process';" class="_container _container-9 clearfix">
+          <a class="_text _text-11 js-process" href="#">Process</a>
+        </li>
+        <li onClick="window.location='#team';" class="_container _container-10 clearfix">
+          <a class="_text _text-12 js-team" href="#">Team</a>
+        </li>
+        <li onClick="window.location='#prototype';" class="_container _container-11 clearfix">
+          <a class="prototype js-prototype" href="#">Prototype<br></a>
+        </li>
+        <li onClick="window.location='#blog';" class="_container _container-12 clearfix">
+          <a class="blog js-blog" href="#">Blog</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <p class="text _text text-11">WHAT WE'VE DONE<br></p>
+  <p class="text _text text-12">Health Samurai Offer</p>
+  <div class="container _container container-6 clearfix">
     <div class="container _container container-7 clearfix">
-      <p class="text _text text-18"></p>
-      <p class="text _text text-19">Substitute a poor module within your EHR system with a modern app you will love </p>
+      <p class="text _text text-13"></p>
+      <p class="text _text text-14">Create modern web and mobile apps supplementing EHRs</p>
     </div>
+    <div class="container _container container-8 clearfix">
+      <p class="text _text text-15"></p>
+      <p class="text _text text-16">Solve interoperability problems with FHIR</p>
+    </div>
+    <div class="container _container container-9 clearfix">
+      <p class="text _text text-17"></p>
+      <p class="text _text text-18">Substitute a poor module within your EHR system with a modern app you will love </p>
+    </div>
+  </div>
+  <p class="text _text text-19">HOW WE WORK ?</p>
+  <section id="work" class="process clearfix">
+    <div class="element element-3"></div>
+    <div class="container _container container-10 clearfix">
+      <div class="container _container container-11 clearfix">
+        <p class="text _text text-20">Prototype &amp; 
+Discovery</p>
+        <p class="text _text text-21">1 day - 1 week</p>
+      </div>
+      <div class="container _container container-12 clearfix">
+        <p class="text _text text-22">Iterative 
+development</p>
+        <p class="text _text text-23">1 day - 1 week</p>
+      </div>
+      <div class="container _container container-13 clearfix">
+        <p class="text _text text-24">Continuous delivery</p>
+        <p class="text _text text-25">1 day - 1 week</p>
+      </div>
+    </div>
+    <div class="element element-4"></div>
   </section>
-  <section id="team" class="team team-2 clearfix">
-    <p class="text _text text-20">Who we are ?</p>
+  <p class="text _text text-26">Who WE ARE ?</p>
+  <p class="text _text text-27">Order prototype</p>
+  <section id="team" class="team clearfix">
     <div class="nikolay clearfix">
       <div class="flip3d clearfix">
         <div class="front"></div>
         <div class="back clearfix">
-          <a class="text text-21" href="#"></a>
+          <a class="text text-28" href="#"></a>
         </div>
       </div>
-      <p class="text _text text-22">Nikolay Ryzhikov&nbsp;</p>
-      <p class="text _text text-23">Tech Lead</p>
+      <p class="text _text text-29">Nikolay Ryzhikov&nbsp;</p>
+      <p class="text _text text-30">Tech Lead</p>
     </div>
     <div class="pavel clearfix">
       <div class="flip3d clearfix">
         <div class="front"></div>
         <div class="back clearfix">
-          <a class="text text-24" href="#"></a>
+          <a class="text text-31" href="#"></a>
         </div>
       </div>
-      <p class="text _text text-25">Pavel Smirnov</p>
-      <p class="text _text text-26">Manager&nbsp;</p>
+      <p class="text _text text-32">Pavel Smirnov</p>
+      <p class="text _text text-33">Manager&nbsp;</p>
     </div>
     <div class="mikhail clearfix">
       <div class="flip3d clearfix">
         <div class="front"></div>
         <div class="back clearfix">
-          <a class="text text-27" href="#"></a>
+          <a class="text text-34" href="#"></a>
         </div>
       </div>
-      <p class="text _text text-28">Mikhail Ryzhikov</p>
-      <p class="text _text text-29">Handyman</p>
+      <p class="text _text text-35">Mikhail Ryzhikov</p>
+      <p class="text _text text-36">Handyman</p>
     </div>
     <div class="maxim clearfix">
       <div class="flip3d clearfix">
         <div class="front"></div>
         <div class="back clearfix">
-          <a class="text text-30" href="#"></a>
+          <a class="text text-37" href="#"></a>
         </div>
       </div>
-      <p class="text _text text-31">Maxim Bodnarchuk</p>
-      <p class="text _text text-32">Master of Infrastructure</p>
+      <p class="text _text text-38">Maxim Bodnarchuk</p>
+      <p class="text _text text-39">Master of Infrastructure</p>
     </div>
     <div class="alexandra clearfix">
       <div class="flip3d clearfix">
         <div class="front"></div>
         <div class="back clearfix">
-          <a class="text text-33" href="#"></a>
+          <a class="text text-40" href="#"></a>
         </div>
       </div>
-      <p class="text _text text-34">Alexandra Pavlyshina</p>
-      <p class="text _text text-35">Quality Assurance</p>
+      <p class="text _text text-41">Alexandra Pavlyshina</p>
+      <p class="text _text text-42">Quality Assurance</p>
     </div>
     <div class="mikhaill clearfix">
       <div class="flip3d clearfix">
         <div class="front"></div>
         <div class="back clearfix">
-          <a class="text text-36" href="#"></a>
+          <a class="text text-43" href="#"></a>
         </div>
       </div>
-      <p class="text _text text-37">Mikhail Lapshin</p>
-      <p class="text _text text-38">Keyboard killer</p>
+      <p class="text _text text-44">Mikhail Lapshin</p>
+      <p class="text _text text-45">Keyboard killer</p>
     </div>
     <div class="danil danil-1 clearfix">
       <div class="flip3d clearfix">
-        <div class="front"></div>
+        <div class="front front-7"></div>
         <div class="back clearfix">
-          <a class="text text-39" href="#"></a>
+          <a class="text text-46" href="#"></a>
         </div>
       </div>
-      <p class="text _text text-40">Danil Kutkevich</p>
-      <p class="text _text text-41">Programmer</p>
+      <p class="text _text text-47">Danil Kutkevich</p>
+      <p class="text _text text-48">Programmer</p>
     </div>
     <div class="pasha clearfix">
       <div class="flip3d clearfix">
         <div class="front"></div>
         <div class="back clearfix">
-          <a class="text text-42" href="#"></a>
+          <a class="text text-49" href="#"></a>
         </div>
       </div>
-      <p class="text _text text-43">Oleg Sugatov</p>
-      <p class="text _text text-44">Master of Infrastructure</p>
+      <p class="text _text text-50">Pavel Bubentsov</p>
+      <p class="text _text text-51">Programmer</p>
     </div>
     <div class="danil danil-2 clearfix">
       <div class="flip3d clearfix">
-        <div class="front"></div>
+        <div class="front front-9"></div>
         <div class="back clearfix">
-          <a class="text text-45" href="#"></a>
+          <a class="text text-52" href="#"></a>
         </div>
       </div>
-      <p class="text _text text-46">Oleg Sugatov</p>
-      <p class="text _text text-47">Designer</p>
+      <p class="text _text text-53">Oleg Sugatov</p>
+      <p class="text _text text-54">Designer</p>
     </div>
   </section>
-  <section id="prototype" class="prototype prototype-2 clearfix">
-    <p class="text _text text-48">Order prototype</p>
-    <div class="element"></div>
-    <textarea class="_textarea"></textarea>
-    <p class="text _text text-49"></p>
-    <p class="text _text text-50">Add Files</p>
-    <button class="_button">Send</button>
+  <section class="prototype prototype-2 clearfix">
+    <div class="container _container container-14 clearfix">
+      <input class="_input _input-1" placeholder="From" type="text">
+      <input class="_input _input-2" placeholder="Email" type="text">
+      <textarea class="_textarea" placeholder="Message"></textarea>
+      <div class="container _container container-15 clearfix">
+        <p class="text _text text-55"></p>
+        <p class="text _text text-56">Add Files</p>
+      </div>
+      <button class="_button">Send</button>
+    </div>
   </section>
-  <section id="blog" class="blog blog-2 clearfix">
-    <p class="text _text text-51">Health Samurai Blog</p>
-    <article onClick="window.location='http://healthsamurai.tumblr.com/post/80559773696/formstamp-angularjs-widgets-library';" class="_container _container-15 clearfix">
-      <p class="text _text text-52">FormStamp − AngularJS widgets library</p>
-      <div class="text _text text-53">
-        <p>AngularJS is an enjoying rapid popularity growth JS framework that simplifies complex web applications development. Having used AngularJS in several projects with a need for sophisticated user interfaces, we felt a lack of a good library of uniform widgets, such as datetime picker, multiple select, combo box, etc. We knew about Angular-UI project, but it didn’t satisfy our needs.&nbsp;</p>
-        <p>&nbsp;We also wanted to have a front-end form builder, analogous to simple_form from Ruby on Rails ecosystem. Form builders allow to describe a form in a declarative way, freeing the programmer from tedious markup and errors display.</p>
+  <p class="text _text text-57">Health Samurai Blog</p>
+  <div class="container _container container-16 clearfix">
+    <div class="container _container container-17 clearfix">
+      <article class="_container _container-25 clearfix">
+        <p class="text _text text-58">FormStamp − AngularJS widgets library</p>
+        <div class="text _text text-59">
+          <p>AngularJS is an enjoying rapid popularity growth JS framework that simplifies complex web applications development. Having used AngularJS in several projects with a need for sophisticated user interfaces, we felt a lack of a good library of uniform widgets, such as datetime picker, multiple select, combo box, etc. We knew about Angular-UI project, but it didn’t satisfy our needs.&nbsp;</p>
+          <p>&nbsp;We also wanted to have a front-end form builder, analogous to simple_form from Ruby on Rails ecosystem. Form builders allow to describe a form in a declarative way, freeing the programmer from tedious markup and errors display.</p>
 </div>
-    </article>
-    <article onClick="window.location='http://healthsamurai.tumblr.com/post/96086837846/fhir';" class="_container _container-16 clearfix">
-      <p class="text _text text-54">Открытый проект по переводу стандарта FHIR!</p>
-      <div class="text _text text-55">
-        <p>Группа разработчиков HealthSamurai в составе международной компании WaveAccess и российская компания CофТраст приступили к переводу нового стандарта от организации HL7 International - FHIR.&nbsp;</p>
-        <p>Проект по переводу спецификации FHIR открыт для всех желающих! Если Вы понимаете целевое назначение стандартов от HL7 International, работаете в сфере здравоохранения или медицинских информационных технологий, а также владеете английским языком на достаточном уровне, присоединяйтесь к нашей команде переводчиков!</p>
-        <p>Перевод спецификации доступен по адресу: fhir-ru.github.io</p>
+      </article>
+      <button onClick="window.location='http://healthsamurai.tumblr.com/post/80559773696/formstamp-angularjs-widgets-library';" class="_button _button-2">read more</button>
+    </div>
+    <div class="container _container container-18 clearfix">
+      <article class="_container _container-27 clearfix">
+        <p class="text _text text-60">Открытый проект по переводу стандарта FHIR!</p>
+        <div class="text _text text-61">
+          <p>Группа разработчиков HealthSamurai в составе международной компании WaveAccess и российская компания CофТраст приступили к переводу нового стандарта от организации HL7 International - FHIR.&nbsp;</p>
+          <p>Проект по переводу спецификации FHIR открыт для всех желающих! Если Вы понимаете целевое назначение стандартов от HL7 International, работаете в сфере здравоохранения или медицинских информационных технологий, а также владеете английским языком на достаточном уровне, присоединяйтесь к нашей команде переводчиков!</p>
+          <p>Перевод спецификации доступен по адресу: fhir-ru.github.io</p>
 </div>
-    </article>
-  </section>
-  <footer class="_container _container-17 clearfix">
-    <div class="text text-56">
+      </article>
+      <button onClick="window.location='http://healthsamurai.tumblr.com/post/96086837846/fhir';" class="_button _button-3">далее</button>
+    </div>
+  </div>
+  <footer class="_container _container-28 clearfix">
+    <div class="text text-62">
       <p>Health Samurai 2015<br></p>
       <p>© All Rights Reserved&nbsp;</p>
 </div>
