@@ -21,16 +21,6 @@ body {
   overflow: hidden;
 }
 
-.alexandra {
-  position: relative;
-  float: left;
-  clear: both;
-  z-index: 56;
-  width: 52.4017467248%;
-  height: 278px;
-  margin: -278px 0 0 37.40675%;
-}
-
 .alexandra .front {
   border-radius: 100px;
   background-image: url('../images/sasha.png');
@@ -88,9 +78,7 @@ body {
 }
 
 .danil {
-  position: relative;
   float: left;
-  z-index: 70;
   width: 52.4017467248%;
   height: 278px;
   margin-top: 7px;
@@ -135,10 +123,8 @@ body {
 }
 
 .mainnav {
-  position: relative;
   float: right;
   clear: both;
-  z-index: 157;
   width: 80%;
   height: 29px;
   margin-top: -32px;
@@ -154,10 +140,9 @@ body {
   color: rgb(167, 163, 163);
 }
 
-.maxim {
-  position: relative;
+.maxim,
+.nikolay {
   float: left;
-  z-index: 49;
   width: 52.4017467248%;
   height: 278px;
 }
@@ -169,9 +154,7 @@ body {
 }
 
 .medclient {
-  position: relative;
   float: left;
-  z-index: 119;
   width: 123.0769230769%;
   height: 526px;
   margin: -183px 0 0 -11.38462%;
@@ -188,10 +171,8 @@ body {
 }
 
 .mikhail {
-  position: relative;
   float: left;
   clear: both;
-  z-index: 42;
   width: 51.2372634643%;
   height: 278px;
   margin: -278px 0 0 73.36245%;
@@ -206,16 +187,6 @@ body {
   background-image: url('../images/mikhail.png');
   background-size: 200px 200px;
   background-position: center top;
-}
-
-.mikhaill {
-  position: relative;
-  float: left;
-  clear: both;
-  z-index: 63;
-  width: 52.4017467248%;
-  height: 278px;
-  margin: -278px 0 0 73.36245%;
 }
 
 .mikhaill .front {
@@ -248,16 +219,9 @@ body {
 .navbar .text {
   display: block;
   font-size: 1.125em;
+  font-weight: 400;
   line-height: 1.38;
   color: rgb(0, 0, 0);
-}
-
-.nikolay {
-  position: relative;
-  float: left;
-  z-index: 28;
-  width: 52.4017467248%;
-  height: 278px;
 }
 
 .nikolay .front {
@@ -267,11 +231,10 @@ body {
   background-position: left bottom;
 }
 
+.mikhaill,
 .oleg {
-  position: relative;
   float: left;
   clear: both;
-  z-index: 84;
   width: 52.4017467248%;
   height: 278px;
   margin: -278px 0 0 73.36245%;
@@ -284,11 +247,10 @@ body {
   background-position: right bottom;
 }
 
+.alexandra,
 .pasha {
-  position: relative;
   float: left;
   clear: both;
-  z-index: 77;
   width: 52.4017467248%;
   height: 278px;
   margin: -278px 0 0 37.40675%;
@@ -302,10 +264,8 @@ body {
 }
 
 .pavel {
-  position: relative;
   float: left;
   clear: both;
-  z-index: 35;
   width: 51.2372634643%;
   height: 278px;
   margin: -278px 0 0 37.40675%;
@@ -319,10 +279,8 @@ body {
 }
 
 .phone {
-  position: relative;
   float: left;
   clear: both;
-  z-index: 133;
   width: 80.8139534883%;
   min-height: 24px;
   margin: -26px 0 0 11.96008%;
@@ -365,7 +323,6 @@ body {
 }
 
 .projects .element {
-  position: relative;
   float: left;
   width: 100%;
 }
@@ -433,9 +390,7 @@ body {
 .toggle-menu {
   display: block;
   visibility: hidden;
-  position: relative;
   float: left;
-  z-index: 159;
   width: 2.25%;
   min-height: 40px;
   margin: 14px 0 0 94.73828%;
@@ -473,9 +428,7 @@ body {
 
 ._button {
   display: block;
-  position: relative;
   float: left;
-  z-index: 13;
   width: 24.784217016%;
   height: 54px;
   margin: 19px 0 0 58.07292%;
@@ -490,7 +443,6 @@ body {
 
 ._input {
   display: block;
-  position: relative;
   float: left;
   width: 46.6091245376%;
   height: 46px;
@@ -589,9 +541,7 @@ body {
 }
 
 .container-15 {
-  position: relative;
   clear: both;
-  z-index: 16;
   width: 14.7965474722%;
   height: 42px;
   margin: 9px 0 0 2.18967%;
@@ -627,17 +577,13 @@ body {
 }
 
 .container-3 {
-  position: relative;
   clear: both;
-  z-index: 135;
   width: 191px;
   height: 29px;
   margin-left: 11.83402%;
 }
 
 .container-4 {
-  position: relative;
-  z-index: 132;
   width: 43.897996357%;
   height: 29px;
 }
@@ -671,7 +617,6 @@ body {
 }
 
 .element-1 {
-  z-index: 122;
   height: 133px;
   margin-top: 1264px;
   background-color: rgb(226, 226, 226);
@@ -679,15 +624,12 @@ body {
 
 .element-2 {
   clear: both;
-  z-index: 112;
   height: 552px;
   background-color: rgb(244, 242, 242);
 }
 
 .element-3 {
-  position: relative;
   float: left;
-  z-index: 87;
   width: 100%;
   height: 501px;
 }
@@ -740,10 +682,8 @@ body {
 }
 
 .image-7 {
-  position: relative;
   float: left;
   clear: both;
-  z-index: 113;
   width: 977px;
   margin: -343px 0 0 975px;
   overflow: hidden;
@@ -776,8 +716,6 @@ body {
   width: 68.0628272251%;
   min-height: 18px;
   margin: 5px 0 0 6.7509%;
-  font-family: OpenSans;
-  font-weight: normal;
 }
 
 .text-11 {
@@ -1085,8 +1023,6 @@ body {
 }
 
 .text-5 {
-  position: relative;
-  z-index: 137;
   width: 5.6464695335%;
   min-height: 32px;
   margin: -3px 0 0 0.3643%;
@@ -1174,9 +1110,7 @@ body {
 }
 
 .text-6 {
-  position: relative;
   clear: both;
-  z-index: 136;
   width: 93.8181818181%;
   min-height: 34px;
   margin: -30px 0 0 5.99101%;
@@ -1219,8 +1153,6 @@ body {
 }
 
 .text-7 {
-  position: relative;
-  z-index: 134;
   width: 12.2093023255%;
   min-height: 22px;
   margin-top: 1px;
@@ -1238,7 +1170,6 @@ body {
 .text-9 {
   float: left;
   margin: -28px 0 0 7.65625%;
-  font-weight: 400;
 }
 
 ._container-28 {
@@ -1265,31 +1196,26 @@ body {
   margin-left: -0.02344%;
 }
 
-.container ._input-1 {
-  z-index: 18;
-}
-
 .container ._input-2 {
-  z-index: 17;
   margin-left: 6.65148%;
 }
 
 .mainnav ._container-10 {
   width: 4.7330764997%;
   height: 26px;
-  margin: 2px 0 0 4.45964%;
+  margin: 2px 0 0 4.4584%;
 }
 
 .mainnav ._container-11 {
   width: 8.0208333333%;
   height: 26px;
-  margin: 2px 0 0 3.1543%;
+  margin: 2px 0 0 3.15302%;
 }
 
 .mainnav ._container-12 {
   width: 3.7424325811%;
   height: 26px;
-  margin: 2px 0 0 3.65072%;
+  margin: 2px 0 0 3.64913%;
 }
 
 .mainnav ._container-6 {
@@ -1300,19 +1226,19 @@ body {
 .mainnav ._container-7 {
   width: 6.4942212438%;
   height: 26px;
-  margin: 2px 0 0 42.35677%;
+  margin: 2px 0 0 42.35562%;
 }
 
 .mainnav ._container-8 {
   width: 4.5129334067%;
   height: 26px;
-  margin: 2px 0 0 3.48796%;
+  margin: 2px 0 0 3.48761%;
 }
 
 .mainnav ._container-9 {
   width: 6.3841496973%;
   height: 26px;
-  margin: 2px 0 0 3.61491%;
+  margin: 2px 0 0 3.61452%;
 }
 
 .mainnav ._text-10 {
@@ -1332,7 +1258,7 @@ body {
 
 .mainnav ._text-9 {
   width: 99.8263888888%;
-  margin-right: 1.00251%;
+  margin-right: 0.98985%;
 }
 
 .text a {
@@ -1389,14 +1315,8 @@ body {
     margin-top: 63px;
   }
 
-  .contacts .text {
-    position: relative;
-  }
-
   .container .email {
-    position: relative;
     clear: both;
-    z-index: 130;
     margin-top: -27px;
     margin-left: 13.55057%;
     text-align: center;
@@ -1408,8 +1328,6 @@ body {
   }
 
   .container .phone {
-    position: relative;
-    z-index: 133;
     width: 76.3532763532%;
     margin-top: -28px;
     margin-left: 11.24911%;
@@ -1450,15 +1368,11 @@ body {
   }
 
   .navbar .mainnav {
-    position: relative;
-    z-index: 157;
     margin-top: -35px;
   }
 
   .navbar .toggle-menu {
     visibility: visible;
-    position: relative;
-    z-index: 159;
     width: 4%;
     margin-top: 17px;
     margin-left: 93.05882%;
@@ -1476,10 +1390,6 @@ body {
     z-index: 128;
     height: 629px;
     margin-top: 910px;
-  }
-
-  .projects .element {
-    position: relative;
   }
 
   .projects .slidernav {
@@ -1503,8 +1413,6 @@ body {
   }
 
   .screens .medclient {
-    position: relative;
-    z-index: 119;
     width: 100%;
     height: 496px;
     margin-top: 0;
@@ -1524,53 +1432,17 @@ body {
   }
 
   .team .alexandra {
-    position: relative;
-    z-index: 56;
     margin-top: -283px;
     margin-left: 37.39993%;
   }
 
-  .team .danil {
-    position: relative;
-    z-index: 70;
-  }
-
-  .team .maxim {
-    position: relative;
-    z-index: 49;
-  }
-
   .team .mikhail {
-    position: relative;
-    z-index: 42;
     margin-top: -283px;
     margin-left: 74.37682%;
   }
 
-  .team .mikhaill {
-    position: relative;
-    z-index: 63;
-  }
-
-  .team .nikolay {
-    position: relative;
-    z-index: 28;
-  }
-
-  .team .oleg {
-    position: relative;
-    z-index: 84;
-  }
-
-  .team .pasha {
-    position: relative;
-    z-index: 77;
-    margin-left: 37.39993%;
-  }
-
+  .team .pasha,
   .team .pavel {
-    position: relative;
-    z-index: 35;
     margin-left: 37.39993%;
   }
 
@@ -1585,15 +1457,12 @@ body {
   }
 
   .container ._button {
-    position: relative;
-    z-index: 13;
     width: 23.2259380097%;
     margin-top: 15px;
     margin-left: 46.38103%;
   }
 
   .container ._input {
-    position: relative;
     width: 43.67862969%;
   }
 
@@ -1630,17 +1499,13 @@ body {
   }
 
   .contacts .container-3 {
-    position: relative;
-    z-index: 135;
     width: 351px;
     margin-top: 15px;
     margin-left: 0;
   }
 
   .contacts .container-4 {
-    position: relative;
     clear: both;
-    z-index: 132;
     width: 100%;
     margin-top: 14px;
   }
@@ -1663,8 +1528,6 @@ body {
   }
 
   .container .container-15 {
-    position: relative;
-    z-index: 16;
     width: 22.1859706362%;
     margin-top: 15px;
     margin-left: 1.79291%;
@@ -1750,7 +1613,6 @@ body {
   }
 
   .container .text-5 {
-    z-index: 137;
     margin-left: 0.36058%;
   }
 
@@ -1771,7 +1633,6 @@ body {
   }
 
   .container .text-6 {
-    z-index: 136;
     margin-left: 5.98736%;
   }
 
@@ -1781,14 +1642,12 @@ body {
   }
 
   .container .text-7 {
-    z-index: 134;
     width: 4.5584045584%;
     margin-top: 0;
     margin-left: 22.21332%;
   }
 
   .container .text-8 {
-    z-index: 131;
     width: 8.547008547%;
     margin-left: 13.55057%;
   }
@@ -1869,11 +1728,6 @@ body {
     margin-left: auto;
   }
 
-  .process .element-3 {
-    position: relative;
-    z-index: 87;
-  }
-
   .process .element-4 {
     left: 0;
     right: 0;
@@ -1883,12 +1737,10 @@ body {
   }
 
   .projects .element-1 {
-    z-index: 122;
     margin-top: 0;
   }
 
   .projects .element-2 {
-    z-index: 112;
     height: 496px;
   }
 
@@ -1906,8 +1758,6 @@ body {
   }
 
   .screens .image-7 {
-    position: relative;
-    z-index: 113;
     width: 894px;
     height: auto;
     margin-top: -314px;
@@ -1993,12 +1843,7 @@ body {
     margin-left: 0;
   }
 
-  .container ._input-1 {
-    z-index: 18;
-  }
-
   .container ._input-2 {
-    z-index: 17;
     margin-left: 6.13874%;
   }
 
@@ -2079,29 +1924,15 @@ body {
     margin-top: 8px;
   }
 
-  .contacts .text,
-  .projects .element {
-    position: relative;
-  }
-
-  .container .email {
-    position: relative;
-    z-index: 130;
-  }
-
   .container .image {
     height: auto;
     margin-left: -0.21653%;
   }
 
-  .container .phone {
-    position: relative;
-    z-index: 133;
-  }
-
   .about .image,
   .container .small-logo,
-  .medclient .image-6 {
+  .medclient .image-6,
+  .screens .image-7 {
     height: auto;
   }
 
@@ -2119,14 +1950,7 @@ body {
     margin-left: 29.34485%;
   }
 
-  .navbar .mainnav {
-    position: relative;
-    z-index: 157;
-  }
-
   .navbar .toggle-menu {
-    position: relative;
-    z-index: 159;
     margin-left: 93.058%;
   }
 
@@ -2159,11 +1983,6 @@ body {
     margin-left: auto;
   }
 
-  .screens .medclient {
-    position: relative;
-    z-index: 119;
-  }
-
   .slidernav .image {
     height: auto;
   }
@@ -2179,70 +1998,48 @@ body {
   }
 
   .team .alexandra {
-    position: relative;
     clear: none;
-    z-index: 56;
     width: 360px;
     margin-top: 7px;
     margin-left: 0;
   }
 
   .team .danil {
-    position: relative;
-    z-index: 70;
     width: 360px;
     margin-top: 0;
   }
 
   .team .maxim {
-    position: relative;
     clear: both;
-    z-index: 49;
     width: 360px;
     margin-top: -283px;
     margin-left: 55.17095%;
   }
 
   .team .mikhail {
-    position: relative;
     clear: none;
-    z-index: 42;
     width: 352px;
     margin-top: 0;
     margin-left: 0;
   }
 
-  .team .mikhaill {
-    position: relative;
-    z-index: 63;
-    width: 360px;
-    margin-left: 55.17095%;
-  }
-
   .team .nikolay {
-    position: relative;
-    z-index: 28;
     width: 360px;
   }
 
   .team .oleg {
-    position: relative;
-    z-index: 84;
     width: 360px;
     margin-top: 0;
     margin-left: 30.3798%;
   }
 
+  .team .mikhaill,
   .team .pasha {
-    position: relative;
-    z-index: 77;
     width: 360px;
     margin-left: 55.17095%;
   }
 
   .team .pavel {
-    position: relative;
-    z-index: 35;
     width: 352px;
     margin-left: 57.14728%;
   }
@@ -2253,8 +2050,6 @@ body {
   }
 
   .container ._button {
-    position: relative;
-    z-index: 13;
     width: 29.503916449%;
     height: 41px;
     margin-top: 10px;
@@ -2262,7 +2057,6 @@ body {
   }
 
   .container ._input {
-    position: relative;
     width: 46.7362924281%;
   }
 
@@ -2279,16 +2073,6 @@ body {
     margin-left: -7.5%;
   }
 
-  .contacts .container-3 {
-    position: relative;
-    z-index: 135;
-  }
-
-  .contacts .container-4 {
-    position: relative;
-    z-index: 132;
-  }
-
   .container .container-12 {
     margin-left: 13.34995%;
   }
@@ -2298,8 +2082,6 @@ body {
   }
 
   .container .container-15 {
-    position: relative;
-    z-index: 16;
     width: 31.6988608221%;
     margin-top: 10px;
     margin-left: 0;
@@ -2317,14 +2099,10 @@ body {
   }
 
   .container .container-8 {
-    position: relative;
-    z-index: 103;
     margin-left: 6.7206%;
   }
 
   .container .container-9 {
-    position: relative;
-    z-index: 109;
     margin-left: 71.10175%;
   }
 
@@ -2357,10 +2135,6 @@ body {
     margin-left: 8.32309%;
   }
 
-  .container .text-5 {
-    z-index: 137;
-  }
-
   .container .text-55 {
     margin-left: -0.54054%;
   }
@@ -2372,18 +2146,6 @@ body {
   .container .text-58,
   .container .text-59 {
     margin-left: -0.07009%;
-  }
-
-  .container .text-6 {
-    z-index: 136;
-  }
-
-  .container .text-7 {
-    z-index: 134;
-  }
-
-  .container .text-8 {
-    z-index: 131;
   }
 
   .container-16 {
@@ -2415,17 +2177,7 @@ body {
   }
 
   .process .element-3 {
-    position: relative;
-    z-index: 87;
     height: 348px;
-  }
-
-  .projects .element-1 {
-    z-index: 122;
-  }
-
-  .projects .element-2 {
-    z-index: 112;
   }
 
   .prototype .container-14 {
@@ -2437,12 +2189,6 @@ body {
   .prototype-2 {
     position: relative;
     z-index: 20;
-  }
-
-  .screens .image-7 {
-    position: relative;
-    z-index: 113;
-    height: auto;
   }
 
   .slidernav .image-1 {
@@ -2506,12 +2252,7 @@ body {
     margin-left: -0.2581300001%;
   }
 
-  .container ._input-1 {
-    z-index: 18;
-  }
-
   .container ._input-2 {
-    z-index: 17;
     margin-left: 6.52742%;
   }
 
@@ -2584,20 +2325,12 @@ body {
     margin-top: 0;
   }
 
-  .contacts .text {
-    position: relative;
-  }
-
   .container .email {
-    position: relative;
-    z-index: 130;
     width: 100%;
     margin-left: 0;
   }
 
   .container .phone {
-    position: relative;
-    z-index: 133;
     width: 100%;
     margin-top: -19px;
     margin-left: 0;
@@ -2606,7 +2339,8 @@ body {
   .about .image,
   .container .image,
   .container .small-logo,
-  .medclient .image-6 {
+  .medclient .image-6,
+  .screens .image-7 {
     height: auto;
   }
 
@@ -2615,14 +2349,7 @@ body {
     margin-left: 22.0522%;
   }
 
-  .navbar .mainnav {
-    position: relative;
-    z-index: 157;
-  }
-
   .navbar .toggle-menu {
-    position: relative;
-    z-index: 159;
     margin-left: 93.05664%;
   }
 
@@ -2637,10 +2364,6 @@ body {
     position: relative;
     z-index: 128;
     margin-top: 1124px;
-  }
-
-  .projects .element {
-    position: relative;
   }
 
   .projects .slidernav {
@@ -2659,11 +2382,6 @@ body {
     margin-left: auto;
   }
 
-  .screens .medclient {
-    position: relative;
-    z-index: 119;
-  }
-
   .slidernav .image {
     height: auto;
   }
@@ -2679,60 +2397,27 @@ body {
   }
 
   .team .alexandra {
-    position: relative;
     clear: both;
-    z-index: 56;
     margin-top: 0;
   }
 
   .team .danil {
-    position: relative;
     clear: both;
-    z-index: 70;
-  }
-
-  .team .maxim {
-    position: relative;
-    z-index: 49;
-    margin-top: 0;
-    margin-left: 0;
   }
 
   .team .mikhail {
-    position: relative;
     clear: both;
-    z-index: 42;
     margin-top: -5px;
   }
 
-  .team .mikhaill {
-    position: relative;
-    z-index: 63;
-    margin-top: 0;
-    margin-left: 0;
-  }
-
-  .team .nikolay {
-    position: relative;
-    z-index: 28;
-  }
-
   .team .oleg {
-    position: relative;
-    z-index: 84;
     margin-left: 0;
   }
 
-  .team .pasha {
-    position: relative;
-    z-index: 77;
-    margin-top: 0;
-    margin-left: 0;
-  }
-
+  .team .maxim,
+  .team .mikhaill,
+  .team .pasha,
   .team .pavel {
-    position: relative;
-    z-index: 35;
     margin-top: 0;
     margin-left: 0;
   }
@@ -2743,16 +2428,10 @@ body {
   }
 
   .container ._button {
-    position: relative;
-    z-index: 13;
     width: 35.2601156069%;
     height: 42px;
     margin-top: 15px;
     margin-left: 17.91908%;
-  }
-
-  .container ._input {
-    position: relative;
   }
 
   .container ._textarea {
@@ -2788,14 +2467,10 @@ body {
   }
 
   .contacts .container-3 {
-    position: relative;
-    z-index: 135;
     margin-top: 14px;
   }
 
   .contacts .container-4 {
-    position: relative;
-    z-index: 132;
     margin-top: 26px;
   }
 
@@ -2821,24 +2496,18 @@ body {
   }
 
   .container .container-15 {
-    position: relative;
-    z-index: 16;
     width: 44.7976878612%;
     margin-top: 15px;
     margin-left: 2.0186099999%;
   }
 
   .container .container-17 {
-    position: relative;
-    z-index: 5;
     width: 100.0048830509%;
     height: 481px;
     margin-left: -0.00389%;
   }
 
   .container .container-18 {
-    position: relative;
-    z-index: 9;
     height: 463px;
     margin-top: -28px;
   }
@@ -2848,17 +2517,13 @@ body {
   }
 
   .container .container-8 {
-    position: relative;
     clear: both;
-    z-index: 103;
     width: 64.7916666666%;
     margin-top: 6px;
     margin-left: 19.79167%;
   }
 
   .container .container-9 {
-    position: relative;
-    z-index: 109;
     width: 64.7916666666%;
     margin-top: 5px;
     margin-left: 19.69727%;
@@ -2924,7 +2589,6 @@ body {
 
   .container .text-5 {
     visibility: hidden;
-    z-index: 137;
     margin-left: 0.35613%;
   }
 
@@ -2944,7 +2608,6 @@ body {
   }
 
   .container .text-6 {
-    z-index: 136;
     width: 99.493670886%;
     margin-left: 0.36503%;
   }
@@ -2960,14 +2623,12 @@ body {
 
   .container .text-7 {
     visibility: hidden;
-    z-index: 134;
     margin-top: 1px;
     margin-left: 0;
   }
 
   .container .text-8 {
     visibility: hidden;
-    z-index: 131;
     margin-left: 0;
   }
 
@@ -3049,8 +2710,6 @@ body {
   }
 
   .process .element-3 {
-    position: relative;
-    z-index: 87;
     height: 393px;
   }
 
@@ -3060,14 +2719,6 @@ body {
     right: 0;
     margin-right: auto;
     margin-left: auto;
-  }
-
-  .projects .element-1 {
-    z-index: 122;
-  }
-
-  .projects .element-2 {
-    z-index: 112;
   }
 
   .prototype .container-14 {
@@ -3080,12 +2731,6 @@ body {
   .prototype-2 {
     position: relative;
     z-index: 20;
-  }
-
-  .screens .image-7 {
-    position: relative;
-    z-index: 113;
-    height: auto;
   }
 
   .slidernav .image-1 {
@@ -3162,13 +2807,11 @@ body {
   }
 
   .container ._input-1 {
-    z-index: 18;
     width: 100%;
   }
 
   .container ._input-2 {
     clear: both;
-    z-index: 17;
     width: 99.7109826589%;
     margin-top: 22px;
     margin-left: 0;
@@ -3217,7 +2860,8 @@ body {
     z-index: 133;
   }
 
-  .container .small-logo {
+  .container .small-logo,
+  .screens .image-7 {
     height: auto;
   }
 
@@ -3275,11 +2919,6 @@ body {
     margin-left: auto;
   }
 
-  .screens .medclient {
-    position: relative;
-    z-index: 119;
-  }
-
   .slidernav .image {
     height: auto;
   }
@@ -3292,44 +2931,9 @@ body {
     margin-left: auto;
   }
 
-  .team .alexandra {
-    position: relative;
-    z-index: 56;
-  }
-
-  .team .danil {
-    position: relative;
-    z-index: 70;
-  }
-
-  .team .maxim {
-    position: relative;
-    z-index: 49;
-  }
-
   .team .mikhail {
     position: relative;
     z-index: 42;
-  }
-
-  .team .mikhaill {
-    position: relative;
-    z-index: 63;
-  }
-
-  .team .nikolay {
-    position: relative;
-    z-index: 28;
-  }
-
-  .team .oleg {
-    position: relative;
-    z-index: 84;
-  }
-
-  .team .pasha {
-    position: relative;
-    z-index: 77;
   }
 
   .team .pavel {
@@ -3348,10 +2952,7 @@ body {
     margin-left: 9.70313%;
   }
 
-  .container ._input {
-    position: relative;
-  }
-
+  .container ._input-2,
   .container ._textarea {
     width: 100%;
   }
@@ -3365,16 +2966,6 @@ body {
     margin-top: 28px;
     font-size: 1.313em;
     line-height: 1.18;
-  }
-
-  .contacts .container-3 {
-    position: relative;
-    z-index: 135;
-  }
-
-  .contacts .container-4 {
-    position: relative;
-    z-index: 132;
   }
 
   .container .container-12 {
@@ -3392,15 +2983,7 @@ body {
     margin-left: 6.01563%;
   }
 
-  .container .container-17 {
-    position: relative;
-    z-index: 5;
-    margin-left: 0;
-  }
-
   .container .container-18 {
-    position: relative;
-    z-index: 9;
     margin-top: 18px;
   }
 
@@ -3411,16 +2994,12 @@ body {
   }
 
   .container .container-8 {
-    position: relative;
-    z-index: 103;
     width: 70.3333333333%;
     margin-top: 0;
     margin-left: 16.66667%;
   }
 
   .container .container-9 {
-    position: relative;
-    z-index: 109;
     width: 75.3333333333%;
     margin-top: 0;
     margin-left: 14.32813%;
@@ -3455,6 +3034,7 @@ body {
     margin-left: 3.92978%;
   }
 
+  .container .container-17,
   .container .text-58,
   .container .text-59 {
     margin-left: 0;
@@ -3541,25 +3121,29 @@ body {
     height: 442px;
   }
 
-  .screens .image-7 {
-    position: relative;
-    z-index: 113;
-    height: auto;
-  }
-
   .slidernav .image-1 {
+    position: relative;
+    z-index: 126;
     width: 52px;
     margin-top: 7px;
     margin-left: 0.37175%;
   }
 
-  .slidernav .image-2,
+  .slidernav .image-2 {
+    position: relative;
+    z-index: 125;
+    width: 52px;
+    margin-left: 4.82691%;
+  }
+
   .slidernav .image-3 {
     width: 52px;
     margin-left: 4.82691%;
   }
 
   .slidernav .image-4 {
+    position: relative;
+    z-index: 123;
     width: 67px;
     margin-left: 4.80948%;
   }
@@ -3616,12 +3200,41 @@ body {
     margin-left: -0.00523%;
   }
 
-  .container ._input-1 {
-    z-index: 18;
+  .mainnav ._container-11 {
+    clear: both;
+    width: 37.2807017543%;
+    margin-top: 0;
+    margin-left: 56.51727%;
   }
 
-  .container ._input-2 {
-    z-index: 17;
-    width: 100%;
+  .mainnav ._container-10,
+  .mainnav ._container-12,
+  .mainnav ._container-8 {
+    clear: both;
+    margin-top: 0;
+    margin-left: 72.33416%;
+  }
+
+  .mainnav ._container-6 {
+    display: block;
+  }
+
+  .mainnav ._container-7 {
+    position: relative;
+    z-index: 155;
+    width: 31.1403508771%;
+    margin-top: 43px;
+    margin-left: 62.65762%;
+  }
+
+  .mainnav ._container-9 {
+    clear: both;
+    width: 31.5789473684%;
+    margin-top: 0;
+    margin-left: 62.65762%;
+  }
+
+  .mainnav ._text-9 {
+    margin-right: 0;
   }
 }
