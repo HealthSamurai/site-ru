@@ -4,20 +4,15 @@ body {
   color: rgb(0, 0, 0);
 }
 
-.text-59 p,
-.text-61 p,
-footer p {
-  margin-bottom: 1em;
-}
-
 .about {
   position: relative;
   float: left;
   clear: both;
-  z-index: 145;
-  width: 100%;
-  height: 463px;
-  margin-top: -1579px;
+  z-index: 143;
+  width: 98.75%;
+  height: 724px;
+  margin-top: -1766px;
+  padding-top: 200px;
 }
 
 .about .image {
@@ -30,7 +25,7 @@ footer p {
   position: relative;
   float: left;
   clear: both;
-  z-index: 58;
+  z-index: 56;
   width: 52.4017467248%;
   height: 278px;
   margin: -278px 0 0 37.40675%;
@@ -95,13 +90,17 @@ footer p {
 .danil {
   position: relative;
   float: left;
+  z-index: 70;
   width: 52.4017467248%;
   height: 278px;
+  margin-top: 7px;
 }
 
 .danil .front {
   border-radius: 100px;
+  background-image: url('../images/danil.png');
   background-size: 200px 200px;
+  background-position: center center;
 }
 
 .email {
@@ -139,7 +138,7 @@ footer p {
   position: relative;
   float: right;
   clear: both;
-  z-index: 159;
+  z-index: 157;
   width: 80%;
   height: 29px;
   margin-top: -32px;
@@ -158,7 +157,7 @@ footer p {
 .maxim {
   position: relative;
   float: left;
-  z-index: 51;
+  z-index: 49;
   width: 52.4017467248%;
   height: 278px;
 }
@@ -172,7 +171,7 @@ footer p {
 .medclient {
   position: relative;
   float: left;
-  z-index: 121;
+  z-index: 119;
   width: 123.0769230769%;
   height: 526px;
   margin: -183px 0 0 -11.38462%;
@@ -192,7 +191,7 @@ footer p {
   position: relative;
   float: left;
   clear: both;
-  z-index: 44;
+  z-index: 42;
   width: 51.2372634643%;
   height: 278px;
   margin: -278px 0 0 73.36245%;
@@ -213,7 +212,7 @@ footer p {
   position: relative;
   float: left;
   clear: both;
-  z-index: 65;
+  z-index: 63;
   width: 52.4017467248%;
   height: 278px;
   margin: -278px 0 0 73.36245%;
@@ -230,7 +229,7 @@ footer p {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 165;
+  z-index: 163;
   width: 100%;
   height: 74px;
   background-color: rgb(255, 255, 255);
@@ -241,7 +240,7 @@ footer p {
   position: absolute;
   top: 23px;
   left: 2.5807291666%;
-  z-index: 164;
+  z-index: 162;
   width: 209px;
   height: 32px;
 }
@@ -256,7 +255,7 @@ footer p {
 .nikolay {
   position: relative;
   float: left;
-  z-index: 30;
+  z-index: 28;
   width: 52.4017467248%;
   height: 278px;
 }
@@ -268,11 +267,28 @@ footer p {
   background-position: left bottom;
 }
 
+.oleg {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 84;
+  width: 52.4017467248%;
+  height: 278px;
+  margin: -278px 0 0 73.36245%;
+}
+
+.oleg .front {
+  border-radius: 100px;
+  background-image: url('../images/oleg.png');
+  background-size: 200px 200px;
+  background-position: right bottom;
+}
+
 .pasha {
   position: relative;
   float: left;
   clear: both;
-  z-index: 79;
+  z-index: 77;
   width: 52.4017467248%;
   height: 278px;
   margin: -278px 0 0 37.40675%;
@@ -289,7 +305,7 @@ footer p {
   position: relative;
   float: left;
   clear: both;
-  z-index: 37;
+  z-index: 35;
   width: 51.2372634643%;
   height: 278px;
   margin: -278px 0 0 37.40675%;
@@ -306,7 +322,7 @@ footer p {
   position: relative;
   float: left;
   clear: both;
-  z-index: 135;
+  z-index: 133;
   width: 80.8139534883%;
   min-height: 24px;
   margin: -26px 0 0 11.96008%;
@@ -320,7 +336,7 @@ footer p {
   position: relative;
   float: left;
   clear: both;
-  z-index: 101;
+  z-index: 99;
   width: 100%;
   height: 501px;
 }
@@ -342,7 +358,7 @@ footer p {
 .projects {
   position: relative;
   float: left;
-  z-index: 130;
+  z-index: 128;
   width: 100%;
   height: 1949px;
   margin-top: -183px;
@@ -363,7 +379,7 @@ footer p {
   position: absolute;
   top: 209px;
   left: 0;
-  z-index: 122;
+  z-index: 120;
   width: 100%;
   height: 343px;
   -webkit-transition: all 2s ease;
@@ -378,7 +394,7 @@ footer p {
   top: 1283px;
   left: 0;
   right: 0;
-  z-index: 129;
+  z-index: 127;
   width: 596px;
   max-width: 600px;
   height: 87px;
@@ -403,10 +419,15 @@ footer p {
   top: 2930px;
   left: 0;
   right: 0;
-  z-index: 87;
+  z-index: 85;
   width: 687px;
   height: 857px;
   margin: 0 auto;
+}
+
+.text-59 p,
+.text-61 p {
+  margin-bottom: 1em;
 }
 
 .toggle-menu {
@@ -414,7 +435,7 @@ footer p {
   visibility: hidden;
   position: relative;
   float: left;
-  z-index: 161;
+  z-index: 159;
   width: 2.25%;
   min-height: 40px;
   margin: 14px 0 0 94.73828%;
@@ -427,7 +448,7 @@ footer p {
   position: fixed;
   top: 400px;
   left: 92.2486979166%;
-  z-index: 166;
+  z-index: 164;
   width: 3.9166666666%;
   min-height: 39px;
   font: normal 3.313em/1.38 FontAwesome;
@@ -439,13 +460,14 @@ footer p {
 }
 
 .viewport {
-  position: relative;
-  float: left;
-  clear: both;
-  z-index: 123;
-  width: 81.25%;
+  position: absolute;
+  top: 1397px;
+  left: 0;
+  right: 0;
+  z-index: 121;
+  width: 975px;
   height: 552px;
-  margin: -552px 0 0 9.33073%;
+  margin: 0 auto;
   overflow: hidden;
 }
 
@@ -453,7 +475,13 @@ footer p {
   display: block;
   position: relative;
   float: left;
+  z-index: 13;
+  width: 24.784217016%;
+  height: 54px;
+  margin: 19px 0 0 58.07292%;
+  border-radius: 3px;
   background-color: rgb(222, 222, 222);
+  font-size: 1em;
   font-weight: 400;
   line-height: 1.38;
   text-align: center;
@@ -494,18 +522,6 @@ footer p {
   float: left;
 }
 
-.alexandra ._text,
-.danil ._text,
-.maxim ._text,
-.mikhaill ._text,
-.nikolay ._text,
-.pasha ._text {
-  float: left;
-  clear: both;
-  line-height: 1.38;
-  color: rgb(0, 0, 0);
-}
-
 .mainnav ._container {
   float: left;
 }
@@ -528,13 +544,17 @@ footer p {
   color: rgb(0, 0, 0);
 }
 
-.prototype ._button {
-  z-index: 15;
-  width: 24.784217016%;
-  height: 54px;
-  margin: 19px 0 0 58.07292%;
-  border-radius: 3px;
-  font-size: 1em;
+.alexandra ._text,
+.danil ._text,
+.maxim ._text,
+.mikhaill ._text,
+.nikolay ._text,
+.oleg ._text,
+.pasha ._text {
+  float: left;
+  clear: both;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
 }
 
 .container-10 {
@@ -542,7 +562,7 @@ footer p {
   top: 359px;
   left: 0;
   right: 0;
-  z-index: 100;
+  z-index: 98;
   width: 56.4999999999%;
   margin: 0 auto;
 }
@@ -553,12 +573,12 @@ footer p {
 
 .container-12 {
   width: 29.4506195335%;
-  margin-left: 9.47424%;
+  margin-left: 9.4741%;
 }
 
 .container-13 {
   width: 24.6355685131%;
-  margin-left: 9.45146%;
+  margin-left: 9.44875%;
 }
 
 .container-14 {
@@ -571,7 +591,7 @@ footer p {
 .container-15 {
   position: relative;
   clear: both;
-  z-index: 18;
+  z-index: 16;
   width: 14.7965474722%;
   height: 42px;
   margin: 9px 0 0 2.18967%;
@@ -582,7 +602,7 @@ footer p {
   top: 4468px;
   left: 0;
   right: 0;
-  z-index: 12;
+  z-index: 10;
   width: 821px;
   height: 459px;
   margin: 0 auto;
@@ -590,14 +610,14 @@ footer p {
 
 .container-17 {
   width: 400px;
-  height: 423px;
-  margin-left: -0.00761%;
+  height: 459px;
+  margin-left: -0.059%;
 }
 
 .container-18 {
   width: 400px;
   height: 459px;
-  margin-left: 2.54644%;
+  margin-left: 2.60163%;
 }
 
 .container-2 {
@@ -609,7 +629,7 @@ footer p {
 .container-3 {
   position: relative;
   clear: both;
-  z-index: 137;
+  z-index: 135;
   width: 191px;
   height: 29px;
   margin-left: 11.83402%;
@@ -617,7 +637,7 @@ footer p {
 
 .container-4 {
   position: relative;
-  z-index: 134;
+  z-index: 132;
   width: 43.897996357%;
   height: 29px;
 }
@@ -627,7 +647,7 @@ footer p {
   top: 1883px;
   left: 0;
   right: 0;
-  z-index: 112;
+  z-index: 110;
   width: 835px;
   height: 310px;
   margin: 0 auto;
@@ -650,19 +670,8 @@ footer p {
   margin-left: 20.35367%;
 }
 
-.danil-1 {
-  z-index: 72;
-  margin-top: 7px;
-}
-
-.danil-2 {
-  clear: both;
-  z-index: 86;
-  margin: -278px 0 0 73.36245%;
-}
-
 .element-1 {
-  z-index: 124;
+  z-index: 122;
   height: 133px;
   margin-top: 1264px;
   background-color: rgb(226, 226, 226);
@@ -670,7 +679,7 @@ footer p {
 
 .element-2 {
   clear: both;
-  z-index: 114;
+  z-index: 112;
   height: 552px;
   background-color: rgb(244, 242, 242);
 }
@@ -678,7 +687,7 @@ footer p {
 .element-3 {
   position: relative;
   float: left;
-  z-index: 89;
+  z-index: 87;
   width: 100%;
   height: 501px;
 }
@@ -688,7 +697,7 @@ footer p {
   top: 44px;
   left: 0;
   right: 0;
-  z-index: 90;
+  z-index: 88;
   width: 920px;
   height: 296px;
   margin: 0 auto;
@@ -696,16 +705,6 @@ footer p {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left top;
-}
-
-.front-7 {
-  background-image: url('../images/danil.png');
-  background-position: center center;
-}
-
-.front-9 {
-  background-image: url('../images/oleg.png');
-  background-position: right bottom;
 }
 
 .image-1 {
@@ -744,7 +743,7 @@ footer p {
   position: relative;
   float: left;
   clear: both;
-  z-index: 115;
+  z-index: 113;
   width: 977px;
   margin: -343px 0 0 975px;
   overflow: hidden;
@@ -754,7 +753,7 @@ footer p {
   position: relative;
   float: left;
   clear: both;
-  z-index: 22;
+  z-index: 20;
   width: 100%;
   height: 465px;
   background-color: rgb(244, 242, 242);
@@ -784,7 +783,7 @@ footer p {
 .text-11 {
   position: relative;
   float: left;
-  z-index: 131;
+  z-index: 129;
   width: 100%;
   margin-top: -802px;
   padding-top: 40px;
@@ -799,7 +798,7 @@ footer p {
 .text-12 {
   position: relative;
   float: left;
-  z-index: 113;
+  z-index: 111;
   width: 100%;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -811,9 +810,8 @@ footer p {
 }
 
 .text-13 {
-  width: 44.1717791411%;
+  width: 47.8787878787%;
   min-height: 108px;
-  margin-left: 27.57576%;
   font: normal 4.375em/1.38 FontAwesome;
   color: rgb(117, 117, 117);
 }
@@ -832,7 +830,6 @@ footer p {
 .text-15 {
   width: 24.8520710059%;
   min-height: 108px;
-  margin-left: 37.24432%;
   font: normal 4.375em/1.38 FontAwesome;
   color: rgb(117, 117, 117);
 }
@@ -851,7 +848,6 @@ footer p {
 .text-17 {
   width: 49.0797546012%;
   min-height: 108px;
-  margin-left: 25.12311%;
   font: normal 4.375em/1.38 FontAwesome;
   color: rgb(117, 117, 117);
 }
@@ -871,7 +867,7 @@ footer p {
   position: relative;
   float: left;
   clear: both;
-  z-index: 102;
+  z-index: 100;
   width: 100%;
   margin-top: 310px;
   padding-top: 40px;
@@ -893,18 +889,10 @@ footer p {
   color: rgb(0, 0, 0);
 }
 
-.text-20 {
-  width: 100%;
-  min-height: 25px;
-  margin-left: -0.00845%;
-  font-size: 1.125em;
-}
-
 .text-21 {
   clear: both;
   width: 100%;
   min-height: 27px;
-  margin-left: -0.00845%;
   font-family: FontAwesome;
   font-size: 1em;
   font-weight: 400;
@@ -920,12 +908,13 @@ footer p {
   clear: both;
   width: 91.1330049261%;
   min-height: 27px;
-  margin-left: 3.91399%;
+  margin-left: 3.91267%;
   font-family: FontAwesome;
   font-size: 1em;
   font-weight: 400;
 }
 
+.text-20,
 .text-24 {
   width: 100%;
   min-height: 25px;
@@ -936,7 +925,7 @@ footer p {
   clear: both;
   width: 97.3684210526%;
   min-height: 27px;
-  margin-left: 1.02645%;
+  margin-left: 1.01974%;
   font-family: FontAwesome;
   font-size: 1em;
   font-weight: 400;
@@ -946,7 +935,7 @@ footer p {
   position: relative;
   float: left;
   clear: both;
-  z-index: 88;
+  z-index: 86;
   width: 100%;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -961,7 +950,7 @@ footer p {
   position: relative;
   float: left;
   clear: both;
-  z-index: 23;
+  z-index: 21;
   width: 100%;
   margin-top: 841px;
   padding-top: 40px;
@@ -1097,7 +1086,7 @@ footer p {
 
 .text-5 {
   position: relative;
-  z-index: 139;
+  z-index: 137;
   width: 5.6464695335%;
   min-height: 32px;
   margin: -3px 0 0 0.3643%;
@@ -1163,7 +1152,7 @@ footer p {
   position: relative;
   float: left;
   clear: both;
-  z-index: 13;
+  z-index: 11;
   width: 99.9166666666%;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -1187,7 +1176,7 @@ footer p {
 .text-6 {
   position: relative;
   clear: both;
-  z-index: 138;
+  z-index: 136;
   width: 93.8181818181%;
   min-height: 34px;
   margin: -30px 0 0 5.99101%;
@@ -1231,7 +1220,7 @@ footer p {
 
 .text-7 {
   position: relative;
-  z-index: 136;
+  z-index: 134;
   width: 12.2093023255%;
   min-height: 22px;
   margin-top: 1px;
@@ -1264,47 +1253,24 @@ footer p {
   background-color: rgb(255, 255, 255);
 }
 
-.container ._button-2 {
-  clear: both;
-  z-index: 5;
-  width: 36.3354037267%;
-  height: 28px;
-  margin-top: -43px;
-  border-radius: 20px;
-  font-size: 0.875em;
-}
-
-.container ._button-3 {
-  clear: both;
-  z-index: 10;
-  width: 35.7798165137%;
-  height: 28px;
-  margin: -88px 0 0 -0.02344%;
-  border-radius: 20px;
-  font-size: 0.875em;
-}
-
 .container ._container-25 {
-  position: relative;
-  z-index: 4;
   width: 100%;
-  height: 437px;
+  height: 389px;
+  margin-left: -0.10547%;
 }
 
 .container ._container-27 {
-  position: relative;
-  z-index: 9;
   width: 100%;
   height: 517px;
   margin-left: -0.02344%;
 }
 
 .container ._input-1 {
-  z-index: 20;
+  z-index: 18;
 }
 
 .container ._input-2 {
-  z-index: 19;
+  z-index: 17;
   margin-left: 6.65148%;
 }
 
@@ -1369,11 +1335,53 @@ footer p {
   margin-right: 1.00251%;
 }
 
+.text a {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: 600;
+  text-transform: none;
+  text-decoration: none;
+  word-spacing: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+.text-59 a {
+  letter-spacing: 0;
+  color: rgb(14, 119, 158);
+}
+
+.text-61 a {
+  letter-spacing: inherit;
+  color: rgb(7, 131, 201);
+}
+
 @media(max-width: 850px) {
   .about {
     position: relative;
-    z-index: 145;
-    margin-top: -10710px;
+    z-index: 143;
+    width: 100%;
+    height: 910px;
+    margin-top: -1539px;
+  }
+
+  .about .contacts {
+    width: 351px;
+    height: 150px;
   }
 
   .alexandra .back {
@@ -1381,14 +1389,31 @@ footer p {
     margin-top: 63px;
   }
 
+  .contacts .text {
+    position: relative;
+  }
+
+  .container .email {
+    position: relative;
+    clear: both;
+    z-index: 130;
+    margin-top: -27px;
+    margin-left: 13.55057%;
+    text-align: center;
+  }
+
   .container .image {
     height: auto;
-    margin-left: -0.22853%;
+    margin-left: -0.22155%;
   }
 
   .container .phone {
     position: relative;
-    z-index: 135;
+    z-index: 133;
+    width: 76.3532763532%;
+    margin-top: -28px;
+    margin-left: 11.24911%;
+    text-align: center;
   }
 
   .about .image,
@@ -1412,13 +1437,11 @@ footer p {
   }
 
   .medclient .container {
-    position: relative;
     float: left;
-    z-index: 120;
-    width: 43.3724293059%;
-    margin-top: 160px;
+    width: 33.8383838383%;
+    margin-top: 35px;
     margin-right: 0;
-    margin-left: -0.07635%;
+    margin-left: 34.72025%;
   }
 
   .mikhail .back {
@@ -1428,14 +1451,14 @@ footer p {
 
   .navbar .mainnav {
     position: relative;
-    z-index: 159;
+    z-index: 157;
     margin-top: -35px;
   }
 
   .navbar .toggle-menu {
     visibility: visible;
     position: relative;
-    z-index: 161;
+    z-index: 159;
     width: 4%;
     margin-top: 17px;
     margin-left: 93.05882%;
@@ -1443,19 +1466,16 @@ footer p {
 
   .process {
     position: relative;
-    clear: none;
-    z-index: 101;
+    z-index: 99;
     height: 495px;
-    margin-top: 297px;
+    margin-left: -1px;
   }
 
   .projects {
     position: relative;
-    z-index: 130;
-    width: 189.8658088235%;
-    height: 11240px;
-    margin-top: -343px;
-    margin-left: -13.05699%;
+    z-index: 128;
+    height: 629px;
+    margin-top: 910px;
   }
 
   .projects .element {
@@ -1463,30 +1483,32 @@ footer p {
   }
 
   .projects .slidernav {
-    right: auto;
-    width: 30.0766728624%;
+    top: 19px;
+    left: 0;
+    right: 0;
+    width: 96.9411764705%;
+    height: 85px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .projects .viewport {
-    position: relative;
-    z-index: 123;
-    width: 93.1226765799%;
-    height: 519px;
-    margin-top: -343px;
-    margin-left: 6.20214%;
-  }
-
-  .prototype {
-    margin-top: -62px;
+    top: 133px;
+    left: 0;
+    right: 0;
+    width: 93.1764705882%;
+    height: 496px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .screens .medclient {
     position: relative;
-    z-index: 121;
-    width: 77.6228792415%;
-    height: 343px;
-    margin-top: -343px;
-    margin-left: -7.37968%;
+    z-index: 119;
+    width: 100%;
+    height: 496px;
+    margin-top: 0;
+    margin-left: 0;
   }
 
   .slidernav .image {
@@ -1494,52 +1516,62 @@ footer p {
   }
 
   .team {
-    right: auto;
+    top: 2632px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .team .alexandra {
     position: relative;
-    z-index: 58;
+    z-index: 56;
     margin-top: -283px;
-    margin-left: 37.40367%;
+    margin-left: 37.39993%;
   }
 
   .team .danil {
     position: relative;
+    z-index: 70;
   }
 
   .team .maxim {
     position: relative;
-    z-index: 51;
+    z-index: 49;
   }
 
   .team .mikhail {
     position: relative;
-    z-index: 44;
+    z-index: 42;
     margin-top: -283px;
-    margin-left: 74.3803%;
+    margin-left: 74.37682%;
   }
 
   .team .mikhaill {
     position: relative;
-    z-index: 65;
+    z-index: 63;
   }
 
   .team .nikolay {
     position: relative;
-    z-index: 30;
+    z-index: 28;
+  }
+
+  .team .oleg {
+    position: relative;
+    z-index: 84;
   }
 
   .team .pasha {
     position: relative;
-    z-index: 79;
-    margin-left: 37.40367%;
+    z-index: 77;
+    margin-left: 37.39993%;
   }
 
   .team .pavel {
     position: relative;
-    z-index: 37;
-    margin-left: 37.40367%;
+    z-index: 35;
+    margin-left: 37.39993%;
   }
 
   .up-btn {
@@ -1549,11 +1581,15 @@ footer p {
 
   .viewport .screens {
     top: 0;
-    left: -0.0093562875%;
+    height: 496px;
   }
 
   .container ._button {
     position: relative;
+    z-index: 13;
+    width: 23.2259380097%;
+    margin-top: 15px;
+    margin-left: 46.38103%;
   }
 
   .container ._input {
@@ -1572,16 +1608,9 @@ footer p {
     text-align: right;
   }
 
-  .prototype ._button {
-    z-index: 15;
-    width: 23.2259380097%;
-    margin-top: 15px;
-    margin-left: 46.38103%;
-  }
-
   .back .text-31,
   .back .text-34 {
-    margin-left: 41.65605%;
+    margin-left: 41.64871%;
   }
 
   .back .text-28,
@@ -1591,17 +1620,29 @@ footer p {
   .back .text-46,
   .back .text-49,
   .back .text-52 {
-    margin-left: 41.6459199999%;
+    margin-left: 41.64326%;
+  }
+
+  .contacts .container-2 {
+    height: 52px;
+    margin-top: -1px;
+    margin-left: 0;
   }
 
   .contacts .container-3 {
     position: relative;
-    z-index: 137;
+    z-index: 135;
+    width: 351px;
+    margin-top: 15px;
+    margin-left: 0;
   }
 
   .contacts .container-4 {
     position: relative;
-    z-index: 134;
+    clear: both;
+    z-index: 132;
+    width: 100%;
+    margin-top: 14px;
   }
 
   .container .container-11 {
@@ -1623,7 +1664,7 @@ footer p {
 
   .container .container-15 {
     position: relative;
-    z-index: 18;
+    z-index: 16;
     width: 22.1859706362%;
     margin-top: 15px;
     margin-left: 1.79291%;
@@ -1632,7 +1673,7 @@ footer p {
   .container .container-17 {
     width: 99.9972393992%;
     height: 333px;
-    margin-left: -0.0138%;
+    margin-left: 0;
   }
 
   .container .container-18 {
@@ -1640,42 +1681,48 @@ footer p {
     width: 99.9972393992%;
     height: 329px;
     margin-top: 14px;
-    margin-left: -0.0138%;
+    margin-left: 0;
   }
 
   .container .container-7 {
-    position: relative;
-    z-index: 108;
     width: 32.9273897058%;
+    height: 174px;
+    margin-left: -9.30842%;
   }
 
   .container .container-8 {
-    position: relative;
-    clear: both;
-    z-index: 105;
     width: 34.1452205882%;
-    margin-top: -310px;
-    margin-left: 32.92165%;
+    height: 199px;
+    margin-left: 6.72053%;
   }
 
   .container .container-9 {
+    clear: both;
     width: 32.9273897058%;
-    margin-top: -310px;
-    margin-left: 67.07261%;
+    margin-top: -199px;
+    margin-left: 71.10041%;
   }
 
   .container .text-1 {
-    width: 68.8588850174%;
-    margin-left: 1.94559%;
+    width: 59.3333333333%;
+    margin-left: 1.86567%;
   }
 
-  .container .text-13,
-  .container .text-14,
-  .container .text-15,
-  .container .text-16,
-  .container .text-17,
+  .container .text-13 {
+    width: 25.081645983%;
+    margin-left: 27.52275%;
+  }
+
+  .container .text-15 {
+    margin-left: 37.21399%;
+  }
+
+  .container .text-17 {
+    margin-left: 25.08932%;
+  }
+
   .container .text-18 {
-    margin-left: -Infinity;
+    margin-left: -0.02696%;
   }
 
   .container .text-20,
@@ -1703,8 +1750,8 @@ footer p {
   }
 
   .container .text-5 {
-    position: relative;
-    z-index: 139;
+    z-index: 137;
+    margin-left: 0.36058%;
   }
 
   .container .text-55 {
@@ -1720,12 +1767,12 @@ footer p {
   .container .text-58,
   .container .text-59 {
     width: 93.7993185078%;
-    margin-left: -0.0800600001%;
+    margin-left: -0.07178%;
   }
 
   .container .text-6 {
-    position: relative;
-    z-index: 138;
+    z-index: 136;
+    margin-left: 5.98736%;
   }
 
   .container .text-60,
@@ -1734,61 +1781,78 @@ footer p {
   }
 
   .container .text-7 {
-    position: relative;
-    z-index: 136;
+    z-index: 134;
+    width: 4.5584045584%;
+    margin-top: 0;
+    margin-left: 22.21332%;
+  }
+
+  .container .text-8 {
+    z-index: 131;
+    width: 8.547008547%;
+    margin-left: 13.55057%;
   }
 
   .container-16 {
-    right: auto;
+    top: 4182px;
+    left: 0;
+    right: 0;
     width: 66.5863970588%;
     height: 676px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .container-6 {
+    top: 1656px;
+    left: 9.6470588235%;
     right: auto;
-    width: 32%;
+    width: 82.8235294117%;
+    height: 205px;
+  }
+
+  .medclient .image-6 {
+    width: 788px;
+    height: auto;
+    margin-top: 32px;
+    margin-left: 2px;
+  }
+
+  .medclient .text-2 {
+    float: left;
+    clear: both;
+    width: 100%;
+    margin-top: 24px;
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .mikhail .text-36,
+  .pavel .text-33 {
+    margin-left: 14.47532%;
   }
 
   .alexandra .text-41,
-  .danil .text-53,
+  .container .text-14,
+  .container .text-16,
   .maxim .text-38,
   .mikhail .text-35,
   .mikhaill .text-44,
-  .nikolay .text-29 {
+  .nikolay .text-29,
+  .oleg .text-53 {
     margin-left: 0;
   }
 
   .alexandra .text-42,
   .danil .text-48,
-  .danil .text-54,
   .maxim .text-39,
   .mikhaill .text-45,
   .nikolay .text-30,
+  .oleg .text-54,
   .pasha .text-51 {
     margin-left: 14.47917%;
-  }
-
-  .medclient .image-6 {
-    position: relative;
-    z-index: 116;
-    height: auto;
-    margin-top: -316px;
-    margin-left: 110px;
-  }
-
-  .medclient .text-2 {
-    position: relative;
-    float: left;
-    clear: both;
-    z-index: 117;
-    width: 99.9718830334%;
-    margin-right: 0;
-    margin-left: -0.07635%;
-  }
-
-  .mikhail .text-36,
-  .pavel .text-33 {
-    margin-left: 14.47641%;
   }
 
   .pasha .text-50 {
@@ -1797,32 +1861,35 @@ footer p {
   }
 
   .process .container-10 {
-    right: auto;
+    left: 0;
+    right: 0;
     width: 65.1636029411%;
     height: 84px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .process .element-3 {
     position: relative;
-    z-index: 89;
+    z-index: 87;
   }
 
   .process .element-4 {
-    right: auto;
+    left: 0;
+    right: 0;
     width: 73.8602941176%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .projects .element-1 {
-    z-index: 124;
-    width: 52.6641883519%;
-    margin-top: 10379px;
-    margin-left: 6.87599%;
+    z-index: 122;
+    margin-top: 0;
   }
 
   .projects .element-2 {
-    z-index: 114;
-    width: 56.2567766418%;
-    margin-left: 5.89426%;
+    z-index: 112;
+    height: 496px;
   }
 
   .prototype .container-14 {
@@ -1834,123 +1901,104 @@ footer p {
 
   .prototype-2 {
     position: relative;
-    z-index: 22;
+    z-index: 20;
+    height: 459px;
   }
 
   .screens .image-7 {
     position: relative;
-    clear: none;
-    z-index: 115;
+    z-index: 113;
+    width: 894px;
     height: auto;
-    margin-left: 524px;
+    margin-top: -314px;
+    margin-left: 792px;
   }
 
   .slidernav .image-1 {
-    margin-left: -0.1513%;
+    width: 74px;
+    margin-left: -0.1666700001%;
   }
 
-  .slidernav .image-2,
+  .slidernav .image-2 {
+    width: 74px;
+    margin-left: 15.83073%;
+  }
+
   .slidernav .image-3 {
-    margin-left: 7.55513%;
+    width: 74px;
+    margin-left: 15.66667%;
   }
 
   .slidernav .image-4 {
-    margin-left: 7.58088%;
-  }
-
-  .team .danil-1 {
-    z-index: 72;
-  }
-
-  .team .danil-2 {
-    z-index: 86;
+    width: 95px;
+    margin-left: 15.83073%;
   }
 
   .text-11 {
     position: relative;
-    z-index: 131;
-    width: 37.5772058823%;
-    margin-top: -1023px;
-    margin-left: 35.44118%;
+    z-index: 129;
+    width: 99.8823529411%;
+    margin-top: -726px;
   }
 
   .text-12 {
     position: relative;
-    clear: both;
-    z-index: 113;
-    margin-top: -103px;
-    margin-left: 28%;
+    z-index: 111;
   }
 
   .text-19 {
     position: relative;
-    z-index: 102;
-    margin-top: -3134px;
+    z-index: 100;
+    margin-top: 247px;
   }
 
   .text-26 {
     position: relative;
-    z-index: 88;
-    margin-top: -2234px;
+    z-index: 86;
+    margin-left: -0.11765%;
   }
 
   .text-27 {
     position: relative;
-    z-index: 23;
-    margin-top: 1059px;
-    margin-left: 35.89706%;
+    z-index: 21;
+    margin-top: 857px;
   }
 
   .text-57 {
     position: relative;
-    z-index: 13;
+    z-index: 11;
     width: 99.9154411764%;
-    margin-top: 33px;
-    margin-left: 31.05699%;
   }
 
   ._container .text-62 {
+    width: 99.7916666666%;
     margin-left: 7.0625%;
+    font-size: 1.25em;
+    line-height: 1.68;
   }
 
   ._container-28 {
     position: relative;
     z-index: 1;
-    margin-top: 746px;
-  }
-
-  .container ._button-2 {
-    z-index: 5;
-    width: 14.6422261484%;
-    margin-top: 1px;
-  }
-
-  .container ._button-3 {
-    z-index: 10;
-    width: 14.6422261484%;
-    margin-top: 0;
-    margin-left: 0;
+    margin-top: 727px;
   }
 
   .container ._container-25 {
-    position: relative;
-    z-index: 4;
     height: 304px;
+    margin-left: 0;
   }
 
   .container ._container-27 {
-    position: relative;
-    z-index: 9;
     height: 301px;
     margin-left: 0;
   }
 
   .container ._input-1 {
-    z-index: 20;
+    z-index: 18;
   }
 
   .container ._input-2 {
-    z-index: 19;
+    z-index: 17;
     margin-left: 6.13874%;
   }
 
@@ -2013,5 +2061,1567 @@ footer p {
 
   .mainnav ._text-9 {
     margin-right: 0.98459%;
+  }
+}
+
+@media(max-width: 569px) {
+  body {
+    font-size: 1em;
+  }
+
+  .about {
+    position: relative;
+    z-index: 143;
+    margin-top: -1656px;
+  }
+
+  .about .contacts {
+    margin-top: 8px;
+  }
+
+  .contacts .text,
+  .projects .element {
+    position: relative;
+  }
+
+  .container .email {
+    position: relative;
+    z-index: 130;
+  }
+
+  .container .image {
+    height: auto;
+    margin-left: -0.21653%;
+  }
+
+  .container .phone {
+    position: relative;
+    z-index: 133;
+  }
+
+  .about .image,
+  .container .small-logo,
+  .medclient .image-6 {
+    height: auto;
+  }
+
+  .mainnav .blog {
+    margin-right: 0.0434999999%;
+  }
+
+  .mainnav .prototype {
+    margin-top: 0;
+    margin-right: 0;
+  }
+
+  .medclient .container {
+    width: 50.3610267896%;
+    margin-left: 29.34485%;
+  }
+
+  .navbar .mainnav {
+    position: relative;
+    z-index: 157;
+  }
+
+  .navbar .toggle-menu {
+    position: relative;
+    z-index: 159;
+    margin-left: 93.058%;
+  }
+
+  .process {
+    position: relative;
+    z-index: 99;
+    height: 348px;
+  }
+
+  .projects {
+    position: relative;
+    z-index: 128;
+    margin-top: 1027px;
+  }
+
+  .projects .slidernav {
+    top: 24px;
+    left: 0;
+    right: 0;
+    width: 93.4973637961%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .process .element-4,
+  .projects .viewport {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .screens .medclient {
+    position: relative;
+    z-index: 119;
+  }
+
+  .slidernav .image {
+    height: auto;
+  }
+
+  .team {
+    top: 2602px;
+    left: 0;
+    right: 0;
+    width: 404px;
+    height: 1402px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .team .alexandra {
+    position: relative;
+    clear: none;
+    z-index: 56;
+    width: 360px;
+    margin-top: 7px;
+    margin-left: 0;
+  }
+
+  .team .danil {
+    position: relative;
+    z-index: 70;
+    width: 360px;
+    margin-top: 0;
+  }
+
+  .team .maxim {
+    position: relative;
+    clear: both;
+    z-index: 49;
+    width: 360px;
+    margin-top: -283px;
+    margin-left: 55.17095%;
+  }
+
+  .team .mikhail {
+    position: relative;
+    clear: none;
+    z-index: 42;
+    width: 352px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .team .mikhaill {
+    position: relative;
+    z-index: 63;
+    width: 360px;
+    margin-left: 55.17095%;
+  }
+
+  .team .nikolay {
+    position: relative;
+    z-index: 28;
+    width: 360px;
+  }
+
+  .team .oleg {
+    position: relative;
+    z-index: 84;
+    width: 360px;
+    margin-top: 0;
+    margin-left: 30.3798%;
+  }
+
+  .team .pasha {
+    position: relative;
+    z-index: 77;
+    width: 360px;
+    margin-left: 55.17095%;
+  }
+
+  .team .pavel {
+    position: relative;
+    z-index: 35;
+    width: 352px;
+    margin-left: 57.14728%;
+  }
+
+  .up-btn {
+    left: 87.8734622144%;
+    width: 7.9086115992%;
+  }
+
+  .container ._button {
+    position: relative;
+    z-index: 13;
+    width: 29.503916449%;
+    height: 41px;
+    margin-top: 10px;
+    margin-left: 38.79324%;
+  }
+
+  .container ._input {
+    position: relative;
+    width: 46.7362924281%;
+  }
+
+  .container ._textarea {
+    width: 100.2610966057%;
+    margin-left: -0.2611%;
+  }
+
+  .about .text-4 {
+    width: 82.6010544815%;
+  }
+
+  .alexandra .text-41 {
+    margin-left: -7.5%;
+  }
+
+  .contacts .container-3 {
+    position: relative;
+    z-index: 135;
+  }
+
+  .contacts .container-4 {
+    position: relative;
+    z-index: 132;
+  }
+
+  .container .container-12 {
+    margin-left: 13.34995%;
+  }
+
+  .container .container-13 {
+    margin-left: 12.43929%;
+  }
+
+  .container .container-15 {
+    position: relative;
+    z-index: 16;
+    width: 31.6988608221%;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  .container .container-18 {
+    width: 100%;
+    height: 489px;
+    margin-top: 122px;
+  }
+
+  .container .container-7 {
+    width: 64.7916666666%;
+    margin-left: -9.30341%;
+  }
+
+  .container .container-8 {
+    position: relative;
+    z-index: 103;
+    margin-left: 6.7206%;
+  }
+
+  .container .container-9 {
+    position: relative;
+    z-index: 109;
+    margin-left: 71.10175%;
+  }
+
+  .container .text-1 {
+    margin-left: 1.87266%;
+  }
+
+  .container .text-13 {
+    margin-left: 27.54721%;
+  }
+
+  .container .text-15 {
+    margin-left: 37.21111%;
+  }
+
+  .container .text-17 {
+    margin-left: 25.073%;
+  }
+
+  .container .text-18 {
+    margin-left: -0.03021%;
+  }
+
+  .container .text-20,
+  .container .text-21 {
+    margin-left: 0;
+  }
+
+  .container .text-23 {
+    margin-left: 8.32309%;
+  }
+
+  .container .text-5 {
+    z-index: 137;
+  }
+
+  .container .text-55 {
+    margin-left: -0.54054%;
+  }
+
+  .container .text-56 {
+    margin-left: 3.93822%;
+  }
+
+  .container .text-58,
+  .container .text-59 {
+    margin-left: -0.07009%;
+  }
+
+  .container .text-6 {
+    z-index: 136;
+  }
+
+  .container .text-7 {
+    z-index: 134;
+  }
+
+  .container .text-8 {
+    z-index: 131;
+  }
+
+  .container-16 {
+    top: 4692px;
+    left: 0;
+    right: 0;
+    width: 66.6080843585%;
+    height: 867px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container-6 {
+    top: 1773px;
+    left: 9.6468585237%;
+  }
+
+  .navbar .text-9 {
+    margin-left: 7.65598%;
+  }
+
+  .process .container-10 {
+    top: 219px;
+    left: 0;
+    right: 0;
+    width: 85.9402460456%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .process .element-3 {
+    position: relative;
+    z-index: 87;
+    height: 348px;
+  }
+
+  .projects .element-1 {
+    z-index: 122;
+  }
+
+  .projects .element-2 {
+    z-index: 112;
+  }
+
+  .prototype .container-14 {
+    width: 67.3110720562%;
+    height: 322px;
+    margin-left: 16.52021%;
+  }
+
+  .prototype-2 {
+    position: relative;
+    z-index: 20;
+  }
+
+  .screens .image-7 {
+    position: relative;
+    z-index: 113;
+    height: auto;
+  }
+
+  .slidernav .image-1 {
+    margin-top: 11px;
+    margin-left: 4.3116899999%;
+  }
+
+  .slidernav .image-2,
+  .slidernav .image-3 {
+    margin-top: 1px;
+    margin-left: 10.53544%;
+  }
+
+  .slidernav .image-4 {
+    margin-left: 10.51488%;
+  }
+
+  .text-11 {
+    position: relative;
+    z-index: 129;
+    margin-top: -746px;
+  }
+
+  .text-12 {
+    position: relative;
+    z-index: 111;
+  }
+
+  .text-19 {
+    position: relative;
+    z-index: 100;
+  }
+
+  .text-26 {
+    position: relative;
+    z-index: 86;
+    margin-left: 0;
+  }
+
+  .text-27 {
+    position: relative;
+    z-index: 21;
+    margin-top: 1397px;
+    margin-left: -0.17575%;
+  }
+
+  .text-57 {
+    position: relative;
+    z-index: 11;
+    margin-left: -0.17575%;
+  }
+
+  ._container .text-62 {
+    margin-left: 7.05734%;
+  }
+
+  ._container-28 {
+    position: relative;
+    z-index: 1;
+    margin-top: 971px;
+    margin-left: -0.2581300001%;
+  }
+
+  .container ._input-1 {
+    z-index: 18;
+  }
+
+  .container ._input-2 {
+    z-index: 17;
+    margin-left: 6.52742%;
+  }
+
+  .mainnav ._container-10 {
+    clear: none;
+    margin-top: 2px;
+    margin-left: 4.45964%;
+  }
+
+  .mainnav ._container-11 {
+    clear: none;
+    margin-top: 2px;
+    margin-left: 3.1543%;
+  }
+
+  .mainnav ._container-12 {
+    clear: none;
+    margin-top: 2px;
+    margin-left: 3.65072%;
+  }
+
+  .mainnav ._container-7 {
+    margin-top: 2px;
+    margin-left: 42.35677%;
+  }
+
+  .mainnav ._container-8 {
+    clear: none;
+    margin-top: 2px;
+    margin-left: 3.45378%;
+  }
+
+  .mainnav ._container-9 {
+    clear: none;
+    margin-top: 2px;
+    margin-left: 3.61491%;
+  }
+
+  .mainnav ._text-10 {
+    margin-right: 0.97403%;
+  }
+
+  .mainnav ._text-11 {
+    margin-right: 0.20398%;
+  }
+
+  .mainnav ._text-12 {
+    margin-right: 0.37827%;
+  }
+
+  .mainnav ._text-9 {
+    margin-right: 1.00251%;
+  }
+}
+
+@media(max-width: 480px) {
+  .about {
+    position: relative;
+    z-index: 143;
+    margin-top: -1753px;
+  }
+
+  .about .contacts {
+    margin-top: 52px;
+  }
+
+  .alexandra .back,
+  .mikhail .back {
+    clear: none;
+    margin-top: 0;
+  }
+
+  .contacts .text {
+    position: relative;
+  }
+
+  .container .email {
+    position: relative;
+    z-index: 130;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .container .phone {
+    position: relative;
+    z-index: 133;
+    width: 100%;
+    margin-top: -19px;
+    margin-left: 0;
+  }
+
+  .about .image,
+  .container .image,
+  .container .small-logo,
+  .medclient .image-6 {
+    height: auto;
+  }
+
+  .medclient .container {
+    width: 59.7002410648%;
+    margin-left: 22.0522%;
+  }
+
+  .navbar .mainnav {
+    position: relative;
+    z-index: 157;
+  }
+
+  .navbar .toggle-menu {
+    position: relative;
+    z-index: 159;
+    margin-left: 93.05664%;
+  }
+
+  .process {
+    position: relative;
+    z-index: 99;
+    height: 393px;
+    margin-left: 0;
+  }
+
+  .projects {
+    position: relative;
+    z-index: 128;
+    margin-top: 1124px;
+  }
+
+  .projects .element {
+    position: relative;
+  }
+
+  .projects .slidernav {
+    top: 21px;
+    left: 0;
+    right: 0;
+    width: 89.7916666666%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .projects .viewport {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .screens .medclient {
+    position: relative;
+    z-index: 119;
+  }
+
+  .slidernav .image {
+    height: auto;
+  }
+
+  .team {
+    top: 3113px;
+    left: 0;
+    right: 0;
+    width: 181px;
+    height: 2494px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .team .alexandra {
+    position: relative;
+    clear: both;
+    z-index: 56;
+    margin-top: 0;
+  }
+
+  .team .danil {
+    position: relative;
+    clear: both;
+    z-index: 70;
+  }
+
+  .team .maxim {
+    position: relative;
+    z-index: 49;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .team .mikhail {
+    position: relative;
+    clear: both;
+    z-index: 42;
+    margin-top: -5px;
+  }
+
+  .team .mikhaill {
+    position: relative;
+    z-index: 63;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .team .nikolay {
+    position: relative;
+    z-index: 28;
+  }
+
+  .team .oleg {
+    position: relative;
+    z-index: 84;
+    margin-left: 0;
+  }
+
+  .team .pasha {
+    position: relative;
+    z-index: 77;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .team .pavel {
+    position: relative;
+    z-index: 35;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .up-btn {
+    left: 87.0833333333%;
+    width: 8.9583333333%;
+  }
+
+  .container ._button {
+    position: relative;
+    z-index: 13;
+    width: 35.2601156069%;
+    height: 42px;
+    margin-top: 15px;
+    margin-left: 17.91908%;
+  }
+
+  .container ._input {
+    position: relative;
+  }
+
+  .container ._textarea {
+    width: 99.7109826589%;
+    margin-left: 0;
+  }
+
+  .about .text-3 {
+    margin-top: 14px;
+    font-size: 3.75em;
+    line-height: 0.88;
+  }
+
+  .about .text-4 {
+    width: 89.375%;
+    margin-top: 15px;
+    font-size: 2.25em;
+    line-height: 1.28;
+  }
+
+  .alexandra .text-41 {
+    margin-left: -7.77778%;
+    text-align: center;
+  }
+
+  .alexandra .text-42 {
+    width: 38.8888888888%;
+    margin-left: 6.80556%;
+  }
+
+  .contacts .container-2 {
+    margin-top: 0;
+  }
+
+  .contacts .container-3 {
+    position: relative;
+    z-index: 135;
+    margin-top: 14px;
+  }
+
+  .contacts .container-4 {
+    position: relative;
+    z-index: 132;
+    margin-top: 26px;
+  }
+
+  .container .container-11 {
+    width: 99.4305125387%;
+    margin-left: 0.11981%;
+  }
+
+  .container .container-12 {
+    clear: both;
+    width: 99.6805111821%;
+    height: 59px;
+    margin-top: 41px;
+    margin-left: 0.14477%;
+  }
+
+  .container .container-13 {
+    clear: both;
+    width: 99.7502247976%;
+    height: 62px;
+    margin-top: 40px;
+    margin-left: 0.11981%;
+  }
+
+  .container .container-15 {
+    position: relative;
+    z-index: 16;
+    width: 44.7976878612%;
+    margin-top: 15px;
+    margin-left: 2.0186099999%;
+  }
+
+  .container .container-17 {
+    position: relative;
+    z-index: 5;
+    width: 100.0048830509%;
+    height: 481px;
+    margin-left: -0.00389%;
+  }
+
+  .container .container-18 {
+    position: relative;
+    z-index: 9;
+    height: 463px;
+    margin-top: -28px;
+  }
+
+  .container .container-7 {
+    margin-left: 19.79167%;
+  }
+
+  .container .container-8 {
+    position: relative;
+    clear: both;
+    z-index: 103;
+    width: 64.7916666666%;
+    margin-top: 6px;
+    margin-left: 19.79167%;
+  }
+
+  .container .container-9 {
+    position: relative;
+    z-index: 109;
+    width: 64.7916666666%;
+    margin-top: 5px;
+    margin-left: 19.69727%;
+  }
+
+  .container .text-1 {
+    margin-left: 1.89022%;
+  }
+
+  .container .text-13 {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container .text-14 {
+    min-height: 80px;
+    margin-top: 0;
+    font-size: 1.313em;
+  }
+
+  .container .text-15 {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+
+  .container .text-16 {
+    min-height: 50px;
+    font-size: 1.313em;
+  }
+
+  .container .text-17 {
+    float: none;
+    width: 28.9403607496%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+
+  .container .text-18 {
+    min-height: 90px;
+    margin-left: -0.03015%;
+    font-size: 1.313em;
+  }
+
+  .container .text-23 {
+    margin-left: 8.32332%;
+    font-size: 1.25em;
+  }
+
+  .container .text-20,
+  .container .text-22,
+  .container .text-24 {
+    font-size: 1.5em;
+  }
+
+  .container .text-21,
+  .container .text-25 {
+    font-size: 1.25em;
+  }
+
+  .container .text-5 {
+    visibility: hidden;
+    z-index: 137;
+    margin-left: 0.35613%;
+  }
+
+  .container .text-55 {
+    margin-left: -0.50403%;
+  }
+
+  .container .text-56 {
+    margin-left: 3.91129%;
+  }
+
+  .container .text-58,
+  .container .text-59 {
+    width: 99.9961133351%;
+    margin-left: 0.00389%;
+    text-align: center;
+  }
+
+  .container .text-6 {
+    z-index: 136;
+    width: 99.493670886%;
+    margin-left: 0.36503%;
+  }
+
+  .container .text-60,
+  .container .text-61,
+  .danil .text-47,
+  .mikhaill .text-44,
+  .nikolay .text-29,
+  .pavel .text-32 {
+    text-align: center;
+  }
+
+  .container .text-7 {
+    visibility: hidden;
+    z-index: 134;
+    margin-top: 1px;
+    margin-left: 0;
+  }
+
+  .container .text-8 {
+    visibility: hidden;
+    z-index: 131;
+    margin-left: 0;
+  }
+
+  .container-16 {
+    top: 6300px;
+    left: 0;
+    right: 0;
+    width: 83.75%;
+    height: 917px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container-6 {
+    top: 1870px;
+    left: -0.1171875%;
+    width: 100%;
+  }
+
+  .danil .text-48 {
+    margin-left: 11.1328099999%;
+  }
+
+  .maxim .text-38 {
+    margin-left: -5.27778%;
+    text-align: center;
+  }
+
+  .maxim .text-39 {
+    margin-left: -1.8967%;
+  }
+
+  .mikhail .text-35 {
+    margin-left: -1.41602%;
+    text-align: center;
+  }
+
+  .mikhail .text-36 {
+    margin-left: 13.05487%;
+  }
+
+  .mikhaill .text-45 {
+    margin-left: 9.74392%;
+  }
+
+  .navbar .text-9 {
+    margin-left: 7.65625%;
+  }
+
+  .oleg .text-53 {
+    width: 42.2222222222%;
+    margin-left: 4.30556%;
+    text-align: center;
+  }
+
+  .oleg .text-54 {
+    width: 19.7222222222%;
+    margin-left: 16.25%;
+  }
+
+  .pasha .text-50 {
+    margin-left: -1.38889%;
+    text-align: center;
+  }
+
+  .pasha .text-51 {
+    width: 28.6111111111%;
+    margin-left: 13.18142%;
+  }
+
+  .process .container-10 {
+    top: 44px;
+    left: 0;
+    right: 0;
+    width: 65.2083333333%;
+    height: 296px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .process .element-3 {
+    position: relative;
+    z-index: 87;
+    height: 393px;
+  }
+
+  .process .element-4 {
+    visibility: hidden;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .projects .element-1 {
+    z-index: 122;
+  }
+
+  .projects .element-2 {
+    z-index: 112;
+  }
+
+  .prototype .container-14 {
+    width: 72.0833333333%;
+    height: 417px;
+    margin-top: 36px;
+    margin-left: 16.66667%;
+  }
+
+  .prototype-2 {
+    position: relative;
+    z-index: 20;
+  }
+
+  .screens .image-7 {
+    position: relative;
+    z-index: 113;
+    height: auto;
+  }
+
+  .slidernav .image-1 {
+    margin-top: 10px;
+    margin-left: 4.87239%;
+  }
+
+  .slidernav .image-2,
+  .slidernav .image-3 {
+    margin-top: 0;
+    margin-left: 6.72854%;
+  }
+
+  .slidernav .image-4 {
+    margin-left: 6.70679%;
+  }
+
+  .text-11 {
+    position: relative;
+    z-index: 129;
+  }
+
+  .text-12 {
+    position: relative;
+    z-index: 111;
+  }
+
+  .text-19 {
+    position: relative;
+    z-index: 100;
+    margin-top: 616px;
+  }
+
+  .text-26 {
+    position: relative;
+    z-index: 86;
+  }
+
+  .text-27 {
+    position: relative;
+    z-index: 21;
+    margin-top: 2494px;
+    margin-left: 0;
+  }
+
+  .text-57 {
+    position: relative;
+    z-index: 11;
+    margin-left: 0;
+  }
+
+  ._container .text-62 {
+    margin-left: 0.11719%;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  ._container-28 {
+    position: relative;
+    z-index: 1;
+    margin-top: 972px;
+    margin-left: -0.11719%;
+  }
+
+  .container ._container-25 {
+    height: 481px;
+  }
+
+  .container ._container-27 {
+    width: 100.0097665787%;
+    height: 540px;
+    margin-left: -0.00777%;
+  }
+
+  .container ._input-1 {
+    z-index: 18;
+    width: 100%;
+  }
+
+  .container ._input-2 {
+    clear: both;
+    z-index: 17;
+    width: 99.7109826589%;
+    margin-top: 22px;
+    margin-left: 0;
+  }
+}
+
+@media(max-width: 300px) {
+  body {
+    font-size: 1em;
+  }
+
+  .about {
+    position: relative;
+    z-index: 143;
+    height: 848px;
+    margin-top: -1486px;
+  }
+
+  .about .contacts {
+    width: 299px;
+    margin-top: 29px;
+  }
+
+  .about .image {
+    width: 157px;
+    height: auto;
+    margin-top: 26px;
+  }
+
+  .contacts .text {
+    position: relative;
+  }
+
+  .container .email {
+    position: relative;
+    z-index: 130;
+  }
+
+  .container .image {
+    height: auto;
+    margin-left: -0.21322%;
+  }
+
+  .container .phone {
+    position: relative;
+    z-index: 133;
+  }
+
+  .container .small-logo {
+    height: auto;
+  }
+
+  .medclient .container {
+    width: 99.457767343%;
+    margin-left: 0.51897%;
+  }
+
+  .navbar .mainnav {
+    position: relative;
+    z-index: 157;
+    margin-top: -32px;
+  }
+
+  .navbar .toggle-menu {
+    position: relative;
+    z-index: 159;
+    width: 10.3333333333%;
+    margin-top: 14px;
+    margin-left: 86.32813%;
+  }
+
+  .process {
+    position: relative;
+    z-index: 99;
+  }
+
+  .projects {
+    position: relative;
+    z-index: 128;
+    height: 521px;
+    margin-top: 965px;
+  }
+
+  .projects .element {
+    position: relative;
+  }
+
+  .projects .slidernav {
+    left: 0;
+    right: 0;
+    width: 89.6666666666%;
+    height: 62px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .projects .viewport {
+    top: 97px;
+    left: 0;
+    right: 0;
+    width: 93.3333333333%;
+    height: 388px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .screens .medclient {
+    position: relative;
+    z-index: 119;
+  }
+
+  .slidernav .image {
+    height: auto;
+  }
+
+  .team {
+    top: 2873px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .team .alexandra {
+    position: relative;
+    z-index: 56;
+  }
+
+  .team .danil {
+    position: relative;
+    z-index: 70;
+  }
+
+  .team .maxim {
+    position: relative;
+    z-index: 49;
+  }
+
+  .team .mikhail {
+    position: relative;
+    z-index: 42;
+  }
+
+  .team .mikhaill {
+    position: relative;
+    z-index: 63;
+  }
+
+  .team .nikolay {
+    position: relative;
+    z-index: 28;
+  }
+
+  .team .oleg {
+    position: relative;
+    z-index: 84;
+  }
+
+  .team .pasha {
+    position: relative;
+    z-index: 77;
+  }
+
+  .team .pavel {
+    position: relative;
+    z-index: 35;
+  }
+
+  .up-btn {
+    left: 82.8802083333%;
+    width: 17%;
+  }
+
+  .container ._button {
+    position: relative;
+    z-index: 13;
+    margin-left: 9.70313%;
+  }
+
+  .container ._input {
+    position: relative;
+  }
+
+  .container ._textarea {
+    width: 100%;
+  }
+
+  .about .text-3 {
+    margin-top: 0;
+  }
+
+  .about .text-4 {
+    width: 100%;
+    margin-top: 28px;
+    font-size: 1.313em;
+    line-height: 1.18;
+  }
+
+  .contacts .container-3 {
+    position: relative;
+    z-index: 135;
+  }
+
+  .contacts .container-4 {
+    position: relative;
+    z-index: 132;
+  }
+
+  .container .container-12 {
+    margin-left: 0.14151%;
+  }
+
+  .container .container-11,
+  .container .container-13 {
+    margin-left: 0.11203%;
+  }
+
+  .container .container-15 {
+    position: relative;
+    z-index: 16;
+    margin-left: 6.01563%;
+  }
+
+  .container .container-17 {
+    position: relative;
+    z-index: 5;
+    margin-left: 0;
+  }
+
+  .container .container-18 {
+    position: relative;
+    z-index: 9;
+    margin-top: 18px;
+  }
+
+  .container .container-7 {
+    width: 70%;
+    height: 190px;
+    margin-left: 17%;
+  }
+
+  .container .container-8 {
+    position: relative;
+    z-index: 103;
+    width: 70.3333333333%;
+    margin-top: 0;
+    margin-left: 16.66667%;
+  }
+
+  .container .container-9 {
+    position: relative;
+    z-index: 109;
+    width: 75.3333333333%;
+    margin-top: 0;
+    margin-left: 14.32813%;
+  }
+
+  .container .text-1 {
+    margin-left: 1.8797%;
+  }
+
+  .container .text-13 {
+    width: 36.6666666666%;
+  }
+
+  .container .text-18 {
+    margin-left: -0.02074%;
+  }
+
+  .container .text-23 {
+    margin-left: 8.31707%;
+  }
+
+  .container .text-5 {
+    z-index: 137;
+    margin-left: 0.35013%;
+  }
+
+  .container .text-55 {
+    margin-left: -0.51157%;
+  }
+
+  .container .text-56 {
+    margin-left: 3.92978%;
+  }
+
+  .container .text-58,
+  .container .text-59 {
+    margin-left: 0;
+  }
+
+  .container .text-6 {
+    z-index: 136;
+    margin-left: 0.36058%;
+  }
+
+  .container .text-7 {
+    z-index: 134;
+  }
+
+  .container .text-8 {
+    z-index: 131;
+  }
+
+  .container-16 {
+    top: 6080px;
+    left: 0;
+    right: 0;
+    width: 99.6666666666%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container-6 {
+    top: 1606px;
+    left: 0;
+    height: 640px;
+  }
+
+  .medclient .image-6 {
+    visibility: hidden;
+    height: auto;
+    margin-top: 22px;
+  }
+
+  .medclient .text-2 {
+    margin-top: 34px;
+    margin-left: -0.15625%;
+  }
+
+  .process .container-10 {
+    left: 0;
+    right: 0;
+    width: 88.3333333333%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .process .element-3 {
+    position: relative;
+    z-index: 87;
+  }
+
+  .process .element-4 {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .projects .element-1 {
+    z-index: 122;
+    height: 97px;
+  }
+
+  .projects .element-2 {
+    z-index: 112;
+    height: 388px;
+  }
+
+  .prototype .container-14 {
+    width: 100%;
+    height: 395px;
+    margin-left: 0;
+  }
+
+  .prototype-2 {
+    position: relative;
+    z-index: 20;
+    height: 442px;
+  }
+
+  .screens .image-7 {
+    position: relative;
+    z-index: 113;
+    height: auto;
+  }
+
+  .slidernav .image-1 {
+    width: 52px;
+    margin-top: 7px;
+    margin-left: 0.37175%;
+  }
+
+  .slidernav .image-2,
+  .slidernav .image-3 {
+    width: 52px;
+    margin-left: 4.82691%;
+  }
+
+  .slidernav .image-4 {
+    width: 67px;
+    margin-left: 4.80948%;
+  }
+
+  .text-11 {
+    position: relative;
+    z-index: 129;
+    margin-top: -638px;
+  }
+
+  .text-12 {
+    position: relative;
+    z-index: 111;
+    margin-top: -34px;
+  }
+
+  .text-19 {
+    position: relative;
+    z-index: 100;
+    margin-top: 640px;
+  }
+
+  .text-26 {
+    position: relative;
+    z-index: 86;
+  }
+
+  .text-27 {
+    position: relative;
+    z-index: 21;
+  }
+
+  .text-57 {
+    position: relative;
+    z-index: 11;
+  }
+
+  ._container .text-62 {
+    width: 100%;
+    margin-top: 16px;
+    margin-left: 0;
+    font-size: 1.5em;
+    line-height: 1.18;
+  }
+
+  ._container-28 {
+    position: relative;
+    z-index: 1;
+    margin-top: 1082px;
+    margin-left: 0;
+  }
+
+  .container ._container-27 {
+    margin-left: -0.00523%;
+  }
+
+  .container ._input-1 {
+    z-index: 18;
+  }
+
+  .container ._input-2 {
+    z-index: 17;
+    width: 100%;
   }
 }

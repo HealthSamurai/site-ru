@@ -1,4 +1,10 @@
 (function() {
+  var $blogSlide = $('.js-blog-slide');
+  var $prototypeSlide = $('.js-prototype-slide');
+  var $teamSlide = $('.js-team-slide');
+  var $processSlide = $('.js-process-slide');
+  var $offerSlide = $('.js-offer-slide');
+  var $projectsSlide = $('.js-projects-slide');
   var $blog = $('.js-blog');
   var $prototype = $('.js-prototype');
   var $team = $('.js-team');
@@ -7,6 +13,7 @@
   var $projects = $('.js-projects');
   var $about = $('.js-about');
   var $upBtn = $('.js-up-btn');
+  var $aboutSlide = $('.js-about-slide');
   var $screens = $('.js-screens');
   var $foodtaster = $('.js-foodtaster');
   var $fotmstamp = $('.js-fotmstamp');
@@ -14,25 +21,26 @@
   var $choiceBtn = $('.js-choice-btn');
 
 
-  /*slider*/
+   /*slider movement*/
 
-  $choiceBtn.on('click', {index: 2}, showScreen);
+  $choiceBtn.on('click', {index: 0}, showScreen);
   $fhirbase.on('click', {index: 1}, showScreen);
-  $fotmstamp.on('click', {index: 3}, showScreen);
-  $foodtaster.on('click', {index: 4}, showScreen);
+  $fotmstamp.on('click', {index: 2}, showScreen);
+  $foodtaster.on('click', {index: 3}, showScreen);
 
    function showScreen(e){
      var targetX = -1054 * e.data.index;
      $screens.css('left', targetX);
    }
 
+
   /*navigation*/
 
-  $(function(){
-    $('#nav-menu').click(function(){
-       $('#navopen').toggle();
-     });
+
+  $('#nav-menu').click(function(){
+     $('#navopen').toggle();
   });
+
 
   /*
   var n = '#nav'
@@ -47,49 +55,27 @@
   });*/
 
 
-  /*button*/
-  $upBtn.click(function(){
-      $("html, body").animate({ scrollTop: 0 }, 600);
-      return false;
-  });
+  /* navigation scroll */
+  var navBarHeight = $('.navbar').height();
 
-  $about.click(function(){
-      $("html, body").animate({ scrollTop: 0 }, 600);
-      return false;
-  });
+  var navigation = [
+    [$about, $aboutSlide],
+    [$offer, $offerSlide],
+    [$process, $processSlide],
+    [$projects, $projectsSlide],
+    [$team, $teamSlide],
+    [$prototype, $prototypeSlide],
+    [$blog, $blogSlide],
+    [$upBtn, $aboutSlide]
+  ];
 
-  $about.click(function(){
-      $("html, body").animate({ scrollTop: 0 }, 600);
+  $(navigation).each(function(index, e) {
+    var menuItem = e[0];
+    var scrollTarget = e[1];
+    
+    menuItem.click(function(){
+      $("body").animate({ scrollTop: scrollTarget.offset().top - navBarHeight }, 600);
       return false;
-  });
-
-  $projects.click(function(){
-      $("html, body").animate({ scrollTop: 900 }, 600);
-      return false;
-  });
-
-  $offer.click(function(){
-      $("html, body").animate({ scrollTop: 1695 }, 600);
-      return false;
-  });
-
-  $process.click(function(){
-      $("html, body").animate({ scrollTop: 2110 }, 600);
-      return false;
-  });
-
-  $team.click(function(){
-      $("html, body").animate({ scrollTop: 2740 }, 600);
-      return false;
-  });
-
-  $prototype.click(function(){
-      $("html, body").animate({ scrollTop: 3700 }, 600);
-      return false;
-  });
-
-  $blog.click(function(){
-      $("html, body").animate({ scrollTop: 4300 }, 600);
-      return false;
+    });
   });
 })();
