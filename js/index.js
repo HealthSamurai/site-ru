@@ -4,6 +4,11 @@
   var $teamSlide = $('.js-team-slide');
   var $processSlide = $('.js-process-slide');
   var $offerSlide = $('.js-offer-slide');
+  var $screens = $('.js-screens');
+  var $foodtaster = $('.js-foodtaster');
+  var $fotmstamp = $('.js-fotmstamp');
+  var $fhirbase = $('.js-fhirbase');
+  var $choiceBtn = $('.js-choice-btn');
   var $projectsSlide = $('.js-projects-slide');
   var $blog = $('.js-blog');
   var $prototype = $('.js-prototype');
@@ -14,11 +19,6 @@
   var $about = $('.js-about');
   var $upBtn = $('.js-up-btn');
   var $aboutSlide = $('.js-about-slide');
-  var $screens = $('.js-screens');
-  var $foodtaster = $('.js-foodtaster');
-  var $fotmstamp = $('.js-fotmstamp');
-  var $fhirbase = $('.js-fhirbase');
-  var $choiceBtn = $('.js-choice-btn');
 
 
    /*slider movement*/
