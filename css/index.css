@@ -7,7 +7,7 @@ body {
 .about {
   position: relative;
   float: left;
-  z-index: 149;
+  z-index: 156;
   width: 100%;
   height: 724px;
   padding-top: 200px;
@@ -23,37 +23,57 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 62;
+  z-index: 67;
   width: 52.4017467248%;
   height: 278px;
   margin: -278px 0 0 37.40675%;
 }
 
+.alexandra .container {
+  z-index: 64;
+  width: 94px;
+}
+
+.alexandra .flip3d {
+  width: 100%;
+  margin-left: -0.13455%;
+}
+
 .alexandra .front {
-  border-radius: 100px;
+  width: 50%;
   background-image: url('../images/sasha.png');
-  background-size: 200px 200px;
   background-position: center center;
 }
 
 .back {
+  position: relative;
   float: left;
-  width: 50%;
   height: 174px;
   border-radius: 85px;
   background-color: #f2f2f2;
 }
 
+.back .container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 55px;
+  margin: auto;
+}
+
 .back .text {
   display: block;
-  float: left;
+  position: absolute;
   min-height: 51px;
   font: normal 2.5em/1.38 FontAwesome;
+  color: rgb(110, 110, 110);
 }
 
 .blog .container {
   float: left;
-  width: 400px;
+  width: 380px;
 }
 
 .blog .text {
@@ -83,23 +103,22 @@ body {
 .container .image {
   float: left;
   width: 83px;
-  margin-left: 38.50915%;
+  margin-left: 38.50755%;
   overflow: hidden;
 }
 
 .danil {
   position: relative;
   float: left;
-  z-index: 77;
+  z-index: 83;
   width: 52.4017467248%;
   height: 278px;
   margin-top: 7px;
 }
 
 .danil .front {
-  border-radius: 100px;
+  width: 50%;
   background-image: url('../images/danil.png');
-  background-size: 200px 200px;
   background-position: center center;
 }
 
@@ -117,15 +136,15 @@ body {
 
 .flip3d {
   float: left;
-  width: 100%;
   height: 174px;
 }
 
 .front {
   float: left;
-  width: 50%;
   height: 174px;
+  border-radius: 100px;
   background-repeat: no-repeat;
+  background-size: 200px 200px;
   background-color: rgb(255, 255, 255);
 }
 
@@ -137,9 +156,9 @@ body {
 .logo {
   display: block;
   position: absolute;
-  top: 23px;
+  top: 19px;
   left: 2.6666666666%;
-  z-index: 166;
+  z-index: 173;
   width: 197px;
   height: auto;
   overflow: hidden;
@@ -149,10 +168,10 @@ body {
   position: relative;
   float: right;
   clear: both;
-  z-index: 163;
+  z-index: 170;
   width: 80%;
   height: 29px;
-  margin-top: -32px;
+  margin-top: -35px;
 }
 
 .mainnav .blog {
@@ -161,6 +180,39 @@ body {
   width: 99.8337765957%;
   min-height: 29px;
   margin-right: 0.0434999999%;
+  font-size: 1em;
+  line-height: 1.38;
+  color: rgb(167, 163, 163);
+}
+
+.mainnav .offer {
+  display: block;
+  float: right;
+  width: 99.8139880952%;
+  min-height: 29px;
+  margin-right: 0.97403%;
+  font-size: 1em;
+  line-height: 1.38;
+  color: rgb(167, 163, 163);
+}
+
+.mainnav .process {
+  display: block;
+  float: right;
+  width: 99.8235887096%;
+  min-height: 29px;
+  margin-right: 0.20398%;
+  font-size: 1em;
+  line-height: 1.38;
+  color: rgb(167, 163, 163);
+}
+
+.mainnav .projects {
+  display: block;
+  float: right;
+  width: 99.8263888888%;
+  min-height: 29px;
+  margin-right: 0.92732%;
   font-size: 1em;
   line-height: 1.38;
   color: rgb(167, 163, 163);
@@ -176,30 +228,51 @@ body {
   color: rgb(167, 163, 163);
 }
 
+.mainnav .team {
+  display: block;
+  float: right;
+  width: 99.8086734693%;
+  min-height: 29px;
+  margin-right: 0.37827%;
+  font-size: 1em;
+  line-height: 1.38;
+  color: rgb(167, 163, 163);
+}
+
 .maxim {
   position: relative;
   float: left;
-  z-index: 54;
+  z-index: 58;
   width: 52.4017467248%;
   height: 278px;
 }
 
+.maxim .container {
+  z-index: 55;
+  width: 94px;
+}
+
 .maxim .front {
-  background-image: url('../images/face.png');
-  background-size: 175px 175px;
+  width: 50%;
+  background-image: url('../images/maxim.png');
   background-position: center center;
 }
 
 .medclient {
   position: relative;
   float: left;
-  z-index: 126;
+  z-index: 133;
   width: 123.0769230769%;
   height: 526px;
-  margin: -183px 0 0 -11.38462%;
+  margin: -183px 0 0 -12.40876%;
 }
 
 .medclient .container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 132;
   width: 977px;
   height: 62px;
   margin: 0 auto;
@@ -213,20 +286,26 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 46;
+  z-index: 49;
   width: 51.2372634643%;
   height: 278px;
   margin: -278px 0 0 73.36245%;
 }
 
-.mikhail .back {
-  margin-top: 2px;
+.mikhail .container {
+  z-index: 46;
+  width: 130px;
+}
+
+.mikhail .flip3d {
+  position: relative;
+  width: 101.9886363636%;
+  margin-left: 0.14205%;
 }
 
 .mikhail .front {
-  border-radius: 100px;
+  width: 176px;
   background-image: url('../images/mikhail.png');
-  background-size: 200px 200px;
   background-position: center top;
 }
 
@@ -234,16 +313,20 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 70;
+  z-index: 76;
   width: 52.4017467248%;
   height: 278px;
   margin: -278px 0 0 73.36245%;
 }
 
+.mikhaill .container {
+  z-index: 73;
+  width: 94px;
+}
+
 .mikhaill .front {
-  border-radius: 100px;
+  width: 180px;
   background-image: url('../images/misha.png');
-  background-size: 200px 200px;
   background-position: center center;
 }
 
@@ -251,7 +334,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 167;
+  z-index: 174;
   width: 100%;
   height: 74px;
   background-color: rgb(255, 255, 255);
@@ -271,27 +354,20 @@ body {
 .nikolay {
   position: relative;
   float: left;
-  z-index: 29;
+  z-index: 30;
   width: 52.4017467248%;
   height: 278px;
 }
 
-.nikolay .front {
-  border-radius: 100px;
-  background-image: url('../images/nikolay.png');
-  background-size: 200px 200px;
-  background-position: left bottom;
+.nikolay .container {
+  z-index: 27;
+  width: 134px;
 }
 
-.offer {
-  position: absolute;
-  top: 1902px;
-  left: 0;
-  right: 0;
-  z-index: 117;
-  width: 835px;
-  height: 229px;
-  margin: 0 auto;
+.nikolay .front {
+  width: 50%;
+  background-image: url('../images/nikolay.png');
+  background-position: left bottom;
 }
 
 .offer .text {
@@ -302,16 +378,39 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 92;
+  z-index: 99;
   width: 52.4017467248%;
   height: 278px;
   margin: -278px 0 0 73.36245%;
 }
 
+.alexandra .back,
+.maxim .back,
+.mikhail .back,
+.mikhaill .back,
+.nikolay .back,
+.oleg .back,
+.pavel .back {
+  width: 180px;
+}
+
+.oleg .container {
+  z-index: 96;
+  width: 94px;
+}
+
+.danil .flip3d,
+.maxim .flip3d,
+.mikhaill .flip3d,
+.nikolay .flip3d,
+.oleg .flip3d,
+.pasha .flip3d {
+  width: 100%;
+}
+
 .oleg .front {
-  border-radius: 100px;
+  width: 180px;
   background-image: url('../images/oleg.png');
-  background-size: 200px 200px;
   background-position: right bottom;
 }
 
@@ -319,16 +418,20 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 84;
+  z-index: 90;
   width: 52.4017467248%;
   height: 278px;
   margin: -278px 0 0 37.40675%;
 }
 
+.danil .back,
+.pasha .back {
+  width: 50%;
+}
+
 .pasha .front {
-  border-radius: 100px;
+  width: 50%;
   background-image: url('../images/pasha.png');
-  background-size: 200px 200px;
   background-position: center center;
 }
 
@@ -336,16 +439,25 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 37;
+  z-index: 39;
   width: 51.2372634643%;
   height: 278px;
   margin: -278px 0 0 37.40675%;
 }
 
+.pavel .container {
+  z-index: 36;
+  width: 94px;
+}
+
+.pavel .flip3d {
+  width: 103.6931818181%;
+  margin-left: -0.13761%;
+}
+
 .pavel .front {
-  border-radius: 100px;
+  width: 176px;
   background-image: url('../images/pavel.png');
-  background-size: 200px 200px;
   background-position: center center;
 }
 
@@ -353,7 +465,7 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 139;
+  z-index: 146;
   width: 80.8139534883%;
   min-height: 24px;
   margin: -26px 0 0 11.96008%;
@@ -363,23 +475,12 @@ body {
   color: rgb(85, 85, 85);
 }
 
-.process {
-  position: absolute;
-  top: 2290px;
-  left: 0;
-  right: 0;
-  z-index: 106;
-  width: 100%;
-  height: 501px;
-  margin: 0 auto;
-}
-
 .process .element {
   position: absolute;
   top: 44px;
   left: 0;
   right: 0;
-  z-index: 95;
+  z-index: 102;
   width: 920px;
   height: 296px;
   margin: 0 auto;
@@ -396,21 +497,10 @@ body {
   color: rgb(0, 0, 0);
 }
 
-.projects {
-  position: absolute;
-  top: 1018px;
-  left: 0;
-  right: 0;
-  z-index: 134;
-  width: 100%;
-  height: 685px;
-  margin: 0 auto;
-}
-
 .projects .element {
   position: relative;
   float: left;
-  z-index: 119;
+  z-index: 126;
   width: 100%;
   height: 552px;
   margin-top: 133px;
@@ -436,7 +526,7 @@ body {
   position: absolute;
   top: 209px;
   left: 0;
-  z-index: 127;
+  z-index: 134;
   width: 100%;
   height: 343px;
   -webkit-transition: all 2s ease;
@@ -451,7 +541,7 @@ body {
   top: 19px;
   left: 0;
   right: 0;
-  z-index: 133;
+  z-index: 140;
   width: 596px;
   max-width: 600px;
   height: 87px;
@@ -460,17 +550,6 @@ body {
 
 .slidernav .image {
   float: left;
-}
-
-.team {
-  position: absolute;
-  top: 2889px;
-  left: 0;
-  right: 0;
-  z-index: 93;
-  width: 687px;
-  height: 924px;
-  margin: 0 auto;
 }
 
 .text-67 p,
@@ -483,10 +562,10 @@ body {
   visibility: hidden;
   position: relative;
   float: left;
-  z-index: 165;
-  width: 2.25%;
+  z-index: 172;
+  width: 27px;
   min-height: 40px;
-  margin: 14px 0 0 94.73698%;
+  margin: 17px 0 0 95%;
   font: normal 1.875em/1.38 FontAwesome;
   color: rgb(0, 0, 0);
 }
@@ -496,8 +575,8 @@ body {
   position: fixed;
   top: 400px;
   left: 92.2486979166%;
-  z-index: 168;
-  width: 3.9166666666%;
+  z-index: 175;
+  width: 47px;
   min-height: 39px;
   font: normal 3.313em/1.38 FontAwesome;
   color: rgba(45, 45, 45, 0.08);
@@ -512,8 +591,8 @@ body {
   top: 133px;
   left: 0;
   right: 0;
-  z-index: 128;
-  width: 975px;
+  z-index: 135;
+  width: 959px;
   height: 552px;
   margin: 0 auto;
   overflow: hidden;
@@ -589,10 +668,6 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-.blog ._container {
-  height: 459px;
-}
-
 .container ._container,
 .offer .container {
   float: left;
@@ -600,15 +675,6 @@ body {
 
 .mainnav ._container {
   float: left;
-}
-
-.mainnav ._text {
-  display: block;
-  float: right;
-  min-height: 29px;
-  font-size: 1em;
-  line-height: 1.38;
-  color: rgb(167, 163, 163);
 }
 
 .mikhail ._text,
@@ -644,7 +710,7 @@ body {
   right: 0;
   z-index: 10;
   width: 821px;
-  height: 459px;
+  height: 478px;
   margin: 0 auto;
 }
 
@@ -664,26 +730,28 @@ body {
   margin-left: 9.44414%;
 }
 
-.container-13 {
-  margin-left: -0.059%;
-}
-
-.container-14 {
-  margin-left: 2.60163%;
-}
-
 .container-2 {
   position: relative;
   clear: both;
-  z-index: 141;
+  z-index: 148;
   width: 191px;
   height: 29px;
   margin-left: 11.83402%;
 }
 
+.container-20 {
+  height: 420px;
+  margin-left: 2.49315%;
+}
+
+.container-21 {
+  height: 476px;
+  margin-left: 2.55405%;
+}
+
 .container-3 {
   position: relative;
-  z-index: 138;
+  z-index: 145;
   width: 43.897996357%;
   height: 29px;
 }
@@ -711,7 +779,7 @@ body {
   top: 359px;
   left: 0;
   right: 0;
-  z-index: 105;
+  z-index: 112;
   width: 56.4999999999%;
   height: 52px;
   margin: 0 auto;
@@ -745,9 +813,8 @@ body {
 
 .image-7 {
   float: left;
-  clear: both;
-  width: 977px;
-  margin: 27px 0 0 111px;
+  width: 955px;
+  margin: 191px 0 0 121px;
   overflow: hidden;
 }
 
@@ -755,10 +822,43 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 120;
+  z-index: 127;
   width: 977px;
   margin: -343px 0 0 975px;
   overflow: hidden;
+}
+
+.offer-2 {
+  position: absolute;
+  top: 1902px;
+  left: 0;
+  right: 0;
+  z-index: 124;
+  width: 835px;
+  height: 229px;
+  margin: 0 auto;
+}
+
+.process-2 {
+  position: absolute;
+  top: 2290px;
+  left: 0;
+  right: 0;
+  z-index: 113;
+  width: 100%;
+  height: 501px;
+  margin: 0 auto;
+}
+
+.projects-2 {
+  position: absolute;
+  top: 1018px;
+  left: 0;
+  right: 0;
+  z-index: 141;
+  width: 100%;
+  height: 685px;
+  margin: 0 auto;
 }
 
 .prototype-2 {
@@ -772,6 +872,18 @@ body {
   margin: 0 auto;
 }
 
+.team-2 {
+  position: absolute;
+  top: 2889px;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  width: 687px;
+  height: 924px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
 .text-1 {
   margin: 0 auto;
   font-size: 5.25em;
@@ -781,10 +893,15 @@ body {
 }
 
 .text-10 {
-  width: 1200px;
-  margin: 28px auto 0;
-  padding-right: 200px;
-  padding-left: 200px;
+  position: absolute;
+  top: 85px;
+  left: 0;
+  right: 0;
+  z-index: 129;
+  width: 978px;
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px;
   font-size: 1.5em;
   text-align: center;
   color: rgb(0, 0, 0);
@@ -795,7 +912,7 @@ body {
   top: 1753px;
   left: 0;
   right: 0;
-  z-index: 118;
+  z-index: 125;
   width: 100%;
   margin: 0 auto;
   padding-top: 40px;
@@ -875,7 +992,7 @@ body {
   top: 2173px;
   left: 0;
   right: 0;
-  z-index: 107;
+  z-index: 114;
   width: 100%;
   margin: 0 auto;
   padding-top: 40px;
@@ -944,7 +1061,7 @@ body {
   top: 2741px;
   left: 0;
   right: 0;
-  z-index: 94;
+  z-index: 101;
   width: 100%;
   margin: 0 auto;
   padding-top: 40px;
@@ -957,21 +1074,24 @@ body {
 }
 
 .text-26 {
-  width: 16.8539325842%;
-  margin: 60px 0 0 13.48315%;
-  color: rgb(110, 110, 110);
+  top: 0;
+  left: 0.7462686567%;
+  z-index: 26;
+  width: 30px;
 }
 
 .text-27 {
-  width: 21.8390804597%;
-  margin: 60px 0 0 7.27704%;
-  color: rgb(110, 110, 110);
+  top: 0;
+  left: 70.1492537313%;
+  z-index: 25;
+  width: 40px;
 }
 
 .text-28 {
-  width: 21.8311095505%;
-  margin: 60px 0 0 7.96173%;
-  color: rgb(110, 110, 110);
+  top: 0;
+  left: 32.0895522388%;
+  z-index: 24;
+  width: 39px;
 }
 
 .text-29 {
@@ -983,7 +1103,7 @@ body {
 
 .text-3 {
   position: relative;
-  z-index: 143;
+  z-index: 150;
   width: 5.6464695335%;
   min-height: 32px;
   margin: -3px 0 0 0.3643%;
@@ -999,15 +1119,17 @@ body {
 }
 
 .text-31 {
-  width: 21.8390804597%;
-  margin: 60px 0 0 23.82364%;
-  color: rgb(110, 110, 110);
+  top: 0;
+  left: 57.4468085106%;
+  z-index: 35;
+  width: 40px;
 }
 
 .text-32 {
-  width: 21.8390804597%;
-  margin: 60px 0 0 8.53089%;
-  color: rgb(110, 110, 110);
+  top: 0;
+  left: 0;
+  z-index: 34;
+  width: 39px;
 }
 
 .text-33 {
@@ -1023,21 +1145,24 @@ body {
 }
 
 .text-35 {
-  width: 21.8390804597%;
-  margin: 60px 0 0 13.7033%;
-  color: #6e6e6e;
+  top: 0;
+  left: 0;
+  z-index: 45;
+  width: 39px;
 }
 
 .text-36 {
-  width: 21.8390804597%;
-  margin: 60px 0 0 5.07364%;
-  color: #6e6e6e;
+  top: 0;
+  left: 69.2307692307%;
+  z-index: 44;
+  width: 40px;
 }
 
 .text-37 {
-  width: 21.8390804597%;
-  margin: 60px 0 0 5.36099%;
-  color: #6e6e6e;
+  top: 0;
+  left: 35.3846153846%;
+  z-index: 43;
+  width: 39px;
 }
 
 .text-38 {
@@ -1055,7 +1180,7 @@ body {
 .text-4 {
   position: relative;
   clear: both;
-  z-index: 142;
+  z-index: 149;
   width: 93.8181818181%;
   min-height: 34px;
   margin: -30px 0 0 5.99101%;
@@ -1067,15 +1192,17 @@ body {
 }
 
 .text-40 {
-  width: 21.8311095505%;
-  margin: 60px 0 0 24.69277%;
-  color: rgb(110, 110, 110);
+  top: 0;
+  left: 57.4468085106%;
+  z-index: 54;
+  width: 40px;
 }
 
 .text-41 {
-  width: 21.8390804597%;
-  margin: 60px 0 0 8.96243%;
-  color: rgb(110, 110, 110);
+  top: 0;
+  left: 0;
+  z-index: 53;
+  width: 39px;
 }
 
 .text-42 {
@@ -1093,15 +1220,17 @@ body {
 }
 
 .text-44 {
-  width: 21.8390804597%;
-  margin: 59px 0 0 26.4835%;
-  color: rgb(110, 110, 110);
+  top: 0;
+  left: 57.4468085106%;
+  z-index: 63;
+  width: 40px;
 }
 
 .text-45 {
-  width: 21.8311095505%;
-  margin: 59px 0 0 9.02388%;
-  color: rgb(110, 110, 110);
+  top: 0;
+  left: 0;
+  z-index: 62;
+  width: 39px;
 }
 
 .text-46 {
@@ -1118,15 +1247,23 @@ body {
   font-size: 1.063em;
 }
 
+.text-48 {
+  top: 0;
+  left: 57.4468085106%;
+  z-index: 72;
+  width: 40px;
+}
+
 .text-49 {
-  width: 21.8311095505%;
-  margin: 60px 0 0 10.68294%;
-  color: rgb(110, 110, 110);
+  top: 0;
+  left: 0;
+  z-index: 71;
+  width: 39px;
 }
 
 .text-5 {
   position: relative;
-  z-index: 140;
+  z-index: 147;
   width: 12.2093023255%;
   min-height: 22px;
   margin-top: 1px;
@@ -1148,6 +1285,15 @@ body {
   font-size: 1.063em;
 }
 
+.text-52 {
+  top: 60px;
+  left: 0;
+  right: 0;
+  z-index: 80;
+  width: 39px;
+  margin: 0 auto;
+}
+
 .text-53 {
   width: 49.1666666666%;
   min-height: 42px;
@@ -1162,11 +1308,13 @@ body {
   font-size: 1.063em;
 }
 
-.text-52,
 .text-55 {
-  width: 21.8390804597%;
-  margin: 60px 0 0 41.65204%;
-  color: rgb(110, 110, 110);
+  top: 60px;
+  left: 0;
+  right: 0;
+  z-index: 87;
+  width: 39px;
+  margin: 0 auto;
 }
 
 .text-56 {
@@ -1183,17 +1331,18 @@ body {
   font-size: 1.063em;
 }
 
-.text-48,
 .text-58 {
-  width: 21.8390804597%;
-  margin: 60px 0 0 25.34235%;
-  color: rgb(110, 110, 110);
+  top: 0;
+  left: 57.4468085106%;
+  z-index: 95;
+  width: 40px;
 }
 
 .text-59 {
-  width: 21.8311095505%;
-  margin: 60px 0 0 11.13062%;
-  color: rgb(110, 110, 110);
+  top: 0;
+  left: 0;
+  z-index: 94;
+  width: 39px;
 }
 
 .text-6 {
@@ -1308,7 +1457,7 @@ body {
   top: 901px;
   left: 0;
   right: 0;
-  z-index: 135;
+  z-index: 142;
   width: 100%;
   margin: 0 auto;
   padding-top: 40px;
@@ -1323,7 +1472,7 @@ body {
 .text-9 {
   float: left;
   width: 19.3449334698%;
-  margin: 6px 0 0 0.79165%;
+  margin: 6px 0 0 0.79005%;
   font-size: 2.188em;
   font-weight: 600;
   color: rgb(98, 98, 98);
@@ -1334,7 +1483,7 @@ body {
   text-decoration: none;
 }
 
-._container-24 {
+._container-31 {
   position: relative;
   float: left;
   clear: both;
@@ -1346,20 +1495,21 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-.container ._container-21 {
+.container ._container-28 {
   width: 100%;
-  margin-left: -0.00391%;
+  height: 459px;
 }
 
-.container ._container-23 {
+.container ._container-30 {
   width: 100%;
-  margin-left: -0.09375%;
+  height: 459px;
+  margin-left: -0.08635%;
 }
 
 .mainnav ._container-10 {
   width: 3.7424325811%;
   height: 26px;
-  margin: 2px 0 0 3.64909%;
+  margin: 2px 0 0 3.66374%;
 }
 
 .mainnav ._container-4 {
@@ -1370,13 +1520,13 @@ body {
 .mainnav ._container-5 {
   width: 6.4942212438%;
   height: 26px;
-  margin: 2px 0 0 42.35352%;
+  margin: 2px 0 0 42.39421%;
 }
 
 .mainnav ._container-6 {
   width: 4.5129334067%;
   height: 26px;
-  margin: 2px 0 0 3.48633%;
+  margin: 2px 0 0 3.61003%;
 }
 
 .mainnav ._container-7 {
@@ -1388,33 +1538,13 @@ body {
 .mainnav ._container-8 {
   width: 4.7330764997%;
   height: 26px;
-  margin: 2px 0 0 4.45801%;
+  margin: 2px 0 0 3.71908%;
 }
 
 .mainnav ._container-9 {
   width: 8.0208333333%;
   height: 26px;
-  margin: 2px 0 0 3.15267%;
-}
-
-.mainnav ._text-10 {
-  width: 99.8086734693%;
-  margin-right: 0.37827%;
-}
-
-.mainnav ._text-7 {
-  width: 99.8263888888%;
-  margin-right: 0.92732%;
-}
-
-.mainnav ._text-8 {
-  width: 99.8139880952%;
-  margin-right: 0.97403%;
-}
-
-.mainnav ._text-9 {
-  width: 99.8235887096%;
-  margin-right: 0.20398%;
+  margin: 2px 0 0 3.70443%;
 }
 
 .prototype ._input-1 {
@@ -1488,86 +1618,87 @@ body {
 @media(max-width: 850px) {
   .about {
     position: relative;
-    z-index: 149;
-    height: 910px;
+    z-index: 156;
   }
 
-  .about .contacts {
-    width: 351px;
-    height: 150px;
+  .alexandra .flip3d,
+  .mikhail .flip3d,
+  .pavel .flip3d,
+  .slidernav .image-2 {
+    margin-left: 0;
   }
 
-  .alexandra .back {
-    clear: both;
-    margin-top: 63px;
+  .back .container {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
   }
 
   .blog {
-    width: 80.9411764705%;
+    width: 477px;
     margin-right: auto;
   }
 
   .blog .container {
-    width: 99.9972393992%;
-  }
-
-  .contacts .text {
-    position: relative;
+    width: 477px;
   }
 
   .container .container {
-    height: 55px;
-  }
-
-  .container .email {
-    position: relative;
-    clear: both;
-    z-index: 136;
-    margin-top: -27px;
-    margin-left: 13.55057%;
-    text-align: center;
+    margin-left: 0;
   }
 
   .container .image {
     height: auto;
-    margin-left: -0.20989%;
+    margin-left: 38.5067%;
   }
 
   .container .phone {
     position: relative;
-    z-index: 139;
-    width: 76.3532763532%;
-    margin-top: -28px;
-    margin-left: 11.24911%;
-    text-align: center;
+    z-index: 146;
+  }
+
+  .danil .back {
+    clear: both;
+    width: 50.8620689655%;
   }
 
   .mainnav .blog {
-    min-height: 24px;
     margin-right: 0;
-    font-size: 1.125em;
-    text-align: right;
+  }
+
+  .mainnav .offer {
+    margin-right: 0.8793%;
+  }
+
+  .mainnav .process {
+    margin-right: 0.08463%;
+  }
+
+  .mainnav .projects {
+    margin-right: 0.86183%;
   }
 
   .mainnav .prototype {
-    min-height: 24px;
-    margin-top: -1px;
-    margin-right: 5.46875%;
-    font-size: 1.125em;
-    text-align: right;
+    width: 98.4848484848%;
+    margin-right: -1.50838%;
+  }
+
+  .mainnav .team {
+    margin-right: 0.23024%;
   }
 
   .medclient .container {
-    float: left;
-    width: 33.8383838383%;
-    margin-top: 35px;
-    margin-right: 0;
-    margin-left: 34.72025%;
+    top: 49px;
+    left: -0.2355712604%;
+    right: auto;
+    width: 849px;
+    height: 75px;
   }
 
   .mikhail .back {
-    clear: both;
-    margin-top: 52px;
+    margin-left: 3.2599%;
   }
 
   .about .image,
@@ -1577,2256 +1708,998 @@ body {
 
   .navbar .mainnav {
     position: relative;
-    z-index: 163;
-    margin-top: -35px;
+    z-index: 170;
+    width: 65.1764705882%;
+  }
+
+  .navbar .toggle-menu {
+    position: relative;
+    z-index: 172;
+  }
+
+  .offer {
+    width: 849px;
+    margin-right: auto;
+  }
+
+  .offer .container {
+    height: 229px;
+  }
+
+  .pavel .back {
+    margin-left: 3.26381%;
+  }
+
+  .process {
+    margin-right: auto;
+  }
+
+  .process .element {
+    left: 0;
+    right: 0;
+    width: 780px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .projects {
+    margin-right: auto;
+  }
+
+  .projects .element {
+    position: relative;
+    z-index: 126;
+  }
+
+  .projects .slidernav {
+    left: 0;
+    right: 0;
+    width: 564px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .projects .viewport {
+    left: 0;
+    right: 0;
+    width: 849px;
+    height: 459px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .prototype {
+    width: 588px;
+    margin-right: auto;
+  }
+
+  .prototype .container {
+    position: relative;
+    z-index: 16;
+    width: 18.1972789115%;
+    margin-left: 2.67326%;
+  }
+
+  .screens .medclient {
+    position: absolute;
+    float: none;
+    width: 100%;
+    height: 552px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .slidernav .image {
+    height: auto;
+  }
+
+  .team {
+    width: 735px;
+    margin-right: auto;
+  }
+
+  .team .alexandra {
+    position: relative;
+    z-index: 67;
+    width: 57.619047619%;
+    margin-left: 37.40434%;
+  }
+
+  .team .danil {
+    position: relative;
+    z-index: 83;
+    width: 57.619047619%;
+  }
+
+  .team .maxim {
+    position: relative;
+    z-index: 58;
+    width: 58.5714285714%;
+  }
+
+  .team .mikhail {
+    position: relative;
+    z-index: 49;
+    width: 58.5714285714%;
+    margin-left: 73.36097%;
+  }
+
+  .team .mikhaill {
+    position: relative;
+    z-index: 76;
+    width: 57.7777777777%;
+    margin-left: 73.36097%;
+  }
+
+  .team .nikolay {
+    position: relative;
+    z-index: 30;
+    width: 58.5714285714%;
+  }
+
+  .team .oleg {
+    position: relative;
+    z-index: 99;
+    width: 58.8888888888%;
+    margin-left: 73.36097%;
+  }
+
+  .team .pasha {
+    position: relative;
+    z-index: 90;
+    width: 57.619047619%;
+    margin-left: 37.40434%;
+  }
+
+  .team .pavel {
+    position: relative;
+    z-index: 39;
+    width: 56.0317460317%;
+    margin-left: 37.40434%;
+  }
+
+  .viewport .screens {
+    left: 0.058892815%;
+  }
+
+  .prototype ._button {
+    position: relative;
+    z-index: 13;
+    margin-top: 15px;
+    margin-left: 59.67262%;
+  }
+
+  .prototype ._input {
+    position: relative;
+  }
+
+  .prototype ._textarea {
+    margin-left: -0.03189%;
+  }
+
+  .about .text-1 {
+    font-size: 5em;
+  }
+
+  .about .text-2 {
+    font-size: 2.563em;
+  }
+
+  .alexandra .text-46 {
+    margin-left: -6.38282%;
+  }
+
+  .alexandra .text-47 {
+    margin-left: 6.66322%;
+  }
+
+  .blog .container-20 {
+    height: 346px;
+    margin-left: 2.18816%;
+  }
+
+  .blog .container-21 {
+    clear: both;
+    height: 431px;
+    margin-left: 3.28551%;
+  }
+
+  .blog-2 {
+    top: 4308px;
+    left: 0;
+    right: 0;
+    height: 798px;
+    margin-left: auto;
+  }
+
+  .contacts .container-2 {
+    position: relative;
+    z-index: 148;
+  }
+
+  .contacts .container-3 {
+    position: relative;
+    z-index: 145;
+  }
+
+  .container .container-10 {
+    width: 34.5930232558%;
+  }
+
+  .container .container-11 {
+    width: 30.2325581395%;
+  }
+
+  .container .container-9 {
+    width: 35.1744186046%;
+  }
+
+  .container .text-22 {
+    margin-left: 3.90651%;
+  }
+
+  .container .text-24 {
+    margin-left: 0.9991%;
+  }
+
+  .container .text-26 {
+    left: 0.3731343283%;
+  }
+
+  .container .text-3 {
+    position: relative;
+    z-index: 150;
+  }
+
+  .container .text-4 {
+    position: relative;
+    z-index: 149;
+  }
+
+  .container .text-5 {
+    position: relative;
+    z-index: 147;
+  }
+
+  .container .text-63 {
+    margin-left: 0.10222%;
+  }
+
+  .container .text-64 {
+    margin-left: 7.54965%;
+  }
+
+  .container .text-9 {
+    width: 20.7502930832%;
+    margin-left: 0.78033%;
+  }
+
+  .danil .text-54 {
+    margin-left: 10.63312%;
+  }
+
+  .maxim .text-42 {
+    margin-left: -6.52584%;
+  }
+
+  .maxim .text-43 {
+    margin-left: -3.1213700001%;
+  }
+
+  .medclient .image-7 {
+    width: 803px;
+    height: auto;
+    margin-top: 269px;
+    margin-left: 21px;
+  }
+
+  .medclient .text-10 {
+    top: 124px;
+    left: 0;
+    right: auto;
+    width: 849px;
+  }
+
+  .mikhail .text-38 {
+    margin-left: 0.1379199999%;
+  }
+
+  .mikhail .text-39 {
+    margin-left: 14.61237%;
+  }
+
+  .mikhaill .text-50 {
+    margin-left: 1.37979%;
+  }
+
+  .mikhaill .text-51 {
+    margin-left: 9.69534%;
+  }
+
+  .nikolay .text-29 {
+    margin-left: -1.84016%;
+  }
+
+  .nikolay .text-30 {
+    margin-left: 14.62326%;
+  }
+
+  .offer .container-5 {
+    margin-left: 3.40106%;
+  }
+
+  .offer .container-6 {
+    margin-left: 6.7101%;
+  }
+
+  .offer .container-7 {
+    margin-left: 6.64569%;
+  }
+
+  .offer-2 {
+    left: 0;
+    right: 0;
+    height: 763px;
+    margin-left: auto;
+  }
+
+  .oleg .text-60 {
+    margin-left: 1.80535%;
+  }
+
+  .oleg .text-61 {
+    margin-left: 17.04329%;
+  }
+
+  .pasha .text-56 {
+    margin-left: -2.63297%;
+  }
+
+  .pasha .text-57 {
+    margin-left: 10.1424%;
+  }
+
+  .pavel .text-34 {
+    margin-left: 14.47433%;
+  }
+
+  .process .container-8 {
+    left: 0;
+    right: 0;
+    width: 80.9411764705%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .process-2 {
+    left: 0;
+    right: 0;
+    height: 451px;
+    margin-left: auto;
+  }
+
+  .projects-2 {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+  }
+
+  .prototype-2 {
+    top: 3859px;
+    left: 0;
+    right: 0;
+    height: 332px;
+    margin-left: auto;
+  }
+
+  .screens .image-8 {
+    position: relative;
+    clear: none;
+    z-index: 127;
+    height: auto;
+    margin-top: 0;
+    margin-left: 879px;
+  }
+
+  .slidernav .image-3,
+  .slidernav .image-4 {
+    margin-left: 11.1674399999%;
+  }
+
+  .slidernav .image-5 {
+    margin-left: 11.1619%;
+  }
+
+  .team-2 {
+    left: 0;
+    right: 0;
+    height: 853px;
+    margin-left: auto;
+  }
+
+  .back .text-52,
+  .back .text-55,
+  .text-11,
+  .text-18,
+  .text-8 {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-25 {
+    top: 2755px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-62 {
+    top: 3742px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-65 {
+    top: 4191px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  ._container-31 {
+    position: absolute;
+    float: none;
+    clear: none;
+    top: 5094px;
+    margin-top: 0;
+  }
+
+  .container ._container-30 {
+    margin-left: -0.08517%;
+  }
+
+  .mainnav ._container-10 {
+    width: 5.8823529411%;
+    margin-left: 7.93118%;
+  }
+
+  .mainnav ._container-5 {
+    width: 10.1470588235%;
+    margin-left: 0;
+  }
+
+  .mainnav ._container-6 {
+    width: 7.0588235294%;
+    margin-left: 7.93118%;
+  }
+
+  .mainnav ._container-7 {
+    width: 10%;
+    margin-left: 7.72529%;
+  }
+
+  .mainnav ._container-8 {
+    width: 7.3529411764%;
+    margin-left: 7.91144%;
+  }
+
+  .mainnav ._container-9 {
+    width: 15.1470588235%;
+    margin-left: 8.11169%;
+  }
+
+  .prototype ._input-1 {
+    z-index: 18;
+    margin-left: 0.03189%;
+  }
+
+  .prototype ._input-2 {
+    z-index: 17;
+    margin-left: 2.77158%;
+  }
+}
+
+@media(max-width: 630px) {
+  body {
+    font-size: 1em;
+  }
+
+  .about {
+    position: relative;
+    z-index: 156;
+    height: 755px;
+  }
+
+  .back .container {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .blog .container,
+  .mikhail .back,
+  .pavel .back {
+    margin-left: 0;
+  }
+
+  .container .image {
+    height: auto;
+    margin-left: 33.10268%;
+  }
+
+  .container .phone {
+    position: relative;
+    z-index: 146;
+  }
+
+  .danil .back {
+    clear: none;
+  }
+
+  .mainnav .offer {
+    margin-right: 0.863%;
+  }
+
+  .mainnav .process {
+    margin-right: 0.1142%;
+  }
+
+  .mainnav .projects {
+    margin-right: 0.90023%;
+  }
+
+  .mainnav .prototype {
+    margin-right: -1.5075400001%;
+  }
+
+  .mainnav .team {
+    margin-right: 0.20704%;
+  }
+
+  .medclient .container {
+    left: -0.2533783784%;
+    width: 630px;
+  }
+
+  .about .image,
+  .navbar .logo {
+    height: auto;
+  }
+
+  .navbar .mainnav {
+    visibility: hidden;
+    position: relative;
+    z-index: 170;
+  }
+
+  .navbar .text {
+    margin-left: 7.65377%;
   }
 
   .navbar .toggle-menu {
     visibility: visible;
     position: relative;
-    z-index: 165;
-    width: 4%;
-    margin-top: 17px;
-    margin-left: 93.05515%;
+    z-index: 172;
+    margin-left: 93.27629%;
   }
 
   .offer {
-    top: 1764px;
-    left: 9.5882352941%;
-    right: auto;
-    width: 82.8235294117%;
-    height: 205px;
+    margin-right: auto;
   }
 
-  .process {
-    top: 2086px;
-    left: 0;
-    right: auto;
-    height: 391px;
-  }
-
-  .process .element {
+  .offer .container {
+    position: absolute;
+    float: none;
     left: 0;
     right: 0;
-    width: 73.8602941176%;
     margin-right: auto;
     margin-left: auto;
   }
 
+  .alexandra .front,
+  .danil .front,
+  .maxim .front,
+  .nikolay .front,
+  .pasha .front {
+    width: 180px;
+  }
+
+  .process,
   .projects {
+    margin-right: auto;
+  }
+
+  .process .element {
+    top: 6px;
     left: 0;
-    right: auto;
-    height: 629px;
+    right: 0;
+    width: 602px;
+    height: 261px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .projects .element {
     position: relative;
-    z-index: 119;
-    height: 496px;
-  }
-
-  .projects .slidernav {
-    left: 0;
-    right: 0;
-    width: 96.9411764705%;
-    height: 85px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .projects .viewport {
-    left: 0;
-    right: 0;
-    width: 93.1764705882%;
-    height: 496px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .prototype {
-    width: 69.7169117647%;
-    margin-right: auto;
-  }
-
-  .prototype .container {
-    position: relative;
-    z-index: 16;
-    width: 22.1859706362%;
-    margin-left: 1.78506%;
-  }
-
-  .screens .medclient {
-    position: relative;
     z-index: 126;
-    width: 100%;
-    height: 496px;
-    margin-top: 0;
-    margin-left: 0;
-  }
-
-  .slidernav .image {
-    height: auto;
-  }
-
-  .team {
-    top: 2594px;
-    left: 0;
-    right: 0;
-    height: 859px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .team .alexandra {
-    position: relative;
-    z-index: 62;
-    margin-top: -283px;
-    margin-left: 37.39993%;
-  }
-
-  .team .danil {
-    position: relative;
-    z-index: 77;
-  }
-
-  .team .maxim {
-    position: relative;
-    z-index: 54;
-  }
-
-  .team .mikhail {
-    position: relative;
-    z-index: 46;
-    margin-top: -283px;
-    margin-left: 74.37682%;
-  }
-
-  .team .mikhaill {
-    position: relative;
-    z-index: 70;
-  }
-
-  .team .nikolay {
-    position: relative;
-    z-index: 29;
-  }
-
-  .team .oleg {
-    position: relative;
-    z-index: 92;
-  }
-
-  .team .pasha {
-    position: relative;
-    z-index: 84;
-    margin-left: 37.39993%;
-  }
-
-  .team .pavel {
-    position: relative;
-    z-index: 37;
-    margin-left: 37.39993%;
-  }
-
-  .up-btn {
-    left: 92.2481617647%;
-    width: 3.9154411764%;
-  }
-
-  .viewport .screens {
-    top: 0;
-    height: 496px;
-  }
-
-  .blog ._container {
-    margin-left: 0;
-  }
-
-  .mainnav ._text {
-    min-height: 24px;
-    font-size: 1.125em;
-    text-align: right;
-  }
-
-  .prototype ._button {
-    position: relative;
-    z-index: 13;
-    width: 24.8062015503%;
-    margin-top: 17px;
-    margin-left: 51.12324%;
-  }
-
-  .prototype ._input {
-    position: relative;
-    width: 46.7436587037%;
-  }
-
-  .prototype ._textarea {
-    width: 100.0685545536%;
-    margin-top: 19px;
-    margin-left: -0.06855%;
-  }
-
-  .slidernav ._image {
-    width: 74px;
-  }
-
-  .back .text-26 {
-    margin-left: 12.95646%;
-  }
-
-  .back .text-27 {
-    margin-left: 6.77669%;
-  }
-
-  .back .text-28 {
-    margin-left: 4.05548%;
-  }
-
-  .back .text-31 {
-    margin-left: 25.00898%;
-  }
-
-  .back .text-32 {
-    clear: both;
-    margin-top: -112px;
-    margin-left: 41.64871%;
-  }
-
-  .back .text-35 {
-    margin-left: 14.08046%;
-  }
-
-  .back .text-36 {
-    margin-left: 5.72917%;
-  }
-
-  .back .text-37 {
-    margin-left: 5.09159%;
-  }
-
-  .back .text-40 {
-    margin-left: 23.06882%;
-  }
-
-  .back .text-41 {
-    clear: both;
-    margin-top: -112px;
-    margin-left: 41.64326%;
-  }
-
-  .back .text-44 {
-    position: relative;
-    z-index: 58;
-    margin-top: 60px;
-    margin-left: 41.64326%;
-  }
-
-  .back .text-45 {
-    position: relative;
-    clear: both;
-    z-index: 59;
-    margin-top: -56px;
-    margin-left: 57.34726%;
-  }
-
-  .back .text-48 {
-    position: relative;
-    z-index: 66;
-    margin-left: 41.64326%;
-  }
-
-  .back .text-49 {
-    position: relative;
-    clear: both;
-    z-index: 67;
-    margin-top: -55px;
-    margin-left: 58.46208%;
+    height: 459px;
   }
 
   .back .text-52,
   .back .text-55,
-  .back .text-58 {
-    margin-left: 41.64326%;
-  }
-
-  .back .text-59 {
-    margin-left: 0.00878%;
-  }
-
-  .blog .container-13 {
-    height: 333px;
-  }
-
-  .blog .container-14 {
-    clear: both;
-    height: 329px;
-    margin-top: 14px;
-  }
-
-  .blog-2 {
-    top: 4025px;
-    left: 0;
-    right: 0;
-    height: 676px;
-    margin-left: auto;
-  }
-
-  .contacts .container-1 {
-    height: 52px;
-    margin-top: -1px;
-    margin-left: 0;
-  }
-
-  .contacts .container-2 {
-    position: relative;
-    z-index: 141;
-    width: 351px;
-    margin-top: 15px;
-    margin-left: 0;
-  }
-
-  .contacts .container-3 {
-    position: relative;
-    clear: both;
-    z-index: 138;
-    width: 100%;
-    margin-top: 14px;
-  }
-
-  .container .container-10 {
-    width: 28.2131661442%;
-    margin-left: 5.481%;
-  }
-
-  .container .container-11 {
-    width: 25.7053291536%;
-    margin-left: 10.97424%;
-  }
-
-  .container .container-9 {
-    width: 29.4670846394%;
-    margin-left: 0;
-  }
-
-  .container .text-12 {
-    width: 25.081645983%;
-  }
-
-  .container .text-19,
-  .container .text-20 {
-    width: 99.2660984848%;
-  }
-
-  .container .text-21 {
-    width: 100%;
-  }
-
-  .container .text-22 {
-    width: 91.6666666666%;
-    margin-left: 8.28993%;
-  }
-
-  .container .text-23 {
-    width: 99.6875%;
-  }
-
-  .container .text-24 {
-    width: 97.0601851851%;
-    margin-left: 0;
-  }
-
-  .container .text-3 {
-    z-index: 143;
-    margin-left: 0.36058%;
-  }
-
-  .container .text-4 {
-    z-index: 142;
-    margin-left: 5.98736%;
-  }
-
-  .container .text-5 {
-    z-index: 140;
-    width: 4.5584045584%;
-    margin-top: 0;
-    margin-left: 22.21332%;
-  }
-
-  .container .text-6 {
-    z-index: 137;
-    width: 8.547008547%;
-    margin-left: 13.55057%;
-  }
-
-  .container .text-63 {
-    width: 17.1875%;
-    margin-left: -0.52294%;
-  }
-
-  .container .text-64 {
-    width: 78.6764705882%;
-    margin-left: 3.93392%;
-  }
-
-  .container .text-66,
-  .container .text-67 {
-    width: 93.7993185078%;
-    margin-left: -0.07041%;
-  }
-
-  .container .text-68,
-  .container .text-69 {
-    width: 99.9278846153%;
-  }
-
-  .container .text-9 {
-    width: 59.3333333333%;
-    margin-left: 1.81903%;
-  }
-
-  .medclient .image-7 {
-    width: 788px;
-    height: auto;
-    margin-top: 32px;
-    margin-left: 2px;
-  }
-
-  .medclient .text-10 {
-    float: left;
-    clear: both;
-    width: 100%;
-    margin-top: 24px;
-    margin-right: 0;
-    margin-left: 0;
-    padding-right: 0;
-    padding-left: 0;
-  }
-
-  .mikhail .text-39,
-  .pavel .text-34 {
-    margin-left: 14.47532%;
-  }
-
-  .offer .container-5 {
-    width: 32.9273897058%;
-    height: 174px;
-    margin-left: -9.3062%;
-  }
-
-  .offer .container-6 {
-    width: 34.1452205882%;
-    height: 199px;
-    margin-left: 6.71387%;
-  }
-
-  .offer .container-7 {
-    clear: both;
-    width: 32.9273897058%;
-    margin-top: -199px;
-    margin-left: 71.09819%;
-  }
-
-  .alexandra .text-46,
-  .container .text-13,
-  .container .text-15,
-  .container .text-17,
-  .maxim .text-42,
-  .mikhail .text-38,
-  .mikhaill .text-50,
-  .nikolay .text-29,
-  .oleg .text-60 {
-    margin-left: 0;
-  }
-
-  .alexandra .text-47,
-  .danil .text-54,
-  .maxim .text-43,
-  .mikhaill .text-51,
-  .nikolay .text-30,
-  .oleg .text-61,
-  .pasha .text-57 {
-    margin-left: 14.47917%;
-  }
-
-  .pasha .text-56 {
-    margin-top: 20px;
-    margin-left: 0;
-  }
-
-  .process .container-8 {
-    top: 307px;
-    left: 0;
-    right: 0;
-    width: 75.0588235294%;
-    height: 84px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .prototype-2 {
-    top: 3570px;
-    left: 0;
-    right: 0;
-    height: 338px;
-    margin-left: auto;
-  }
-
-  .screens .image-8 {
-    position: relative;
-    z-index: 120;
-    width: 894px;
-    height: auto;
-    margin-top: -314px;
-    margin-left: 792px;
-  }
-
-  .slidernav .image-2 {
-    margin-top: 15px;
-    margin-left: 0;
-  }
-
-  .slidernav .image-3 {
-    margin-left: 15.66667%;
-  }
-
-  .slidernav .image-4 {
-    margin-left: 15.83073%;
-  }
-
-  .slidernav .image-5 {
-    width: 95px;
-    margin-left: 15.66146%;
-  }
-
-  .text-11 {
-    top: 1647px;
-    left: 0;
-    right: auto;
-  }
-
-  .text-18 {
-    top: 1969px;
-    left: 0.0422794117%;
-    right: auto;
-  }
-
+  .projects .slidernav,
   .text-25 {
-    top: 2477px;
     left: 0;
     right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .text-62 {
-    top: 3453px;
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .text-65 {
-    top: 3908px;
-    left: 0;
-    right: 0;
-    width: 99.9154411764%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .text-8 {
-    top: 910px;
-    right: auto;
-    width: 99.8823529411%;
-  }
-
-  ._container .text-70 {
-    padding-left: 0;
-    font-size: 1.25em;
-    text-align: center;
-  }
-
-  ._container-24 {
-    position: relative;
-    z-index: 1;
-    margin-top: 3791px;
-  }
-
-  .container ._container-21 {
-    height: 304px;
-  }
-
-  .container ._container-23 {
-    height: 301px;
-  }
-
-  .mainnav ._container-10 {
-    clear: both;
-    width: 21.4705882352%;
-    margin-top: 16px;
-    margin-left: 73.67647%;
-  }
-
-  .mainnav ._container-4 {
-    display: none;
-  }
-
-  .mainnav ._container-5 {
-    width: 21.4705882352%;
-    margin-top: 63px;
-    margin-left: 73.67647%;
-  }
-
-  .mainnav ._container-6 {
-    clear: both;
-    width: 21.4705882352%;
-    margin-top: 14px;
-    margin-left: 73.67647%;
-  }
-
-  .mainnav ._container-7 {
-    clear: both;
-    width: 21.4705882352%;
-    margin-top: 20px;
-    margin-left: 73.67647%;
-  }
-
-  .mainnav ._container-8 {
-    clear: both;
-    width: 21.4705882352%;
-    margin-top: 15px;
-    margin-left: 73.67647%;
-  }
-
-  .mainnav ._container-9 {
-    clear: both;
-    width: 21.4705882352%;
-    margin-top: 18px;
-    margin-left: 73.67647%;
-  }
-
-  .mainnav ._text-10 {
-    margin-right: 0.23545%;
-  }
-
-  .mainnav ._text-7 {
-    margin-right: 0.98459%;
-  }
-
-  .mainnav ._text-8 {
-    margin-right: 0.90967%;
-  }
-
-  .mainnav ._text-9 {
-    margin-right: 0.17123%;
-  }
-
-  .prototype ._input-1 {
-    z-index: 18;
-    margin-left: 0;
-  }
-
-  .prototype ._input-2 {
-    z-index: 17;
-    margin-left: 6.41249%;
-  }
-}
-
-@media(max-width: 569px) {
-  body {
-    font-size: 1em;
-  }
-
-  .about {
-    position: relative;
-    z-index: 149;
-  }
-
-  .about .contacts {
-    margin-top: 8px;
-  }
-
-  .blog,
-  .prototype {
-    margin-right: auto;
-  }
-
-  .contacts .text {
-    position: relative;
-  }
-
-  .container .container {
-    width: 79.3456032719%;
-    margin-left: 10.02045%;
-  }
-
-  .container .email {
-    position: relative;
-    z-index: 136;
-  }
-
-  .container .image {
-    height: auto;
-    margin-left: -0.1931200001%;
-  }
-
-  .container .phone {
-    position: relative;
-    z-index: 139;
-  }
-
-  .mainnav .blog {
-    margin-right: 0.0434999999%;
-  }
-
-  .mainnav .prototype {
-    margin-top: 0;
-    margin-right: 0;
-  }
-
-  .medclient .container {
-    width: 50.3610267896%;
-    margin-left: 29.34485%;
-  }
-
-  .about .image,
-  .medclient .image-7,
-  .navbar .logo {
-    height: auto;
-  }
-
-  .navbar .mainnav {
-    position: relative;
-    z-index: 163;
-  }
-
-  .navbar .text {
-    margin-left: 7.65598%;
-  }
-
-  .navbar .toggle-menu {
-    position: relative;
-    z-index: 165;
-    margin-left: 93.04152%;
-  }
-
-  .offer {
-    top: 1773px;
-    left: 0;
-    width: 100%;
-    height: 597px;
-  }
-
-  .process {
-    top: 2477px;
-    left: 0;
-    right: 0;
-    height: 281px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .process .element {
-    visibility: hidden;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100.1757469244%;
-    height: 280px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .projects,
-  .projects .viewport,
-  .text-8 {
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .projects .element {
-    position: relative;
-    z-index: 119;
-  }
-
-  .projects .slidernav {
-    top: 24px;
-    left: 0;
-    right: 0;
-    width: 93.4973637961%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .prototype .container {
-    position: relative;
-    z-index: 16;
-    width: 31.6988608221%;
-    margin-top: 14px;
-    margin-left: 0;
-  }
-
-  .screens .medclient {
-    position: relative;
-    z-index: 126;
-  }
-
-  .slidernav .image {
-    height: auto;
-  }
-
-  .team {
-    top: 2875px;
-    left: 0;
-    right: 0;
-    width: 404px;
-    height: 1427px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .team .alexandra {
-    position: relative;
-    clear: none;
-    z-index: 62;
-    width: 360px;
-    margin-top: 7px;
-    margin-left: 0;
-  }
-
-  .team .danil {
-    position: relative;
-    z-index: 77;
-    width: 360px;
-    margin-top: 0;
-  }
-
-  .team .maxim {
-    position: relative;
-    clear: both;
-    z-index: 54;
-    width: 360px;
-    margin-top: -283px;
-    margin-left: 55.17095%;
-  }
-
-  .team .mikhail {
-    position: relative;
-    clear: none;
-    z-index: 46;
-    width: 352px;
-    margin-top: 0;
-    margin-left: 0;
-  }
-
-  .team .mikhaill {
-    position: relative;
-    z-index: 70;
-    width: 360px;
-    margin-left: 55.17095%;
-  }
-
-  .team .nikolay {
-    position: relative;
-    z-index: 29;
-    width: 360px;
-  }
-
-  .team .oleg {
-    position: relative;
-    z-index: 92;
-    width: 360px;
-    margin-top: 0;
-    margin-left: 30.3798%;
-  }
-
-  .team .pasha {
-    position: relative;
-    z-index: 84;
-    width: 360px;
-    margin-left: 55.17095%;
-  }
-
-  .team .pavel {
-    position: relative;
-    z-index: 37;
-    width: 352px;
-    margin-left: 57.14728%;
-  }
-
-  .up-btn {
-    left: 87.8734622144%;
-    width: 7.9086115992%;
-  }
-
-  .prototype ._button {
-    position: relative;
-    z-index: 13;
-    width: 29.503916449%;
-    height: 41px;
-    margin-top: 14px;
-    margin-left: 38.77057%;
-  }
-
-  .prototype ._input {
-    position: relative;
-    width: 100.0170328734%;
-  }
-
-  .prototype ._textarea {
-    width: 100.2610966057%;
-    margin-top: 23px;
-    margin-left: -0.2853%;
-  }
-
-  .about .text-2 {
-    width: 82.6010544815%;
-  }
-
-  .alexandra .text-46 {
-    margin-left: -7.5%;
-  }
-
-  .back .text-44 {
-    position: relative;
-    z-index: 58;
-  }
-
-  .back .text-45 {
-    position: relative;
-    z-index: 59;
-  }
-
-  .back .text-48 {
-    position: relative;
-    z-index: 66;
-  }
-
-  .back .text-49 {
-    position: relative;
-    z-index: 67;
-  }
-
-  .blog .container-14 {
-    width: 100%;
-    height: 419px;
-    margin-top: 50px;
-  }
-
-  .blog-2 {
-    top: 4931px;
-    left: 0;
-    right: 0;
-    width: 82.7768014059%;
-    height: 812px;
-    margin-left: auto;
-  }
-
-  .contacts .container-2 {
-    position: relative;
-    z-index: 141;
-  }
-
-  .contacts .container-3 {
-    position: relative;
-    z-index: 138;
-  }
-
-  .container .container-10 {
-    clear: both;
-    margin-top: 151px;
-  }
-
-  .container .container-11 {
-    clear: both;
-    margin-top: -158px;
-  }
-
-  .container .container-9 {
-    margin-top: 9px;
-  }
-
-  .container .text-12 {
-    width: 18.7166228702%;
-  }
-
-  .container .text-13 {
-    margin-top: 0;
-    margin-left: -0.08901%;
-    font-size: 1.313em;
-  }
-
-  .container .text-16 {
-    width: 19.4666666666%;
-  }
-
-  .container .text-22 {
-    margin-left: 8.31186%;
-  }
-
-  .container .text-15,
-  .container .text-17,
-  .container .text-19,
-  .container .text-21,
-  .container .text-23 {
-    font-size: 1.313em;
-  }
-
-  .container .text-3 {
-    z-index: 143;
-  }
-
-  .container .text-4 {
-    z-index: 142;
-  }
-
-  .container .text-5 {
-    z-index: 140;
-  }
-
-  .container .text-6 {
-    z-index: 137;
-  }
-
-  .container .text-63 {
-    margin-left: -0.49189%;
-  }
-
-  .container .text-64 {
-    margin-left: 3.85139%;
-  }
-
-  .container .text-66,
-  .container .text-67 {
-    margin-left: -0.06967%;
-  }
-
-  .container .text-9 {
-    margin-left: 1.8434%;
-  }
-
-  .offer .container-5 {
-    width: 64.7916666666%;
-    margin-left: 18.29416%;
-  }
-
-  .offer .container-6 {
-    clear: both;
-    width: 64.8506151142%;
-    margin-left: 18.27768%;
-  }
-
-  .offer .container-7 {
-    width: 65.9050966608%;
-    margin-top: 0;
-    margin-left: 18.27768%;
-  }
-
-  .process .container-8 {
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 85.9402460456%;
-    height: 280px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .prototype-2 {
-    top: 4419px;
-    left: 0;
-    right: 0;
-    width: 82.7768014059%;
-    height: 395px;
-    margin-left: auto;
-  }
-
-  .screens .image-8 {
-    position: relative;
-    z-index: 120;
-    height: auto;
-  }
-
-  .slidernav .image-2 {
-    margin-top: 11px;
-    margin-left: 4.32931%;
-  }
-
-  .slidernav .image-3 {
-    margin-left: 10.57362%;
-  }
-
-  .slidernav .image-4 {
-    margin-top: 1px;
-    margin-left: 10.56481%;
-  }
-
-  .slidernav .image-5 {
-    margin-top: 1px;
-    margin-left: 10.41208%;
-  }
-
-  .text-11 {
-    top: 1656px;
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .text-18 {
-    top: 2370px;
-    left: 0.0576669595%;
-  }
-
-  .text-25 {
-    top: 2758px;
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .text-62 {
-    top: 4302px;
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .text-65 {
-    top: 4814px;
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  ._container-24 {
-    position: relative;
-    z-index: 1;
-    margin-top: 4871px;
-  }
-
-  .mainnav ._container-10 {
-    clear: none;
-    margin-top: 2px;
-    margin-left: 3.65072%;
-  }
-
-  .mainnav ._container-5 {
-    margin-top: 2px;
-    margin-left: 42.35677%;
-  }
-
-  .mainnav ._container-6 {
-    clear: none;
-    margin-top: 2px;
-    margin-left: 3.45378%;
-  }
-
-  .mainnav ._container-7 {
-    clear: none;
-    margin-top: 2px;
-    margin-left: 3.61491%;
-  }
-
-  .mainnav ._container-8 {
-    clear: none;
-    margin-top: 2px;
-    margin-left: 4.45964%;
-  }
-
-  .mainnav ._container-9 {
-    clear: none;
-    margin-top: 2px;
-    margin-left: 3.1543%;
-  }
-
-  .mainnav ._text-10 {
-    margin-right: 0.37827%;
-  }
-
-  .mainnav ._text-7 {
-    margin-right: 1.00251%;
-  }
-
-  .mainnav ._text-8 {
-    margin-right: 0.97403%;
-  }
-
-  .mainnav ._text-9 {
-    margin-right: 0.20398%;
-  }
-
-  .prototype ._input-1 {
-    z-index: 18;
-    margin-left: -0.01659%;
-  }
-
-  .prototype ._input-2 {
-    clear: both;
-    z-index: 17;
-    margin-top: 21px;
-    margin-left: -0.27203%;
-  }
-}
-
-@media(max-width: 480px) {
-  .about {
-    position: relative;
-    z-index: 149;
-  }
-
-  .about .contacts {
-    margin-top: 52px;
-  }
-
-  .alexandra .back,
-  .mikhail .back {
-    clear: none;
-    margin-top: 0;
-  }
-
-  .blog .container {
-    position: relative;
-  }
-
-  .blog .text {
-    text-align: center;
-  }
-
-  .contacts .text {
-    position: relative;
-  }
-
-  .container .email {
-    position: relative;
-    z-index: 136;
-    width: 100%;
-    margin-left: 0;
-  }
-
-  .about .image,
-  .container .image,
-  .medclient .image-7,
-  .navbar .logo {
-    height: auto;
-  }
-
-  .container .phone {
-    position: relative;
-    z-index: 139;
-    width: 100%;
-    margin-top: -19px;
-    margin-left: 0;
-  }
-
-  .medclient .container {
-    width: 59.7002410648%;
-    margin-left: 22.0522%;
-  }
-
-  .navbar .mainnav {
-    position: relative;
-    z-index: 163;
-  }
-
-  .navbar .text {
-    margin-left: 7.65625%;
-  }
-
-  .navbar .toggle-menu {
-    position: relative;
-    z-index: 165;
-    width: 5.4166666666%;
-    margin-left: 91.04167%;
-  }
-
-  .offer {
-    top: 1778px;
-    left: 0.05859375%;
-  }
-
-  .process {
-    top: 2492px;
-    left: 0;
-    right: 0;
-    height: 393px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .process .element,
-  .projects .viewport,
-  .text-11,
-  .text-8 {
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .projects {
-    top: 1027px;
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .projects .element {
-    position: relative;
-    z-index: 119;
-  }
-
-  .projects .slidernav {
-    top: 21px;
-    left: 0;
-    right: 0;
-    width: 89.7916666666%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .prototype .container {
-    position: relative;
-    z-index: 16;
-    width: 44.7976878612%;
-    margin-top: 15px;
-    margin-left: 1.99531%;
-  }
-
-  .screens .medclient {
-    position: relative;
-    z-index: 126;
-  }
-
-  .slidernav .image {
-    height: auto;
-  }
-
-  .team {
-    top: 3002px;
-    left: 0;
-    right: 0;
-    width: 181px;
-    height: 2494px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .team .alexandra {
-    position: relative;
-    clear: both;
-    z-index: 62;
-    margin-top: 0;
-  }
-
-  .team .danil {
-    position: relative;
-    clear: both;
-    z-index: 77;
-  }
-
-  .team .maxim {
-    position: relative;
-    z-index: 54;
-    margin-top: 0;
-    margin-left: 0;
-  }
-
-  .team .mikhail {
-    position: relative;
-    clear: both;
-    z-index: 46;
-    margin-top: -5px;
-  }
-
-  .team .mikhaill {
-    position: relative;
-    z-index: 70;
-    margin-top: 0;
-    margin-left: 0;
-  }
-
-  .team .nikolay {
-    position: relative;
-    z-index: 29;
-  }
-
-  .team .oleg {
-    position: relative;
-    z-index: 92;
-    margin-left: 0;
-  }
-
-  .team .pasha {
-    position: relative;
-    z-index: 84;
-    margin-top: 0;
-    margin-left: 0;
-  }
-
-  .team .pavel {
-    position: relative;
-    z-index: 37;
-    margin-top: 0;
-    margin-left: 0;
-  }
-
-  .up-btn {
-    left: 87.0833333333%;
-    width: 8.125%;
-  }
-
-  .prototype ._button {
-    position: relative;
-    z-index: 13;
-    width: 35.2601156069%;
-    height: 42px;
-    margin-top: 15px;
-    margin-left: 17.85505%;
-  }
-
-  .prototype ._input {
-    position: relative;
-    margin-left: 0;
-  }
-
-  .prototype ._textarea {
-    width: 99.7109826589%;
-    margin-top: 21px;
-    margin-left: 0;
-  }
-
-  .about .text-1 {
-    margin-top: 14px;
-    font-size: 3.75em;
-    line-height: 0.88;
-  }
-
-  .about .text-2 {
-    width: 89.375%;
-    margin-top: 15px;
-    font-size: 2.25em;
-    line-height: 1.28;
-  }
-
-  .alexandra .text-46 {
-    margin-left: -7.77778%;
-    text-align: center;
-  }
-
-  .alexandra .text-47 {
-    width: 38.8888888888%;
-    margin-left: 6.80556%;
-  }
-
-  .back .text-32 {
-    clear: none;
-    margin-top: 60px;
-    margin-left: 9.74318%;
-  }
-
-  .back .text-41 {
-    clear: none;
-    margin-top: 60px;
-    margin-left: 6.85569%;
-  }
-
-  .back .text-44 {
-    position: relative;
-    z-index: 58;
-    margin-top: 59px;
-    margin-left: 30.39853%;
-  }
-
-  .back .text-45 {
-    position: relative;
-    clear: none;
-    z-index: 59;
-    margin-top: 59px;
-    margin-left: 5.02985%;
-  }
-
-  .back .text-48 {
-    position: relative;
-    z-index: 66;
-    margin-left: 29.28371%;
-  }
-
-  .back .text-49 {
-    position: relative;
-    clear: none;
-    z-index: 67;
-    margin-top: 60px;
-    margin-left: 7.26826%;
-  }
-
-  .back .text-58 {
-    margin-left: 27.58954%;
-  }
-
-  .back .text-59 {
-    margin-left: 4.98596%;
-  }
-
-  .blog .container-13 {
-    z-index: 5;
-    width: 100.0048830509%;
-    height: 481px;
-    margin-left: -0.00389%;
-  }
-
-  .blog .container-14 {
-    z-index: 9;
-    height: 463px;
-    margin-top: -28px;
-  }
-
-  .blog-2 {
-    top: 6141px;
-    left: 0;
-    right: 0;
-    width: 83.75%;
-    height: 917px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .contacts .container-1 {
-    margin-top: 0;
-  }
-
-  .contacts .container-2 {
-    position: relative;
-    z-index: 141;
-    margin-top: 14px;
-  }
-
-  .contacts .container-3 {
-    position: relative;
-    z-index: 138;
-    margin-top: 26px;
-  }
-
-  .container .container-10 {
-    width: 99.6805111821%;
-    height: 59px;
-    margin-top: 41px;
-    margin-left: 0.1397799999%;
-  }
-
-  .container .container-11 {
-    width: 99.7502247976%;
-    height: 62px;
-    margin-top: 40px;
-    margin-left: 0.11482%;
-  }
-
-  .container .container-9 {
-    width: 99.4305125387%;
-    margin-top: 0;
-    margin-left: 0.11482%;
-  }
-
-  .container .text-13 {
-    min-height: 80px;
-    margin-left: 0;
-  }
-
-  .container .text-15 {
-    min-height: 50px;
-  }
-
-  .container .text-16 {
-    width: 28.9403607496%;
-    text-align: center;
-  }
-
-  .container .text-17 {
-    min-height: 90px;
-    margin-left: -0.01005%;
-  }
-
-  .container .text-22 {
-    margin-left: 8.32332%;
-    font-size: 1.25em;
-  }
-
-  .container .text-19,
-  .container .text-21,
-  .container .text-23 {
-    font-size: 1.5em;
-  }
-
-  .container .text-20,
-  .container .text-24 {
-    font-size: 1.25em;
-  }
-
-  .container .text-3 {
-    visibility: hidden;
-    z-index: 143;
-    margin-left: 0.35613%;
-  }
-
-  .container .text-4 {
-    z-index: 142;
-    width: 99.493670886%;
-    margin-left: 0.36503%;
-  }
-
-  .container .text-5 {
-    visibility: hidden;
-    z-index: 140;
-    margin-top: 1px;
-    margin-left: 0;
-  }
-
-  .container .text-6 {
-    visibility: hidden;
-    z-index: 137;
-    margin-left: 0;
-  }
-
-  .container .text-63 {
-    margin-left: -0.49128%;
-  }
-
-  .container .text-64 {
-    margin-left: 3.85655%;
-  }
-
-  .container .text-66,
-  .container .text-67 {
-    width: 99.9961133351%;
-    margin-left: 0.00389%;
-  }
-
-  .container .text-9 {
-    margin-left: 1.87266%;
-  }
-
-  .container .text-14,
-  .danil .text-53,
-  .mikhaill .text-50,
-  .nikolay .text-29,
-  .pavel .text-33 {
-    text-align: center;
-  }
-
-  .danil .text-54 {
-    margin-left: 11.10243%;
-  }
-
-  .maxim .text-42 {
-    margin-left: -5.27778%;
-    text-align: center;
-  }
-
-  .maxim .text-43 {
-    margin-left: -1.875%;
-  }
-
-  .mikhail .text-38 {
-    margin-left: -1.41602%;
-    text-align: center;
-  }
-
-  .mikhail .text-39 {
-    margin-left: 13.05487%;
-  }
-
-  .mikhaill .text-51 {
-    margin-left: 9.7005199999%;
-  }
-
-  .offer .container-5 {
-    margin-left: 19.78516%;
-  }
-
-  .offer .container-6 {
-    width: 64.7916666666%;
-    margin-top: 6px;
-    margin-left: 19.78516%;
-  }
-
-  .offer .container-7 {
-    width: 64.7916666666%;
-    margin-top: 5px;
-    margin-left: 19.69401%;
-  }
-
-  .oleg .text-60 {
-    width: 42.2222222222%;
-    margin-left: 4.30556%;
-    text-align: center;
-  }
-
-  .oleg .text-61 {
-    width: 19.7222222222%;
-    margin-left: 16.25%;
-  }
-
-  .pasha .text-56 {
-    margin-left: -1.38889%;
-    text-align: center;
-  }
-
-  .pasha .text-57 {
-    width: 28.6111111111%;
-    margin-left: 13.1380199999%;
-  }
-
-  .process .container-8 {
-    top: 44px;
-    left: 0;
-    right: 0;
-    width: 65.2083333333%;
-    height: 296px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .prototype-2 {
-    top: 5607px;
-    left: 0;
-    right: 0;
-    width: 88.75%;
-    height: 417px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .screens .image-8 {
-    position: relative;
-    z-index: 120;
-    height: auto;
-  }
-
-  .slidernav .image-2 {
-    margin-left: 3.94432%;
-  }
-
-  .slidernav .image-3 {
-    margin-top: 1px;
-    margin-left: 6.72854%;
-  }
-
-  .slidernav .image-4 {
-    margin-left: 6.72854%;
-  }
-
-  .slidernav .image-5 {
-    margin-top: 2px;
-    margin-left: 6.69954%;
-  }
-
-  .text-18 {
-    top: 2375px;
-    left: 0;
-  }
-
-  .text-25 {
-    top: 2885px;
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .text-62 {
-    top: 5490px;
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .text-65 {
-    top: 6024px;
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  ._container-24 {
-    position: relative;
-    z-index: 1;
-    margin-top: 6191px;
-  }
-
-  .container ._container-21 {
-    height: 481px;
-  }
-
-  .container ._container-23 {
-    width: 100.0097665787%;
-    height: 540px;
-    margin-left: -0.00777%;
-  }
-
-  .prototype ._input-1 {
-    z-index: 18;
-    width: 100%;
-  }
-
-  .prototype ._input-2 {
-    z-index: 17;
-    width: 99.7109826589%;
-    margin-top: 22px;
-  }
-}
-
-@media(max-width: 300px) {
-  body {
-    font-size: 1em;
-  }
-
-  .about {
-    position: relative;
-    z-index: 149;
-    height: 848px;
-  }
-
-  .about .contacts {
-    width: 299px;
-    margin-top: 29px;
-  }
-
-  .about .image {
-    width: 157px;
-    height: auto;
-    margin-top: 26px;
-  }
-
-  .blog {
-    margin-right: auto;
-  }
-
-  .blog .container {
-    position: relative;
-  }
-
-  .contacts .text {
-    position: relative;
-  }
-
-  .container .email {
-    position: relative;
-    z-index: 136;
-  }
-
-  .container .image {
-    height: auto;
-    margin-left: -0.19639%;
-  }
-
-  .container .phone {
-    position: relative;
-    z-index: 139;
-  }
-
-  .mainnav ._text-7,
-  .mainnav .blog {
-    margin-right: 0;
-  }
-
-  .medclient .container {
-    width: 99.457767343%;
-    margin-left: 0.46875%;
-  }
-
-  .navbar .logo {
-    height: auto;
-  }
-
-  .navbar .mainnav {
-    position: relative;
-    z-index: 163;
-    margin-top: -32px;
-  }
-
-  .navbar .toggle-menu {
-    position: relative;
-    z-index: 165;
-    width: 10.3333333333%;
-    margin-top: 14px;
-    margin-left: 86.32292%;
-  }
-
-  .offer {
-    top: 1606px;
-    left: 0;
-    height: 640px;
-  }
-
-  .process {
-    top: 2363px;
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .process .element {
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .projects {
-    top: 965px;
-    left: 0;
-    right: 0;
-    height: 484px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .projects .element {
-    position: relative;
-    z-index: 119;
-    height: 388px;
-    margin-top: 97px;
-  }
-
-  .projects .slidernav {
-    left: 0;
-    right: 0;
-    width: 89.6666666666%;
-    height: 62px;
     margin-right: auto;
     margin-left: auto;
   }
 
   .projects .viewport {
-    top: 97px;
     left: 0;
     right: 0;
-    width: 93.3333333333%;
-    height: 388px;
+    width: 629px;
     margin-right: auto;
     margin-left: auto;
+  }
+
+  .prototype {
+    margin-right: auto;
   }
 
   .prototype .container {
     position: relative;
     z-index: 16;
-    margin-left: 5.9772299999%;
+    margin-left: 2.7210899999%;
   }
 
   .screens .medclient {
-    position: relative;
-    z-index: 126;
+    left: 0.0223569157%;
+    height: 459px;
   }
 
   .slidernav .image {
+    position: absolute;
+    float: none;
     height: auto;
-  }
-
-  .team {
-    top: 2873px;
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
   }
 
   .team .alexandra {
     position: relative;
-    z-index: 62;
+    clear: none;
+    z-index: 67;
+    width: 64.9122807017%;
+    margin-top: 0;
+    margin-left: 13.30973%;
   }
 
   .team .danil {
     position: relative;
-    z-index: 77;
+    z-index: 83;
+    width: 61.4035087719%;
+    margin-top: 0;
+    margin-left: 13.30973%;
   }
 
   .team .maxim {
     position: relative;
-    z-index: 54;
+    clear: both;
+    z-index: 58;
+    width: 65.0877192982%;
+    margin-top: -278px;
+    margin-left: 54.75188%;
   }
 
   .team .mikhail {
     position: relative;
-    z-index: 46;
+    clear: none;
+    z-index: 49;
+    width: 64.9122807017%;
+    margin-top: 0;
+    margin-left: 13.30973%;
   }
 
   .team .mikhaill {
     position: relative;
-    z-index: 70;
+    z-index: 76;
+    width: 64.9122807017%;
+    margin-left: 54.75188%;
   }
 
   .team .nikolay {
     position: relative;
-    z-index: 29;
+    z-index: 30;
+    width: 64.9122807017%;
+    margin-left: 13.30973%;
   }
 
   .team .oleg {
     position: relative;
-    z-index: 92;
+    clear: none;
+    z-index: 99;
+    width: 68.245614035%;
+    margin-top: 0;
+    margin-left: 31.40848%;
   }
 
   .team .pasha {
     position: relative;
-    z-index: 84;
+    z-index: 90;
+    margin-left: 54.75188%;
   }
 
   .team .pavel {
     position: relative;
-    z-index: 37;
+    z-index: 39;
+    width: 62.6315789473%;
+    margin-left: 54.75188%;
   }
 
-  .up-btn {
-    left: 82.8802083333%;
-    width: 17%;
+  .viewport .screens {
+    left: 0.0794912559%;
+    height: 250px;
   }
 
   .prototype ._button {
     position: relative;
     z-index: 13;
-    margin-left: 9.67184%;
+    margin-top: 11px;
+    margin-left: 59.65136%;
   }
 
   .prototype ._input {
     position: relative;
   }
 
-  .prototype ._textarea {
-    width: 100%;
+  .alexandra .text-46 {
+    margin-left: -6.37786%;
   }
 
-  .slidernav ._image {
-    width: 52px;
-  }
-
-  .about .text-1 {
-    margin-top: 0;
-  }
-
-  .about .text-2 {
-    width: 100%;
-    margin-top: 28px;
-    font-size: 1.313em;
-    line-height: 1.18;
-  }
-
-  .back .text-32 {
-    clear: both;
-    margin-top: -112px;
-    margin-left: 41.64871%;
-  }
-
-  .back .text-41 {
-    clear: both;
-    margin-top: -112px;
-    margin-left: 41.64326%;
-  }
-
-  .back .text-44 {
-    position: relative;
-    z-index: 58;
-    margin-top: 60px;
-    margin-left: 41.64326%;
-  }
-
-  .back .text-45 {
-    position: relative;
-    clear: both;
-    z-index: 59;
-    margin-top: -56px;
-    margin-left: 57.34726%;
-  }
-
-  .back .text-48 {
-    position: relative;
-    z-index: 66;
-    margin-left: 41.64326%;
-  }
-
-  .back .text-49 {
-    position: relative;
-    clear: both;
-    z-index: 67;
-    margin-top: -55px;
-    margin-left: 58.46208%;
-  }
-
-  .back .text-58 {
-    margin-left: 41.64326%;
-  }
-
-  .back .text-59 {
-    margin-left: 0.00878%;
-  }
-
-  .blog .container-13 {
-    z-index: 5;
-    margin-left: 0;
-  }
-
-  .blog .container-14 {
-    z-index: 9;
-    height: 578px;
-    margin-top: 18px;
+  .alexandra .text-47 {
+    margin-left: 6.66151%;
   }
 
   .blog-2 {
-    top: 6033px;
+    top: 4840px;
     left: 0;
     right: 0;
-    width: 99.6666666666%;
-    height: 1077px;
+    margin-right: auto;
     margin-left: auto;
   }
 
   .contacts .container-2 {
     position: relative;
-    z-index: 141;
+    z-index: 148;
   }
 
   .contacts .container-3 {
     position: relative;
-    z-index: 138;
-  }
-
-  .container .container-10 {
-    margin-left: 0.12972%;
-  }
-
-  .container .container-11,
-  .container .container-9 {
-    margin-left: 0.10024%;
+    z-index: 145;
   }
 
   .container .text-12 {
-    width: 36.6666666666%;
     font-weight: normal;
   }
 
+  .container .text-13 {
+    min-height: 75px;
+    margin-left: -0.18777%;
+    font-size: 1.438em;
+  }
+
+  .container .text-15 {
+    min-height: 71px;
+    margin-left: -0.02012%;
+    font-size: 1.438em;
+  }
+
+  .container .text-17 {
+    margin-left: -0.04024%;
+    font-size: 1.438em;
+  }
+
   .container .text-22 {
-    margin-left: 8.31707%;
+    margin-left: 3.89844%;
+  }
+
+  .container .text-24 {
+    margin-left: 0.97111%;
   }
 
   .container .text-3 {
-    z-index: 143;
-    margin-left: 0.35013%;
+    position: relative;
+    z-index: 150;
   }
 
   .container .text-4 {
-    z-index: 142;
-    margin-left: 0.36058%;
+    position: relative;
+    z-index: 149;
   }
 
   .container .text-5 {
-    z-index: 140;
+    position: relative;
+    z-index: 147;
   }
 
-  .container .text-6 {
-    z-index: 137;
-  }
-
-  .container .text-63 {
-    margin-left: -0.37379%;
-  }
-
-  .container .text-64 {
-    margin-left: 3.91229%;
-  }
-
-  .container .text-17,
-  .container .text-66,
-  .container .text-67 {
-    margin-left: 0;
+  .container .text-68 {
+    width: 94.9685534591%;
+    margin-left: -0.00328%;
   }
 
   .container .text-9 {
-    width: 68.5893839075%;
-    margin-left: 1.77309%;
+    width: 27.7777777777%;
+    margin-left: 0.70437%;
+  }
+
+  .danil .text-54 {
+    margin-left: 10.62403%;
+  }
+
+  .maxim .text-42 {
+    margin-left: -6.52349%;
+  }
+
+  .maxim .text-43 {
+    margin-left: -3.12011%;
   }
 
   .medclient .image-7 {
-    visibility: hidden;
+    position: absolute;
+    float: none;
+    top: 255px;
+    left: 21px;
+    width: 580px;
     height: auto;
-    margin-top: 22px;
+    margin-top: 0;
+    margin-left: 0;
   }
 
   .medclient .text-10 {
-    margin-top: 34px;
-    margin-left: -0.15625%;
+    left: 0.0645866454%;
+    width: 628px;
   }
 
-  .offer .container-5 {
-    width: 70%;
-    height: 190px;
-    margin-left: 16.98438%;
+  .mikhail .text-38 {
+    margin-left: 0.13952%;
+  }
+
+  .mikhail .text-39 {
+    margin-left: 14.61125%;
+  }
+
+  .mikhaill .text-50 {
+    margin-left: 1.37579%;
+  }
+
+  .mikhaill .text-51 {
+    margin-left: 9.69055%;
+  }
+
+  .nikolay .text-29 {
+    margin-left: -1.83909%;
+  }
+
+  .nikolay .text-30 {
+    margin-left: 14.62394%;
   }
 
   .offer .container-6 {
-    width: 70.3333333333%;
-    margin-top: 0;
-    margin-left: 16.65625%;
+    top: 229px;
+    width: 233px;
   }
 
   .offer .container-7 {
-    width: 75.3333333333%;
-    margin-top: 0;
-    margin-left: 14.3125%;
+    top: 458px;
+    width: 233px;
+    height: 282px;
+  }
+
+  .offer-2 {
+    top: 1610px;
+    left: 0;
+    right: 0;
+    width: 631px;
+    margin-left: auto;
+  }
+
+  .oleg .text-60 {
+    margin-left: 1.80396%;
+  }
+
+  .oleg .text-61 {
+    margin-left: 17.04302%;
+  }
+
+  .pasha .text-56 {
+    margin-left: -2.62163%;
+  }
+
+  .pasha .text-57 {
+    margin-left: 10.13839%;
+  }
+
+  .pavel .text-34 {
+    margin-left: 14.47386%;
   }
 
   .process .container-8 {
+    top: 209px;
     left: 0;
     right: 0;
-    width: 88.3333333333%;
+    width: 99.6825396825%;
     margin-right: auto;
     margin-left: auto;
   }
 
-  .prototype-2 {
-    top: 5484px;
+  .process-2 {
+    top: 2490px;
     left: 0;
     right: 0;
-    width: 93.3229166666%;
-    height: 395px;
-    margin-right: auto;
+    height: 265px;
+    margin-left: auto;
+  }
+
+  .projects-2 {
+    top: 901px;
+    left: 0;
+    right: 0;
+    height: 592px;
+    margin-left: auto;
+  }
+
+  .prototype-2 {
+    top: 4396px;
+    left: 0;
+    right: 0;
     margin-left: auto;
   }
 
   .screens .image-8 {
     position: relative;
-    z-index: 120;
+    z-index: 127;
+    width: 583px;
     height: auto;
+    margin-top: 46px;
+    margin-left: 646px;
   }
 
   .slidernav .image-2 {
-    margin-top: 7px;
-    margin-left: 0.37175%;
+    left: -0.0524514135%;
+    margin-top: 0;
   }
 
-  .slidernav .image-3,
+  .slidernav .image-3 {
+    left: 27.6860644876%;
+    margin-left: 0;
+  }
+
   .slidernav .image-4 {
-    margin-top: 0;
-    margin-left: 5.57621%;
+    left: 55.5874558303%;
+    margin-left: 0;
   }
 
   .slidernav .image-5 {
-    width: 67px;
-    margin-top: 0;
-    margin-left: 5.57621%;
+    left: 80.3859319787%;
+    margin-left: 0;
+  }
+
+  .team-2 {
+    left: 0;
+    right: auto;
+    width: 631px;
+    height: 1400px;
   }
 
   .text-11 {
-    top: 1452px;
+    top: 1493px;
     left: 0;
     right: 0;
     margin-right: auto;
@@ -3834,11 +2707,7 @@ body {
   }
 
   .text-18 {
-    top: 2246px;
-  }
-
-  .text-25 {
-    top: 2756px;
+    top: 2373px;
     left: 0;
     right: 0;
     margin-right: auto;
@@ -3846,7 +2715,7 @@ body {
   }
 
   .text-62 {
-    top: 5367px;
+    top: 4279px;
     left: 0;
     right: 0;
     margin-right: auto;
@@ -3854,7 +2723,7 @@ body {
   }
 
   .text-65 {
-    top: 5879px;
+    top: 4723px;
     left: 0;
     right: 0;
     margin-right: auto;
@@ -3862,7 +2731,7 @@ body {
   }
 
   .text-8 {
-    top: 848px;
+    top: 784px;
     left: 0;
     right: 0;
     margin-right: auto;
@@ -3870,64 +2739,40 @@ body {
   }
 
   ._container .text-70 {
-    margin-top: 16px;
-    font-size: 1.5em;
-    line-height: 1.18;
+    font-size: 1.25em;
+    text-align: center;
   }
 
-  ._container-24 {
-    position: relative;
-    z-index: 1;
-    margin-top: 6262px;
+  ._container-31 {
+    top: 5638px;
+    left: 0.0421626984%;
   }
 
-  .container ._container-23 {
-    margin-left: -0.00523%;
+  .container ._container-30 {
+    height: 418px;
+    margin-top: 1px;
+    margin-left: -0.10155%;
   }
 
-  .mainnav ._container-10,
-  .mainnav ._container-6,
-  .mainnav ._container-8 {
-    clear: both;
-    margin-top: 0;
-    margin-left: 72.33073%;
-  }
-
-  .mainnav ._container-4 {
-    display: block;
-    visibility: hidden;
+  .mainnav ._container-10 {
+    margin-left: 4.10975%;
   }
 
   .mainnav ._container-5 {
-    width: 31.1403508771%;
-    margin-top: 43px;
-    margin-left: 62.65625%;
+    margin-left: 13.22349%;
   }
 
-  .mainnav ._container-7 {
-    clear: both;
-    width: 31.5789473684%;
-    margin-top: 0;
-    margin-left: 62.65625%;
+  .mainnav ._container-6 {
+    margin-left: 5.5786%;
+  }
+
+  .mainnav ._container-7,
+  .mainnav ._container-8 {
+    margin-left: 5.72701%;
   }
 
   .mainnav ._container-9 {
-    clear: both;
-    width: 37.2807017543%;
-    margin-top: 0;
-    margin-left: 56.51693%;
-  }
-
-  .mainnav ._text-10 {
-    margin-right: 0.36397%;
-  }
-
-  .mainnav ._text-8 {
-    margin-right: 0.97058%;
-  }
-
-  .mainnav ._text-9 {
-    margin-right: 0.18557%;
+    margin-left: 4.84798%;
   }
 
   .prototype ._input-1 {
@@ -3936,6 +2781,1079 @@ body {
 
   .prototype ._input-2 {
     z-index: 17;
-    width: 100%;
+  }
+}
+
+@media(max-width: 570px) {
+  .about {
+    position: relative;
+    z-index: 156;
+  }
+
+  .about .contacts {
+    width: 317px;
+    height: 127px;
+    margin-top: 24px;
+  }
+
+  .back .container {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .container .email {
+    margin-left: 1.58822%;
+  }
+
+  .container .image {
+    height: auto;
+    margin-left: 30.64419%;
+  }
+
+  .container .phone {
+    position: relative;
+    z-index: 146;
+    margin-left: 11.94906%;
+  }
+
+  .danil .back {
+    clear: both;
+    margin-top: -174px;
+    margin-left: 51.71875%;
+  }
+
+  .mainnav .offer {
+    margin-right: 0.83433%;
+  }
+
+  .mainnav .process {
+    margin-right: 0.08414%;
+  }
+
+  .mainnav .projects {
+    margin-right: 0.87065%;
+  }
+
+  .mainnav .prototype {
+    margin-right: -1.47181%;
+  }
+
+  .mainnav .team {
+    margin-right: 0.11442%;
+  }
+
+  .medclient .container {
+    left: -0.1867311073%;
+    width: 570px;
+    height: 64px;
+  }
+
+  .about .image,
+  .navbar .logo {
+    height: auto;
+  }
+
+  .navbar .mainnav {
+    position: relative;
+    z-index: 170;
+  }
+
+  .navbar .text {
+    margin-left: 7.65351%;
+  }
+
+  .navbar .toggle-menu {
+    position: relative;
+    z-index: 172;
+    margin-left: 93.27577%;
+  }
+
+  .offer {
+    margin-right: auto;
+  }
+
+  .back .text-52,
+  .back .text-55,
+  .offer .container,
+  .process .container-8,
+  .projects .slidernav,
+  .text-11,
+  .text-18,
+  .text-8 {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .pasha .back {
+    clear: both;
+    width: 175px;
+    margin-top: -174px;
+    margin-left: 55.41653%;
+  }
+
+  .pasha .flip3d {
+    width: 99.8715447928%;
+  }
+
+  .process {
+    margin-right: auto;
+  }
+
+  .process .element {
+    visibility: hidden;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .projects {
+    margin-right: auto;
+  }
+
+  .projects .element {
+    position: relative;
+    z-index: 126;
+  }
+
+  .projects .viewport {
+    left: 0;
+    right: 0;
+    width: 569px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .prototype {
+    margin-right: auto;
+  }
+
+  .prototype .container {
+    position: relative;
+    z-index: 16;
+    width: 22.3938223938%;
+    margin-left: 2.69969%;
+  }
+
+  .slidernav .image {
+    height: auto;
+  }
+
+  .team .alexandra {
+    position: relative;
+    z-index: 67;
+    margin-left: 17.36568%;
+  }
+
+  .team .danil {
+    position: relative;
+    z-index: 83;
+    margin-left: 17.36568%;
+  }
+
+  .team .maxim {
+    position: relative;
+    z-index: 58;
+    margin-left: 53.32785%;
+  }
+
+  .team .mikhail {
+    position: relative;
+    z-index: 49;
+    margin-left: 17.36568%;
+  }
+
+  .team .mikhaill {
+    position: relative;
+    z-index: 76;
+    margin-left: 53.32785%;
+  }
+
+  .team .nikolay {
+    position: relative;
+    z-index: 30;
+    margin-left: 17.36568%;
+  }
+
+  .team .oleg {
+    position: relative;
+    clear: both;
+    z-index: 99;
+    margin-left: 33.14967%;
+  }
+
+  .team .pasha {
+    position: relative;
+    z-index: 90;
+    margin-left: 53.32785%;
+  }
+
+  .team .pavel {
+    position: relative;
+    z-index: 39;
+    margin-left: 53.32785%;
+  }
+
+  .up-btn {
+    left: 89.6162280701%;
+  }
+
+  .prototype ._button {
+    position: relative;
+    z-index: 13;
+    width: 24.1312741312%;
+    margin-left: 50.77522%;
+  }
+
+  .prototype ._input {
+    position: relative;
+  }
+
+  .prototype ._textarea {
+    margin-left: -0.02715%;
+  }
+
+  .about .text-1 {
+    font-size: 3.625em;
+  }
+
+  .about .text-2 {
+    font-size: 2.188em;
+  }
+
+  .alexandra .text-46 {
+    margin-left: -6.38118%;
+  }
+
+  .alexandra .text-47 {
+    margin-left: 6.65991%;
+  }
+
+  .blog-2 {
+    top: 4782px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .contacts .container-1 {
+    height: 51px;
+    margin-left: 0;
+  }
+
+  .contacts .container-2 {
+    position: relative;
+    z-index: 148;
+    width: 173px;
+    margin-top: 9px;
+    margin-left: 22.70308%;
+  }
+
+  .contacts .container-3 {
+    position: relative;
+    clear: both;
+    z-index: 145;
+    width: 76.6561514195%;
+    margin-top: 9px;
+    margin-left: 11.667%;
+  }
+
+  .container .container-10 {
+    clear: both;
+    width: 100.14299857%;
+    margin-top: -127px;
+    margin-left: -0.176%;
+  }
+
+  .container .container-11 {
+    clear: both;
+    width: 100.31899681%;
+    margin-top: -52px;
+    margin-left: -0.352%;
+  }
+
+  .container .container-9 {
+    width: 100.14299857%;
+    margin-top: -202px;
+    margin-left: -0.176%;
+  }
+
+  .container .text-22 {
+    margin-left: 3.89389%;
+  }
+
+  .container .text-19,
+  .container .text-21,
+  .container .text-23 {
+    font-size: 1.313em;
+  }
+
+  .container .text-24 {
+    margin-left: 0.98136%;
+  }
+
+  .container .text-3 {
+    position: relative;
+    z-index: 150;
+    margin-left: 0.3598199999%;
+  }
+
+  .container .text-4 {
+    position: relative;
+    z-index: 149;
+    margin-left: 5.98383%;
+  }
+
+  .container .text-5 {
+    position: relative;
+    z-index: 147;
+  }
+
+  .container .text-63 {
+    margin-left: 0.09429%;
+  }
+
+  .container .text-64 {
+    margin-left: 7.5431%;
+  }
+
+  .container .text-9 {
+    width: 31.2280701754%;
+    margin-left: 0.75658%;
+  }
+
+  .danil .text-54 {
+    margin-left: 10.6232%;
+  }
+
+  .maxim .text-42 {
+    margin-left: -6.52375%;
+  }
+
+  .maxim .text-43 {
+    margin-left: -3.12079%;
+  }
+
+  .medclient .image-7 {
+    top: 272px;
+    left: 19px;
+    width: 530px;
+    height: auto;
+  }
+
+  .medclient .text-10 {
+    left: -0.0109841828%;
+    width: 569px;
+  }
+
+  .mikhail .text-38 {
+    margin-left: 0.13936%;
+  }
+
+  .mikhail .text-39 {
+    margin-left: 14.6121%;
+  }
+
+  .mikhaill .text-50 {
+    margin-left: 1.37675%;
+  }
+
+  .mikhaill .text-51 {
+    margin-left: 9.68791%;
+  }
+
+  .nikolay .text-29 {
+    margin-left: -1.84129%;
+  }
+
+  .nikolay .text-30 {
+    margin-left: 14.62477%;
+  }
+
+  .offer-2 {
+    left: 0;
+    right: 0;
+    width: 571px;
+    margin-left: auto;
+  }
+
+  .oleg .text-60 {
+    margin-left: 1.80151%;
+  }
+
+  .oleg .text-61 {
+    margin-left: 17.04217%;
+  }
+
+  .pasha .text-56 {
+    width: 62.1152290784%;
+    margin-left: -2.74038%;
+  }
+
+  .pasha .text-57 {
+    margin-left: 10.44293%;
+  }
+
+  .pavel .text-34 {
+    margin-left: 14.47391%;
+  }
+
+  .process-2 {
+    left: 0;
+    right: 0;
+    height: 224px;
+    margin-left: auto;
+  }
+
+  .projects-2 {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+  }
+
+  .prototype-2 {
+    top: 4338px;
+    left: 0;
+    right: 0;
+    width: 518px;
+    margin-left: auto;
+  }
+
+  .screens .image-8 {
+    position: relative;
+    z-index: 127;
+    height: auto;
+  }
+
+  .slidernav .image-2 {
+    top: 11px;
+    left: 7.2438162544%;
+  }
+
+  .slidernav .image-3 {
+    left: 29.3286219081%;
+  }
+
+  .slidernav .image-4 {
+    left: 51.590106007%;
+  }
+
+  .slidernav .image-5 {
+    left: 73.67215106%;
+  }
+
+  .team-2 {
+    top: 2831px;
+    width: 570px;
+  }
+
+  .text-25 {
+    top: 2714px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-62 {
+    top: 4221px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-65 {
+    top: 4665px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  ._container-31 {
+    top: 5585px;
+    left: 0.041118421%;
+  }
+
+  .mainnav ._container-10 {
+    margin-left: 4.10919%;
+  }
+
+  .mainnav ._container-5 {
+    margin-left: 13.22342%;
+  }
+
+  .mainnav ._container-6 {
+    margin-left: 5.57285%;
+  }
+
+  .mainnav ._container-7,
+  .mainnav ._container-8 {
+    margin-left: 5.72426%;
+  }
+
+  .mainnav ._container-9 {
+    margin-left: 4.84102%;
+  }
+
+  .prototype ._input-1 {
+    z-index: 18;
+    margin-left: 0.02715%;
+  }
+
+  .prototype ._input-2 {
+    z-index: 17;
+    margin-left: 2.76605%;
+  }
+}
+
+@media(max-width: 480px) {
+  body {
+    font-size: 1em;
+  }
+
+  .about {
+    position: relative;
+    z-index: 156;
+  }
+
+  .about .contacts {
+    width: 325px;
+    margin-top: 25px;
+  }
+
+  .back .container {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .blog .container {
+    width: 424px;
+    margin-left: 5.82121%;
+  }
+
+  .container .email {
+    margin-left: 1.59158%;
+  }
+
+  .container .image {
+    height: auto;
+    margin-left: 24.97396%;
+  }
+
+  .container .phone {
+    position: relative;
+    z-index: 146;
+    width: 88.2681564245%;
+    margin-left: 11.73053%;
+  }
+
+  .danil .back {
+    clear: none;
+    width: 179px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .mainnav .offer {
+    margin-right: 0.84926%;
+  }
+
+  .mainnav .process {
+    margin-right: 0;
+  }
+
+  .mainnav .projects {
+    margin-right: 0.83703%;
+  }
+
+  .mainnav .prototype {
+    margin-right: -1.48417%;
+  }
+
+  .mainnav .team {
+    margin-right: 0.13587%;
+  }
+
+  .maxim .back {
+    clear: both;
+    margin-top: -174px;
+    margin-left: 50.27933%;
+  }
+
+  .medclient .container {
+    left: -0.2022442589%;
+    width: 480px;
+  }
+
+  .about .image,
+  .navbar .logo {
+    height: auto;
+  }
+
+  .navbar .mainnav {
+    position: relative;
+    z-index: 170;
+  }
+
+  .navbar .text {
+    margin-left: 7.64974%;
+  }
+
+  .navbar .toggle-menu {
+    position: relative;
+    z-index: 172;
+    margin-left: 93.27474%;
+  }
+
+  .offer {
+    margin-right: auto;
+  }
+
+  .pasha .back {
+    clear: none;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .process,
+  .projects {
+    margin-right: auto;
+  }
+
+  .back .text-52,
+  .back .text-55,
+  .offer .container,
+  .process .element,
+  .text-11,
+  .text-18,
+  .text-25,
+  .text-8 {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .projects .element {
+    position: relative;
+    z-index: 126;
+  }
+
+  .projects .slidernav {
+    left: 0;
+    right: 0;
+    width: 480px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .projects .viewport {
+    left: 0;
+    right: 0;
+    width: 479px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .prototype {
+    margin-right: auto;
+  }
+
+  .prototype .container {
+    position: relative;
+    z-index: 16;
+    width: 22.3849372384%;
+    margin-top: 8px;
+    margin-left: 4.58944%;
+  }
+
+  .slidernav .image {
+    height: auto;
+  }
+
+  .team .alexandra {
+    position: relative;
+    clear: both;
+    z-index: 67;
+    width: 76.6179540709%;
+    margin-left: 24.8434199999%;
+  }
+
+  .team .danil {
+    position: relative;
+    clear: both;
+    z-index: 83;
+    width: 81.0020876826%;
+    margin-left: 24.8434199999%;
+  }
+
+  .team .maxim {
+    position: relative;
+    z-index: 58;
+    width: 74.7390396659%;
+    margin-top: 0;
+    margin-left: 24.8434199999%;
+  }
+
+  .team .mikhail {
+    position: relative;
+    clear: both;
+    z-index: 49;
+    width: 74.7390396659%;
+    margin-left: 24.8434199999%;
+  }
+
+  .team .mikhaill {
+    position: relative;
+    z-index: 76;
+    width: 76.6179540709%;
+    margin-top: 0;
+    margin-left: 24.8434199999%;
+  }
+
+  .team .nikolay {
+    position: relative;
+    z-index: 30;
+    width: 79.9582463465%;
+    margin-left: 24.8434199999%;
+  }
+
+  .team .oleg {
+    position: relative;
+    z-index: 99;
+    width: 79.9582463465%;
+    margin-left: 24.8434199999%;
+  }
+
+  .team .pasha {
+    position: relative;
+    z-index: 90;
+    width: 76.6179540709%;
+    margin-top: 0;
+    margin-left: 24.8434199999%;
+  }
+
+  .team .pavel {
+    position: relative;
+    z-index: 39;
+    width: 74.7390396659%;
+    margin-top: 0;
+    margin-left: 24.8434199999%;
+  }
+
+  .prototype ._button {
+    position: relative;
+    z-index: 13;
+    width: 24.2677824267%;
+    margin-top: 6px;
+    margin-left: 43.72712%;
+  }
+
+  .prototype ._input {
+    position: relative;
+    margin-left: 4.58944%;
+  }
+
+  .prototype ._textarea {
+    width: 90.3765690376%;
+    margin-top: 6px;
+    margin-left: 4.58944%;
+  }
+
+  .alexandra .text-46 {
+    margin-left: -6.37656%;
+  }
+
+  .alexandra .text-47 {
+    margin-left: 6.65817%;
+  }
+
+  .blog .container-21 {
+    margin-top: 44px;
+  }
+
+  .blog-2 {
+    top: 5951px;
+    left: 0;
+    right: 0;
+    width: 481px;
+    height: 845px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .contacts .container-1 {
+    height: 47px;
+    margin-left: -0.125%;
+  }
+
+  .contacts .container-2 {
+    position: relative;
+    z-index: 148;
+    width: 199px;
+    margin-top: 11px;
+    margin-left: 24.42308%;
+  }
+
+  .contacts .container-3 {
+    position: relative;
+    z-index: 145;
+    width: 76.7263427109%;
+    margin-top: 11px;
+    margin-left: 11.63462%;
+  }
+
+  .container .container-10,
+  .container .container-11 {
+    width: 100.4184100418%;
+    margin-top: 20px;
+    margin-left: -0.41841%;
+  }
+
+  .container .container-9 {
+    width: 100.1110312846%;
+    margin-top: 27px;
+    margin-left: -0.10787%;
+  }
+
+  .container .text-22 {
+    margin-left: 3.89323%;
+  }
+
+  .container .text-24 {
+    margin-left: 0.99284%;
+  }
+
+  .container .text-3 {
+    position: relative;
+    z-index: 150;
+    margin-left: 0.36058%;
+  }
+
+  .container .text-4 {
+    position: relative;
+    z-index: 149;
+    margin-left: 5.98558%;
+  }
+
+  .container .text-5 {
+    position: relative;
+    z-index: 147;
+  }
+
+  .container .text-63 {
+    margin-left: 0.10222%;
+  }
+
+  .container .text-64 {
+    margin-left: 7.54965%;
+  }
+
+  .container .text-68 {
+    margin-left: 0;
+  }
+
+  .container .text-9 {
+    width: 36.875%;
+    margin-left: 0.64779%;
+  }
+
+  .danil .text-54 {
+    margin-left: 10.62594%;
+  }
+
+  .maxim .text-42 {
+    margin-left: -6.52312%;
+  }
+
+  .maxim .text-43 {
+    margin-left: -3.12281%;
+  }
+
+  .medclient .image-7 {
+    top: 263px;
+    left: -1px;
+    height: auto;
+  }
+
+  .medclient .text-10 {
+    left: 0;
+    width: 479px;
+    font-size: 1.313em;
+  }
+
+  .mikhail .text-38 {
+    margin-left: 0.1341%;
+  }
+
+  .mikhail .text-39 {
+    margin-left: 14.60373%;
+  }
+
+  .mikhaill .text-50 {
+    margin-left: 1.3778999999%;
+  }
+
+  .mikhaill .text-51 {
+    margin-left: 9.68888%;
+  }
+
+  .nikolay .text-29 {
+    margin-left: -1.8372%;
+  }
+
+  .nikolay .text-30 {
+    margin-left: 14.62049%;
+  }
+
+  .offer-2 {
+    left: 0;
+    right: 0;
+    width: 479px;
+    margin-left: auto;
+  }
+
+  .oleg .text-60 {
+    margin-left: 1.7997%;
+  }
+
+  .oleg .text-61 {
+    margin-left: 17.03622%;
+  }
+
+  .pasha .text-56 {
+    margin-left: -2.6287%;
+  }
+
+  .pasha .text-57 {
+    margin-left: 10.1408799999%;
+  }
+
+  .pavel .text-34 {
+    margin-left: 14.47186%;
+  }
+
+  .process .container-8 {
+    top: 6px;
+    left: 0;
+    right: 0;
+    width: 99.5833333333%;
+    height: 255px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .process-2,
+  .projects-2 {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+  }
+
+  .prototype-2 {
+    top: 5486px;
+    left: 0;
+    right: 0;
+    width: 478px;
+    height: 348px;
+    margin-left: auto;
+  }
+
+  .screens .image-8 {
+    position: relative;
+    z-index: 127;
+    height: auto;
+  }
+
+  .slidernav .image-2 {
+    left: 3.3333333333%;
+  }
+
+  .slidernav .image-3 {
+    left: 27.0833333333%;
+  }
+
+  .slidernav .image-4 {
+    left: 51.0416666666%;
+  }
+
+  .slidernav .image-5 {
+    left: 74.7916666666%;
+  }
+
+  .team-2 {
+    top: 2872px;
+    width: 479px;
+    height: 2497px;
+  }
+
+  .text-62 {
+    top: 5369px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-65 {
+    top: 5834px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  ._container-31 {
+    top: 6843px;
+    left: 0.0423177083%;
+  }
+
+  .container ._container-30 {
+    margin-top: 0;
+    margin-left: -0.07739%;
+  }
+
+  .mainnav ._container-10 {
+    margin-left: 4.10049%;
+  }
+
+  .mainnav ._container-5 {
+    margin-left: 13.2204599999%;
+  }
+
+  .mainnav ._container-6 {
+    margin-left: 5.57387%;
+  }
+
+  .mainnav ._container-7,
+  .mainnav ._container-8 {
+    margin-left: 5.71871%;
+  }
+
+  .mainnav ._container-9 {
+    margin-left: 4.83968%;
+  }
+
+  .prototype ._input-1 {
+    z-index: 18;
+    width: 90.5857740585%;
+  }
+
+  .prototype ._input-2 {
+    clear: both;
+    z-index: 17;
+    width: 90.3765690376%;
+    margin-top: 6px;
   }
 }

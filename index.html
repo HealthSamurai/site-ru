@@ -40,16 +40,16 @@
     <nav class="mainnav clearfix">
       <ul id="navopen" class="_container _container-4 clearfix">
         <li class="_container _container-5 clearfix">
-          <a href="#projects" class="_text _text-7 js-projects">Projects</a>
+          <a href="#projects" class="projects js-projects">Projects</a>
         </li>
         <li onClick="window.location='#offer';" class="_container _container-6 clearfix">
-          <a class="_text _text-8 js-offer" href="#">Offer</a>
+          <a class="offer js-offer" href="#">Offer</a>
         </li>
         <li onClick="window.location='#process';" class="_container _container-7 clearfix">
-          <a class="_text _text-9 js-process" href="#">Process</a>
+          <a class="process js-process" href="#">Process</a>
         </li>
         <li onClick="window.location='#team';" class="_container _container-8 clearfix">
-          <a class="_text _text-10 js-team" href="#">Team</a>
+          <a class="team js-team" href="#">Team</a>
         </li>
         <li onClick="window.location='#prototype';" class="_container _container-9 clearfix">
           <a class="prototype js-prototype" href="#">Prototype<br></a>
@@ -61,8 +61,8 @@
     </nav>
   </div>
   <p class="text _text text-8 js-projects-slide">WHAT WE'VE DONE<br></p>
-  <section class="projects clearfix">
-    <div class="slidernav clearfix">
+  <section class="projects projects-2 clearfix">
+    <div class="slidernav">
       <img class="image _image image-2 js-choice-btn" src="images/choice.svg">
       <img class="image _image image-3 js-fhirbase" src="images/fhirebase.svg">
       <img class="image _image image-4 js-fotmstamp" src="images/stamp.svg">
@@ -71,7 +71,7 @@
     <div class="element"></div>
     <div class="viewport">
       <div class="screens clearfix js-screens">
-        <div class="medclient clearfix">
+        <div class="medclient">
           <div class="container _container clearfix">
             <img class="image _image" src="images/medclient_logo.svg">
             <p class="text _text text-9">MedClient
@@ -87,7 +87,7 @@ Physician &amp; Nursing Documentation, Inpatient, Emergency, Telemedicine
     </div>
   </section>
   <p class="text _text text-11 js-offer-slide">Health Samurai Offer</p>
-  <section class="offer clearfix">
+  <section class="offer offer-2">
     <div class="container _container container-5 clearfix">
       <p class="text _text text-12"></p>
       <p class="text _text text-13">Create modern web and mobile apps supplementing EHRs</p>
@@ -102,7 +102,7 @@ Physician &amp; Nursing Documentation, Inpatient, Emergency, Telemedicine
     </div>
   </section>
   <p id="processHeader" class="text _text text-18 js-process-slide">HOW WE WORK ?</p>
-  <section id="work" class="process">
+  <section id="work" class="process process-2">
     <div class="container _container container-8 clearfix">
       <div class="container _container container-9 clearfix">
         <p class="text _text text-19">Prototype &amp; 
@@ -122,14 +122,16 @@ development</p>
     <div class="element"></div>
   </section>
   <p class="text _text text-25 js-team-slide">Who WE ARE ?</p>
-  <section id="team" class="team clearfix">
+  <section id="team" class="team team-2 clearfix">
     <div class="nikolay clearfix">
       <div class="flip3d clearfix">
         <div class="front"></div>
-        <div class="back clearfix">
-          <a href="http://www.facebook.com/nicola.ryzhikov" class="text text-26"></a>
-          <a href="http://twitter.com/niquola" class="text text-27"></a>
-          <a href="http://github.com/niquola" class="text text-28"></a>
+        <div class="back">
+          <div class="container _container">
+            <a href="http://www.facebook.com/nicola.ryzhikov" class="text text-26"></a>
+            <a href="http://github.com/niquola" class="text text-27"></a>
+            <a href="http://twitter.com/niquola" class="text text-28"></a>
+          </div>
         </div>
       </div>
       <p class="text _text text-29">Nikolay Ryzhikov&nbsp;</p>
@@ -138,9 +140,11 @@ development</p>
     <div class="pavel clearfix">
       <div class="flip3d clearfix">
         <div class="front"></div>
-        <div class="back clearfix">
-          <a href="http://plus.google.com/+PavelSmirnovS" class="text text-31"></a>
-          <a href="http://github.com/pavelone" class="text text-32"></a>
+        <div class="back">
+          <div class="container _container">
+            <a href="http://github.com/pavelone" class="text text-31"></a>
+            <a href="http://plus.google.com/+PavelSmirnovS" class="text text-32"></a>
+          </div>
         </div>
       </div>
       <p class="text _text text-33">Pavel Smirnov</p>
@@ -149,10 +153,12 @@ development</p>
     <div class="mikhail clearfix">
       <div class="flip3d clearfix">
         <div class="front"></div>
-        <div class="back clearfix">
-          <a href="http://itkaizen.blogspot.ru" class="text text-35"></a>
-          <a href="http://plus.google.com/113724248283261157650" class="text text-36"></a>
-          <a href="http://github.com/Leningradez" class="text text-37"></a>
+        <div class="back">
+          <div class="container _container">
+            <a href="http://itkaizen.blogspot.ru" class="text text-35"></a>
+            <a href="http://github.com/Leningradez" class="text text-36"></a>
+            <a href="http://plus.google.com/113724248283261157650" class="text text-37"></a>
+          </div>
         </div>
       </div>
       <p class="text _text text-38">Mikhail Ryzhikov</p>
@@ -161,9 +167,11 @@ development</p>
     <div class="maxim clearfix">
       <div class="flip3d clearfix">
         <div class="front"></div>
-        <div class="back clearfix">
-          <a href="http://plus.google.com/105667246676907310482" class="text text-40"></a>
-          <a href="http://github.com/maksym" class="text text-41"></a>
+        <div class="back">
+          <div class="container _container">
+            <a href="http://github.com/maksym" class="text text-40"></a>
+            <a href="http://plus.google.com/105667246676907310482" class="text text-41"></a>
+          </div>
         </div>
       </div>
       <p class="text _text text-42">Maxim Bodnarchuk</p>
@@ -172,9 +180,11 @@ development</p>
     <div class="alexandra clearfix">
       <div class="flip3d clearfix">
         <div class="front"></div>
-        <div class="back clearfix">
-          <a href="http://plus.google.com/+AlexandraSemenova" class="text text-44"><br></a>
-          <a href="http://github.com/Semalexa" class="text text-45"><br></a>
+        <div class="back">
+          <div class="container _container">
+            <a href="http://github.com/Semalexa" class="text text-44"></a>
+            <a href="http://plus.google.com/+AlexandraSemenova" class="text text-45"></a>
+          </div>
         </div>
       </div>
       <p class="text _text text-46">Alexandra Pavlyshina</p>
@@ -183,9 +193,11 @@ development</p>
     <div class="mikhaill clearfix">
       <div class="flip3d clearfix">
         <div class="front"></div>
-        <div class="back clearfix">
-          <a href="https://plus.google.com/+МихаилЛапшин" class="text text-48"><br></a>
-          <a href="http://github.com/mlapshin" class="text text-49"><br></a>
+        <div class="back">
+          <div class="container _container">
+            <a href="http://github.com/mlapshin" class="text text-48"></a>
+            <a href="https://plus.google.com/+МихаилЛапшин" class="text text-49"></a>
+          </div>
         </div>
       </div>
       <p class="text _text text-50">Mikhail Lapshin</p>
@@ -194,7 +206,7 @@ development</p>
     <div class="danil clearfix">
       <div class="flip3d clearfix">
         <div class="front"></div>
-        <div class="back clearfix">
+        <div class="back">
           <a href="http://github.com/danil" class="text text-52"></a>
         </div>
       </div>
@@ -204,7 +216,7 @@ development</p>
     <div class="pasha clearfix">
       <div class="flip3d clearfix">
         <div class="front"></div>
-        <div class="back clearfix">
+        <div class="back">
           <a href="https://plus.google.com/102887565330085060715" class="text text-55"></a>
         </div>
       </div>
@@ -214,9 +226,11 @@ development</p>
     <div class="oleg clearfix">
       <div class="flip3d clearfix">
         <div class="front"></div>
-        <div class="back clearfix">
-          <a href="https://twitter.com/oleg_kipling" class="text text-58"></a>
-          <a href="http://github.com/oleg-kipling" class="text text-59"></a>
+        <div class="back">
+          <div class="container _container">
+            <a href="http://github.com/oleg-kipling" class="text text-58"></a>
+            <a href="https://twitter.com/oleg_kipling" class="text text-59"></a>
+          </div>
         </div>
       </div>
       <p class="text _text text-60">Oleg Sugatov</p>
@@ -236,8 +250,8 @@ development</p>
   </section>
   <p class="text _text text-65 js-blog-slide">Health Samurai Blog</p>
   <section class="blog blog-2 clearfix">
-    <div class="container _container container-13 clearfix">
-      <article class="_container _container-21 clearfix">
+    <div class="container _container container-20 clearfix">
+      <article class="_container _container-28 clearfix">
         <p class="text _text text-66">FormStamp − AngularJS widgets library</p>
         <div class="text _text text-67">
           <p>AngularJS is an enjoying rapid popularity growth JS framework that simplifies complex web applications development. Having used AngularJS in several projects with a need for sophisticated user interfaces, we felt a lack of a good library of uniform widgets, such as datetime picker, multiple select, combo box, etc. We knew about Angular-UI project, but it didn’t satisfy our needs.&nbsp;</p>
@@ -246,8 +260,8 @@ development</p>
 </div>
       </article>
     </div>
-    <div class="container _container container-14 clearfix">
-      <article class="_container _container-23 clearfix">
+    <div class="container _container container-21 clearfix">
+      <article class="_container _container-30 clearfix">
         <p class="text _text text-68">Открытый проект по переводу стандарта FHIR!</p>
         <div class="text _text text-69">
           <p>Группа разработчиков HealthSamurai в составе международной компании WaveAccess и российская компания CофТраст приступили к переводу нового стандарта от организации HL7 International - FHIR.&nbsp;</p>
@@ -258,7 +272,7 @@ development</p>
       </article>
     </div>
   </section>
-  <footer class="_container _container-24 clearfix">
+  <footer class="_container _container-31 clearfix">
     <p class="text text-70">Health Samurai 2015 © All Rights Reserved</p>
   </footer>
 
