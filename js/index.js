@@ -18,7 +18,6 @@
   var $projects = $('.js-projects');
   var $about = $('.js-about');
   var $upBtn = $('.js-up-btn');
-  var $aboutSlide = $('.js-about-slide');
 
 
    /*slider movement*/
