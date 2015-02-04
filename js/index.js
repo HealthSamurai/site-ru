@@ -10,7 +10,6 @@
   var $fhirbase = $('.js-fhirbase');
   var $choiceBtn = $('.js-choice-btn');
   var $projectsSlide = $('.js-projects-slide');
-  var $aboutSlide = $('.js-about-slide');
   var $blog = $('.js-blog');
   var $prototype = $('.js-prototype');
   var $team = $('.js-team');
@@ -19,6 +18,7 @@
   var $projects = $('.js-projects');
   var $about = $('.js-about');
   var $upBtn = $('.js-up-btn');
+  var $aboutSlide = $('.js-about-slide');
 
 
    /*slider movement*/

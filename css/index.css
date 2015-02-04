@@ -9,14 +9,13 @@ body {
   float: left;
   z-index: 146;
   width: 100%;
-  height: 356px;
-  margin-top: 200px;
+  height: 556px;
 }
 
 .about .image {
   width: 178px;
   max-width: 178px;
-  margin: 0 auto;
+  margin: 198px auto 0;
   overflow: hidden;
 }
 
@@ -1618,12 +1617,16 @@ body {
   .about {
     position: relative;
     z-index: 146;
-    height: 347px;
+    height: 547px;
   }
 
   .about .image {
+    float: left;
     width: 17.943548387%;
     height: auto;
+    margin-top: 200px;
+    margin-right: 0;
+    margin-left: 41.02823%;
   }
 
   .alexandra .flip3d {
@@ -1850,7 +1853,7 @@ body {
 
   .about .text-2 {
     width: 80.0403225806%;
-    margin-top: 73px;
+    margin-top: 493px;
     font-size: 2.375em;
   }
 
@@ -2204,12 +2207,16 @@ body {
   .about {
     position: relative;
     z-index: 146;
-    height: 376px;
+    height: 576px;
   }
 
   .about .image {
+    float: none;
     width: 20.9411764705%;
     height: auto;
+    margin-top: 201px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .back .container {
@@ -2365,13 +2372,13 @@ body {
   }
 
   .about .text-1 {
-    margin-top: 4px;
+    margin-top: 2px;
     font-size: 4.563em;
   }
 
   .about .text-2 {
     width: 61.294117647%;
-    margin-top: 75px;
+    margin-top: 73px;
     font-size: 2.188em;
     line-height: 1.18;
   }
@@ -2681,12 +2688,13 @@ body {
   .about {
     position: relative;
     z-index: 146;
-    height: 350px;
+    height: 550px;
   }
 
   .about .image {
     width: 164px;
     height: auto;
+    margin-top: 199px;
   }
 
   .back .container {
@@ -3145,12 +3153,13 @@ body {
   .about {
     position: relative;
     z-index: 146;
-    height: 326px;
+    height: 526px;
   }
 
   .about .image {
     width: 156px;
     height: auto;
+    margin-top: 200px;
   }
 
   .back .container {
@@ -3658,14 +3667,14 @@ body {
   .about {
     position: relative;
     z-index: 146;
-    height: 285px;
-    margin-top: 150px;
+    height: 435px;
   }
 
   .about .image {
     width: 131px;
     max-width: none;
     height: auto;
+    margin-top: 160px;
   }
 
   .back .container {
@@ -3823,13 +3832,8 @@ body {
     margin-left: -0.02958%;
   }
 
-  .about .text-1 {
-    margin-top: 10px;
-  }
-
   .about .text-2 {
     width: 69.5833333333%;
-    margin-top: 59px;
     font-size: 1.438em;
   }
 
@@ -4142,12 +4146,13 @@ body {
   .about {
     position: relative;
     z-index: 146;
-    height: 261px;
+    height: 411px;
   }
 
   .about .image {
     width: 110px;
     height: auto;
+    margin-top: 164px;
   }
 
   .back .container {
@@ -4307,13 +4312,12 @@ body {
   }
 
   .about .text-1 {
-    margin-top: 7px;
     font-size: 3em;
   }
 
   .about .text-2 {
     width: 80%;
-    margin-top: 61px;
+    margin-top: 47px;
     letter-spacing: -1px;
   }
 
