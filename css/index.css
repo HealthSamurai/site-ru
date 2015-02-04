@@ -686,13 +686,6 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-.alexandra ._text {
-  float: left;
-  clear: both;
-  text-align: center;
-  color: rgb(0, 0, 0);
-}
-
 .maxim ._text {
   float: left;
   clear: both;
@@ -702,15 +695,7 @@ body {
   color: rgb(0, 0, 0);
 }
 
-.danil ._text,
-.mikhaill ._text {
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-  color: rgb(0, 0, 0);
-}
-
+.alexandra ._text,
 .mikhail ._text,
 .nikolay ._text {
   float: left;
@@ -720,9 +705,9 @@ body {
 }
 
 .oleg ._text {
+  float: left;
+  clear: both;
   width: 100%;
-  margin-right: auto;
-  margin-left: auto;
   line-height: 1.18;
   text-align: center;
   color: rgb(0, 0, 0);
@@ -736,6 +721,8 @@ body {
   color: rgb(0, 0, 0);
 }
 
+.danil ._text,
+.mikhaill ._text,
 .pavel ._text {
   float: left;
   clear: both;
@@ -1179,7 +1166,7 @@ body {
 
 .text-48 {
   width: 110%;
-  margin-top: 20px;
+  margin: 20px 0 0 -5%;
   font-size: 1.563em;
   line-height: 1.18;
 }
@@ -1239,7 +1226,7 @@ body {
 
 .text-57 {
   width: 120%;
-  margin-top: 20px;
+  margin: 20px 0 0 -10%;
   font-size: 1.563em;
   line-height: 1.18;
 }
@@ -1380,7 +1367,7 @@ body {
   margin: 0 auto;
   font-family: FontAwesome;
   font-size: 4.375em;
-  font-weight: Regular;
+  font-weight: normal;
   color: rgb(117, 117, 117);
 }
 
@@ -1739,12 +1726,6 @@ body {
     height: 286px;
   }
 
-  .danil ._text {
-    float: left;
-    clear: both;
-    margin-right: 0;
-  }
-
   .prototype ._button {
     position: relative;
     z-index: 8;
@@ -1871,15 +1852,6 @@ body {
     width: 30.3278688524%;
   }
 
-  .danil .text-31 {
-    width: 120%;
-    margin-left: -9.99635%;
-  }
-
-  .danil .text-32 {
-    margin-left: 0;
-  }
-
   .fhirbase .image-9 {
     height: auto;
     margin-left: 10.08623%;
@@ -1903,17 +1875,6 @@ body {
   .mikhail .text-48 {
     width: 120%;
     margin-left: -4.99087%;
-  }
-
-  .mikhaill .text-35 {
-    width: 120%;
-  }
-
-  .mikhaill .text-36 {
-    float: left;
-    clear: both;
-    margin-right: 0;
-    margin-left: 0;
   }
 
   .nikolay .text-57 {
@@ -1950,6 +1911,8 @@ body {
     margin-left: -9.99635%;
   }
 
+  .danil .text-31,
+  .mikhaill .text-35,
   .pavel .text-52 {
     width: 120%;
     margin-left: -9.99635%;
@@ -2237,13 +2200,6 @@ body {
     height: 245px;
   }
 
-  .oleg ._text {
-    float: left;
-    clear: both;
-    margin-right: 0;
-    margin-left: 0;
-  }
-
   .prototype ._button {
     position: relative;
     z-index: 8;
@@ -2374,13 +2330,6 @@ body {
     margin-left: 0;
   }
 
-  .mikhaill .text-35 {
-    float: left;
-    clear: both;
-    margin-right: 0;
-    margin-left: -9.9969%;
-  }
-
   .maxim .text-44,
   .nikolay .text-57 {
     width: 120%;
@@ -2413,6 +2362,7 @@ body {
   }
 
   .danil .text-31,
+  .mikhaill .text-35,
   .pasha .text-28,
   .pavel .text-52 {
     margin-left: -9.9969%;
@@ -3225,13 +3175,6 @@ body {
     width: 47px;
   }
 
-  .mikhaill ._text {
-    float: none;
-    clear: none;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
   .prototype ._button {
     position: relative;
     z-index: 8;
@@ -3363,6 +3306,7 @@ body {
 
   .mikhaill .text-35 {
     width: 100%;
+    margin-left: 0;
   }
 
   .maxim .text-44,
@@ -3827,15 +3771,8 @@ body {
   }
 
   .mikhaill .text-35 {
-    float: left;
-    clear: both;
     width: 120%;
-    margin-right: 0;
-    margin-left: -10%;
-  }
-
-  .mikhaill .text-36 {
-    margin-top: 53px;
+    margin-left: -9.98245%;
   }
 
   .nikolay .text-57 {
@@ -4088,6 +4025,7 @@ body {
   }
 
   .danil .text-31,
+  .mikhaill .text-35,
   .offer .container {
     width: 100%;
   }
@@ -4149,17 +4087,18 @@ body {
     left: 81.611328125%;
   }
 
-  .danil ._text {
-    float: none;
-    clear: none;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
   .maxim ._text,
   .pasha .text-28 {
     width: 100%;
     margin-left: 0;
+  }
+
+  .danil ._text,
+  .mikhaill ._text {
+    float: none;
+    clear: none;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .oleg ._text {
@@ -4267,10 +4206,6 @@ body {
     margin-left: 7.35743%;
   }
 
-  .container .text-9 {
-    font-weight: normal;
-  }
-
   .fhirbase .image-9 {
     height: auto;
     margin-left: 10.07676%;
@@ -4287,12 +4222,7 @@ body {
     margin-top: 10px;
   }
 
-  .mikhaill .text-36 {
-    margin-top: 4px;
-  }
-
   .mikhail .text-48,
-  .mikhaill .text-35,
   .nikolay .text-57,
   .pavel .text-52 {
     float: none;
