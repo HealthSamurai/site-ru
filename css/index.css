@@ -690,7 +690,7 @@ body {
   float: left;
   clear: both;
   width: 130%;
-  margin-left: -15%;
+  margin-left: -14.99568%;
   text-align: center;
   color: rgb(0, 0, 0);
 }
@@ -698,6 +698,8 @@ body {
 .alexandra ._text,
 .mikhail ._text,
 .nikolay ._text {
+  float: left;
+  clear: both;
   text-align: center;
   color: rgb(0, 0, 0);
 }
@@ -712,6 +714,8 @@ body {
 }
 
 .pasha ._text {
+  float: left;
+  clear: both;
   line-height: 1.18;
   text-align: center;
   color: rgb(0, 0, 0);
@@ -1047,16 +1051,14 @@ body {
 }
 
 .text-28 {
-  float: left;
-  clear: both;
   width: 120%;
-  margin: 20px 0 0 -10%;
+  margin: 20px 0 0 -9.99614%;
   font-size: 1.563em;
 }
 
 .text-29 {
   width: 100%;
-  margin: 53px auto 0;
+  margin-top: 4px;
   font-size: 1.063em;
 }
 
@@ -1081,11 +1083,6 @@ body {
   z-index: 74;
   width: 39px;
   margin: 0 auto;
-}
-
-.text-32 {
-  font-size: 1.063em;
-  line-height: 1.38;
 }
 
 .text-33 {
@@ -1117,10 +1114,8 @@ body {
 }
 
 .text-39 {
-  float: left;
-  clear: both;
   width: 140%;
-  margin: 20px 0 0 -20%;
+  margin: 20px 0 0 -19.99691%;
   font-size: 1.563em;
   line-height: 1.18;
 }
@@ -1132,13 +1127,6 @@ body {
   font-size: 2.188em;
   font-weight: 600;
   color: rgb(98, 98, 98);
-}
-
-.text-40 {
-  width: 100%;
-  margin: 50px auto 0;
-  font-size: 1.063em;
-  line-height: 1.38;
 }
 
 .text-41 {
@@ -1177,19 +1165,10 @@ body {
 }
 
 .text-48 {
-  float: left;
-  clear: both;
   width: 110%;
   margin: 20px 0 0 -5%;
   font-size: 1.563em;
   line-height: 1.18;
-}
-
-.text-49 {
-  width: 100%;
-  margin: 51px auto 0;
-  font-size: 1.063em;
-  line-height: 1.38;
 }
 
 .text-50 {
@@ -1215,6 +1194,7 @@ body {
   line-height: 1.18;
 }
 
+.text-32,
 .text-36,
 .text-44,
 .text-53 {
@@ -1245,17 +1225,17 @@ body {
 }
 
 .text-57 {
-  float: left;
-  clear: both;
   width: 120%;
   margin: 20px 0 0 -10%;
   font-size: 1.563em;
   line-height: 1.18;
 }
 
+.text-40,
+.text-49,
 .text-58 {
   width: 100%;
-  margin: 53px auto 0;
+  margin-top: 4px;
   font-size: 1.063em;
   line-height: 1.38;
 }
@@ -1746,6 +1726,12 @@ body {
     height: 286px;
   }
 
+  .pavel ._text {
+    float: left;
+    clear: both;
+    margin-right: 0;
+  }
+
   .prototype ._button {
     position: relative;
     z-index: 8;
@@ -1778,14 +1764,6 @@ body {
     width: 130%;
     margin-top: 22px;
     margin-left: -14.99452%;
-  }
-
-  .alexandra .text-40 {
-    float: left;
-    clear: both;
-    margin-top: 4px;
-    margin-right: 0;
-    margin-left: 0;
   }
 
   .blog .text-63 {
@@ -1873,15 +1851,23 @@ body {
   }
 
   .container .text-61 {
-    margin-left: 7.46978%;
+    margin-left: 7.4562%;
   }
 
   .container .text-9 {
     width: 30.3278688524%;
   }
 
+  .danil .text-31 {
+    float: left;
+    clear: both;
+    width: 120%;
+    margin-right: 0;
+    margin-left: -9.99635%;
+  }
+
   .danil .text-32 {
-    margin-top: 4px;
+    margin-top: 53px;
   }
 
   .fhirbase .image-9 {
@@ -1890,7 +1876,7 @@ body {
   }
 
   .maxim .text-43 {
-    width: 140%;
+    width: 120%;
     margin-left: -14.99452%;
   }
 
@@ -1908,7 +1894,6 @@ body {
     margin-left: -4.99087%;
   }
 
-  .danil .text-31,
   .mikhaill .text-35 {
     width: 120%;
   }
@@ -1921,13 +1906,8 @@ body {
   }
 
   .nikolay .text-57 {
-    width: 103.1213092626%;
-    margin-left: -9.9877%;
-  }
-
-  .nikolay .text-58,
-  .pasha .text-29 {
-    margin-top: 50px;
+    width: 110%;
+    margin-left: -4.99385%;
   }
 
   .offer .container-3 {
@@ -1955,21 +1935,16 @@ body {
   }
 
   .pasha .text-28 {
-    width: 100%;
     margin-left: -9.99635%;
   }
 
   .pavel .text-52 {
-    float: left;
-    clear: both;
     width: 120%;
-    margin-right: 0;
-    margin-left: 0;
+    margin-left: -9.99635%;
   }
 
-  .mikhail .text-49,
   .pavel .text-53 {
-    margin-top: 49px;
+    margin-left: 0;
   }
 
   .process .container-6 {
@@ -2254,10 +2229,6 @@ body {
     height: 245px;
   }
 
-  .maxim ._text {
-    width: 120%;
-  }
-
   .oleg ._text {
     float: left;
     clear: both;
@@ -2393,17 +2364,17 @@ body {
     margin-left: 0;
   }
 
-  .mikhaill .text-36 {
-    margin-top: 0;
+  .mikhaill .text-35 {
+    float: left;
+    clear: both;
+    margin-right: 0;
+    margin-left: -9.9969%;
   }
 
+  .maxim .text-44,
   .nikolay .text-57 {
-    width: 100%;
-    margin-left: 0;
-  }
-
-  .nikolay .text-58 {
-    margin-top: 52px;
+    width: 120%;
+    margin-left: -10%;
   }
 
   .offer .container-3 {
@@ -2432,12 +2403,12 @@ body {
   }
 
   .pasha .text-28 {
-    margin-top: 19px;
     margin-left: -9.9969%;
   }
 
-  .pasha .text-29 {
-    margin-top: 54px;
+  .danil .text-31,
+  .pavel .text-52 {
+    margin-left: -10%;
   }
 
   .process .container-6 {
@@ -2731,13 +2702,6 @@ body {
     width: 30.2931596091%;
   }
 
-  .danil ._text {
-    position: relative;
-    float: left;
-    clear: both;
-    margin-right: 0;
-  }
-
   .prototype ._button {
     position: relative;
     z-index: 8;
@@ -2768,11 +2732,6 @@ body {
   .alexandra .text-39 {
     width: 120%;
     margin-left: -15.14221%;
-  }
-
-  .alexandra .text-40 {
-    margin-top: 0;
-    margin-left: -0.06145%;
   }
 
   .blog .text-63 {
@@ -2876,13 +2835,14 @@ body {
   }
 
   .danil .text-31 {
-    z-index: 73;
     margin-left: -9.99681%;
   }
 
   .danil .text-32 {
-    z-index: 72;
-    margin-top: -1px;
+    float: left;
+    clear: both;
+    margin-top: 4px;
+    margin-right: 0;
     margin-left: 0;
   }
 
@@ -2892,12 +2852,8 @@ body {
   }
 
   .maxim .text-43 {
-    margin-left: -19.99362%;
-  }
-
-  .maxim .text-44 {
-    margin-top: 1px;
-    margin-left: -9.98884%;
+    width: 140%;
+    margin-left: -20%;
   }
 
   .medclient .image-7 {
@@ -2907,37 +2863,17 @@ body {
   }
 
   .mikhail .text-48 {
-    margin-left: -4.99527%;
-  }
-
-  .mikhail .text-49,
-  .pasha .text-29 {
-    margin-top: 50px;
+    width: 120%;
+    margin-left: -10%;
   }
 
   .mikhaill .text-35 {
-    float: left;
-    clear: both;
-    margin-right: 0;
     margin-left: -9.99053%;
   }
 
-  .mikhaill .text-36 {
-    float: none;
-    clear: none;
-    margin-top: 50px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
+  .maxim .text-44,
   .nikolay .text-57 {
-    width: 120%;
     margin-left: -9.98884%;
-  }
-
-  .nikolay .text-58,
-  .pavel .text-53 {
-    margin-top: 53px;
   }
 
   .offer .container-3 {
@@ -2967,7 +2903,7 @@ body {
   }
 
   .pasha .text-28 {
-    margin-left: -9.99365%;
+    margin-left: -9.98572%;
   }
 
   .pavel .text-52 {
@@ -3293,8 +3229,8 @@ body {
     width: 47px;
   }
 
-  .danil ._text {
-    position: relative;
+  .danil ._text,
+  .mikhaill ._text {
     float: none;
     clear: none;
     margin-right: auto;
@@ -3326,8 +3262,9 @@ body {
     margin-top: 49px;
   }
 
-  .alexandra .text-40 {
-    margin-left: 0;
+  .alexandra .text-39 {
+    width: 130%;
+    margin-left: -14.99844%;
   }
 
   .blog .text-63 {
@@ -3401,30 +3338,13 @@ body {
     margin-left: 7.40741%;
   }
 
-  .danil .text-31 {
-    z-index: 73;
-    width: 100%;
-  }
-
-  .danil .text-32 {
-    z-index: 72;
-    margin-top: 4px;
-  }
-
   .fhirbase .image-9 {
     height: auto;
     margin-left: 10.08297%;
   }
 
-  .alexandra .text-39,
   .maxim .text-43 {
-    width: 130%;
     margin-left: -14.99844%;
-  }
-
-  .maxim .text-44 {
-    margin-top: 0;
-    margin-left: -9.9968800001%;
   }
 
   .medclient .image-7 {
@@ -3438,26 +3358,15 @@ body {
     margin-left: -4.9953200001%;
   }
 
+  .danil .text-31,
   .mikhaill .text-35 {
-    float: none;
-    clear: none;
     width: 100%;
-    margin-right: auto;
-    margin-left: auto;
   }
 
-  .mikhaill .text-36 {
-    margin-top: 4px;
-  }
-
+  .maxim .text-44,
   .nikolay .text-57,
   .pavel .text-52 {
     margin-left: -9.9968800001%;
-  }
-
-  .nikolay .text-58,
-  .pavel .text-53 {
-    margin-top: 50px;
   }
 
   .offer .container-3,
@@ -3480,7 +3389,6 @@ body {
   }
 
   .pasha .text-28 {
-    margin-top: 20px;
     margin-left: 0;
   }
 
@@ -3772,11 +3680,7 @@ body {
     height: 270px;
   }
 
-  .danil ._text {
-    position: relative;
-  }
-
-  .oleg ._text {
+  .nikolay ._text {
     float: none;
     clear: none;
     margin-right: auto;
@@ -3804,12 +3708,9 @@ body {
     font-size: 1.438em;
   }
 
-  .alexandra .text-40 {
-    float: none;
-    clear: none;
-    margin-top: 50px;
-    margin-right: auto;
-    margin-left: auto;
+  .alexandra .text-39 {
+    width: 120%;
+    margin-left: -9.9978200001%;
   }
 
   .blog .text-63 {
@@ -3898,28 +3799,18 @@ body {
     width: 19.2708333333%;
   }
 
-  .danil .text-31 {
-    z-index: 73;
-  }
-
-  .danil .text-32 {
-    z-index: 72;
-  }
-
   .fhirbase .image-9 {
     visibility: hidden;
     height: auto;
   }
 
-  .alexandra .text-39,
   .maxim .text-43 {
     width: 120%;
-    margin-left: -9.9978200001%;
+    margin-left: -9.99238%;
   }
 
   .maxim .text-44 {
     width: 100%;
-    margin-top: 4px;
     margin-left: 0;
   }
 
@@ -3929,18 +3820,8 @@ body {
   }
 
   .nikolay .text-57 {
-    float: none;
-    clear: none;
     width: 100%;
     margin-top: 11px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .mikhail .text-49,
-  .nikolay .text-58,
-  .pavel .text-53 {
-    margin-top: 4px;
   }
 
   .offer .container-3 {
@@ -3963,19 +3844,8 @@ body {
     z-index: 119;
   }
 
-  .oleg .text-25 {
-    margin-top: 194px;
-  }
-
   .pasha .text-28 {
-    float: none;
-    clear: none;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .pasha .text-29 {
-    margin-top: 1px;
+    width: 100%;
   }
 
   .mikhail .text-48,
@@ -4267,12 +4137,15 @@ body {
     left: 81.611328125%;
   }
 
-  .danil ._text {
-    position: relative;
+  .maxim ._text {
+    margin-left: -9.99661%;
   }
 
-  .maxim ._text {
-    margin-left: -10%;
+  .oleg ._text {
+    float: none;
+    clear: none;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .prototype ._button {
@@ -4302,7 +4175,7 @@ body {
   }
 
   .alexandra .text-39 {
-    margin-left: -10%;
+    margin-left: -9.99661%;
   }
 
   .blog .text-63 {
@@ -4368,14 +4241,6 @@ body {
     margin-left: 7.35743%;
   }
 
-  .danil .text-31 {
-    z-index: 73;
-  }
-
-  .danil .text-32 {
-    z-index: 72;
-  }
-
   .fhirbase .image-9 {
     height: auto;
     margin-left: 10.07676%;
@@ -4397,13 +4262,8 @@ body {
   }
 
   .container .container-9,
-  .nikolay .text-57,
-  .oleg .text-25 {
+  .nikolay .text-57 {
     margin-top: 20px;
-  }
-
-  .nikolay .text-58 {
-    margin-top: 3px;
   }
 
   .offer .container-3,
@@ -4419,18 +4279,6 @@ body {
   .offer-2 {
     position: relative;
     z-index: 119;
-  }
-
-  .pasha .text-28 {
-    float: left;
-    clear: both;
-    margin-top: 19px;
-    margin-right: 0;
-    margin-left: 0;
-  }
-
-  .pasha .text-29 {
-    margin-top: 50px;
   }
 
   .process-2 {
