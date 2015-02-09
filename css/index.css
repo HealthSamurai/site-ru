@@ -1,15 +1,15 @@
 body {
   background-color: rgb(255, 255, 255);
-  font: 300 1em/1.38 'Open Sans';
+  font: 300 1.125em/1.38 'Open Sans';
   color: rgb(0, 0, 0);
 }
 
 .about {
   position: relative;
   float: left;
-  z-index: 146;
+  z-index: 156;
   width: 100%;
-  height: 556px;
+  height: 668px;
 }
 
 .about .image {
@@ -17,11 +17,6 @@ body {
   max-width: 178px;
   margin: 198px auto 0;
   overflow: hidden;
-}
-
-.about .text {
-  width: 100%;
-  text-align: center;
 }
 
 .alexandra {
@@ -78,7 +73,7 @@ body {
   display: block;
   position: absolute;
   min-height: 51px;
-  font: normal 2.5em/1.38 FontAwesome;
+  font: normal 2.222em/1.38 FontAwesome;
   color: rgb(110, 110, 110);
 }
 
@@ -95,7 +90,7 @@ body {
   float: right;
   width: 34px;
   min-height: 20px;
-  font-size: 0.938em;
+  font-size: 0.833em;
   font-weight: 400;
   line-height: 1.18;
   color: rgb(167, 163, 163);
@@ -107,7 +102,7 @@ body {
   width: 35px;
   height: 20px;
   min-height: 20px;
-  font-size: 0.938em;
+  font-size: 0.833em;
   font-weight: 400;
   line-height: 1.18;
   color: rgb(167, 163, 163);
@@ -120,7 +115,7 @@ body {
   width: 55px;
   height: 20px;
   min-height: 20px;
-  font-size: 0.938em;
+  font-size: 0.833em;
   font-weight: 400;
   line-height: 1.18;
   color: rgb(167, 163, 163);
@@ -132,7 +127,7 @@ body {
   width: 70px;
   height: 20px;
   min-height: 20px;
-  font-size: 0.938em;
+  font-size: 0.833em;
   font-weight: 400;
   line-height: 1.18;
   color: rgb(167, 163, 163);
@@ -144,18 +139,21 @@ body {
   width: 40px;
   height: 20px;
   min-height: 20px;
-  font-size: 0.938em;
+  font-size: 0.833em;
   font-weight: 400;
   line-height: 1.18;
   color: rgb(167, 163, 163);
 }
 
-.blog .text {
+.contacts {
+  width: 549px;
+  height: 63px;
+  margin: 40px auto 0;
+}
+
+.contacts .container {
   position: relative;
   float: left;
-  width: 48.6215538847%;
-  line-height: 1.38;
-  color: rgb(0, 0, 0);
 }
 
 .container .container {
@@ -194,6 +192,18 @@ body {
   width: 175px;
   background-image: url('../images/danil.png');
   background-position: center center;
+}
+
+.email {
+  display: block;
+  float: left;
+  width: 82.7160493827%;
+  min-height: 24px;
+  margin: 2px 0 0 1.5949199999%;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.28;
+  color: rgb(52, 151, 211);
 }
 
 .fhirbase {
@@ -245,7 +255,7 @@ body {
   position: absolute;
   top: 18px;
   left: 10.0833333333%;
-  z-index: 162;
+  z-index: 172;
   width: 197px;
   max-width: 1200px;
   height: auto;
@@ -359,7 +369,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 164;
+  z-index: 174;
   width: 100%;
   height: 74px;
   margin: 0 auto;
@@ -495,6 +505,20 @@ body {
   background-position: center center;
 }
 
+.phone {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 149;
+  width: 80.8139534883%;
+  min-height: 24px;
+  margin: -26px 0 0 11.96008%;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.28;
+  color: rgb(85, 85, 85);
+}
+
 .process .element {
   position: absolute;
   top: 44px;
@@ -572,18 +596,13 @@ body {
   float: left;
 }
 
-.text-65 p,
-.text-66 p {
-  margin-bottom: 1em;
-}
-
 .toggle-menu {
   display: block;
   visibility: hidden;
   float: left;
   width: 27px;
   min-height: 40px;
-  font: normal 1.875em/1.38 FontAwesome;
+  font: normal 1.667em/1.38 FontAwesome;
   color: rgb(0, 0, 0);
 }
 
@@ -592,10 +611,10 @@ body {
   position: fixed;
   top: 400px;
   left: 92%;
-  z-index: 165;
+  z-index: 175;
   width: 47px;
   min-height: 39px;
-  font: normal 3.313em/1.38 FontAwesome;
+  font: normal 2.944em/1.38 FontAwesome;
   color: rgba(45, 45, 45, 0.08);
 }
 
@@ -616,6 +635,14 @@ body {
   overflow: hidden;
 }
 
+.wrapper {
+  position: relative;
+  float: left;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+
 ._button {
   display: block;
   position: relative;
@@ -626,7 +653,7 @@ body {
   margin: 11px 0 0 65.62303%;
   border: 2px solid rgb(117, 117, 117);
   background-color: rgb(255, 255, 255);
-  font-size: 1em;
+  font-size: 0.889em;
   font-weight: 400;
   line-height: 1.38;
   text-align: center;
@@ -653,7 +680,7 @@ body {
   border-color: rgb(230, 228, 228) rgb(230, 228, 228) rgb(230, 228, 228) rgb(197, 197, 197);
   border-style: solid;
   background-color: rgb(245, 245, 245);
-  font-size: 1em;
+  font-size: 0.889em;
   line-height: 1.38;
   color: rgb(117, 117, 117);
 }
@@ -675,7 +702,7 @@ body {
   border-color: rgb(230, 228, 228) rgb(230, 228, 228) rgb(230, 228, 228) rgb(197, 197, 197);
   border-style: solid;
   background-color: rgb(245, 245, 245);
-  font-size: 1em;
+  font-size: 0.889em;
   line-height: 1.38;
   color: rgb(117, 117, 117);
   resize: none;
@@ -690,7 +717,7 @@ body {
   float: left;
   clear: both;
   width: 130%;
-  margin-left: -14.98849%;
+  margin-left: -14.9813%;
   text-align: center;
   color: rgb(0, 0, 0);
 }
@@ -738,27 +765,62 @@ body {
 .blog-2 {
   position: relative;
   z-index: 5;
-  width: 66.5%;
-  max-width: 798px;
-  height: 486px;
+  width: 820px;
+  max-width: 820px;
+  height: 820px;
   margin: 558px auto 0;
 }
 
+.container-1 {
+  width: 100%;
+  height: 34px;
+  margin-left: -0.00854%;
+}
+
+.container-10 {
+  width: 28.5520753042%;
+  margin-left: 0.06453%;
+}
+
+.container-11 {
+  width: 29.4506195335%;
+  margin-left: 7.80559%;
+}
+
+.container-12 {
+  width: 24.6355685131%;
+  margin-left: 9.43953%;
+}
+
+.container-2 {
+  clear: both;
+  z-index: 151;
+  width: 191px;
+  height: 29px;
+  margin-left: 11.83402%;
+}
+
 .container-3 {
+  z-index: 148;
+  width: 43.897996357%;
+  height: 29px;
+}
+
+.container-6 {
   float: left;
 }
 
-.container-4 {
+.container-7 {
   float: left;
   margin-left: 12.42711%;
 }
 
-.container-5 {
+.container-8 {
   float: right;
   margin-right: 0.02617%;
 }
 
-.container-6 {
+.container-9 {
   position: absolute;
   top: 359px;
   left: 0;
@@ -767,21 +829,6 @@ body {
   width: 56.4999999999%;
   height: 52px;
   margin: 0 auto;
-}
-
-.container-7 {
-  width: 28.5520753042%;
-  margin-left: 0.06453%;
-}
-
-.container-8 {
-  width: 29.4506195335%;
-  margin-left: 7.80559%;
-}
-
-.container-9 {
-  width: 24.6355685131%;
-  margin-left: 9.43953%;
 }
 
 .image-2 {
@@ -878,50 +925,59 @@ body {
 .text-1 {
   float: left;
   clear: both;
-  font-size: 5.25em;
-  line-height: 0.98;
-  letter-spacing: -3px;
+  width: 100%;
+  margin-top: 1px;
+  font: normal 4.167em/0.98 LucidaGrande-Bold;
+  text-align: center;
+  letter-spacing: -4px;
   color: rgb(0, 0, 0);
 }
 
 .text-10 {
   float: left;
-  clear: both;
-  width: 100%;
-  min-height: 193px;
-  margin-top: 9px;
-  font-size: 1.063em;
+  width: 15.75%;
+  margin: 6px 0 0 47.76563%;
+  font-size: 1.944em;
+  font-weight: 600;
+  color: rgb(98, 98, 98);
+}
+
+.text-10:hover,
+.text-8:hover {
+  line-height: 1.38;
+  text-decoration: none;
+}
+
+.text-11,
+.text-9 {
+  width: 79.8333333333%;
+  margin: 23px auto 0;
+  font-size: 1.333em;
   text-align: center;
   color: rgb(0, 0, 0);
 }
 
-.text-11 {
-  width: 18.6147186147%;
-  min-height: 108px;
-  margin: 0 auto;
-  font-family: FontAwesome;
-  font-size: 4.375em;
-  font-weight: normal;
-  color: rgb(117, 117, 117);
-}
-
 .text-12 {
+  position: relative;
   float: left;
   clear: both;
+  z-index: 120;
   width: 100%;
-  min-height: 169px;
-  margin-top: 9px;
-  font-size: 1.063em;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 1.778em;
+  line-height: 1.18;
   text-align: center;
+  text-transform: uppercase;
   color: rgb(0, 0, 0);
 }
 
 .text-13 {
-  width: 33.3333333333%;
+  width: 30.4721030042%;
   min-height: 108px;
   margin: 0 auto;
   font-family: FontAwesome;
-  font-size: 4.375em;
+  font-size: 3.889em;
   font-weight: normal;
   color: rgb(117, 117, 117);
 }
@@ -930,78 +986,122 @@ body {
   float: left;
   clear: both;
   width: 100%;
-  min-height: 114px;
+  min-height: 193px;
   margin-top: 9px;
-  font-size: 1.063em;
+  font-size: 0.944em;
   text-align: center;
   color: rgb(0, 0, 0);
 }
 
+.text-15 {
+  width: 18.6147186147%;
+  min-height: 108px;
+  margin: 0 auto;
+  font-family: FontAwesome;
+  font-size: 3.889em;
+  font-weight: normal;
+  color: rgb(117, 117, 117);
+}
+
 .text-16 {
+  float: left;
   clear: both;
   width: 100%;
-  min-height: 27px;
-  font-family: FontAwesome;
-  font-size: 1em;
-  font-weight: 400;
+  min-height: 169px;
+  margin-top: 9px;
+  font-size: 0.944em;
+  text-align: center;
+  color: rgb(0, 0, 0);
 }
 
 .text-17 {
-  width: 99.5227832512%;
-  min-height: 25px;
-  font-size: 1.125em;
+  width: 33.3333333333%;
+  min-height: 108px;
+  margin: 0 auto;
+  font-family: FontAwesome;
+  font-size: 3.889em;
+  font-weight: normal;
+  color: rgb(117, 117, 117);
 }
 
 .text-18 {
+  float: left;
   clear: both;
-  width: 91.1330049261%;
-  min-height: 27px;
-  margin-left: 3.89702%;
-  font-family: FontAwesome;
-  font-size: 1em;
-  font-weight: 400;
-}
-
-.text-15,
-.text-19 {
   width: 100%;
-  min-height: 25px;
-  font-size: 1.125em;
+  min-height: 114px;
+  margin-top: 9px;
+  font-size: 0.944em;
+  text-align: center;
+  color: rgb(0, 0, 0);
 }
 
 .text-2 {
+  width: 100%;
   min-height: 55px;
   margin: 82px auto 0;
-  font-size: 2.625em;
+  font-size: 2.333em;
   line-height: 1.08;
+  text-align: center;
   color: #7f8c8d;
 }
 
 .text-20 {
   clear: both;
-  width: 97.3684210526%;
+  width: 100%;
   min-height: 27px;
-  margin-left: 1.00103%;
   font-family: FontAwesome;
-  font-size: 1em;
+  font-size: 0.889em;
   font-weight: 400;
 }
 
 .text-21 {
+  width: 99.5227832512%;
+  min-height: 25px;
+  font-size: 1em;
+}
+
+.text-22 {
+  clear: both;
+  width: 91.1330049261%;
+  min-height: 27px;
+  margin-left: 3.89702%;
+  font-family: FontAwesome;
+  font-size: 0.889em;
+  font-weight: 400;
+}
+
+.text-19,
+.text-23 {
+  width: 100%;
+  min-height: 25px;
+  font-size: 1em;
+}
+
+.text-24 {
+  clear: both;
+  width: 97.3684210526%;
+  min-height: 27px;
+  margin-left: 1.00103%;
+  font-family: FontAwesome;
+  font-size: 0.889em;
+  font-weight: 400;
+}
+
+.text-25 {
   position: relative;
   z-index: 109;
   width: 100%;
   margin: 0 auto;
   padding-top: 40px;
   padding-bottom: 40px;
-  font-size: 2em;
+  font-size: 1.778em;
   line-height: 1.18;
   text-align: center;
   text-transform: uppercase;
   color: rgb(0, 0, 0);
 }
 
-.text-22 {
+.text-26 {
   position: relative;
   float: left;
   clear: both;
@@ -1010,38 +1110,47 @@ body {
   margin-top: 501px;
   padding-top: 40px;
   padding-bottom: 40px;
-  font-size: 2em;
+  font-size: 1.778em;
   line-height: 1.18;
   text-align: center;
   text-transform: uppercase;
   color: rgb(0, 0, 0);
 }
 
-.text-23 {
+.text-27 {
   top: 0;
   left: 57.4468085106%;
   z-index: 89;
   width: 40px;
 }
 
-.text-24 {
+.text-28 {
   top: 0;
   left: 0;
   z-index: 88;
   width: 39px;
 }
 
-.text-25 {
+.text-29 {
   margin-top: 20px;
-  font-size: 1.563em;
+  font-size: 1.389em;
 }
 
-.text-26 {
+.text-3 {
+  float: left;
+  width: 3.2786885245%;
+  min-height: 32px;
+  margin: -3px 0 0 0.27892%;
+  font: normal 1.389em/1.38 FontAwesome;
+  color: rgb(0, 0, 0);
+}
+
+.text-30 {
   margin-top: 4px;
-  font-size: 1.063em;
+  font-size: 0.944em;
 }
 
-.text-27 {
+.text-31 {
   top: 60px;
   left: 0;
   right: 0;
@@ -1050,33 +1159,19 @@ body {
   margin: 0 auto;
 }
 
-.text-28 {
+.text-32 {
   width: 120%;
   margin: 20px 0 0 -9.99614%;
-  font-size: 1.563em;
+  font-size: 1.389em;
 }
 
-.text-29 {
+.text-33 {
   width: 100%;
   margin-top: 4px;
-  font-size: 1.063em;
+  font-size: 0.944em;
 }
 
-.text-3 {
-  position: relative;
-  z-index: 142;
-  width: 100%;
-  margin: 919px auto 0;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 2em;
-  line-height: 1.18;
-  text-align: center;
-  text-transform: uppercase;
-  color: rgb(0, 0, 0);
-}
-
-.text-30 {
+.text-34 {
   top: 60px;
   left: 0;
   right: 0;
@@ -1085,162 +1180,185 @@ body {
   margin: 0 auto;
 }
 
-.text-33 {
+.text-37 {
   top: 0;
   left: 57.4468085106%;
   z-index: 66;
   width: 40px;
 }
 
-.text-34 {
+.text-38 {
   top: 0;
   left: 0;
   z-index: 65;
   width: 39px;
 }
 
-.text-37 {
+.text-4 {
+  position: absolute;
+  top: 0;
+  left: 5.4160974499%;
+  z-index: 152;
+  width: 93.8154599271%;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(85, 85, 85);
+}
+
+.text-41 {
   top: 0;
   left: 57.4468085106%;
   z-index: 57;
   width: 40px;
 }
 
-.text-38 {
+.text-42 {
   top: 0;
   left: 0;
   z-index: 56;
   width: 39px;
 }
 
-.text-39 {
+.text-43 {
   width: 140%;
   margin: 20px 0 0 -19.99691%;
-  font-size: 1.563em;
+  font-size: 1.389em;
   line-height: 1.18;
 }
 
-.text-4 {
-  float: left;
-  width: 15.75%;
-  margin: 6px 0 0 45.83073%;
-  font-size: 2.188em;
-  font-weight: 600;
-  color: rgb(98, 98, 98);
-}
-
-.text-41 {
+.text-45 {
   top: 0;
   left: 57.4468085106%;
   z-index: 48;
   width: 40px;
 }
 
-.text-42 {
+.text-46 {
   top: 0;
   left: 0;
   z-index: 47;
   width: 39px;
 }
 
-.text-45 {
+.text-49 {
   top: 0;
   left: 0;
   z-index: 39;
   width: 39px;
 }
 
-.text-46 {
+.text-5 {
+  position: relative;
+  float: left;
+  z-index: 150;
+  width: 12.2093023255%;
+  min-height: 22px;
+  margin-top: 1px;
+  font: normal 1.778em/0.88 FontAwesome;
+  color: rgb(0, 0, 0);
+}
+
+.text-50 {
   top: 0;
   left: 69.2307692307%;
   z-index: 38;
   width: 40px;
 }
 
-.text-47 {
+.text-51 {
   top: 0;
   left: 35.3846153846%;
   z-index: 37;
   width: 39px;
 }
 
-.text-48 {
+.text-52 {
   width: 110%;
-  margin: 20px 0 0 -5%;
-  font-size: 1.563em;
+  margin: 20px 0 0 -4.99409%;
+  font-size: 1.389em;
   line-height: 1.18;
 }
 
-.text-50 {
+.text-54 {
   top: 0;
   left: 57.4468085106%;
   z-index: 29;
   width: 40px;
 }
 
-.text-51 {
+.text-55 {
   top: 0;
   left: 0;
   z-index: 28;
   width: 39px;
 }
 
-.text-31,
 .text-35,
-.text-43,
-.text-52 {
+.text-39,
+.text-47,
+.text-56 {
   margin-top: 20px;
-  font-size: 1.563em;
+  font-size: 1.389em;
   line-height: 1.18;
 }
 
-.text-32,
 .text-36,
-.text-44,
-.text-53 {
+.text-40,
+.text-48,
+.text-57 {
   margin-top: 4px;
-  font-size: 1.063em;
+  font-size: 0.944em;
   line-height: 1.38;
 }
 
-.text-54 {
+.text-58 {
   top: 0;
   left: 0.7462686567%;
   z-index: 20;
   width: 30px;
 }
 
-.text-55 {
+.text-59 {
   top: 0;
   left: 70.1492537313%;
   z-index: 19;
   width: 40px;
 }
 
-.text-56 {
+.text-6 {
+  float: left;
+  width: 11.9658119658%;
+  min-height: 22px;
+  font: normal 1.278em/1.28 FontAwesome;
+  color: rgb(0, 0, 0);
+}
+
+.text-60 {
   top: 0;
   left: 32.0895522388%;
   z-index: 18;
   width: 39px;
 }
 
-.text-57 {
+.text-61 {
   width: 120%;
-  margin: 20px 0 0 -10%;
-  font-size: 1.563em;
+  margin: 20px 0 0 -9.98274%;
+  font-size: 1.389em;
   line-height: 1.18;
 }
 
-.text-40,
-.text-49,
-.text-58 {
+.text-44,
+.text-53,
+.text-62 {
   width: 100%;
   margin-top: 4px;
-  font-size: 1.063em;
+  font-size: 0.944em;
   line-height: 1.38;
 }
 
-.text-59 {
+.text-63 {
   position: relative;
   float: left;
   clear: both;
@@ -1248,47 +1366,32 @@ body {
   width: 100%;
   padding-top: 40px;
   padding-bottom: 40px;
-  font-size: 2em;
+  font-size: 1.778em;
   line-height: 1.18;
   text-align: center;
   text-transform: uppercase;
   color: rgb(0, 0, 0);
 }
 
-.text-6 {
-  float: left;
-  width: 15.75%;
-  margin: 6px 0 0 47.76563%;
-  font-size: 2.188em;
-  font-weight: 600;
-  color: rgb(98, 98, 98);
-}
-
-.text-4:hover,
-.text-6:hover {
-  line-height: 1.38;
-  text-decoration: none;
-}
-
-.text-60 {
+.text-64 {
   width: 23.2214591162%;
   min-height: 42px;
   margin-left: 0.11256%;
   font-family: FontAwesome;
-  font-size: 1.875em;
+  font-size: 1.667em;
   font-weight: normal;
   color: rgb(84, 84, 84);
 }
 
-.text-61 {
+.text-65 {
   width: 69%;
   min-height: 21px;
   margin: 10px 0 0 7.52533%;
-  font-size: 1em;
+  font-size: 0.889em;
   color: rgb(117, 117, 117);
 }
 
-.text-62 {
+.text-66 {
   position: relative;
   float: left;
   clear: both;
@@ -1297,78 +1400,54 @@ body {
   margin-top: 324px;
   padding-top: 40px;
   padding-bottom: 40px;
-  font-size: 2em;
+  font-size: 1.778em;
   line-height: 1.18;
   text-align: center;
   text-transform: uppercase;
   color: rgb(0, 0, 0);
 }
 
-.text-63 {
-  z-index: 1;
-  min-height: 40px;
-  margin-left: 0.00196%;
-  font-size: 1.5em;
-  text-align: center;
-  letter-spacing: -1px;
-}
-
-.text-64 {
-  z-index: 2;
-  min-height: 40px;
-  margin-left: 2.50627%;
-  font-size: 1.5em;
-  text-align: center;
-  letter-spacing: -1px;
-}
-
-.text-65 {
-  clear: both;
-  z-index: 3;
-  min-height: 298px;
-  margin: 20px 0 0 0.00196%;
-  font-size: 1em;
-}
-
-.text-66 {
-  z-index: 4;
-  min-height: 174px;
-  margin: 20px 0 0 2.49648%;
-  font-size: 1em;
-}
-
-.text-5,
 .text-7 {
-  width: 79.8333333333%;
-  margin: 23px auto 0;
-  font-size: 1.5em;
+  position: relative;
+  z-index: 142;
+  width: 100%;
+  margin: 919px auto 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 1.778em;
+  line-height: 1.18;
   text-align: center;
+  text-transform: uppercase;
   color: rgb(0, 0, 0);
 }
 
 .text-8 {
-  position: relative;
   float: left;
-  clear: both;
-  z-index: 120;
-  width: 100%;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 2em;
-  line-height: 1.18;
-  text-align: center;
-  text-transform: uppercase;
-  color: rgb(0, 0, 0);
+  width: 15.75%;
+  margin: 6px 0 0 45.83073%;
+  font-size: 1.944em;
+  font-weight: 600;
+  color: rgb(98, 98, 98);
 }
 
-.text-9 {
-  width: 30.4721030042%;
-  min-height: 108px;
-  margin: 0 auto;
-  font-family: FontAwesome;
-  font-size: 4.375em;
-  font-weight: normal;
-  color: rgb(117, 117, 117);
+.wrapper-1 {
+  z-index: 2;
+}
+
+.wrapper-2 {
+  z-index: 1;
+  margin-left: 2.43712%;
+}
+
+.wrapper-3 {
+  clear: both;
+  z-index: 4;
+  margin-top: 20px;
+}
+
+.wrapper-4 {
+  z-index: 3;
+  margin: 20px 0 0 2.43712%;
 }
 
 ._text-49 {
@@ -1377,32 +1456,52 @@ body {
   clear: both;
   z-index: 0;
   width: 100%;
-  margin-top: 137px;
+  margin-top: 50px;
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 30px;
   border-top: 1px solid rgb(197, 197, 197);
-  font-size: 1.25em;
+  font-size: 1.111em;
   line-height: 1.18;
   text-align: center;
   color: rgb(117, 117, 117);
 }
 
-.bar ._container-1 {
+.bar ._container-10 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 158;
+  width: 29px;
+  height: 41px;
+  margin: -30px 0 0 94.41406%;
+}
+
+.bar ._container-11 {
+  position: relative;
+  float: right;
+  clear: both;
+  z-index: 160;
+  width: 34px;
+  height: 20px;
+  margin: -31px 1.4420599999% 0 0;
+}
+
+.bar ._container-4 {
   float: right;
   width: 480px;
   height: 59px;
   margin-right: 10%;
 }
 
-.bar ._container-2 {
+.bar ._container-5 {
   float: right;
   width: 57px;
   height: 20px;
   margin: 28px 85.57617% 0 0;
 }
 
-.bar ._container-3 {
+.bar ._container-6 {
   float: right;
   clear: both;
   width: 35px;
@@ -1410,7 +1509,7 @@ body {
   margin: -20px 71.2109399999% 0 0;
 }
 
-.bar ._container-4 {
+.bar ._container-7 {
   float: right;
   clear: both;
   width: 55px;
@@ -1418,7 +1517,7 @@ body {
   margin: -20px 51.6992199999% 0 0;
 }
 
-.bar ._container-5 {
+.bar ._container-8 {
   float: right;
   clear: both;
   width: 40px;
@@ -1426,32 +1525,12 @@ body {
   margin: -20px 36.5429699999% 0 0;
 }
 
-.bar ._container-6 {
+.bar ._container-9 {
   float: left;
   clear: both;
   width: 69px;
   height: 20px;
   margin: -21px 0 0 69.68099%;
-}
-
-.bar ._container-7 {
-  position: relative;
-  float: left;
-  clear: both;
-  z-index: 148;
-  width: 29px;
-  height: 41px;
-  margin: -30px 0 0 94.41406%;
-}
-
-.bar ._container-8 {
-  position: relative;
-  float: right;
-  clear: both;
-  z-index: 150;
-  width: 34px;
-  height: 20px;
-  margin: -31px 1.4420599999% 0 0;
 }
 
 .prototype ._input-1 {
@@ -1476,58 +1555,17 @@ body {
   margin-left: 2.76989%;
 }
 
-.text a {
-  border-top-width: 0;
-  border-right-width: 0;
-  border-bottom-width: 0;
-  border-left-width: 0;
-  border-left-color: transparent;
-  border-left-style: none;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-  background-color: transparent;
-  font-family: inherit;
-  font-style: inherit;
-  font-size: inherit;
-  font-weight: 600;
-  letter-spacing: inherit;
-  word-spacing: inherit;
-  color: rgb(117, 117, 117);
-  opacity: 1;
-  word-break: normal;
-  word-wrap: normal;
-  white-space: normal;
-}
-
-.text-65 a {
-  border-top-color: transparent;
-  border-right-color: transparent;
-  border-bottom-color: transparent;
-  border-top-style: none;
-  border-right-style: none;
-  border-bottom-style: none;
-  text-transform: inherit;
-  text-decoration: inherit;
-}
-
-.text-66 a {
-  border-top-color: rgba(0, 0, 0, 0);
-  border-right-color: rgba(0, 0, 0, 0);
-  border-bottom-color: rgba(0, 0, 0, 0);
-  border-top-style: solid;
-  border-right-style: solid;
-  border-bottom-style: solid;
-  text-transform: none;
-  text-decoration: none;
-}
-
 @media(max-width: 992px) {
   .about {
     position: relative;
-    z-index: 146;
-    height: 547px;
+    z-index: 156;
+    height: 672px;
+  }
+
+  .about .contacts {
+    position: relative;
+    width: 659px;
+    height: 72px;
   }
 
   .about .image {
@@ -1557,16 +1595,36 @@ body {
   }
 
   .blog {
-    float: left;
-    width: 80.0403225806%;
+    width: 720px;
   }
 
-  .blog .text {
+  .blog .wrapper {
     position: relative;
+    width: 350px;
+    height: 350px;
+  }
+
+  .container .email {
+    position: absolute;
+    float: none;
+    top: 0;
+    left: 2.013578869%;
+    width: 87.3930431547%;
+    margin-top: 0;
+    margin-left: 0;
+    text-align: center;
   }
 
   .container .image {
     height: auto;
+  }
+
+  .container .phone {
+    position: relative;
+    z-index: 149;
+    width: 90.1734104046%;
+    margin-left: 11.95946%;
+    text-align: center;
   }
 
   .danil .flip3d,
@@ -1582,8 +1640,8 @@ body {
     width: 85.8364038319%;
   }
 
-  .back .text-27,
-  .back .text-30,
+  .back .text-31,
+  .back .text-34,
   .navbar,
   .process .element {
     left: 0;
@@ -1745,67 +1803,76 @@ body {
   }
 
   .about .text-1 {
-    font-size: 4.688em;
+    margin-top: 0;
+    font-size: 3.889em;
   }
 
   .about .text-2 {
     width: 80.0403225806%;
     margin-top: 493px;
-    font-size: 2.375em;
+    font-size: 2.111em;
   }
 
-  .alexandra .text-39 {
+  .alexandra .text-43 {
     width: 130%;
     margin-top: 22px;
     margin-left: -14.99452%;
   }
 
-  .blog .text-63 {
-    z-index: 1;
-    width: 40.4282115869%;
-    margin-left: 8.5603%;
-  }
-
-  .blog .text-64 {
+  .blog .wrapper-1 {
     z-index: 2;
-    width: 40.4282115869%;
-    margin-left: 2.01315%;
   }
 
-  .blog .text-65 {
-    z-index: 3;
-    width: 40.4282115869%;
-    margin-top: 0;
-    margin-left: 8.5603%;
+  .blog .wrapper-2 {
+    z-index: 1;
+    margin-left: 2.43707%;
   }
 
-  .blog .text-66 {
+  .blog .wrapper-3 {
     z-index: 4;
-    width: 39.7984886649%;
-    min-height: 0;
-    margin-top: 0;
-    margin-left: 2.01315%;
+  }
+
+  .blog .wrapper-4 {
+    z-index: 3;
+    margin-left: 2.43707%;
   }
 
   .blog-2 {
     position: relative;
-    clear: both;
     z-index: 5;
-    height: 547px;
-    margin-top: 0;
-    margin-right: 0;
-    margin-left: 9.97984%;
+    height: 720px;
+    margin-top: 3021px;
   }
 
-  .container .container-7 {
+  .contacts .container-1 {
+    width: 89.0855457227%;
+    height: 32px;
+    margin-left: 0;
+  }
+
+  .contacts .container-2 {
+    position: relative;
+    z-index: 151;
+    width: 185px;
+    margin-left: 11.74365%;
+  }
+
+  .contacts .container-3 {
+    position: relative;
+    z-index: 148;
+    width: 45.3717754172%;
+    margin-left: 1.14283%;
+  }
+
+  .container .container-10 {
     margin-left: 0.0532%;
   }
 
-  .container .container-8 {
+  .container .container-11 {
     margin-left: 7.80265%;
   }
 
-  .container .container-9 {
+  .container .container-12 {
     margin-left: 9.43214%;
   }
 
@@ -1817,39 +1884,62 @@ body {
     left: 39.265625%;
   }
 
-  .container .text-11 {
-    width: 13.1944444444%;
-  }
-
-  .container .text-18 {
-    margin-left: 3.88733%;
-  }
-
-  .container .text-20 {
-    margin-left: 0.97577%;
-  }
-
-  .container .text-4 {
-    width: 17.6322418136%;
-    margin-left: 45.67223%;
-  }
-
-  .container .text-6 {
+  .container .text-10 {
     position: relative;
     z-index: 124;
     margin-left: 47.78292%;
   }
 
-  .container .text-60 {
+  .container .text-13 {
+    width: 30.3278688524%;
+  }
+
+  .container .text-15 {
+    width: 13.1944444444%;
+  }
+
+  .container .text-22 {
+    margin-left: 3.88733%;
+  }
+
+  .container .text-24 {
+    margin-left: 0.97577%;
+  }
+
+  .container .text-3 {
+    position: relative;
+    z-index: 153;
+    width: 3.5772357723%;
+    margin-top: 0;
+    margin-left: 6.5820299999%;
+  }
+
+  .container .text-4 {
+    left: 9.8477589694%;
+    width: 92.3826253593%;
+  }
+
+  .container .text-5 {
+    position: relative;
+    z-index: 150;
+  }
+
+  .container .text-6 {
+    position: relative;
+    z-index: 147;
+  }
+
+  .container .text-64 {
     margin-left: 0.09507%;
   }
 
-  .container .text-61 {
+  .container .text-65 {
     margin-left: 7.4562%;
   }
 
-  .container .text-9 {
-    width: 30.3278688524%;
+  .container .text-8 {
+    width: 17.6322418136%;
+    margin-left: 45.67223%;
   }
 
   .fhirbase .image-9 {
@@ -1857,12 +1947,12 @@ body {
     margin-left: 10.08623%;
   }
 
-  .maxim .text-43 {
+  .maxim .text-47 {
     width: 120%;
     margin-left: -14.99452%;
   }
 
-  .maxim .text-44 {
+  .maxim .text-48 {
     width: 100%;
     margin-left: 0;
   }
@@ -1872,27 +1962,27 @@ body {
     margin-left: 10.08659%;
   }
 
-  .mikhail .text-48 {
+  .mikhail .text-52 {
     width: 120%;
     margin-left: -4.99087%;
   }
 
-  .nikolay .text-57 {
+  .nikolay .text-61 {
     width: 110%;
     margin-left: -4.99385%;
   }
 
-  .offer .container-3 {
+  .offer .container-6 {
     height: 215px;
     margin-left: -0.02165%;
   }
 
-  .offer .container-4 {
+  .offer .container-7 {
     height: 214px;
     margin-left: 2.01315%;
   }
 
-  .offer .container-5 {
+  .offer .container-8 {
     height: 216px;
     margin-right: 0.02165%;
   }
@@ -1906,19 +1996,19 @@ body {
     margin-left: 9.97984%;
   }
 
-  .pasha .text-28 {
+  .pasha .text-32 {
     width: 130%;
     margin-left: -9.99635%;
   }
 
-  .danil .text-31,
-  .mikhaill .text-35,
-  .pavel .text-52 {
+  .danil .text-35,
+  .mikhaill .text-39,
+  .pavel .text-56 {
     width: 120%;
     margin-left: -9.99635%;
   }
 
-  .process .container-6 {
+  .process .container-9 {
     left: 0;
     right: 0;
     width: 79.939516129%;
@@ -1977,7 +2067,12 @@ body {
     margin-left: 99px;
   }
 
-  .text-21 {
+  .text-12 {
+    position: relative;
+    z-index: 120;
+  }
+
+  .text-25 {
     position: relative;
     float: left;
     clear: both;
@@ -1986,54 +2081,48 @@ body {
     margin-left: 0;
   }
 
-  .text-22 {
+  .text-26 {
     position: relative;
     z-index: 96;
     margin-top: 410px;
   }
 
-  .text-3 {
-    position: relative;
-    z-index: 142;
-  }
-
-  .text-59 {
+  .text-63 {
     position: relative;
     z-index: 15;
   }
 
-  .text-62 {
+  .text-66 {
     position: relative;
     z-index: 6;
     margin-top: 325px;
-    font-size: 1.75em;
+    font-size: 1.556em;
   }
 
-  .text-8 {
+  .text-7 {
     position: relative;
-    z-index: 120;
+    z-index: 142;
   }
 
   ._text-49 {
     position: relative;
     z-index: 0;
-    margin-top: 81px;
   }
 
-  .bar ._container-1 {
+  .bar ._container-10 {
     position: relative;
-    z-index: 161;
+    z-index: 158;
+  }
+
+  .bar ._container-11 {
+    position: relative;
+    z-index: 160;
+  }
+
+  .bar ._container-4 {
+    position: relative;
+    z-index: 171;
     margin-right: 9.99559%;
-  }
-
-  .bar ._container-7 {
-    position: relative;
-    z-index: 148;
-  }
-
-  .bar ._container-8 {
-    position: relative;
-    z-index: 150;
   }
 
   .prototype ._input-1 {
@@ -2049,13 +2138,22 @@ body {
 
 @media(max-width: 850px) {
   body {
-    font-size: 1em;
+    font-size: 1.125em;
   }
 
   .about {
     position: relative;
-    z-index: 146;
-    height: 576px;
+    z-index: 156;
+    height: 775px;
+  }
+
+  .about .contacts {
+    float: left;
+    clear: both;
+    width: 678px;
+    height: 71px;
+    margin-right: 0;
+    margin-left: 10%;
   }
 
   .about .image {
@@ -2083,20 +2181,35 @@ body {
     visibility: visible;
   }
 
-  .blog .text {
+  .blog .wrapper {
     position: relative;
+    width: 300px;
+    height: 300px;
+  }
+
+  .container .email {
+    left: 10.7438016528%;
+    width: 110.4722543001%;
   }
 
   .container .image {
     height: auto;
   }
 
+  .container .phone {
+    position: relative;
+    clear: none;
+    z-index: 149;
+    margin-top: 2px;
+    margin-left: 1.15607%;
+  }
+
   .mikhaill .flip3d {
     width: 92.2%;
   }
 
-  .back .text-27,
-  .back .text-30,
+  .back .text-31,
+  .back .text-34,
   .navbar,
   .process .element {
     left: 0;
@@ -2217,65 +2330,94 @@ body {
 
   .about .text-1 {
     margin-top: 2px;
-    font-size: 4.563em;
   }
 
   .about .text-2 {
+    float: left;
+    clear: both;
     width: 61.294117647%;
-    margin-top: 73px;
-    font-size: 2.188em;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 19.34743%;
+    font-size: 1.944em;
     line-height: 1.18;
   }
 
-  .alexandra .text-39 {
+  .alexandra .text-43 {
     width: 129.7752808988%;
     margin-top: 20px;
     margin-left: -14.97982%;
   }
 
-  .blog .text-63 {
-    z-index: 1;
-    width: 48.9705882352%;
-    margin-left: 0;
-  }
-
-  .blog .text-64 {
+  .blog .wrapper-1 {
     z-index: 2;
-    width: 48.8235294117%;
-    margin-left: 2.05653%;
   }
 
-  .blog .text-65 {
-    z-index: 3;
-    width: 48.8235294117%;
-    margin-top: 13px;
-    margin-left: 0.14706%;
+  .blog .wrapper-2 {
+    clear: both;
+    z-index: 1;
+    margin-top: -300px;
+    margin-left: 51.55234%;
   }
 
-  .blog .text-66 {
+  .blog .wrapper-3 {
+    clear: none;
     z-index: 4;
-    width: 48.5294117647%;
-    margin-top: 13px;
-    margin-left: 2.34835%;
+    margin-top: 15px;
+  }
+
+  .blog .wrapper-4 {
+    z-index: 3;
+    margin-top: 15px;
+    margin-left: 2.42378%;
   }
 
   .blog-2 {
     position: relative;
     z-index: 5;
-    width: 80%;
-    height: 576px;
-    margin-left: 10%;
+    width: 615px;
+    height: 615px;
+    margin-top: 4021px;
   }
 
-  .container .container-7 {
+  .contacts .container-1 {
+    position: absolute;
+    float: none;
+    top: -1px;
+    left: 0;
+    right: 0;
+    width: 100.1474926253%;
+    height: 31px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .contacts .container-2 {
+    position: relative;
+    clear: none;
+    z-index: 151;
+    width: 173px;
+    margin-top: 31px;
+    margin-left: 17.04923%;
+  }
+
+  .contacts .container-3 {
+    position: relative;
+    z-index: 148;
+    width: 242px;
+    margin-top: 31px;
+    margin-left: 5.51715%;
+  }
+
+  .container .container-10 {
     margin-left: 0.05956%;
   }
 
-  .container .container-8 {
+  .container .container-11 {
     margin-left: 7.79389%;
   }
 
-  .container .container-9 {
+  .container .container-12 {
     margin-left: 9.4266%;
   }
 
@@ -2283,31 +2425,57 @@ body {
     left: 34.2079153345%;
   }
 
-  .container .text-18 {
-    margin-left: 3.85635%;
-  }
-
-  .container .text-20 {
-    margin-left: 0.9504%;
-  }
-
-  .container .text-4 {
-    width: 20.5784000293%;
-    margin-left: 44.86949%;
-  }
-
-  .container .text-6 {
+  .container .text-10 {
     position: relative;
     z-index: 124;
     margin-left: 47.78511%;
   }
 
-  .container .text-60 {
+  .container .text-22 {
+    margin-left: 3.85635%;
+  }
+
+  .container .text-24 {
+    margin-left: 0.9504%;
+  }
+
+  .container .text-3 {
+    position: relative;
+    z-index: 153;
+    margin-left: 8.50976%;
+  }
+
+  .container .text-4 {
+    top: 2px;
+    left: 5.3633058763%;
+    width: 92.3818508122%;
+  }
+
+  .container .text-5 {
+    position: relative;
+    z-index: 150;
+    width: 15px;
+    margin-top: 0;
+  }
+
+  .container .text-6 {
+    position: relative;
+    z-index: 147;
+    width: 26px;
+    min-height: 0;
+  }
+
+  .container .text-64 {
     margin-left: 0.06532%;
   }
 
-  .container .text-61 {
+  .container .text-65 {
     margin-left: 7.49837%;
+  }
+
+  .container .text-8 {
+    width: 20.5784000293%;
+    margin-left: 44.86949%;
   }
 
   .fhirbase .image-9 {
@@ -2315,7 +2483,7 @@ body {
     margin-left: 10.08507%;
   }
 
-  .maxim .text-43 {
+  .maxim .text-47 {
     width: 140%;
     margin-left: -14.97982%;
   }
@@ -2325,28 +2493,28 @@ body {
     margin-left: 10.08456%;
   }
 
-  .mikhail .text-48 {
+  .mikhail .text-52 {
     width: 130%;
     margin-left: 0;
   }
 
-  .maxim .text-44,
-  .nikolay .text-57 {
+  .maxim .text-48,
+  .nikolay .text-61 {
     width: 120%;
     margin-left: -9.9969%;
   }
 
-  .offer .container-3 {
+  .offer .container-6 {
     margin-left: 33.99816%;
   }
 
-  .offer .container-4 {
+  .offer .container-7 {
     clear: both;
     margin-top: -215px;
     margin-left: 0;
   }
 
-  .offer .container-5 {
+  .offer .container-8 {
     clear: both;
     height: 246px;
     margin-top: -215px;
@@ -2361,14 +2529,14 @@ body {
     margin-left: 10%;
   }
 
-  .danil .text-31,
-  .mikhaill .text-35,
-  .pasha .text-28,
-  .pavel .text-52 {
+  .danil .text-35,
+  .mikhaill .text-39,
+  .pasha .text-32,
+  .pavel .text-56 {
     margin-left: -9.9969%;
   }
 
-  .process .container-6 {
+  .process .container-9 {
     top: 300px;
     left: 0;
     right: 0;
@@ -2428,70 +2596,69 @@ body {
     margin-left: 75px;
   }
 
-  .text-21 {
+  .text-12 {
+    position: relative;
+    z-index: 120;
+  }
+
+  .text-25 {
     position: relative;
     z-index: 109;
   }
 
-  .text-22 {
+  .text-26 {
     position: relative;
     z-index: 96;
   }
 
-  .text-3 {
-    position: relative;
-    float: left;
-    clear: both;
-    z-index: 142;
-    margin-top: 350px;
-    margin-right: 0;
-    margin-left: 0;
-  }
-
-  .text-59 {
+  .text-63 {
     position: relative;
     z-index: 15;
   }
 
-  .text-62 {
+  .text-66 {
     position: relative;
     z-index: 6;
   }
 
-  .text-8 {
+  .text-7 {
     position: relative;
-    z-index: 120;
+    float: left;
+    clear: both;
+    z-index: 142;
+    margin-top: 151px;
+    margin-right: 0;
+    margin-left: 0;
   }
 
   ._text-49 {
     position: relative;
     z-index: 0;
-    margin-top: 51px;
   }
 
-  .bar ._container-1 {
+  .bar ._container-10 {
     position: relative;
-    z-index: 161;
+    z-index: 158;
+  }
+
+  .bar ._container-11 {
+    visibility: hidden;
+    position: relative;
+    z-index: 160;
+  }
+
+  .bar ._container-4 {
+    position: relative;
+    z-index: 171;
     margin-right: 10%;
   }
 
-  .bar ._container-2,
-  .bar ._container-3,
-  .bar ._container-4,
   .bar ._container-5,
-  .bar ._container-6 {
+  .bar ._container-6,
+  .bar ._container-7,
+  .bar ._container-8,
+  .bar ._container-9 {
     visibility: hidden;
-  }
-
-  .bar ._container-7 {
-    position: relative;
-    z-index: 148;
-  }
-
-  .bar ._container-8 {
-    visibility: hidden;
-    position: relative;
-    z-index: 150;
   }
 
   .prototype ._input-1 {
@@ -2508,8 +2675,13 @@ body {
 @media(max-width: 768px) {
   .about {
     position: relative;
-    z-index: 146;
-    height: 550px;
+    z-index: 156;
+    height: 664px;
+  }
+
+  .about .contacts {
+    width: 80.078125%;
+    margin-left: 10.02401%;
   }
 
   .about .image {
@@ -2534,12 +2706,32 @@ body {
     height: auto;
   }
 
-  .blog .text {
+  .blog {
+    float: left;
+  }
+
+  .blog .wrapper {
     position: relative;
+  }
+
+  .container .email {
+    top: 3px;
+    left: 10.6263792225%;
+    width: 100%;
+    text-align: left;
   }
 
   .container .image {
     height: auto;
+  }
+
+  .container .phone {
+    position: absolute;
+    float: none;
+    left: 9.6583946078%;
+    width: 89.0165441176%;
+    margin-top: 0;
+    margin-left: 0;
   }
 
   .mikhail .flip3d {
@@ -2550,10 +2742,10 @@ body {
     width: 91.4141414141%;
   }
 
-  .back .text-27,
-  .back .text-30,
+  .back .text-31,
+  .back .text-34,
   .navbar,
-  .process .container-6 {
+  .process .container-9 {
     left: 0;
     right: 0;
     margin-right: auto;
@@ -2676,67 +2868,91 @@ body {
 
   .about .text-1 {
     margin-top: 0;
-    font-size: 4.063em;
+    font-size: 3.611em;
   }
 
   .about .text-2 {
+    float: none;
+    clear: none;
     width: 55.9895833333%;
     margin-top: 63px;
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 10px;
-    font-size: 2em;
+    font-size: 1.778em;
   }
 
-  .alexandra .text-39 {
+  .alexandra .text-43 {
     width: 120%;
     margin-left: -15.14221%;
   }
 
-  .blog .text-63 {
-    z-index: 1;
-    width: 100%;
-    margin-top: 18px;
-    margin-left: -0.02545%;
-  }
-
-  .blog .text-64 {
-    clear: both;
+  .blog .wrapper-1 {
     z-index: 2;
-    width: 83.0618892508%;
-    margin-top: 362px;
-    margin-left: 8.46906%;
   }
 
-  .blog .text-65 {
-    z-index: 3;
-    width: 77.7777777777%;
-    margin-top: -402px;
-    margin-left: 11.06983%;
-  }
-
-  .blog .text-66 {
-    z-index: 4;
-    width: 77.7777777777%;
+  .blog .wrapper-2 {
+    clear: none;
+    z-index: 1;
     margin-top: 0;
-    margin-left: 11.11564%;
+    margin-left: 3.53698%;
+  }
+
+  .blog .wrapper-3 {
+    clear: both;
+    z-index: 4;
+    margin-top: 22px;
+  }
+
+  .blog .wrapper-4 {
+    z-index: 3;
+    margin-top: 22px;
+    margin-left: 3.53698%;
   }
 
   .blog-2 {
     position: relative;
+    clear: both;
     z-index: 5;
-    width: 79.9479166666%;
-    height: 821px;
-    margin-left: 9.99756%;
+    width: 622px;
+    max-width: none;
+    height: 622px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 10.02401%;
   }
 
-  .container .container-7 {
+  .contacts .container-1 {
+    left: 0;
+    right: 0;
+    width: 100.1801801801%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .contacts .container-2 {
+    position: relative;
+    z-index: 151;
+    width: 33.1707317073%;
+    margin-left: 9.25813%;
+  }
+
+  .contacts .container-3 {
+    position: relative;
+    z-index: 148;
+    width: 49.7560975609%;
+    margin-left: 2.36789%;
+  }
+
+  .container .container-10 {
     margin-left: 0.05228%;
   }
 
-  .container .container-8 {
+  .container .container-11 {
     margin-left: 7.77816%;
   }
 
-  .container .container-9 {
+  .container .container-12 {
     margin-left: 9.4238%;
   }
 
@@ -2745,50 +2961,73 @@ body {
   }
 
   .container .text-10 {
-    min-height: 80px;
-    font-size: 1.375em;
-  }
-
-  .container .text-12 {
-    min-height: 50px;
-    font-size: 1.375em;
-  }
-
-  .container .text-13 {
-    width: 24.3055555555%;
-  }
-
-  .container .text-14 {
-    min-height: 100px;
-    font-size: 1.375em;
-  }
-
-  .container .text-18 {
-    margin-left: 3.85922%;
-  }
-
-  .container .text-20 {
-    margin-left: 0.98727%;
-  }
-
-  .container .text-4 {
-    width: 30.0787369534%;
-    margin-top: 9px;
-    margin-left: 46.28187%;
-  }
-
-  .container .text-6 {
     position: relative;
     z-index: 124;
     margin-left: 47.78347%;
   }
 
-  .container .text-60 {
+  .container .text-14 {
+    min-height: 80px;
+    font-size: 1.222em;
+  }
+
+  .container .text-16 {
+    min-height: 50px;
+    font-size: 1.222em;
+  }
+
+  .container .text-17 {
+    width: 24.3055555555%;
+  }
+
+  .container .text-18 {
+    min-height: 100px;
+    font-size: 1.222em;
+  }
+
+  .container .text-22 {
+    margin-left: 3.85922%;
+  }
+
+  .container .text-24 {
+    margin-left: 0.98727%;
+  }
+
+  .container .text-3 {
+    position: relative;
+    z-index: 153;
+    margin-left: 6.44687%;
+  }
+
+  .container .text-4 {
+    top: 4px;
+    left: 4.7052556818%;
+    width: 95.2922077922%;
+    font-size: 0.889em;
+  }
+
+  .container .text-5 {
+    position: relative;
+    z-index: 150;
+  }
+
+  .container .text-6 {
+    position: relative;
+    z-index: 147;
+  }
+
+  .container .text-64 {
     margin-left: 0;
   }
 
-  .container .text-61 {
+  .container .text-65 {
     margin-left: 7.47484%;
+  }
+
+  .container .text-8 {
+    width: 30.0787369534%;
+    margin-top: 9px;
+    margin-left: 46.28187%;
   }
 
   .fhirbase .image-9 {
@@ -2796,13 +3035,13 @@ body {
     margin-left: 10.08419%;
   }
 
-  .maxim .text-43 {
+  .maxim .text-47 {
     width: 150%;
-    margin-left: -19.99362%;
+    margin-left: -19.97768%;
   }
 
-  .danil .text-31,
-  .maxim .text-44 {
+  .danil .text-35,
+  .maxim .text-48 {
     margin-left: -9.98884%;
   }
 
@@ -2812,28 +3051,28 @@ body {
     margin-left: 10.08118%;
   }
 
-  .mikhail .text-48,
-  .mikhaill .text-35 {
+  .mikhail .text-52,
+  .mikhaill .text-39 {
     margin-left: -9.99053%;
   }
 
-  .nikolay .text-57 {
+  .nikolay .text-61 {
     width: 130%;
     margin-left: -9.98884%;
   }
 
-  .offer .container-3 {
+  .offer .container-6 {
     width: 49.8338870431%;
     margin-left: 25.24917%;
   }
 
-  .offer .container-4 {
+  .offer .container-7 {
     width: 50%;
     margin-top: 0;
     margin-left: 25.08306%;
   }
 
-  .offer .container-5 {
+  .offer .container-8 {
     width: 50%;
     margin-top: 0;
     margin-right: 24.91435%;
@@ -2848,11 +3087,11 @@ body {
     margin-left: 10.80526%;
   }
 
-  .pasha .text-28 {
-    margin-left: -9.97779%;
+  .pasha .text-32 {
+    margin-left: -9.96193%;
   }
 
-  .pavel .text-52 {
+  .pavel .text-56 {
     margin-left: -9.99664%;
   }
 
@@ -2901,58 +3140,57 @@ body {
     margin-left: 76px;
   }
 
-  .text-21 {
+  .text-12 {
+    position: relative;
+    z-index: 120;
+  }
+
+  .text-25 {
     position: relative;
     z-index: 109;
     margin-top: -11px;
   }
 
-  .text-22 {
+  .text-26 {
     position: relative;
     z-index: 96;
   }
 
-  .text-3 {
-    position: relative;
-    z-index: 142;
-    margin-top: 93px;
-  }
-
-  .text-59 {
+  .text-63 {
     position: relative;
     z-index: 15;
   }
 
-  .text-62 {
+  .text-66 {
     position: relative;
     z-index: 6;
   }
 
-  .text-8 {
+  .text-7 {
     position: relative;
-    z-index: 120;
+    z-index: 142;
+    margin-top: -21px;
   }
 
   ._text-49 {
     position: relative;
     z-index: 0;
-    margin-top: 193px;
   }
 
-  .bar ._container-1 {
+  .bar ._container-10 {
     position: relative;
-    z-index: 161;
+    z-index: 158;
+  }
+
+  .bar ._container-11 {
+    position: relative;
+    z-index: 160;
+  }
+
+  .bar ._container-4 {
+    position: relative;
+    z-index: 171;
     margin-right: 9.99349%;
-  }
-
-  .bar ._container-7 {
-    position: relative;
-    z-index: 148;
-  }
-
-  .bar ._container-8 {
-    position: relative;
-    z-index: 150;
   }
 
   .prototype ._input-1 {
@@ -2968,13 +3206,19 @@ body {
 
 @media(max-width: 640px) {
   body {
-    font-size: 1em;
+    font-size: 1.125em;
   }
 
   .about {
     position: relative;
-    z-index: 146;
-    height: 526px;
+    z-index: 156;
+    height: 637px;
+  }
+
+  .about .contacts {
+    width: 86.71875%;
+    margin-top: 35px;
+    margin-left: 6.64063%;
   }
 
   .about .image {
@@ -2995,8 +3239,10 @@ body {
     height: auto;
   }
 
-  .blog .text {
+  .blog .wrapper {
     position: relative;
+    width: 400px;
+    height: 400px;
   }
 
   .container .container {
@@ -3004,8 +3250,17 @@ body {
     margin-left: 0.09747%;
   }
 
+  .container .email {
+    width: 89.0850449838%;
+    font-size: 0.889em;
+  }
+
   .container .image {
     height: auto;
+  }
+
+  .container .phone {
+    font-size: 0.889em;
   }
 
   .alexandra .flip3d,
@@ -3023,8 +3278,9 @@ body {
     width: 73%;
   }
 
-  .back .text-27,
-  .back .text-30,
+  .back .text-31,
+  .back .text-34,
+  .contacts .container-1,
   .navbar {
     left: 0;
     right: 0;
@@ -3075,7 +3331,7 @@ body {
   .prototype .container {
     position: relative;
     z-index: 11;
-    width: 25.5687493064%;
+    width: 30.7771982391%;
     margin-left: 2.64492%;
   }
 
@@ -3180,7 +3436,7 @@ body {
     z-index: 8;
     width: 28.1729737727%;
     margin-top: 15px;
-    margin-left: 43.56897%;
+    margin-left: 38.34573%;
   }
 
   .prototype ._input {
@@ -3192,7 +3448,7 @@ body {
   }
 
   .about .text-1 {
-    font-size: 3.125em;
+    font-size: 2.778em;
   }
 
   .about .text-2 {
@@ -3200,50 +3456,64 @@ body {
     margin-top: 49px;
   }
 
-  .alexandra .text-39 {
+  .alexandra .text-43 {
     width: 130%;
     margin-left: -14.99844%;
   }
 
-  .blog .text-63 {
-    z-index: 1;
-    width: 100.1956947162%;
-    margin-top: 7px;
-    margin-left: -0.23641%;
+  .blog .wrapper-1 {
+    z-index: 2;
   }
 
-  .blog .text-64 {
-    z-index: 2;
-    width: 100%;
-    margin-top: 402px;
+  .blog .wrapper-2 {
+    clear: both;
+    z-index: 1;
+    margin-top: 433px;
     margin-left: 0;
   }
 
-  .blog .text-65 {
-    z-index: 3;
-    width: 99.8018067846%;
-    margin-top: -468px;
-    margin-left: -0.04433%;
+  .blog .wrapper-3 {
+    z-index: 4;
+    margin-top: 17px;
   }
 
-  .blog .text-66 {
+  .blog .wrapper-4 {
     clear: both;
-    z-index: 4;
-    width: 100.1956947162%;
-    margin-top: 14px;
-    margin-left: -0.23641%;
+    z-index: 3;
+    margin-top: -1233px;
+    margin-left: 0;
   }
 
   .blog-2 {
     position: relative;
+    float: none;
+    clear: none;
     z-index: 5;
-    width: 66.09375%;
-    height: 892px;
-    margin-left: 16.99707%;
+    width: 398px;
+    height: 1650px;
+    margin-top: 5331px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
-  .container .container-8,
-  .container .container-9 {
+  .contacts .container-2 {
+    position: relative;
+    z-index: 151;
+    width: 38.1981981981%;
+    margin-top: 45px;
+    margin-left: 10.72072%;
+  }
+
+  .contacts .container-3 {
+    position: relative;
+    z-index: 148;
+    width: 49.755859375%;
+    margin-top: 45px;
+    margin-left: 1.0839%;
+  }
+
+  .container .container-11,
+  .container .container-12 {
     clear: both;
     margin-top: 21px;
   }
@@ -3252,31 +3522,54 @@ body {
     left: 30.0024414062%;
   }
 
-  .container .text-18 {
-    margin-left: 3.84357%;
-  }
-
-  .container .text-20 {
-    margin-left: 0.88063%;
-  }
-
-  .container .text-4 {
-    width: 27.5%;
-    margin-top: 6px;
-    margin-left: 43.52295%;
-  }
-
-  .container .text-6 {
+  .container .text-10 {
     position: relative;
     z-index: 124;
     margin-left: 47.78673%;
   }
 
-  .container .text-61 {
-    margin-left: 7.40741%;
+  .container .text-22 {
+    margin-left: 3.84357%;
   }
 
-  .danil .text-31 {
+  .container .text-24 {
+    margin-left: 0.88063%;
+  }
+
+  .container .text-3 {
+    position: absolute;
+    float: none;
+    top: 0;
+    left: 3.8676673131%;
+    width: 3.5753436208%;
+    margin-left: 0;
+  }
+
+  .container .text-4 {
+    min-height: 0;
+  }
+
+  .container .text-5 {
+    position: relative;
+    z-index: 150;
+  }
+
+  .container .text-6 {
+    position: relative;
+    z-index: 147;
+  }
+
+  .container .text-65 {
+    margin-left: 7.40385%;
+  }
+
+  .container .text-8 {
+    width: 27.5%;
+    margin-top: 6px;
+    margin-left: 43.52295%;
+  }
+
+  .danil .text-35 {
     float: none;
     clear: none;
     width: 100%;
@@ -3289,7 +3582,7 @@ body {
     margin-left: 10.08297%;
   }
 
-  .maxim .text-43 {
+  .maxim .text-47 {
     margin-left: -14.99844%;
   }
 
@@ -3300,28 +3593,29 @@ body {
     margin-left: 10.08301%;
   }
 
-  .mikhail .text-48 {
+  .mikhail .text-52 {
     margin-left: -4.9953200001%;
   }
 
-  .mikhaill .text-35 {
+  .mikhaill .text-39 {
     width: 100%;
     margin-left: 0;
   }
 
-  .maxim .text-44,
-  .nikolay .text-57,
-  .pavel .text-52 {
+  .maxim .text-48,
+  .nikolay .text-61,
+  .pasha .text-32,
+  .pavel .text-56 {
     margin-left: -9.9968800001%;
   }
 
-  .offer .container-3,
-  .offer .container-4 {
+  .offer .container-6,
+  .offer .container-7 {
     width: 66.015625%;
     margin-left: 16.99219%;
   }
 
-  .offer .container-5 {
+  .offer .container-8 {
     width: 65.8203125%;
     margin-right: 17.1875%;
   }
@@ -3334,11 +3628,7 @@ body {
     margin-left: 10%;
   }
 
-  .pasha .text-28 {
-    margin-left: -10%;
-  }
-
-  .process .container-6 {
+  .process .container-9 {
     top: 18px;
     left: 0;
     right: 0;
@@ -3401,61 +3691,60 @@ body {
     margin-left: auto;
   }
 
-  .text-21 {
+  .text-12 {
+    position: relative;
+    z-index: 120;
+  }
+
+  .text-25 {
     position: relative;
     z-index: 109;
     margin-top: 0;
   }
 
-  .text-22 {
+  .text-26 {
     position: relative;
     z-index: 96;
     margin-top: 283px;
   }
 
-  .text-3 {
-    position: relative;
-    z-index: 142;
-    margin-top: 104px;
-  }
-
-  .text-59 {
+  .text-63 {
     position: relative;
     z-index: 15;
     margin-top: 2288px;
   }
 
-  .text-62 {
+  .text-66 {
     position: relative;
     z-index: 6;
     margin-top: 335px;
   }
 
-  .text-8 {
+  .text-7 {
     position: relative;
-    z-index: 120;
+    z-index: 142;
+    margin-top: -7px;
   }
 
   ._text-49 {
     position: relative;
     z-index: 0;
-    margin-top: 127px;
   }
 
-  .bar ._container-1 {
+  .bar ._container-10 {
     position: relative;
-    z-index: 161;
+    z-index: 158;
+  }
+
+  .bar ._container-11 {
+    position: relative;
+    z-index: 160;
+  }
+
+  .bar ._container-4 {
+    position: relative;
+    z-index: 171;
     margin-right: 9.99512%;
-  }
-
-  .bar ._container-7 {
-    position: relative;
-    z-index: 148;
-  }
-
-  .bar ._container-8 {
-    position: relative;
-    z-index: 150;
   }
 
   .prototype ._input-1 {
@@ -3472,8 +3761,15 @@ body {
 @media(max-width: 480px) {
   .about {
     position: relative;
-    z-index: 146;
-    height: 435px;
+    z-index: 156;
+    height: 626px;
+  }
+
+  .about .contacts {
+    width: 80%;
+    height: 145px;
+    margin-top: 27px;
+    margin-left: 10%;
   }
 
   .about .image {
@@ -3501,7 +3797,7 @@ body {
     margin-top: -10px;
   }
 
-  .blog .text {
+  .blog .wrapper {
     position: relative;
   }
 
@@ -3509,8 +3805,21 @@ body {
     margin-left: 0;
   }
 
+  .container .email {
+    top: 5px;
+    left: 0.1102362204%;
+    width: 100%;
+    text-align: center;
+  }
+
   .container .image {
     height: auto;
+  }
+
+  .container .phone {
+    top: 1px;
+    left: 0;
+    width: 100%;
   }
 
   .mikhaill .flip3d {
@@ -3542,8 +3851,8 @@ body {
     width: 82.3753108088%;
   }
 
-  .back .text-27,
-  .back .text-30,
+  .back .text-31,
+  .back .text-34,
   .process .element {
     left: 0;
     right: 0;
@@ -3642,62 +3951,93 @@ body {
     margin-left: -0.02958%;
   }
 
-  .about .text-2 {
-    width: 69.5833333333%;
-    font-size: 1.438em;
+  .about .text-1 {
+    font-size: 2.5em;
   }
 
-  .alexandra .text-39 {
+  .about .text-2 {
+    float: left;
+    clear: both;
+    width: 69.5833333333%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 15.19857%;
+    font-size: 1.278em;
+  }
+
+  .alexandra .text-43 {
     width: 170%;
     margin-left: -34.99342%;
   }
 
-  .blog .text-63 {
-    z-index: 1;
-    width: 100%;
-    margin-top: 0;
-    margin-left: -0.00407%;
-  }
-
-  .blog .text-64 {
+  .blog .wrapper-1 {
     z-index: 2;
-    width: 99.7395833333%;
-    margin-top: 468px;
+    margin-top: 833px;
   }
 
-  .blog .text-65 {
-    z-index: 3;
-    width: 99.7395833333%;
-    margin-top: -534px;
-    margin-left: 0;
+  .blog .wrapper-2 {
+    z-index: 1;
+    margin-top: 17px;
   }
 
-  .blog .text-66 {
-    clear: none;
+  .blog .wrapper-3 {
     z-index: 4;
-    width: 99.7395833333%;
-    margin-top: 0;
-    margin-left: 0;
+    margin-top: -1650px;
+  }
+
+  .blog .wrapper-4 {
+    z-index: 3;
   }
 
   .blog-2 {
     position: relative;
+    float: left;
+    clear: both;
     z-index: 5;
-    width: 80%;
-    height: 1136px;
+    margin-top: 0;
+    margin-right: 0;
     margin-left: 10%;
   }
 
-  .container .container-7 {
+  .contacts .container-1 {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 99.7395833333%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .contacts .container-2 {
+    position: absolute;
+    float: none;
+    top: 59px;
+    left: 3.90625%;
+    width: 92.3076923076%;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .contacts .container-3 {
+    position: absolute;
+    float: none;
+    top: 101px;
+    left: 10.15625%;
+    width: 80%;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .container .container-10 {
     width: 99.7395833333%;
   }
 
-  .container .container-8 {
+  .container .container-11 {
     width: 100%;
     margin-top: 20px;
   }
 
-  .container .container-9 {
+  .container .container-12 {
     width: 99.7395833333%;
     margin-top: 19px;
   }
@@ -3706,39 +4046,62 @@ body {
     left: 22%;
   }
 
-  .container .text-11 {
-    width: 10.6770833333%;
-  }
-
-  .container .text-18 {
-    margin-left: 3.83708%;
-  }
-
-  .container .text-20 {
-    margin-left: 0.94648%;
-  }
-
-  .container .text-4 {
-    width: 36.875%;
-    margin-top: 7px;
-    margin-left: 42.39909%;
-  }
-
-  .container .text-6 {
+  .container .text-10 {
     position: relative;
     z-index: 124;
     margin-left: 47.78266%;
   }
 
-  .container .text-61 {
-    margin-left: 7.42849%;
-  }
-
-  .container .text-9 {
+  .container .text-13 {
     width: 19.2708333333%;
   }
 
-  .danil .text-31 {
+  .container .text-15 {
+    width: 10.6770833333%;
+  }
+
+  .container .text-22 {
+    margin-left: 3.83708%;
+  }
+
+  .container .text-24 {
+    margin-left: 0.94648%;
+  }
+
+  .container .text-3 {
+    visibility: hidden;
+  }
+
+  .container .text-4 {
+    top: 0;
+    left: 0;
+    width: 99.493670886%;
+  }
+
+  .container .text-5 {
+    visibility: hidden;
+    position: relative;
+    z-index: 150;
+    margin-top: 1px;
+  }
+
+  .container .text-6 {
+    visibility: hidden;
+    position: relative;
+    z-index: 147;
+  }
+
+  .container .text-65 {
+    margin-left: 7.42849%;
+  }
+
+  .container .text-8 {
+    width: 36.875%;
+    margin-top: 7px;
+    margin-left: 42.39909%;
+  }
+
+  .danil .text-35 {
     float: left;
     clear: both;
     width: 120%;
@@ -3751,13 +4114,13 @@ body {
     height: auto;
   }
 
-  .maxim .text-43 {
-    margin-left: -25%;
+  .maxim .text-47 {
+    margin-left: -24.98903%;
   }
 
-  .maxim .text-44 {
+  .maxim .text-48 {
     width: 130%;
-    margin-left: -15%;
+    margin-left: -14.99927%;
   }
 
   .medclient .image-7 {
@@ -3765,21 +4128,18 @@ body {
     margin-left: 10.08138%;
   }
 
-  .mikhail .text-48,
-  .pasha .text-28 {
-    margin-left: -15%;
-  }
-
-  .mikhaill .text-35 {
+  .mikhaill .text-39 {
     width: 120%;
     margin-left: -9.98245%;
   }
 
-  .nikolay .text-57 {
+  .mikhail .text-52,
+  .nikolay .text-61,
+  .pasha .text-32 {
     margin-left: -14.99927%;
   }
 
-  .nikolay .text-58 {
+  .nikolay .text-62 {
     float: none;
     clear: none;
     margin-top: 53px;
@@ -3787,17 +4147,17 @@ body {
     margin-left: auto;
   }
 
-  .offer .container-3 {
+  .offer .container-6 {
     width: 69.7916666666%;
     margin-left: 15.10417%;
   }
 
-  .offer .container-4 {
+  .offer .container-7 {
     width: 67.96875%;
     margin-left: 15.10417%;
   }
 
-  .offer .container-5 {
+  .offer .container-8 {
     width: 69.7916666666%;
     margin-right: 15.10417%;
   }
@@ -3807,11 +4167,11 @@ body {
     z-index: 119;
   }
 
-  .pavel .text-52 {
-    margin-left: -10%;
+  .pavel .text-56 {
+    margin-left: -9.98245%;
   }
 
-  .process .container-6 {
+  .process .container-9 {
     top: 44px;
     left: 0;
     right: 0;
@@ -3822,7 +4182,7 @@ body {
   }
 
   .process-2 {
-    top: 1947px;
+    top: 2093px;
     left: 0;
     right: 0;
     height: 289px;
@@ -3836,10 +4196,11 @@ body {
   }
 
   .prototype-2 {
-    top: 4759px;
+    top: 4904px;
     left: 0;
     right: 0;
     width: 66.0416666666%;
+    height: 397px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -3862,7 +4223,7 @@ body {
   }
 
   .team-2 {
-    top: 2388px;
+    top: 2499px;
     left: 0;
     right: 0;
     width: 49.46%;
@@ -3870,69 +4231,67 @@ body {
     margin-left: auto;
   }
 
-  .text-21 {
+  .text-12 {
+    position: relative;
+    z-index: 120;
+  }
+
+  .text-25 {
     position: relative;
     z-index: 109;
   }
 
-  .text-22 {
+  .text-26 {
     position: relative;
     z-index: 96;
     margin-top: 289px;
   }
 
-  .text-3 {
-    position: relative;
-    z-index: 142;
-    margin-top: 80px;
-  }
-
-  .text-59 {
+  .text-63 {
     position: relative;
     z-index: 15;
-    margin-top: 2263px;
   }
 
-  .text-62 {
+  .text-66 {
     position: relative;
     z-index: 6;
-    margin-top: 398px;
+    margin-top: 397px;
   }
 
-  .text-8 {
+  .text-7 {
     position: relative;
-    z-index: 120;
+    z-index: 142;
+    margin-top: 0;
   }
 
   ._text-49 {
     position: relative;
     z-index: 0;
-    margin-top: 50px;
     padding-left: 0;
   }
 
-  .bar ._container-1 {
+  .bar ._container-10 {
     position: relative;
-    z-index: 161;
-    margin-top: -20px;
-    margin-right: 10%;
-  }
-
-  .bar ._container-7 {
-    position: relative;
-    z-index: 148;
+    z-index: 158;
     height: 24px;
     margin-top: -15px;
     margin-left: 94.375%;
   }
 
-  .bar ._container-8 {
+  .bar ._container-11 {
     position: relative;
-    z-index: 150;
+    z-index: 160;
     width: 31px;
     height: 29px;
     margin-top: -32px;
     margin-right: -0.41667%;
+  }
+
+  .bar ._container-4 {
+    position: relative;
+    z-index: 171;
+    margin-top: -20px;
+    margin-right: 10%;
   }
 
   .prototype ._input-1 {
@@ -3950,13 +4309,19 @@ body {
 
 @media(max-width: 320px) {
   body {
-    font-size: 1em;
+    font-size: 1.125em;
   }
 
   .about {
     position: relative;
-    z-index: 146;
-    height: 411px;
+    z-index: 156;
+    height: 597px;
+  }
+
+  .about .contacts {
+    width: 256px;
+    height: 125px;
+    margin-top: 23px;
   }
 
   .about .image {
@@ -3981,8 +4346,16 @@ body {
     margin-top: 0;
   }
 
-  .blog .text {
+  .blog .wrapper {
     position: relative;
+    width: 300px;
+    height: 300px;
+    margin-left: -0.67114%;
+  }
+
+  .container .email {
+    top: 3px;
+    left: 0;
   }
 
   .container .image {
@@ -4002,10 +4375,10 @@ body {
     width: 77.6941336046%;
   }
 
-  .back .text-27,
-  .back .text-30,
+  .back .text-31,
+  .back .text-34,
   .navbar,
-  .process .container-6,
+  .process .container-9,
   .process .element,
   .team .alexandra,
   .team .danil,
@@ -4024,8 +4397,8 @@ body {
     width: 67.96875%;
   }
 
-  .danil .text-31,
-  .mikhaill .text-35,
+  .danil .text-35,
+  .mikhaill .text-39,
   .offer .container {
     width: 100%;
   }
@@ -4088,7 +4461,7 @@ body {
   }
 
   .maxim ._text,
-  .pasha .text-28 {
+  .pasha .text-32 {
     width: 100%;
     margin-left: 0;
   }
@@ -4124,57 +4497,76 @@ body {
     margin-left: -0.00543%;
   }
 
-  .about .text-1 {
-    font-size: 3em;
-  }
-
   .about .text-2 {
     width: 80%;
-    margin-top: 47px;
+    margin-top: 7px;
+    margin-left: 10%;
     letter-spacing: -1px;
   }
 
-  .alexandra .text-39 {
+  .alexandra .text-43 {
     width: 105%;
-    margin-left: -2.4957600001%;
+    margin-left: -2.4889800001%;
   }
 
-  .blog .text-63 {
-    z-index: 1;
-    margin-left: 0;
-  }
-
-  .blog .text-64 {
+  .blog .wrapper-1 {
     z-index: 2;
-    width: 100%;
-    margin-top: 501px;
+    margin-top: 940px;
   }
 
-  .blog .text-65 {
-    z-index: 3;
-    width: 99.7375488281%;
-    margin-top: -559px;
+  .blog .wrapper-2 {
+    z-index: 1;
+    margin-top: -615px;
   }
 
-  .blog .text-66 {
+  .blog .wrapper-3 {
     z-index: 4;
-    width: 100%;
-    margin-top: 32px;
+    margin-top: -1240px;
+  }
+
+  .blog .wrapper-4 {
+    z-index: 3;
+    margin-top: -928px;
   }
 
   .blog-2 {
     position: relative;
+    float: none;
+    clear: none;
     z-index: 5;
-    width: 90%;
-    height: 1196px;
-    margin-left: 5%;
+    width: 93.125%;
+    height: 1240px;
+    margin-top: 5308px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
-  .container .container-7 {
+  .contacts .container-1 {
+    top: -1px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .contacts .container-2 {
+    top: 56px;
+    left: 0;
+    width: 256px;
+  }
+
+  .contacts .container-3 {
+    top: 96px;
+    left: 0;
+    width: 100%;
+  }
+
+  .container .container-10 {
     margin-left: 0.04883%;
   }
 
-  .container .container-9 {
+  .container .container-12 {
     margin-top: 20px;
   }
 
@@ -4182,28 +4574,38 @@ body {
     left: 6.787109375%;
   }
 
-  .container .text-18 {
-    margin-left: 3.83301%;
-  }
-
-  .container .text-20 {
-    margin-left: 0.91182%;
-  }
-
-  .container .text-4 {
-    width: 54.0625%;
-    margin-top: 6px;
-    margin-left: 37.10172%;
-  }
-
-  .container .text-6 {
+  .container .text-10 {
     position: relative;
     z-index: 124;
     margin-left: 47.77887%;
   }
 
-  .container .text-61 {
+  .container .text-22 {
+    margin-left: 3.83301%;
+  }
+
+  .container .text-24 {
+    margin-left: 0.91182%;
+  }
+
+  .container .text-5 {
+    position: relative;
+    z-index: 150;
+  }
+
+  .container .text-6 {
+    position: relative;
+    z-index: 147;
+  }
+
+  .container .text-65 {
     margin-left: 7.35743%;
+  }
+
+  .container .text-8 {
+    width: 54.0625%;
+    margin-top: 6px;
+    margin-left: 37.10172%;
   }
 
   .fhirbase .image-9 {
@@ -4217,14 +4619,14 @@ body {
     margin-left: 10.06434%;
   }
 
-  .medclient .text-5 {
+  .medclient .text-9 {
     width: 99.6875%;
     margin-top: 10px;
   }
 
-  .mikhail .text-48,
-  .nikolay .text-57,
-  .pavel .text-52 {
+  .mikhail .text-52,
+  .nikolay .text-61,
+  .pavel .text-56 {
     float: none;
     clear: none;
     width: 100%;
@@ -4232,17 +4634,17 @@ body {
     margin-left: auto;
   }
 
-  .nikolay .text-58 {
+  .nikolay .text-62 {
     margin-top: 7px;
   }
 
-  .offer .container-3,
-  .offer .container-4,
+  .offer .container-6,
+  .offer .container-7,
   .slidernav .image-2 {
     margin-left: 0;
   }
 
-  .offer .container-5 {
+  .offer .container-8 {
     margin-right: 0;
   }
 
@@ -4262,10 +4664,11 @@ body {
   .projects-2 {
     position: relative;
     z-index: 141;
+    margin-top: -58px;
   }
 
   .prototype-2 {
-    top: 4814px;
+    top: 4801px;
     left: 0;
     right: 0;
     width: 90%;
@@ -4286,70 +4689,69 @@ body {
   }
 
   .team-2 {
+    top: 2396px;
     left: 32px;
     right: auto;
     width: 80%;
   }
 
-  .text-21 {
+  .text-12 {
+    position: relative;
+    z-index: 120;
+  }
+
+  .text-25 {
     position: relative;
     z-index: 109;
   }
 
-  .text-22 {
+  .text-26 {
     position: relative;
     z-index: 96;
     margin-top: 284px;
   }
 
-  .text-3 {
-    position: relative;
-    z-index: 142;
-    margin-top: 128px;
-  }
-
-  .text-59 {
+  .text-63 {
     position: relative;
     z-index: 15;
-    margin-top: 2294px;
   }
 
-  .text-62 {
+  .text-66 {
     position: relative;
     z-index: 6;
-    font-size: 1.625em;
+    font-size: 1.444em;
   }
 
-  .text-8 {
+  .text-7 {
     position: relative;
-    z-index: 120;
+    z-index: 142;
   }
 
   ._text-49 {
     position: relative;
     z-index: 0;
-    margin-top: 55px;
+    margin-top: 28px;
   }
 
-  .bar ._container-1 {
+  .bar ._container-10 {
     position: relative;
-    z-index: 161;
-    margin-top: -14px;
-  }
-
-  .bar ._container-7 {
-    position: relative;
-    z-index: 148;
+    z-index: 158;
     margin-top: -30px;
     margin-left: 94.41406%;
   }
 
-  .bar ._container-8 {
+  .bar ._container-11 {
     position: relative;
     clear: none;
-    z-index: 150;
+    z-index: 160;
     margin-top: -31px;
     margin-right: 1.4420599999%;
+  }
+
+  .bar ._container-4 {
+    position: relative;
+    z-index: 171;
+    margin-top: -14px;
   }
 
   .prototype ._input-1 {
