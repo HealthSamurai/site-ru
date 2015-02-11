@@ -29,7 +29,7 @@
   $foodtaster.on('click', {index: 3}, showScreen);
 
    function showScreen(e){
-     var targetX = -1054 * e.data.index;
+     var targetX = -960 * e.data.index;
      $screens.css('left', targetX);
    }
 
