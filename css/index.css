@@ -165,9 +165,7 @@ body {
 }
 
 .container .image {
-  position: absolute;
-  top: 0;
-  width: 83px;
+  float: left;
   overflow: hidden;
 }
 
@@ -213,10 +211,16 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 126;
-  width: 125%;
+  width: 98.75%;
   height: 526px;
-  margin: -525px 0 0 100%;
+  margin: -524px 0 0 100%;
+}
+
+.fhirbase .container {
+  position: relative;
+  width: 100%;
+  height: 62px;
+  margin: 0 auto;
 }
 
 .flip3d {
@@ -229,13 +233,11 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 114;
-  width: 125%;
+  width: 99.375%;
   height: 526px;
   margin: -526px 0 0 300%;
 }
 
-.fhirbase .container,
 .foodtaster .container,
 .formstamp .container {
   position: relative;
@@ -244,9 +246,7 @@ body {
   margin: 0 auto;
 }
 
-.fhirbase .text,
-.foodtaster .text,
-.formstamp .text {
+.foodtaster .text {
   min-height: 50px;
 }
 
@@ -254,10 +254,14 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 120;
-  width: 125%;
+  width: 100%;
   height: 526px;
   margin: -525px 0 0 200%;
+}
+
+.fhirbase .text,
+.formstamp .text {
+  min-height: 50px;
 }
 
 .front {
@@ -319,19 +323,18 @@ body {
 }
 
 .medclient {
-  position: relative;
   float: left;
-  z-index: 132;
-  width: 125%;
-  height: 526px;
-  margin: -182px 0 0 -12.5%;
+  width: 99.7916666666%;
+  height: 525px;
+  margin-top: -182px;
 }
 
 .medclient .container {
   position: relative;
   float: left;
-  width: 100%;
+  width: 99.0605427974%;
   height: 62px;
+  margin-left: 0.61815%;
 }
 
 .medclient .text {
@@ -796,30 +799,30 @@ body {
 }
 
 .image-10 {
-  visibility: hidden;
-  left: 40.8333333333%;
-  z-index: 117;
+  width: 50px;
+  margin: 5px 0 0 41.27401%;
 }
 
 .image-11 {
   float: left;
   clear: both;
   width: 958px;
-  margin: 53px 0 0 10.08073%;
+  margin-top: 35px;
   overflow: hidden;
 }
 
 .image-12 {
-  visibility: hidden;
-  left: 40.8333333333%;
+  position: relative;
   z-index: 111;
+  width: 77px;
+  margin: -1px 0 0 37.82655%;
 }
 
 .image-13 {
   float: left;
   clear: both;
   width: 960px;
-  margin: 38px 0 0 10%;
+  margin: 38px 0 0 -0.41765%;
   overflow: hidden;
 }
 
@@ -845,29 +848,28 @@ body {
 }
 
 .image-6 {
-  left: 38.0833333333%;
-  z-index: 129;
+  width: 83px;
+  margin-left: 36.04123%;
 }
 
 .image-7 {
   float: left;
   clear: both;
   width: 958px;
-  margin: 38px 0 0 10.08073%;
+  margin-top: 38px;
   overflow: hidden;
 }
 
 .image-8 {
-  visibility: hidden;
-  left: 40.8333333333%;
-  z-index: 124;
+  width: 48px;
+  margin: 4px 0 0 43.56375%;
 }
 
 .image-9 {
   float: left;
   clear: both;
-  width: 959px;
-  margin: 37px 0 0 9.86589%;
+  width: 940px;
+  margin: 44px 0 0 0.51919%;
   overflow: hidden;
 }
 
@@ -925,11 +927,17 @@ body {
   color: rgb(0, 0, 0);
 }
 
+.text-10 {
+  width: 99.0506329113%;
+  margin: 23px auto 0;
+  font-size: 1.333em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
 .text-11 {
-  position: relative;
-  z-index: 116;
-  width: 20.2083333333%;
-  margin: 6px 0 0 47.8125%;
+  width: 25.78125%;
+  margin-top: 5px;
   font-size: 1.944em;
   font-weight: 600;
   color: rgb(98, 98, 98);
@@ -937,9 +945,10 @@ body {
 
 .text-13 {
   position: relative;
+  clear: both;
   z-index: 110;
-  width: 20.2083333333%;
-  margin: 6px 0 0 47.8125%;
+  width: 24.3714683482%;
+  margin: -55px 0 0 47.90558%;
   font-size: 1.944em;
   font-weight: 600;
   color: rgb(98, 98, 98);
@@ -953,7 +962,6 @@ body {
   text-decoration: none;
 }
 
-.text-10,
 .text-12,
 .text-14 {
   width: 79.8333333333%;
@@ -972,10 +980,12 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 1.778em;
+  font-weight: 400;
   line-height: 1.18;
   text-align: center;
   text-transform: uppercase;
-  color: rgb(0, 0, 0);
+  letter-spacing: -1px;
+  color: rgb(117, 117, 117);
 }
 
 .text-16 {
@@ -983,12 +993,12 @@ body {
 }
 
 .text-17 {
-  margin-left: 1.74077%;
+  margin-left: 1.72247%;
   line-height: 1.48;
 }
 
 .text-18 {
-  margin-left: 1.74077%;
+  margin-left: 1.72247%;
   line-height: 1.28;
 }
 
@@ -1002,10 +1012,12 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 1.778em;
+  font-weight: 400;
   line-height: 1.18;
   text-align: center;
   text-transform: uppercase;
-  color: rgb(0, 0, 0);
+  letter-spacing: -1px;
+  color: rgb(117, 117, 117);
 }
 
 .text-2 {
@@ -1070,10 +1082,12 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 1.778em;
+  font-weight: 400;
   line-height: 1.18;
   text-align: center;
   text-transform: uppercase;
-  color: rgb(0, 0, 0);
+  letter-spacing: -1px;
+  color: rgb(117, 117, 117);
 }
 
 .text-27 {
@@ -1288,10 +1302,12 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 1.778em;
+  font-weight: 400;
   line-height: 1.18;
   text-align: center;
   text-transform: uppercase;
-  color: rgb(0, 0, 0);
+  letter-spacing: -1px;
+  color: rgb(117, 117, 117);
 }
 
 .text-60 {
@@ -1326,10 +1342,12 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 1.778em;
+  font-weight: 400;
   line-height: 1.18;
   text-align: center;
   text-transform: uppercase;
-  color: rgb(0, 0, 0);
+  letter-spacing: -1px;
+  color: rgb(117, 117, 117);
 }
 
 .text-64 {
@@ -1341,15 +1359,17 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 1.778em;
+  font-weight: 400;
   line-height: 1.18;
   text-align: center;
   text-transform: uppercase;
-  color: rgb(0, 0, 0);
+  letter-spacing: -1px;
+  color: rgb(117, 117, 117);
 }
 
 .text-7 {
-  width: 15.75%;
-  margin: 6px 0 0 45.83073%;
+  width: 18.8619599578%;
+  margin: 7px 0 0 1.16405%;
   font-size: 1.944em;
   font-weight: 600;
   color: rgb(98, 98, 98);
@@ -1358,18 +1378,16 @@ body {
 .text-8 {
   float: left;
   clear: both;
-  width: 79.8333333333%;
-  margin: 23px 0 0 10.08073%;
+  width: 98.7473903966%;
+  margin: 23px 0 0 0.61815%;
   font-size: 1.333em;
   text-align: center;
   color: rgb(0, 0, 0);
 }
 
 .text-9 {
-  position: relative;
-  z-index: 123;
   width: 15.75%;
-  margin: 6px 0 0 47.7653%;
+  margin-top: 4px;
   font-size: 1.944em;
   font-weight: 600;
   color: rgb(98, 98, 98);
@@ -1378,9 +1396,8 @@ body {
 .wrapper-1 {
   position: relative;
   z-index: 7;
-  width: 820px;
-  max-width: 820px;
-  height: 710px;
+  width: 100%;
+  height: 700px;
   margin: 117px auto 0;
 }
 
