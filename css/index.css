@@ -1538,3 +1538,7 @@ body {
   word-wrap: normal;
   white-space: normal;
 }
+
+.links {
+  text-decoration: underline;
+}
